@@ -15,7 +15,7 @@ print(f"IG_URL: {IG_URL}")
 
 package_url = f"{IG_URL}/package.tgz"
 print(f"{package_url=}")
-server_url = "https://jpa.unicom.datawizard.it/fhir"
+server_url = "https://jpa.unicom.datawizard.it/fhir/"
 # server_url = "http://localhost:8080/fhir/"
 
 result_dir = "./output"

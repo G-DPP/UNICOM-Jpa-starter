@@ -14,7 +14,6 @@ IG_URL = os.getenv('ig_url')
 print(f"IG_URL: {IG_URL}")
 
 package_url = f"{IG_URL}/package.tgz"
-package_url = f"https://build.fhir.org/ig/hl7-eu/unicom-ig/branches/mpd-r4b/package.tgz"
 print(f"{package_url=}")
 server_url = "https://jpa.unicom.datawizard.it/fhir"
 # server_url = "http://localhost:8080/fhir/"

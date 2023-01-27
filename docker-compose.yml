@@ -1,0 +1,63 @@
+version: "3.9"
+
+#networks:
+#  fhir_network:
+#    ipam:
+#      driver: default
+#      config:
+#        - subnet: 172.20.0.0/16
+
+services:
+  fhir-server:
+    image: costateixeira/hapi-fhir-jpaserver-starter:latest
+    restart: on-failure
+    container_name: hapiR4B
+#    platform: linux/amd64
+    ports:
+      - ${server_port:-8080}:8080
+    environment:
+      #      - spring.config.location=${ig_url}/application.yaml
+      - spring.config.location=file:///application.yaml
+      - hapi.fhir.fhir_version=${fhir_version}
+      - hapi.fhir.staticContentBase=apps
+#      - hapi.fhir.implementationguides.${ig_name:-ig}.url=${ig_url}/package.tgz
+#      - hapi.fhir.implementationguides.${ig_name:-ig}.name=${ig_package_name}
+#      - hapi.fhir.implementationguides.${ig_name:-ig}.version=${ig_version}
+    volumes:
+      - ./apps:/apps
+      - ./application.yaml:/application.yaml
+#    depends_on:
+#      - hapi-postgres
+
+
+#    networks:
+#      fhir_network:
+#        ipv4_address: 172.20.0.30
+
+#  hapi-postgres:
+#    image: postgres:14.1-alpine
+#    ports:
+#      - '5432:5432'
+#    container_name: hapi-postgres
+#    restart: always
+#    environment:
+#      - POSTGRES_DB=hapi
+#      - POSTGRES_USER=postgres
+#      - POSTGRES_PASSWORD=postgres
+#    volumes:
+#      - hapi-postgres:/var/lib/postgresql/data
+#    networks:
+#      fhir_network:
+#        ipv4_address: 172.20.54.32
+
+
+
+#  ember:
+#    image: jkiddo/ember:latest
+#    environment:
+#      - location=${ig_url}/package.tgz
+#      - serverBase=http://fhir-server:8080/fhir  # Leave this as is, this is ember stuff
+
+#volumes:
+#  hapi-postgres:
+#    driver: local

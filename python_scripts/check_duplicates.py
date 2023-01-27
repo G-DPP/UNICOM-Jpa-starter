@@ -1,7 +1,7 @@
 import requests
 
 
-def main(url="http://localhost:8080/fhir/MedicinalProductDefinition", names=None):
+def main(url="https://jpa.unicom.datawizard.it/fhir/MedicinalProductDefinition", names=None):
     a = requests.get(url).json()
     names = names or []
     for entry in a['entry']:

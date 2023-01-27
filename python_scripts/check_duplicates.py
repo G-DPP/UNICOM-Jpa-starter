@@ -12,7 +12,9 @@ def main(url="https://jpa.unicom.datawizard.it/fhir/MedicinalProductDefinition",
         if next_page:
             main(next_page['url'], names)
     except StopIteration:
-        print(names)
+        for name in set(names):
+            names.remove(name)
+        print(f"Duplicate {names=}")
 
 
 if __name__ == '__main__':

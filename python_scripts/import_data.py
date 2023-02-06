@@ -15,8 +15,8 @@ print(f"IG_URL: {IG_URL}")
 
 package_url = f"{IG_URL}/package.tgz"
 print(f"{package_url=}")
-server_url = "https://jpa.unicom.datawizard.it/fhir/"
-# server_url = "http://localhost:8080/fhir/"
+# server_url = "https://jpa.unicom.datawizard.it/fhir/"
+server_url = "http://localhost:3080/fhir/"
 
 result_dir = "./output"
 if os.path.isdir(result_dir):
@@ -37,10 +37,11 @@ def main():
             resource_type = json_dict.get('resourceType', '')
             type = json_dict.get("type", '')
 
-            if resource_type.lower() != 'bundle':
-                continue
+            # if resource_type.lower() != 'bundle':
+            #     continue
+            print("#-FILENAME "+file_name)
 
-            request_url = f"{server_url}{resource_type}" if type.lower() not in ["transaction", "batch"] else server_url
+            request_url = f"{server_url}{resource_type}" if isinstance(type, dict) or type.lower() not in ["transaction", "batch"] else server_url
             a = requests.post(request_url, json=json_dict)
             request_result_dir = f"{result_dir}/{a.status_code}"
             request_result_filepath = f"{request_result_dir}/{file_name}"

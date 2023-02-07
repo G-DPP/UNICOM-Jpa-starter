@@ -22,6 +22,8 @@ if os.path.isdir(result_dir):
     shutil.rmtree(result_dir)
 os.mkdir("./output")
 
+ids = set()
+
 
 def main():
     urllib.request.urlretrieve(package_url, "package.tgz")

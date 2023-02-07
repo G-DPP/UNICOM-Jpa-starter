@@ -1,7 +1,6 @@
 import requests
 import json
 import os
-import time
 import tarfile
 import urllib.request
 import pathlib
@@ -11,12 +10,15 @@ import shutil
 load_dotenv()
 
 IG_URL = os.getenv('ig_url')
-print(f"IG_URL: {IG_URL}")
+print(f"{IG_URL=}")
 
 package_url = f"{IG_URL}/package.tgz"
 print(f"{package_url=}")
+
 # server_url = "https://jpa.unicom.datawizard.it/fhir/"
-server_url = "http://localhost:3080/fhir/"
+server_url = os.getenv('import_server_url', f'http://localhost:{os.getenv("server_port", "8080")}')
+server_url += "/fhir/"
+print(f"The data will be uploaded to {server_url}")
 
 result_dir = "./output"
 if os.path.isdir(result_dir):
@@ -35,6 +37,7 @@ def main():
             file_name = str(file_path).rsplit('/', 1)[1]
             json_dict = json.load(json_file)
             resource_type = json_dict.get('resourceType', '')
+
             type = json_dict.get("type", '')
 
             # if resource_type.lower() != 'bundle':
@@ -43,9 +46,9 @@ def main():
 
             request_url = f"{server_url}{resource_type}" if isinstance(type, dict) or type.lower() not in ["transaction", "batch"] else server_url
             a = requests.post(request_url, json=json_dict)
+
             request_result_dir = f"{result_dir}/{a.status_code}"
             request_result_filepath = f"{request_result_dir}/{file_name}"
-            print("#- "+request_result_filepath)
             if not os.path.isdir(request_result_dir):
                 os.mkdir(request_result_dir)
 

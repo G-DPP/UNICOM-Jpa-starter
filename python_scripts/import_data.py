@@ -44,6 +44,12 @@ def main():
             #     continue
             print("#-FILENAME "+file_name)
 
+            # TODO: gestire un ordine?
+            #  CodeSystem - ValueSet - StructureDefinition
+            #  Bundle
+
+            # if not 'StructureDefinition' in file_name:
+            #     continue
             request_url = f"{server_url}{resource_type}" if isinstance(type, dict) or type.lower() not in ["transaction", "batch"] else server_url
             a = requests.post(request_url, json=json_dict)
 

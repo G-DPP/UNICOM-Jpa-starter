@@ -51,7 +51,7 @@
       urlsplit=url.split('/'+resourceType+'/');
       if (urlsplit[1]) {
         mpdid=urlsplit[1];
-//        qrystring = '&_revinclude=RegulatedAuthorization:subject&_include:iterate=RegulatedAuthorization:holder&_revinclude=PackagedProductDefinition:package-for&_include:iterate=PackagedProductDefinition:manufactured-item&_revinclude=AdministrableProductDefinition:form-of&_revinclude:iterate=Ingredient:for'
+        qrystring = '&_revinclude=RegulatedAuthorization:subject&_include:iterate=RegulatedAuthorization:holder&_revinclude=PackagedProductDefinition:package-for&_include:iterate=PackagedProductDefinition:manufactured-item&_revinclude=AdministrableProductDefinition:form-of&_revinclude:iterate=Ingredient:for'
         url=urlsplit[0]+'/'+resourceType+'?_id='+mpdid+templateQuery+'&_format=json';
       }
       

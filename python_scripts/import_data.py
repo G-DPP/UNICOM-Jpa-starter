@@ -27,25 +27,25 @@ if os.path.isdir(result_dir):
 os.mkdir("./output")
 
 resource_list = [
-    'codesystem',
-    'valueset',
-    'structuredefinition', #TODO: 400
-    # 'bundle',
-    'medicinalproductdefinition',
-    'organization',
-    'manufactureditemdefinition',
-    'packagedproductdefinition',
-    'regulatedauthorization',
-    'administrableproductdefinition',
-    'ingredient',
+    # 'codesystem',
+    # 'valueset',
+    # 'structuredefinition', #TODO: 400
+    'bundle',
+    # 'medicinalproductdefinition',
+    # 'organization',
+    # 'manufactureditemdefinition',
+    # 'packagedproductdefinition',
+    # 'regulatedauthorization',
+    # 'administrableproductdefinition',
+    # 'ingredient',
+    # 'implementationguide'
 ]
-
 
 def create_or_update(request_url, resource_type, resource_id, data):
     headers = {
         "Content-Type": "application/fhir+json"
     }
-    if resource_type.lower() == "structuredefinition" or resource_type.lower() == 'bundle':
+    if resource_type.lower() == "structuredefinition" or resource_type.lower() == 'bundle' or resource_type.lower() == 'implementationguide':
         response = requests.post(request_url, json=data)
     else:
         url = f"{request_url}/{resource_id}"

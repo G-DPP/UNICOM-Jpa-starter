@@ -2,8 +2,8 @@ version: "3.9"
 
 services:
   fhir-server:
-#    image: hapiproject/hapi:latest
-    image: costateixeira/hapi-fhir-jpaserver-starter:latest
+    image: hapiproject/hapi:latest
+#    image: costateixeira/hapi-fhir-jpaserver-starter:latest
     restart: on-failure
     container_name: hapiR5
 #    platform: linux/amd64

@@ -27,18 +27,19 @@ if os.path.isdir(result_dir):
 os.mkdir("./output")
 
 resource_list = [
-    # 'codesystem',
-    # 'valueset',
-    # 'structuredefinition', #TODO: 400
+    'codesystem',
+    'valueset',
+    'structuredefinition', #TODO: 400
     'bundle',
-    # 'medicinalproductdefinition',
-    # 'organization',
-    # 'manufactureditemdefinition',
-    # 'packagedproductdefinition',
-    # 'regulatedauthorization',
-    # 'administrableproductdefinition',
-    # 'ingredient',
-    # 'implementationguide'
+    'medicinalproductdefinition',
+    'organization',
+    'manufactureditemdefinition',
+    'packagedproductdefinition',
+    'regulatedauthorization',
+    'administrableproductdefinition',
+    'ingredient',
+    'implementationguide',
+    'searchparameter'
 ]
 
 def create_or_update(request_url, resource_type, resource_id, data):

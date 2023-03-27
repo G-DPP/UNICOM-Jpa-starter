@@ -4,3 +4,6 @@ idna==3.4
 python-dotenv==0.21.1
 requests==2.28.2
 urllib3==1.26.14
+pandas==1.5.3
+openpyxl==3.1.2
+XlsxWriter==3.0.9

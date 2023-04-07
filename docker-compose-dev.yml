@@ -2,8 +2,8 @@ version: "3.9"
 
 services:
   fhir-server:
-#    image: hapiproject/hapi:latest
-    image: costateixeira/hapi-fhir-jpaserver-starter:latest
+    image: hapiproject/hapi:latest
+#    image: costateixeira/hapi-fhir-jpaserver-starter:latest
     restart: on-failure
     container_name: hapiR5
 #    platform: linux/amd64
@@ -20,21 +20,21 @@ services:
 #      - hapi.fhir.implementationguides.${ig_name:-ig}.url=${ig_url}/package.tgz
 #      - hapi.fhir.implementationguides.${ig_name:-ig}.name=${ig_package_name}
 #      - hapi.fhir.implementationguides.${ig_name:-ig}.version=${ig_version}
-#    depends_on:
-#      - hapi-postgres
+    depends_on:
+      - hapi-postgres
 
-#  hapi-postgres:
-#    image: postgres:14.1-alpine
-#    ports:
-#      - '5432:5432'
-#    container_name: hapi-postgres
-#    restart: always
-#    environment:
-#      - POSTGRES_DB=hapi
-#      - POSTGRES_USER=postgres
-#      - POSTGRES_PASSWORD=postgres
-#    volumes:
-#      - hapi-postgres:/var/lib/postgresql/data
+  hapi-postgres:
+    image: postgres:14.1-alpine
+    ports:
+      - '5432:5432'
+    container_name: hapi-postgres
+    restart: always
+    environment:
+      - POSTGRES_DB=hapi
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    volumes:
+      - hapi-postgres:/var/lib/postgresql/data
 
 #  ember:
 #    image: jkiddo/ember:latest
@@ -42,6 +42,6 @@ services:
 #      - location=${ig_url}/package.tgz
 #      - serverBase=http://fhir-server:8080/fhir  # Leave this as is, this is ember stuff
 
-#volumes:
-#  hapi-postgres:
-#    driver: local
+volumes:
+  hapi-postgres:
+    driver: local

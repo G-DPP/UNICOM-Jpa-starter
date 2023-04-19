@@ -1,0 +1,63 @@
+{
+  "resourceType": "PackagedProductDefinition",
+  "id": "simvastine-Teva-filmomh-tabl-deelb-80-mg-138-BEL-PPD",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://ema.europa.eu/example/pcid",
+      "value": "BEL-BEL-simvastatine-Teva-film-coated-tablet-100-x-80m"
+    }
+  ],
+  "packageFor": [
+    {
+      "reference": "MedicinalProductDefinition/simvastine-Teva-filmomh-tabl-deelb-80-mg-138-BEL-MPD"
+    }
+  ],
+  "containedItemQuantity": [
+    {
+      "value": 100,
+      "code": "200000002152",
+      "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+      "unit": "Tablet"
+    }
+  ],
+  "description": "Mock description",
+  "marketingStatus": [
+    {
+      "country": {
+        "coding": [
+          {
+            "code": "100000000337",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
+            "display": "Kingdom of Belgium"
+          }
+        ]
+      },
+      "status": {
+        "coding": [
+          {
+            "code": "100000072083",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000072052",
+            "display": "Marketed"
+          }
+        ]
+      }
+    }
+  ],
+  "packaging": {
+    "type": {
+      "coding": [
+        {
+          "code": "100000073498",
+          "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
+          "display": "Box"
+        }
+      ]
+    },
+    "quantity": 1
+  }
+}

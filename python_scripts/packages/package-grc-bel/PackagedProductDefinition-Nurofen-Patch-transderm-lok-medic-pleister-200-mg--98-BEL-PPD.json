@@ -1,0 +1,63 @@
+{
+  "resourceType": "PackagedProductDefinition",
+  "id": "Nurofen-Patch-transderm-lok-medic-pleister-200-mg--98-BEL-PPD",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://ema.europa.eu/example/pcid",
+      "value": "BEL-BEL-ibuprofen-Reckitt-Benckiser-medicated-plaster-"
+    }
+  ],
+  "packageFor": [
+    {
+      "reference": "MedicinalProductDefinition/Nurofen-Patch-transderm-lok-medic-pleister-200-mg--98-BEL-MPD"
+    }
+  ],
+  "containedItemQuantity": [
+    {
+      "value": 4,
+      "code": "200000002134",
+      "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+      "unit": "Patch"
+    }
+  ],
+  "description": "Mock description",
+  "marketingStatus": [
+    {
+      "country": {
+        "coding": [
+          {
+            "code": "100000000337",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
+            "display": "Kingdom of Belgium"
+          }
+        ]
+      },
+      "status": {
+        "coding": [
+          {
+            "code": "100000072083",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000072052",
+            "display": "Marketed"
+          }
+        ]
+      }
+    }
+  ],
+  "packaging": {
+    "type": {
+      "coding": [
+        {
+          "code": "100000073498",
+          "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
+          "display": "Box"
+        }
+      ]
+    },
+    "quantity": 1
+  }
+}

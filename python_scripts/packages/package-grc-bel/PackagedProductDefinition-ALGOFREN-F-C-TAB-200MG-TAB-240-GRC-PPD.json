@@ -1,0 +1,63 @@
+{
+  "resourceType": "PackagedProductDefinition",
+  "id": "ALGOFREN-F-C-TAB-200MG-TAB-240-GRC-PPD",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://ema.europa.eu/example/pcid",
+      "value": "GRC-GRC-ibuprofen-INTERMED-ABEE-film-coated-tablet-20-"
+    }
+  ],
+  "packageFor": [
+    {
+      "reference": "MedicinalProductDefinition/ALGOFREN-F-C-TAB-200MG-TAB-240-GRC-MPD"
+    }
+  ],
+  "containedItemQuantity": [
+    {
+      "value": 20,
+      "code": "200000002152",
+      "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+      "unit": "Tablet"
+    }
+  ],
+  "description": "Mock description",
+  "marketingStatus": [
+    {
+      "country": {
+        "coding": [
+          {
+            "code": "100000000406",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
+            "display": "Hellenic Republic"
+          }
+        ]
+      },
+      "status": {
+        "coding": [
+          {
+            "code": "100000072083",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000072052",
+            "display": "Marketed"
+          }
+        ]
+      }
+    }
+  ],
+  "packaging": {
+    "type": {
+      "coding": [
+        {
+          "code": "100000073498",
+          "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
+          "display": "Box"
+        }
+      ]
+    },
+    "quantity": 1
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "resourceType": "AdministrableProductDefinition",
+  "id": "ALGOFREN-SYR-100MG-5ML-238-GRC-APD",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"
+    ]
+  },
+  "status": "active",
+  "formOf": [
+    {
+      "reference": "MedicinalProductDefinition/ALGOFREN-SYR-100MG-5ML-238-GRC-MPD"
+    }
+  ],
+  "administrableDoseForm": {
+    "coding": [
+      {
+        "code": "100000073652",
+        "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
+        "display": "Syrup"
+      }
+    ]
+  },
+  "unitOfPresentation": {
+    "coding": [
+      {
+        "code": "200000022814",
+        "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+        "display": "Other"
+      }
+    ]
+  },
+  "producedFrom": [
+    {
+      "reference": "ManufacturedItemDefinition/ALGOFREN-SYR-100MG-5ML-238-GRC-MID"
+    }
+  ],
+  "routeOfAdministration": [
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "100000073619",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000073345",
+            "display": "Oral use"
+          }
+        ]
+      }
+    }
+  ]
+}

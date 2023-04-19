@@ -1,0 +1,79 @@
+{
+  "resourceType": "PackagedProductDefinition",
+  "id": "TEGRETOL-syrup-20mg-1mL-80-ITA-PPD",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://ema.europa.eu/example/pcid",
+      "value": "ITA-ITA-carbamazepine-NOVARTIS-FARMA-SpA-syrup-250-x-2"
+    }
+  ],
+  "packageFor": [
+    {
+      "reference": "MedicinalProductDefinition/TEGRETOL-syrup-20mg-1mL-80-ITA-MPD"
+    }
+  ],
+  "containedItemQuantity": [
+    {
+      "value": 250,
+      "code": "200000022814",
+      "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+      "unit": "Other"
+    }
+  ],
+  "description": "Mock description",
+  "marketingStatus": [
+    {
+      "country": {
+        "coding": [
+          {
+            "code": "100000000430",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
+            "display": "Italian Republic"
+          }
+        ]
+      },
+      "status": {
+        "coding": [
+          {
+            "code": "100000072083",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000072052",
+            "display": "Marketed"
+          }
+        ]
+      }
+    }
+  ],
+  "packaging": {
+    "type": {
+      "coding": [
+        {
+          "code": "100000073497",
+          "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
+          "display": "Bottle"
+        }
+      ]
+    },
+    "quantity": 1,
+    "packaging": [
+      {
+        "containedItem": [
+          {
+            "item": {
+              "reference": {
+                "reference": "ManufacturedItemDefinition/TEGRETOL-syrup-20mg-1mL-80-ITA-MID"
+              }
+            },
+            "amount": {
+              "value": 250
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "resourceType": "PackagedProductDefinition",
+  "id": "TEGRETOL-SYR-100MG-5ML-228-GRC-PPD",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://ema.europa.eu/example/pcid",
+      "value": "GRC-GRC-carbamazepine-NOVARTIS-HELLAS-A-E-B-E-syrup-25"
+    }
+  ],
+  "packageFor": [
+    {
+      "reference": "MedicinalProductDefinition/TEGRETOL-SYR-100MG-5ML-228-GRC-MPD"
+    }
+  ],
+  "containedItemQuantity": [
+    {
+      "value": 250,
+      "code": "200000022814",
+      "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+      "unit": "Other"
+    }
+  ],
+  "description": "Mock description",
+  "marketingStatus": [
+    {
+      "country": {
+        "coding": [
+          {
+            "code": "100000000406",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
+            "display": "Hellenic Republic"
+          }
+        ]
+      },
+      "status": {
+        "coding": [
+          {
+            "code": "100000072083",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000072052",
+            "display": "Marketed"
+          }
+        ]
+      }
+    }
+  ],
+  "packaging": {
+    "type": {
+      "coding": [
+        {
+          "code": "100000073498",
+          "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
+          "display": "Box"
+        }
+      ]
+    },
+    "quantity": 1
+  }
+}

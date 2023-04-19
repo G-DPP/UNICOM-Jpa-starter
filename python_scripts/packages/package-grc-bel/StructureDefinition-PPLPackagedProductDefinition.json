@@ -1,0 +1,246 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "PPLPackagedProductDefinition",
+  "url": "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition",
+  "version": "0.1.0",
+  "name": "PPLPackagedProductDefinition",
+  "title": "PPL Packaged Product profile",
+  "status": "active",
+  "description": "Packaged Product",
+  "fhirVersion": "5.0.0-snapshot3",
+  "mapping": [
+    {
+      "identity": "idmp",
+      "uri": "https://en.wikipedia.org/wiki/Identification_of_medicinal_products",
+      "name": "IDMP Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "PackagedProductDefinition",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/PackagedProductDefinition",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "PackagedProductDefinition.identifier",
+        "path": "PackagedProductDefinition.identifier",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "system"
+            }
+          ],
+          "rules": "open"
+        },
+        "short": "Identifier for the packaged product: PCID, national ID, or other",
+        "definition": "Identifier for the packaged product: PCID, national code or other.",
+        "min": 1
+      },
+      {
+        "id": "PackagedProductDefinition.identifier:pcid",
+        "path": "PackagedProductDefinition.identifier",
+        "sliceName": "pcid",
+        "short": "PCID for the product. Consists of MPID + unique package code. For the same product PCID is different if the package material is different.",
+        "definition": "EMA IG 4.1",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "PackagedProductDefinition.identifier:pcid.system",
+        "path": "PackagedProductDefinition.identifier.system",
+        "min": 1,
+        "patternUri": "http://ema.europa.eu/example/pcid"
+      },
+      {
+        "id": "PackagedProductDefinition.packageFor",
+        "path": "PackagedProductDefinition.packageFor",
+        "min": 1,
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PackagedProductDefinition.containedItemQuantity",
+        "path": "PackagedProductDefinition.containedItemQuantity",
+        "short": "Pack size. Repeated for combination packages.",
+        "definition": "EMA IG 4.4",
+        "min": 1
+      },
+      {
+        "id": "PackagedProductDefinition.containedItemQuantity.code",
+        "path": "PackagedProductDefinition.containedItemQuantity.code",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://unicom-project.eu/fhir/ValueSet/unit-of-presentation-vs"
+        }
+      },
+      {
+        "id": "PackagedProductDefinition.description",
+        "path": "PackagedProductDefinition.description",
+        "definition": "EMA IG 4.2",
+        "min": 1
+      },
+      {
+        "id": "PackagedProductDefinition.legalStatusOfSupply",
+        "path": "PackagedProductDefinition.legalStatusOfSupply",
+        "short": "Legal status of supply on the packaged product level.",
+        "definition": "EMA IG 4.5. Legal status of supply on the packaged product level. The same information can be repeated/differentiated on the medicinal product level",
+        "max": "1"
+      },
+      {
+        "id": "PackagedProductDefinition.legalStatusOfSupply.code",
+        "path": "PackagedProductDefinition.legalStatusOfSupply.code",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://unicom-project.eu/fhir/ValueSet/legal-status-for-the-supply-vs"
+        }
+      },
+      {
+        "id": "PackagedProductDefinition.legalStatusOfSupply.jurisdiction.coding",
+        "path": "PackagedProductDefinition.legalStatusOfSupply.jurisdiction.coding",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://unicom-project.eu/fhir/ValueSet/country-ema-vs"
+        }
+      },
+      {
+        "id": "PackagedProductDefinition.marketingStatus",
+        "path": "PackagedProductDefinition.marketingStatus",
+        "definition": "EMA IG 4.6"
+      },
+      {
+        "id": "PackagedProductDefinition.marketingStatus.country",
+        "path": "PackagedProductDefinition.marketingStatus.country",
+        "min": 1
+      },
+      {
+        "id": "PackagedProductDefinition.marketingStatus.country.coding",
+        "path": "PackagedProductDefinition.marketingStatus.country.coding",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://unicom-project.eu/fhir/ValueSet/country-ema-vs"
+        }
+      },
+      {
+        "id": "PackagedProductDefinition.marketingStatus.status.coding.system",
+        "path": "PackagedProductDefinition.marketingStatus.status.coding.system",
+        "patternUri": "https://spor.ema.europa.eu/v1/lists/100000072052"
+      },
+      {
+        "id": "PackagedProductDefinition.packaging",
+        "path": "PackagedProductDefinition.packaging",
+        "min": 1
+      },
+      {
+        "id": "PackagedProductDefinition.packaging.type",
+        "path": "PackagedProductDefinition.packaging.type",
+        "short": "Container type",
+        "definition": "EMA IG 4.8.1",
+        "min": 1
+      },
+      {
+        "id": "PackagedProductDefinition.packaging.type.coding.system",
+        "path": "PackagedProductDefinition.packaging.type.coding.system",
+        "patternUri": "https://spor.ema.europa.eu/v1/lists/100000073346"
+      },
+      {
+        "id": "PackagedProductDefinition.packaging.quantity",
+        "path": "PackagedProductDefinition.packaging.quantity",
+        "definition": "EMA IG 4.8.5",
+        "min": 1
+      },
+      {
+        "id": "PackagedProductDefinition.packaging.material",
+        "path": "PackagedProductDefinition.packaging.material",
+        "definition": "EMA IG 4.8.7",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://unicom-project.eu/fhir/ValueSet/material-vs"
+        }
+      },
+      {
+        "id": "PackagedProductDefinition.packaging.shelfLifeStorage",
+        "path": "PackagedProductDefinition.packaging.shelfLifeStorage",
+        "definition": "EMA IG 4.12"
+      },
+      {
+        "id": "PackagedProductDefinition.packaging.shelfLifeStorage.type",
+        "path": "PackagedProductDefinition.packaging.shelfLifeStorage.type",
+        "min": 1
+      },
+      {
+        "id": "PackagedProductDefinition.packaging.shelfLifeStorage.type.coding.system",
+        "path": "PackagedProductDefinition.packaging.shelfLifeStorage.type.coding.system",
+        "patternUri": "https://spor.ema.europa.eu/v1/lists/100000073343"
+      },
+      {
+        "id": "PackagedProductDefinition.packaging.shelfLifeStorage.period[x]",
+        "path": "PackagedProductDefinition.packaging.shelfLifeStorage.period[x]",
+        "min": 1
+      },
+      {
+        "id": "PackagedProductDefinition.packaging.property",
+        "path": "PackagedProductDefinition.packaging.property",
+        "max": "0"
+      },
+      {
+        "id": "PackagedProductDefinition.packaging.property.type",
+        "path": "PackagedProductDefinition.packaging.property.type",
+        "binding": {
+          "strength": "example",
+          "valueSet": "http://unicom-project.eu/fhir/ValueSet/no-vs"
+        }
+      },
+      {
+        "id": "PackagedProductDefinition.packaging.containedItem",
+        "path": "PackagedProductDefinition.packaging.containedItem",
+        "short": "An item (inner package or manufactured item) within the packaging",
+        "definition": "EMA IG 4.9 or 4.8.3"
+      },
+      {
+        "id": "PackagedProductDefinition.packaging.containedItem.item",
+        "path": "PackagedProductDefinition.packaging.containedItem.item",
+        "type": [
+          {
+            "code": "CodeableReference",
+            "targetProfile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition",
+              "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PackagedProductDefinition.packaging.containedItem.amount",
+        "path": "PackagedProductDefinition.packaging.containedItem.amount",
+        "short": "Number of the manufactured items (e.g. tablets) in this package layer or the amount of manufactured item (e.g. 20 g) in the unit of presentation defined in manufactured item definition",
+        "definition": "EMA IG 4.11.2"
+      },
+      {
+        "id": "PackagedProductDefinition.packaging.containedItem.amount.code",
+        "path": "PackagedProductDefinition.packaging.containedItem.amount.code",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://unicom-project.eu/fhir/ValueSet/all-units-vs"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,704 @@
+{
+  "resourceType": "Bundle",
+  "id": "014-CanestenKombi-FI-FullProduct",
+  "type": "transaction",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "MedicinalProductDefinition",
+        "id": "CanestenKombi-FI-MPD",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://ema.europa.eu/fhir/mpId",
+            "value": "FI-100004966-18300"
+          },
+          {
+            "system": "http://ema.europa.eu/fhir/pmsId",
+            "value": "FI00000003"
+          }
+        ],
+        "name": [
+          {
+            "part": [
+              {
+                "type": {
+                  "coding": [
+                    {
+                      "code": "220000000002",
+                      "system": "https://spor.ema.europa.eu/v1/lists/220000000000",
+                      "display": "Invented name part"
+                    }
+                  ]
+                },
+                "part": "Canesten Kombi"
+              }
+            ],
+            "usage": [
+              {
+                "country": {
+                  "coding": [
+                    {
+                      "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
+                      "code": "100000000394",
+                      "display": "Republic of Finland"
+                    }
+                  ]
+                },
+                "language": {
+                  "coding": [
+                    {
+                      "system": "https://spor.ema.europa.eu/v1/lists/100000072057",
+                      "code": "100000072149",
+                      "display": "Finnish"
+                    }
+                  ]
+                }
+              }
+            ],
+            "productName": "Canesten® Kombi 500 mg emätinpuikko + 10 mg/g emulsiovoide"
+          }
+        ],
+        "domain": {
+          "coding": [
+            {
+              "code": "100000000012",
+              "system": "https://spor.ema.europa.eu/v1/lists/100000000004",
+              "display": "Human use"
+            }
+          ]
+        },
+        "status": {
+          "coding": [
+            {
+              "code": "200000005004",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000005003",
+              "display": "Current"
+            }
+          ]
+        },
+        "combinedPharmaceuticalDoseForm": {
+          "coding": [
+            {
+              "code": "100000173972",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000008",
+              "display": "Cream + pessary"
+            }
+          ]
+        },
+        "legalStatusOfSupply": {
+          "coding": [
+            {
+              "code": "100000072084",
+              "system": "https://spor.ema.europa.eu/v1/lists/100000072051",
+              "display": "Medicinal Product subject to medical prescription"
+            }
+          ]
+        },
+        "classification": [
+          {
+            "coding": [
+              {
+                "code": "100000095693",
+                "system": "https://spor.ema.europa.eu/v1/lists/100000093533",
+                "display": "clotrimazole"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "code": "G01AF02",
+                "system": "http://www.whocc.no/atc",
+                "display": "clotrimazole"
+              }
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "MedicinalProductDefinition/CanestenKombi-FI-MPD"
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/MedicinalProductDefinition/CanestenKombi-FI-MPD"
+    },
+    {
+      "resource": {
+        "resourceType": "RegulatedAuthorization",
+        "id": "CanestenKombi-FI-RA",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization"
+          ]
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "220000000061",
+              "system": "https://spor.ema.europa.eu/v1/lists/220000000060",
+              "display": "Marketing Authorisation"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "value": "18300"
+          }
+        ],
+        "subject": [
+          {
+            "reference": "MedicinalProductDefinition/CanestenKombi-FI-MPD"
+          }
+        ],
+        "region": [
+          {
+            "coding": [
+              {
+                "code": "100000000394",
+                "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
+                "display": "Republic of Finland"
+              }
+            ]
+          }
+        ],
+        "status": {
+          "coding": [
+            {
+              "code": "200000017708",
+              "system": "https://spor.ema.europa.eu/v1/lists/100000072049",
+              "display": "Valid - Renewed/Varied"
+            }
+          ]
+        },
+        "statusDate": "2009-11-11",
+        "holder": {
+          "reference": "Organization/LOC-100004966-BayerOy"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "RegulatedAuthorization/CanestenKombi-FI-RA"
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/RegulatedAuthorization/CanestenKombi-FI-RA"
+    },
+    {
+      "resource": {
+        "resourceType": "Organization",
+        "id": "LOC-100004966-BayerOy",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://spor.ema.europa.eu/v1/locations",
+            "value": "LOC-100004966"
+          },
+          {
+            "system": "https://spor.ema.europa.eu/v1/organisations",
+            "value": "ORG-100000155"
+          }
+        ],
+        "name": "Bayer Oy"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Organization/LOC-100004966-BayerOy"
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Organization/LOC-100004966-BayerOy"
+    },
+    {
+      "resource": {
+        "resourceType": "AdministrableProductDefinition",
+        "id": "CanestenKombi-Cream-FI-APD",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"
+          ]
+        },
+        "status": "active",
+        "formOf": [
+          {
+            "reference": "MedicinalProductDefinition/CanestenKombi-FI-MPD"
+          }
+        ],
+        "administrableDoseForm": {
+          "coding": [
+            {
+              "code": "100000073712",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
+              "display": "Cream"
+            }
+          ]
+        },
+        "unitOfPresentation": {
+          "coding": [
+            {
+              "code": "200000002156",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+              "display": "Tube"
+            }
+          ]
+        },
+        "producedFrom": [
+          {
+            "reference": "ManufacturedItemDefinition/CanestenKombi-Cream-FI-MID"
+          }
+        ],
+        "routeOfAdministration": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "code": "100000073566",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000073345",
+                  "display": "Cutaneous use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "AdministrableProductDefinition/CanestenKombi-Cream-FI-APD"
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/AdministrableProductDefinition/CanestenKombi-Cream-FI-APD"
+    },
+    {
+      "resource": {
+        "resourceType": "AdministrableProductDefinition",
+        "id": "CanestenKombi-Pessary-FI-APD",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"
+          ]
+        },
+        "status": "active",
+        "formOf": [
+          {
+            "reference": "MedicinalProductDefinition/CanestenKombi-FI-MPD"
+          }
+        ],
+        "administrableDoseForm": {
+          "coding": [
+            {
+              "code": "100000073815",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
+              "display": "Pessary"
+            }
+          ]
+        },
+        "unitOfPresentation": {
+          "coding": [
+            {
+              "code": "200000002137",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+              "display": "Pessary"
+            }
+          ]
+        },
+        "producedFrom": [
+          {
+            "reference": "ManufacturedItemDefinition/CanestenKombi-Pessary-FI-MID"
+          }
+        ],
+        "routeOfAdministration": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "code": "100000073639",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000073345",
+                  "display": "Vaginal use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "AdministrableProductDefinition/CanestenKombi-Pessary-FI-APD"
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/AdministrableProductDefinition/CanestenKombi-Pessary-FI-APD"
+    },
+    {
+      "resource": {
+        "resourceType": "ManufacturedItemDefinition",
+        "id": "CanestenKombi-Cream-FI-MID",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"
+          ]
+        },
+        "status": "active",
+        "manufacturedDoseForm": {
+          "coding": [
+            {
+              "code": "100000073712",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
+              "display": "Cream"
+            }
+          ]
+        },
+        "unitOfPresentation": {
+          "coding": [
+            {
+              "code": "200000002156",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+              "display": "Tube"
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ManufacturedItemDefinition/CanestenKombi-Cream-FI-MID"
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/ManufacturedItemDefinition/CanestenKombi-Cream-FI-MID"
+    },
+    {
+      "resource": {
+        "resourceType": "ManufacturedItemDefinition",
+        "id": "CanestenKombi-Pessary-FI-MID",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"
+          ]
+        },
+        "status": "active",
+        "manufacturedDoseForm": {
+          "coding": [
+            {
+              "code": "100000073815",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
+              "display": "Pessary"
+            }
+          ]
+        },
+        "unitOfPresentation": {
+          "coding": [
+            {
+              "code": "200000002137",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+              "display": "Pessary"
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ManufacturedItemDefinition/CanestenKombi-Pessary-FI-MID"
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/ManufacturedItemDefinition/CanestenKombi-Pessary-FI-MID"
+    },
+    {
+      "resource": {
+        "resourceType": "Ingredient",
+        "id": "CanestenKombi-Cream-FI-I",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"
+          ]
+        },
+        "status": "active",
+        "for": [
+          {
+            "reference": "MedicinalProductDefinition/CanestenKombi-FI-MPD"
+          },
+          {
+            "reference": "ManufacturedItemDefinition/CanestenKombi-Cream-FI-MID"
+          },
+          {
+            "reference": "AdministrableProductDefinition/CanestenKombi-Cream-FI-APD"
+          }
+        ],
+        "role": {
+          "coding": [
+            {
+              "code": "100000072072",
+              "system": "https://spor.ema.europa.eu/v1/lists/100000072050",
+              "display": "Active"
+            }
+          ]
+        },
+        "substance": {
+          "code": {
+            "concept": {
+              "coding": [
+                {
+                  "code": "100000092074",
+                  "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+                  "display": "CLOTRIMAZOLE"
+                }
+              ]
+            }
+          },
+          "strength": [
+            {
+              "concentrationRatio": {
+                "numerator": {
+                  "value": 10,
+                  "code": "100000110655",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+                  "unit": "milligram(s)"
+                },
+                "denominator": {
+                  "value": 1,
+                  "code": "100000110654",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+                  "unit": "gram(s)"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Ingredient/CanestenKombi-Cream-FI-I"
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Ingredient/CanestenKombi-Cream-FI-I"
+    },
+    {
+      "resource": {
+        "resourceType": "Ingredient",
+        "id": "CanestenKombi-Pessary-FI-I",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"
+          ]
+        },
+        "status": "active",
+        "for": [
+          {
+            "reference": "MedicinalProductDefinition/CanestenKombi-FI-MPD"
+          },
+          {
+            "reference": "ManufacturedItemDefinition/CanestenKombi-Pessary-FI-MID"
+          },
+          {
+            "reference": "AdministrableProductDefinition/CanestenKombi-Pessary-FI-APD"
+          }
+        ],
+        "role": {
+          "coding": [
+            {
+              "code": "100000072072",
+              "system": "https://spor.ema.europa.eu/v1/lists/100000072050",
+              "display": "Active"
+            }
+          ]
+        },
+        "substance": {
+          "code": {
+            "concept": {
+              "coding": [
+                {
+                  "code": "100000092074",
+                  "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+                  "display": "CLOTRIMAZOLE"
+                }
+              ]
+            }
+          },
+          "strength": [
+            {
+              "presentationRatio": {
+                "numerator": {
+                  "value": 500,
+                  "code": "100000110655",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+                  "unit": "milligram(s)"
+                },
+                "denominator": {
+                  "value": 1,
+                  "code": "200000002137",
+                  "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+                  "unit": "Pessary"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Ingredient/CanestenKombi-Pessary-FI-I"
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Ingredient/CanestenKombi-Pessary-FI-I"
+    },
+    {
+      "resource": {
+        "resourceType": "PackagedProductDefinition",
+        "id": "CanestenKombi-FI-PPD-541276",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://ema.europa.eu/example/pcid",
+            "value": "FI-100004966-18300-541276"
+          }
+        ],
+        "packageFor": [
+          {
+            "reference": "MedicinalProductDefinition/CanestenKombi-FI-MPD"
+          }
+        ],
+        "containedItemQuantity": [
+          {
+            "value": 1,
+            "code": "200000002137",
+            "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+            "unit": "Pessary"
+          },
+          {
+            "value": 1,
+            "code": "200000002156",
+            "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+            "unit": "Tube"
+          }
+        ],
+        "description": "Yksi emätinpuikko läpipainopakkauksessa. Läpipainopakkauksen alaosa on pehmeää \nalumiini/polyamidi/polyvinyylikloridi -foliota ja kansi kovaa alumiinifoliota. Kansiosa on \nkuumasaumattu alaosaan. Pakkauksessa on polyetyleenistä valmistettu asetin. 20 g emulsiovoidetta \nalumiiniputkessa",
+        "marketingStatus": [
+          {
+            "country": {
+              "coding": [
+                {
+                  "code": "100000000394",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
+                  "display": "Republic of Finland"
+                }
+              ]
+            },
+            "status": {
+              "coding": [
+                {
+                  "code": "100000072083",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000072052",
+                  "display": "Marketed"
+                }
+              ]
+            }
+          }
+        ],
+        "packaging": {
+          "type": {
+            "coding": [
+              {
+                "code": "100000073498",
+                "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
+                "display": "Box"
+              }
+            ]
+          },
+          "quantity": 1,
+          "material": [
+            {
+              "coding": [
+                {
+                  "code": "200000003529",
+                  "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
+                  "display": "Cardboard"
+                }
+              ]
+            }
+          ],
+          "containedItem": [
+            {
+              "item": {
+                "concept": {
+                  "coding": [
+                    {
+                      "code": "100000073491",
+                      "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
+                      "display": "Applicator"
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "packaging": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "code": "100000073496",
+                    "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
+                    "display": "Blister"
+                  }
+                ]
+              },
+              "quantity": 1,
+              "containedItem": [
+                {
+                  "item": {
+                    "reference": {
+                      "reference": "ManufacturedItemDefinition/CanestenKombi-Pessary-FI-MID"
+                    }
+                  },
+                  "amount": {
+                    "value": 1
+                  }
+                }
+              ]
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "code": "100000073561",
+                    "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
+                    "display": "Tube"
+                  }
+                ]
+              },
+              "quantity": 1,
+              "material": [
+                {
+                  "coding": [
+                    {
+                      "code": "200000003200",
+                      "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
+                      "display": "Aluminium"
+                    }
+                  ]
+                }
+              ],
+              "containedItem": [
+                {
+                  "item": {
+                    "reference": {
+                      "reference": "ManufacturedItemDefinition/CanestenKombi-Cream-FI-MID"
+                    }
+                  },
+                  "amount": {
+                    "value": 20,
+                    "code": "100000110654",
+                    "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+                    "unit": "gram(s)"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "PackagedProductDefinition/CanestenKombi-FI-PPD-541276"
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/PackagedProductDefinition/CanestenKombi-FI-PPD-541276"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "resourceType": "PackagedProductDefinition",
+  "id": "Nurofen-4-siroop-susp-zonder-suiker-Rood-Kinderen--70-BEL-PPD",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://ema.europa.eu/example/pcid",
+      "value": "BEL-BEL-ibuprofen-Reckitt-Benckiser-syrup-150mL-x-200m"
+    }
+  ],
+  "packageFor": [
+    {
+      "reference": "MedicinalProductDefinition/Nurofen-4-siroop-susp-zonder-suiker-Rood-Kinderen--70-BEL-MPD"
+    }
+  ],
+  "containedItemQuantity": [
+    {
+      "value": 150,
+      "code": "200000022814",
+      "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+      "unit": "Other"
+    }
+  ],
+  "description": "Mock description",
+  "marketingStatus": [
+    {
+      "country": {
+        "coding": [
+          {
+            "code": "100000000337",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
+            "display": "Kingdom of Belgium"
+          }
+        ]
+      },
+      "status": {
+        "coding": [
+          {
+            "code": "100000072083",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000072052",
+            "display": "Marketed"
+          }
+        ]
+      }
+    }
+  ],
+  "packaging": {
+    "type": {
+      "coding": [
+        {
+          "code": "100000073498",
+          "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
+          "display": "Box"
+        }
+      ]
+    },
+    "quantity": 1
+  }
+}

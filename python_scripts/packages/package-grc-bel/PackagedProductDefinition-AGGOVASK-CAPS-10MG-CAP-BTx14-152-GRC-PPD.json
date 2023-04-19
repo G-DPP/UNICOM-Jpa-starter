@@ -1,0 +1,63 @@
+{
+  "resourceType": "PackagedProductDefinition",
+  "id": "AGGOVASK-CAPS-10MG-CAP-BTx14-152-GRC-PPD",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://ema.europa.eu/example/pcid",
+      "value": "GRC-GRC-amlodipine-besilate-PROTON-PHARMA-ANONUME-PhAR"
+    }
+  ],
+  "packageFor": [
+    {
+      "reference": "MedicinalProductDefinition/AGGOVASK-CAPS-10MG-CAP-BTx14-152-GRC-MPD"
+    }
+  ],
+  "containedItemQuantity": [
+    {
+      "value": 14,
+      "code": "200000002113",
+      "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+      "unit": "Capsule"
+    }
+  ],
+  "description": "Mock description",
+  "marketingStatus": [
+    {
+      "country": {
+        "coding": [
+          {
+            "code": "100000000406",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
+            "display": "Hellenic Republic"
+          }
+        ]
+      },
+      "status": {
+        "coding": [
+          {
+            "code": "100000072083",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000072052",
+            "display": "Marketed"
+          }
+        ]
+      }
+    }
+  ],
+  "packaging": {
+    "type": {
+      "coding": [
+        {
+          "code": "100000073498",
+          "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
+          "display": "Box"
+        }
+      ]
+    },
+    "quantity": 1
+  }
+}

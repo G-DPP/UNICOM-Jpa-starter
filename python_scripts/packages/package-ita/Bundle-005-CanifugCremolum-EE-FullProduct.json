@@ -1,0 +1,705 @@
+{
+  "resourceType": "Bundle",
+  "id": "005-CanifugCremolum-EE-FullProduct",
+  "type": "transaction",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "MedicinalProductDefinition",
+        "id": "CanifugCremolum-EE-MPD",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://ema.europa.eu/fhir/mpId",
+            "value": "EE-100004795-10280"
+          },
+          {
+            "system": "http://ema.europa.eu/fhir/pmsId",
+            "value": "EE00000003"
+          }
+        ],
+        "name": [
+          {
+            "part": [
+              {
+                "type": {
+                  "coding": [
+                    {
+                      "code": "220000000002",
+                      "system": "https://spor.ema.europa.eu/v1/lists/220000000000",
+                      "display": "Invented name part"
+                    }
+                  ]
+                },
+                "part": "Canifug Cremolum"
+              }
+            ],
+            "usage": [
+              {
+                "country": {
+                  "coding": [
+                    {
+                      "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
+                      "code": "100000000388",
+                      "display": "Republic of Estonia"
+                    }
+                  ]
+                },
+                "language": {
+                  "coding": [
+                    {
+                      "system": "https://spor.ema.europa.eu/v1/lists/100000072057",
+                      "code": "100000072172",
+                      "display": "Estonian"
+                    }
+                  ]
+                }
+              }
+            ],
+            "productName": "Canifug Cremolum"
+          }
+        ],
+        "domain": {
+          "coding": [
+            {
+              "code": "100000000012",
+              "system": "https://spor.ema.europa.eu/v1/lists/100000000004",
+              "display": "Human use"
+            }
+          ]
+        },
+        "status": {
+          "coding": [
+            {
+              "code": "200000005004",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000005003",
+              "display": "Current"
+            }
+          ]
+        },
+        "combinedPharmaceuticalDoseForm": {
+          "coding": [
+            {
+              "code": "100000173972",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000008",
+              "display": "Cream + pessary"
+            }
+          ]
+        },
+        "legalStatusOfSupply": {
+          "coding": [
+            {
+              "code": "100000072084",
+              "system": "https://spor.ema.europa.eu/v1/lists/100000072051",
+              "display": "Medicinal Product subject to medical prescription"
+            }
+          ]
+        },
+        "classification": [
+          {
+            "coding": [
+              {
+                "code": "100000095693",
+                "system": "https://spor.ema.europa.eu/v1/lists/100000093533",
+                "display": "clotrimazole"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "code": "G01AF02",
+                "system": "http://www.whocc.no/atc",
+                "display": "clotrimazole"
+              }
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "MedicinalProductDefinition/CanifugCremolum-EE-MPD"
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/MedicinalProductDefinition/CanifugCremolum-EE-MPD"
+    },
+    {
+      "resource": {
+        "resourceType": "RegulatedAuthorization",
+        "id": "CanifugCremolum-EE-RA",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization"
+          ]
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "220000000061",
+              "system": "https://spor.ema.europa.eu/v1/lists/220000000060",
+              "display": "Marketing Authorisation"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "value": "366201"
+          }
+        ],
+        "subject": [
+          {
+            "reference": "MedicinalProductDefinition/CanifugCremolum-EE-MPD"
+          }
+        ],
+        "region": [
+          {
+            "coding": [
+              {
+                "code": "100000000388",
+                "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
+                "display": "Republic of Estonia"
+              }
+            ]
+          }
+        ],
+        "status": {
+          "coding": [
+            {
+              "code": "200000017708",
+              "system": "https://spor.ema.europa.eu/v1/lists/100000072049",
+              "display": "Valid - Renewed/Varied"
+            }
+          ]
+        },
+        "statusDate": "2011-10-19",
+        "holder": {
+          "reference": "Organization/LOC-100004795-Wolff-Arzneimittel"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "RegulatedAuthorization/CanifugCremolum-EE-RA"
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/RegulatedAuthorization/CanifugCremolum-EE-RA"
+    },
+    {
+      "resource": {
+        "resourceType": "Organization",
+        "id": "LOC-100004795-Wolff-Arzneimittel",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://spor.ema.europa.eu/v1/locations",
+            "value": "LOC-100004795"
+          }
+        ],
+        "name": "Dr. August Wolff GmbH & Co. KG Arzneimittel"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Organization/LOC-100004795-Wolff-Arzneimittel"
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Organization/LOC-100004795-Wolff-Arzneimittel"
+    },
+    {
+      "resource": {
+        "resourceType": "AdministrableProductDefinition",
+        "id": "CanifugCremolum-10mg1g-Cream-EE-APD",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"
+          ]
+        },
+        "status": "active",
+        "formOf": [
+          {
+            "reference": "MedicinalProductDefinition/CanifugCremolum-EE-MPD"
+          }
+        ],
+        "administrableDoseForm": {
+          "coding": [
+            {
+              "code": "100000073712",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
+              "display": "Cream"
+            }
+          ]
+        },
+        "unitOfPresentation": {
+          "coding": [
+            {
+              "code": "200000002156",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+              "display": "Tube"
+            }
+          ]
+        },
+        "producedFrom": [
+          {
+            "reference": "ManufacturedItemDefinition/CanifugCremolum-10mg1g-Cream-EE-MID"
+          }
+        ],
+        "routeOfAdministration": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "code": "100000073566",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000073345",
+                  "display": "Cutaneous use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "AdministrableProductDefinition/CanifugCremolum-10mg1g-Cream-EE-APD"
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/AdministrableProductDefinition/CanifugCremolum-10mg1g-Cream-EE-APD"
+    },
+    {
+      "resource": {
+        "resourceType": "AdministrableProductDefinition",
+        "id": "CanifugCremolum-100mg-Pessary-EE-APD",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"
+          ]
+        },
+        "status": "active",
+        "formOf": [
+          {
+            "reference": "MedicinalProductDefinition/CanifugCremolum-EE-MPD"
+          }
+        ],
+        "administrableDoseForm": {
+          "coding": [
+            {
+              "code": "100000073815",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
+              "display": "Pessary"
+            }
+          ]
+        },
+        "unitOfPresentation": {
+          "coding": [
+            {
+              "code": "200000002137",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+              "display": "Pessary"
+            }
+          ]
+        },
+        "producedFrom": [
+          {
+            "reference": "ManufacturedItemDefinition/CanifugCremolum-100mg-Pessary-EE-MID"
+          }
+        ],
+        "routeOfAdministration": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "code": "100000073639",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000073345",
+                  "display": "Vaginal use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "AdministrableProductDefinition/CanifugCremolum-100mg-Pessary-EE-APD"
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/AdministrableProductDefinition/CanifugCremolum-100mg-Pessary-EE-APD"
+    },
+    {
+      "resource": {
+        "resourceType": "ManufacturedItemDefinition",
+        "id": "CanifugCremolum-10mg1g-Cream-EE-MID",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"
+          ]
+        },
+        "status": "active",
+        "manufacturedDoseForm": {
+          "coding": [
+            {
+              "code": "100000073712",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
+              "display": "Cream"
+            }
+          ]
+        },
+        "unitOfPresentation": {
+          "coding": [
+            {
+              "code": "200000002156",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+              "display": "Tube"
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ManufacturedItemDefinition/CanifugCremolum-10mg1g-Cream-EE-MID"
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/ManufacturedItemDefinition/CanifugCremolum-10mg1g-Cream-EE-MID"
+    },
+    {
+      "resource": {
+        "resourceType": "ManufacturedItemDefinition",
+        "id": "CanifugCremolum-100mg-Pessary-EE-MID",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"
+          ]
+        },
+        "status": "active",
+        "manufacturedDoseForm": {
+          "coding": [
+            {
+              "code": "100000073815",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
+              "display": "Pessary"
+            }
+          ]
+        },
+        "unitOfPresentation": {
+          "coding": [
+            {
+              "code": "200000002137",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+              "display": "Pessary"
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ManufacturedItemDefinition/CanifugCremolum-100mg-Pessary-EE-MID"
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/ManufacturedItemDefinition/CanifugCremolum-100mg-Pessary-EE-MID"
+    },
+    {
+      "resource": {
+        "resourceType": "Ingredient",
+        "id": "CanifugCremolum-10mg1g-Cream-EE-I",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"
+          ]
+        },
+        "status": "active",
+        "for": [
+          {
+            "reference": "MedicinalProductDefinition/CanifugCremolum-EE-MPD"
+          },
+          {
+            "reference": "ManufacturedItemDefinition/CanifugCremolum-10mg1g-Cream-EE-MID"
+          },
+          {
+            "reference": "AdministrableProductDefinition/CanifugCremolum-10mg1g-Cream-EE-APD"
+          }
+        ],
+        "role": {
+          "coding": [
+            {
+              "code": "100000072072",
+              "system": "https://spor.ema.europa.eu/v1/lists/100000072050",
+              "display": "Active"
+            }
+          ]
+        },
+        "substance": {
+          "code": {
+            "concept": {
+              "coding": [
+                {
+                  "code": "100000092074",
+                  "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+                  "display": "CLOTRIMAZOLE"
+                }
+              ]
+            }
+          },
+          "strength": [
+            {
+              "concentrationRatio": {
+                "numerator": {
+                  "value": 10,
+                  "code": "100000110655",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+                  "unit": "milligram(s)"
+                },
+                "denominator": {
+                  "value": 1,
+                  "code": "100000110654",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+                  "unit": "gram(s)"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Ingredient/CanifugCremolum-10mg1g-Cream-EE-I"
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Ingredient/CanifugCremolum-10mg1g-Cream-EE-I"
+    },
+    {
+      "resource": {
+        "resourceType": "Ingredient",
+        "id": "CanifugCremolum-100mg-Pessary-EE-I",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"
+          ]
+        },
+        "status": "active",
+        "for": [
+          {
+            "reference": "MedicinalProductDefinition/CanifugCremolum-EE-MPD"
+          },
+          {
+            "reference": "ManufacturedItemDefinition/CanifugCremolum-100mg-Pessary-EE-MID"
+          },
+          {
+            "reference": "AdministrableProductDefinition/CanifugCremolum-100mg-Pessary-EE-APD"
+          }
+        ],
+        "role": {
+          "coding": [
+            {
+              "code": "100000072072",
+              "system": "https://spor.ema.europa.eu/v1/lists/100000072050",
+              "display": "Active"
+            }
+          ]
+        },
+        "substance": {
+          "code": {
+            "concept": {
+              "coding": [
+                {
+                  "code": "100000092074",
+                  "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+                  "display": "CLOTRIMAZOLE"
+                }
+              ]
+            }
+          },
+          "strength": [
+            {
+              "presentationRatio": {
+                "numerator": {
+                  "value": 100,
+                  "code": "100000110655",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+                  "unit": "milligram(s)"
+                },
+                "denominator": {
+                  "value": 1,
+                  "code": "200000002137",
+                  "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+                  "unit": "Pessary"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Ingredient/CanifugCremolum-100mg-Pessary-EE-I"
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Ingredient/CanifugCremolum-100mg-Pessary-EE-I"
+    },
+    {
+      "resource": {
+        "resourceType": "PackagedProductDefinition",
+        "id": "CanifugCremolum-EE-PPD-1033692",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://ema.europa.eu/example/pcid",
+            "value": "EE-100004795-10280-1033692"
+          }
+        ],
+        "packageFor": [
+          {
+            "reference": "MedicinalProductDefinition/CanifugCremolum-EE-MPD"
+          }
+        ],
+        "containedItemQuantity": [
+          {
+            "value": 6,
+            "code": "200000002137",
+            "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+            "unit": "Pessary"
+          },
+          {
+            "value": 1,
+            "code": "200000002156",
+            "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+            "unit": "Tube"
+          }
+        ],
+        "description": "Alu/PE-fooliumist valmistatud ribapakend, mis on asetatud väliskarpi. Kreem on alumiiniumtuubis ja omakorda pappkarbis. Kombineeritud pakend sisaldab: 6 vaginaalsuposiiti ja 20 g kreemi",
+        "marketingStatus": [
+          {
+            "country": {
+              "coding": [
+                {
+                  "code": "100000000388",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
+                  "display": "Republic of Estonia"
+                }
+              ]
+            },
+            "status": {
+              "coding": [
+                {
+                  "code": "100000072083",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000072052",
+                  "display": "Marketed"
+                }
+              ]
+            }
+          }
+        ],
+        "packaging": {
+          "type": {
+            "coding": [
+              {
+                "code": "100000073498",
+                "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
+                "display": "Box"
+              }
+            ]
+          },
+          "quantity": 1,
+          "material": [
+            {
+              "coding": [
+                {
+                  "code": "200000003529",
+                  "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
+                  "display": "Cardboard"
+                }
+              ]
+            }
+          ],
+          "packaging": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "code": "100000073559",
+                    "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
+                    "display": "Strip"
+                  }
+                ]
+              },
+              "quantity": 1,
+              "material": [
+                {
+                  "coding": [
+                    {
+                      "code": "200000003200",
+                      "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
+                      "display": "Aluminium"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "code": "200000003214",
+                      "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
+                      "display": "PolyEthylene"
+                    }
+                  ]
+                }
+              ],
+              "containedItem": [
+                {
+                  "item": {
+                    "reference": {
+                      "reference": "ManufacturedItemDefinition/CanifugCremolum-100mg-Pessary-EE-MID"
+                    }
+                  },
+                  "amount": {
+                    "value": 6
+                  }
+                }
+              ]
+            },
+            {
+              "type": {
+                "coding": [
+                  {
+                    "code": "100000073561",
+                    "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
+                    "display": "Tube"
+                  }
+                ]
+              },
+              "quantity": 1,
+              "material": [
+                {
+                  "coding": [
+                    {
+                      "code": "200000003200",
+                      "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
+                      "display": "Aluminium"
+                    }
+                  ]
+                }
+              ],
+              "containedItem": [
+                {
+                  "item": {
+                    "reference": {
+                      "reference": "ManufacturedItemDefinition/CanifugCremolum-10mg1g-Cream-EE-MID"
+                    }
+                  },
+                  "amount": {
+                    "value": 20,
+                    "code": "100000110654",
+                    "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+                    "unit": "gram(s)"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "PackagedProductDefinition/CanifugCremolum-EE-PPD-1033692"
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/PackagedProductDefinition/CanifugCremolum-EE-PPD-1033692"
+    }
+  ]
+}

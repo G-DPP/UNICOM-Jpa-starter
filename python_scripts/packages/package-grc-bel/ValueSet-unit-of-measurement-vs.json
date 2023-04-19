@@ -1,0 +1,18 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "UnitOfMeasurement",
+  "id": "unit-of-measurement-vs",
+  "title": "Unit of Measurement EMA",
+  "description": "Units of measurement. EMA SPOR RMS list based on UCUM.",
+  "version": "0.1.0",
+  "url": "http://unicom-project.eu/fhir/ValueSet/unit-of-measurement-vs",
+  "experimental": false,
+  "compose": {
+    "include": [
+      {
+        "system": "https://spor.ema.europa.eu/v1/lists/100000110633"
+      }
+    ]
+  }
+}

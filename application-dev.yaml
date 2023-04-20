@@ -65,7 +65,7 @@ hapi:
     openapi_enabled: true
     staticLocation: file:/apps/
     ### This is the FHIR version. Choose between, DSTU2, DSTU3, R4 or R5
-    fhir_version: R5
+    fhir_version: R4
     ### enable to use the ApacheProxyAddressStrategy which uses X-Forwarded-* headers
     ### to determine the FHIR server address
     #   use_apache_address_strategy: false
@@ -171,12 +171,12 @@ hapi:
         server_address: 'http://localhost:3080/fhir'
 
         refuse_to_fetch_third_party_urls: false
-        fhir_version: R5
+        fhir_version: R4
       global:
         name: Global Tester
-        server_address: "http://hapi.fhir.org/baseR5"
+        server_address: "http://hapi.fhir.org/baseR4"
         refuse_to_fetch_third_party_urls: false
-        fhir_version: R5
+        fhir_version: R4
     #    validation:
     #      requests_enabled: true
     #      responses_enabled: true

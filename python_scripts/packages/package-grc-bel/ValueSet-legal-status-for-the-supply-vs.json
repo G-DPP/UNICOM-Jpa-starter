@@ -1,0 +1,18 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "LegalStatusForTheSupply",
+  "id": "legal-status-for-the-supply-vs",
+  "title": "Legal Status for the Supply",
+  "description": "EMA SPOR RMS list",
+  "version": "0.1.0",
+  "url": "http://unicom-project.eu/fhir/ValueSet/legal-status-for-the-supply-vs",
+  "experimental": false,
+  "compose": {
+    "include": [
+      {
+        "system": "https://spor.ema.europa.eu/v1/lists/100000072051"
+      }
+    ]
+  }
+}

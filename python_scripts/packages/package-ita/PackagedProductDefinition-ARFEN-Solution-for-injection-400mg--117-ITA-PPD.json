@@ -1,0 +1,79 @@
+{
+  "resourceType": "PackagedProductDefinition",
+  "id": "ARFEN-Solution-for-injection-400mg--117-ITA-PPD",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://ema.europa.eu/example/pcid",
+      "value": "ITA-ITA-ibuprofen-lysine-S-F-GROUP-Srl-Solution-for-in"
+    }
+  ],
+  "packageFor": [
+    {
+      "reference": "MedicinalProductDefinition/ARFEN-Solution-for-injection-400mg--117-ITA-MPD"
+    }
+  ],
+  "containedItemQuantity": [
+    {
+      "value": 6,
+      "code": "200000002158",
+      "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+      "unit": "Vial"
+    }
+  ],
+  "description": "Mock description",
+  "marketingStatus": [
+    {
+      "country": {
+        "coding": [
+          {
+            "code": "100000000430",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
+            "display": "Italian Republic"
+          }
+        ]
+      },
+      "status": {
+        "coding": [
+          {
+            "code": "100000072083",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000072052",
+            "display": "Marketed"
+          }
+        ]
+      }
+    }
+  ],
+  "packaging": {
+    "type": {
+      "coding": [
+        {
+          "code": "100000073498",
+          "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
+          "display": "Box"
+        }
+      ]
+    },
+    "quantity": 1,
+    "packaging": [
+      {
+        "containedItem": [
+          {
+            "item": {
+              "reference": {
+                "reference": "ManufacturedItemDefinition/ARFEN-Solution-for-injection-400mg--117-ITA-MID"
+              }
+            },
+            "amount": {
+              "value": 6
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

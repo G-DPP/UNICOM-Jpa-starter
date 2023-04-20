@@ -16,7 +16,6 @@ print(f"{IG_URL=}")
 package_url = f"{IG_URL}/package.tgz"
 print(f"{package_url=}")
 
-# server_url = "https://jpa.unicom.datawizard.it/fhir/"
 server_url = os.getenv('import_server_url', f'http://localhost:{os.getenv("server_port", "8080")}')
 server_url += "/fhir/"
 print(f"The data will be uploaded to {server_url}")

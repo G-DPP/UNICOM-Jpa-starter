@@ -1,0 +1,259 @@
+version: "3.7"
+
+volumes:
+  kong-storage: {}
+  keycloak-storage:
+  grafana-storage:
+  prometheus-storage:
+  
+networks:
+ kong-net:
+ keycloak-net:
+ default:
+   name: external_network
+
+services:
+
+  #######################################
+  # Postgres: The database used by Kong
+  #######################################
+  kong-database:
+    image: postgres:9.6
+    container_name: kong-postgres
+    restart: on-failure
+    networks:
+      - kong-net
+    volumes:
+      - kong-storage:/var/lib/postgresql/data
+      # - ./volumes/postgres/kong:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: kong
+      POSTGRES_PASSWORD: ${KONG_PG_PASSWORD:-kong}
+      POSTGRES_DB: kong
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "kong"]
+      interval: 30s
+      timeout: 30s
+      retries: 3
+
+  #######################################
+  # Kong database migration
+  #######################################
+  kong-migration:
+    image: ${KONG_DOCKER_TAG:-kong:3.1.1-alpine}
+    command: kong migrations bootstrap
+    networks:
+      - kong-net
+    restart: on-failure
+    environment:
+      kong-storageBASE: postgres
+      KONG_PG_HOST: kong-database
+      KONG_PG_DATABASE: kong
+      KONG_PG_USER: kong
+      KONG_PG_PASSWORD: ${KONG_PG_PASSWORD:-kong}
+    depends_on:
+      - kong-database
+
+  #######################################
+  # Kong: The API Gateway
+  #######################################
+  kong:
+    build:
+      context: ./   
+    image: ${KONG_DOCKER_TAG:-kong:3.1.1-alpine}
+    restart: on-failure
+    container_name: kong
+    networks:
+      - kong-net
+      - default
+    environment:
+      kong-storageBASE: postgres
+      KONG_PG_HOST: kong-database
+      KONG_PG_DATABASE: kong
+      KONG_PG_USER: kong
+      KONG_PG_PASSWORD: ${KONG_PG_PASSWORD:-kong}
+      KONG_PROXY_LISTEN: 0.0.0.0:8000
+      KONG_PROXY_LISTEN_SSL: 0.0.0.0:8443
+      KONG_ADMIN_LISTEN: 0.0.0.0:8001
+      KONG_LOG_LEVEL:        debug
+      KONG_VITALS:           "on" 
+      KONG_VITALS_STRATEGY:  prometheus
+      KONG_VITALS_STATSD_PREFIX: kong
+      KONG_VITALS_STATSD_ADDRESS: statsd-exporter:9125
+      KONG_VITALS_TSDB_ADDRESS: prometheus:9090
+    depends_on:
+      - kong-database
+    volumes:
+      - ./plugins:/usr/local/kong/plugins/
+      - ./kong.conf:/etc/kong/kong.conf  
+    healthcheck:
+      test: ["CMD", "kong", "health"]
+      interval: 10s
+      timeout: 10s
+      retries: 10
+    ports:
+      - "80:8000"
+      - "8001:8001"
+      - "8443:8443"
+      - "8444:8444"
+
+  #######################################
+  # Konga database prepare
+  #######################################
+  konga-prepare:
+    image: pantsel/konga:latest
+    command: "-c prepare -a postgres -u postgresql://kong:${KONG_PG_PASSWORD:-kong}@kong-database:5432/konga"
+    networks:
+      - kong-net
+    restart: on-failure
+    depends_on:
+      - kong-database
+
+  #######################################
+  # Konga: Kong GUI
+  #######################################
+  konga:
+    image: pantsel/konga:latest
+    container_name: konga
+    restart: always
+    networks:
+        - kong-net   
+    environment:
+      # DB_URI: postgresql://kong:${KONG_PG_PASSWORD:-kong}@kong-database:5432/konga
+      DB_ADAPTER: postgres
+      DB_HOST: kong-database
+      DB_PORT: '5432'
+      DB_USER: kong
+      DB_PASSWORD: kong
+      DB_DATABASE: konga
+      NODE_ENV: development
+      # NODE_ENV: production
+    depends_on:
+      - kong-database
+    ports:
+      - "1337:1337"
+
+  #######################################
+  # Postgres: The database used by Keycloak
+  #######################################
+  keycloak-db:
+    image: postgres:9.1
+    volumes: 
+      - keycloak-storage:/var/lib/postgresql/data
+    networks:
+      - keycloak-net
+    ports:
+      - "25432:5432"
+    environment:
+      POSTGRES_DB:       keycloak
+      POSTGRES_USER:     keycloak
+      POSTGRES_PASSWORD: keycloak-db
+
+  #######################################
+  # Keycloak: The authentication manager
+  #######################################
+  keycloak:
+    image: quay.io/keycloak/keycloak:17.0.0
+    depends_on:
+      - keycloak-db
+    container_name: keycloak
+    command: start-dev
+    networks:
+      - keycloak-net
+      - kong-net 
+    ports:
+      - "8080:8080"
+    environment:
+      KC_DB: postgres
+      KC_DB_URL: jdbc:postgresql://keycloak-db:5432/keycloak
+      KC_DB_USERNAME: keycloak
+      KC_DB_PASSWORD: keycloak-db
+      KEYCLOAK_ADMIN: admin
+      KEYCLOAK_ADMIN_PASSWORD: admin
+
+
+  #######################################
+  # Prometheus: Bridge between StatsD Exporter and Grafana
+  #######################################
+  prometheus:
+      image: prom/prometheus
+      depends_on:
+        - kong
+      container_name: prometheus
+      networks:
+        - kong-net
+      restart: always
+      volumes: 
+        - ./prometheus.yml:/etc/prometheus/prometheus.yml
+        - prometheus-storage:/prometheus
+        # - ./volumes/prometheus:/prometheus
+      command: 
+        "--config.file=/etc/prometheus/prometheus.yml --storage.tsdb.path=/prometheus --web.listen-address=:9090"
+      ports: 
+        - 9090:9090
+
+  #######################################
+  # Postgres: The database used by Grafana
+  #######################################
+  grafana-database:
+    image: postgres:9.6
+    container_name: grafana-postgres
+    restart: on-failure
+    networks:
+      - kong-net
+    volumes:
+      - grafana-storage:/var/lib/postgresql/data
+      # - ./volumes/postgres/grafana/:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: grafana
+      POSTGRES_PASSWORD: grafana-db
+      POSTGRES_DB: grafana
+    ports:
+      - "5433:5432"
+
+
+
+  #######################################
+  # Grafana: Dashboard and metrics visualizer
+  #######################################
+  grafana:
+    image: grafana/grafana
+    depends_on:
+      - prometheus
+      - grafana-database
+    container_name: grafana
+    networks:
+      - kong-net
+    restart: unless-stopped
+    ports:
+      - 3000:3000
+    environment:
+      GF_INSTALL_PLUGINS: grafana-simple-json-datasource
+      GF_DATABASE_TYPE: postgres
+      GF_DATABASE_HOST: grafana-database:5432
+      GF_DATABASE_NAME: grafana
+      GF_DATABASE_USER: grafana
+      GF_DATABASE_PASSWORD: grafana-db
+      GF_DATABASE_SSL_MODE: disable
+
+  
+
+  #######################################
+  # StatsD Exporter: Bridge from Kong and Prometheus
+  #######################################
+  statsd-exporter:
+    image: kong/statsd-exporter-advanced:0.3.1
+    ports:
+      - 9123:9102
+      - 8125:9125/udp
+    command:
+      - --statsd.mapping-config=/etc/prometheus/metrics-mapping.yml
+      - --statsd.listen-udp=:9125
+      - --web.listen-address=:9102
+    container_name: statsd-exporter
+    networks:
+      - kong-net
+    volumes:
+      - ./metrics-mapping.yml:/etc/prometheus/metrics-mapping.yml

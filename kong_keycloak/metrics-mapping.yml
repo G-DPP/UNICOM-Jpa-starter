@@ -1,0 +1,123 @@
+mappings:
+# by Service
+- match: kong.service.*.request.count
+  name: "kong_statsd_requests_proxy"
+  labels:
+    service: $1
+    job: "kong_metrics"
+
+- match: kong.service.*.request.size
+  name: "kong_statsd_request_size"
+  timer_type: histogram
+  labels:
+    service: $1
+    job: "kong_metrics"
+
+- match: kong.service.*.response.size
+  name: "kong_statsd_response_size"
+  timer_type: histogram
+  labels:
+    service: $1
+    job: "kong_metrics"
+
+- match: kong.service.*.kong_latency
+  name: "kong_statsd_latency_ms"
+  timer_type: histogram
+  labels:
+    service: $1
+    job: "kong_metrics"
+
+
+- match: kong.service.*.upstream_latency
+  name: "kong_statsd_upstream_latency_ms"
+  timer_type: histogram
+  labels:
+    service: $1
+    job: "kong_metrics"
+
+- match: kong.service.*.latency
+  name: "kong_statsd_request_latency_ms"
+  timer_type: histogram
+  labels:
+    service: $2
+    job: "kong_metrics"
+
+- match: kong.service.*.user.*.request.count
+  name: "kong_statsd_request_count_per_consumer"
+  labels:
+    service: $1
+    consumer: $2
+    job: "kong_metrics"
+
+- match: kong.service.*.status.*
+  name: "kong_statsd_status_count"
+  labels:
+    service: $1
+    code: $2
+    job: "kong_metrics"
+
+- match: kong.service.*.user.*.status.*
+  name: "kong_statsd_status_per_consumer"
+  labels:
+    service: $1
+    consumer: $2
+    code: $3
+    job: "kong_metrics"
+
+- match: kong.service.*.workspace.*.status.*
+  name: "kong_statsd_status_per_workspace"
+  labels:
+    service: $1
+    workspace: $2
+    code: $3
+    job: "kong_metrics"
+
+- match: kong.route.*.user.*.status.*
+  name: "kong_statsd_status_per_route_per_consumer"
+  labels:
+    route: $1
+    consumer: $2
+    code: $3
+    job: "kong_metrics"
+
+- match: kong.service.*.api.*.count
+  name: "kong_statsd_requests_proxy_per_api"
+  labels:
+    service: $1
+    api: $2
+    job: "kong_metrics"
+
+- match: kong.service.*.user.*.api.*.count
+  name: "kong_statsd_requests_proxy_per_consumer_per_api"
+  labels:
+    service: $1
+    consumer: $2
+    api: $3
+    job: "kong_metrics"
+
+- match: kong.node.*.shdict.*.free_space
+  name: "kong_statsd_memory_lua_shared_dict_free_bytes"
+  labels:
+    kong_node: "$1"
+    shared_dict: "$2"
+    job: "kong_metrics"
+
+- match: kong.node.*.shdict.*.capacity
+  name: "kong_statsd_memory_lua_shared_dict_total_bytes"
+  labels:
+    kong_node: "$1"
+    shared_dict: "$2"
+    job: "kong_metrics"
+
+- match: kong.service.*.cache_datastore_hits_total
+  name: "kong_statsd_cache_datastore_hits_total"
+  labels:
+    kong_node: "$1"
+    service: "$2"
+    job: "kong_metrics"
+
+- match: kong.node.*.service.*.cache_datastore_misses_total
+  name: "kong_statsd_cache_datastore_misses_total"
+  labels:
+    kong_node: "$1"
+    service: "$2"

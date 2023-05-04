@@ -1,5 +1,15 @@
 version: "3.9"
 
+networks:
+  fhir_network:
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.40.0.0/16
+  default:
+    name: external_network
+
+
 services:
   fhir-server:
     image: costateixeira/hapi-fhir-jpaserver-starter:latest
@@ -20,3 +30,8 @@ services:
     volumes:
       - ./apps:/apps
       - ./application.yaml:/application.yaml
+
+    networks:
+      fhir_network:
+        ipv4_address: 172.40.30.80
+      default:

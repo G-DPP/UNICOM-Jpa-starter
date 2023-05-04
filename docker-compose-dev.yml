@@ -1,5 +1,15 @@
 version: "3.9"
 
+networks:
+  fhir_network:
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.40.0.0/16
+  default:
+    name: external_network
+
+
 services:
   fhir-server:
 #    image: hapiproject/hapi:latest
@@ -22,6 +32,10 @@ services:
 #      - hapi.fhir.implementationguides.${ig_name:-ig}.version=${ig_version}
 #    depends_on:
 #      - hapi-postgres
+    networks:
+      fhir_network:
+        ipv4_address: 172.40.30.80
+      default:
 
 #  hapi-postgres:
 #    image: postgres:14.1-alpine

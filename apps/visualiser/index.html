@@ -30,7 +30,7 @@
 
         resourceType="MedicinalProductDefinition";
         templateFile='mpd.liquid';
-        templateQuery="&_revinclude=RegulatedAuthorization:subject&_include:iterate=RegulatedAuthorization:holder&_revinclude=PackagedProductDefinition:package-for&_include:iterate=PackagedProductDefinition:manufactured-item&_revinclude=AdministrableProductDefinition:form-of&_revinclude:iterate=Ingredient:for"
+        templateQuery="&_revinclude=RegulatedAuthorization:subject&_include:iterate=RegulatedAuthorization:holder&_revinclude=PackagedProductDefinition:package-for&_include:iterate=PackagedProductDefinition:*&_revinclude=AdministrableProductDefinition:form-of&_revinclude:iterate=Ingredient:for"
       
 // To do: need to get these variables from the URL and the corresponding entry in ./templates.json
 /*

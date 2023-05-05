@@ -1,0 +1,509 @@
+{
+  "resourceType": "Bundle",
+  "id": "012-Panodil-500mg-SolutionInSachet-SE-FullProduct",
+  "type": "batch",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "MedicinalProductDefinition",
+        "id": "Panodil500mgoralsolutionsachet-SE-PLC-MPD",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://ema.europa.eu/fhir/mpId",
+            "value": "SE-100004600-00012391"
+          }
+        ],
+        "name": [
+          {
+            "part": [
+              {
+                "type": {
+                  "coding": [
+                    {
+                      "code": "220000000002",
+                      "system": "https://spor.ema.europa.eu/v1/lists/220000000000",
+                      "display": "Invented name part"
+                    }
+                  ]
+                },
+                "part": "Panodil"
+              },
+              {
+                "type": {
+                  "coding": [
+                    {
+                      "code": "220000000004",
+                      "system": "https://spor.ema.europa.eu/v1/lists/220000000000",
+                      "display": "Strength part"
+                    }
+                  ]
+                },
+                "part": "500 mg"
+              },
+              {
+                "type": {
+                  "coding": [
+                    {
+                      "code": "220000000005",
+                      "system": "https://spor.ema.europa.eu/v1/lists/220000000000",
+                      "display": "Pharmaceutical dose form part"
+                    }
+                  ]
+                },
+                "part": "pulver till oral lösning i dospåse"
+              }
+            ],
+            "usage": [
+              {
+                "country": {
+                  "coding": [
+                    {
+                      "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
+                      "code": "100000000535",
+                      "display": "Kingdom of Sweden"
+                    }
+                  ]
+                },
+                "language": {
+                  "coding": [
+                    {
+                      "system": "https://spor.ema.europa.eu/v1/lists/100000072057",
+                      "code": "100000072288",
+                      "display": "Swedish"
+                    }
+                  ]
+                }
+              }
+            ],
+            "productName": "Panodil 500 mg pulver till oral lösning i dospåse"
+          }
+        ],
+        "domain": {
+          "coding": [
+            {
+              "code": "100000000012",
+              "system": "https://spor.ema.europa.eu/v1/lists/100000000004",
+              "display": "Human use"
+            }
+          ]
+        },
+        "status": {
+          "coding": [
+            {
+              "code": "200000005004",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000005003",
+              "display": "Current"
+            }
+          ]
+        },
+        "combinedPharmaceuticalDoseForm": {
+          "coding": [
+            {
+              "code": "100000125752",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000007",
+              "display": "Powder for oral solution in sachet"
+            }
+          ]
+        },
+        "indication": "Panodil 500 mg pulver till oral lösning i dospåse används mot huvudvärk, tandvärk, feber vid förkylningssjukdomar, menstruationssmärtor, muskel- och ledvärk, som analgetikum vid reumatiska smärtor, hyperpyrexi. För vuxna och barn över 12 år.",
+        "legalStatusOfSupply": {
+          "coding": [
+            {
+              "code": "100000072076",
+              "system": "https://spor.ema.europa.eu/v1/lists/100000072051",
+              "display": "Medicinal product not subject to medical prescription"
+            }
+          ]
+        },
+        "classification": [
+          {
+            "coding": [
+              {
+                "code": "100000097305",
+                "system": "https://spor.ema.europa.eu/v1/lists/100000093533",
+                "display": "Paracetamol"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "code": "N02BE01",
+                "system": "http://www.whocc.no/atc",
+                "display": "Paracetamol"
+              }
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "MedicinalProductDefinition/Panodil500mgoralsolutionsachet-SE-PLC-MPD"
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/MedicinalProductDefinition/Panodil500mgoralsolutionsachet-SE-PLC-MPD"
+    },
+    {
+      "resource": {
+        "resourceType": "RegulatedAuthorization",
+        "id": "Panodil500mgoralsolutionsachet-SE-PLC-RegulatedAuthorization",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization"
+          ]
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "220000000061",
+              "system": "https://spor.ema.europa.eu/v1/lists/220000000060",
+              "display": "Marketing Authorisation"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "value": "12391"
+          }
+        ],
+        "subject": [
+          {
+            "reference": "MedicinalProductDefinition/Panodil500mgoralsolutionsachet-SE-PLC-MPD"
+          }
+        ],
+        "region": [
+          {
+            "coding": [
+              {
+                "code": "100000000535",
+                "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
+                "display": "Kingdom of Sweden"
+              }
+            ]
+          }
+        ],
+        "status": {
+          "coding": [
+            {
+              "code": "100000072099",
+              "system": "https://spor.ema.europa.eu/v1/lists/100000072049",
+              "display": "Valid"
+            }
+          ]
+        },
+        "statusDate": "1994-10-28",
+        "holder": {
+          "reference": "Organization/LOC-100005555-PerrigoSverigeAB"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "RegulatedAuthorization/Panodil500mgoralsolutionsachet-SE-PLC-RegulatedAuthorization"
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/RegulatedAuthorization/Panodil500mgoralsolutionsachet-SE-PLC-RegulatedAuthorization"
+    },
+    {
+      "resource": {
+        "resourceType": "Organization",
+        "id": "LOC-100005555-PerrigoSverigeAB",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://spor.ema.europa.eu/v1/locations",
+            "value": "LOC-100005555"
+          }
+        ],
+        "name": "Perrigo Sverige AB"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Organization/LOC-100005555-PerrigoSverigeAB"
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Organization/LOC-100005555-PerrigoSverigeAB"
+    },
+    {
+      "resource": {
+        "resourceType": "AdministrableProductDefinition",
+        "id": "Panodil500mgoralsolutionsachet-SE-PLC-APD",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"
+          ]
+        },
+        "status": "active",
+        "formOf": [
+          {
+            "reference": "MedicinalProductDefinition/Panodil500mgoralsolutionsachet-SE-PLC-MPD"
+          }
+        ],
+        "administrableDoseForm": {
+          "coding": [
+            {
+              "code": "100000073646",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
+              "display": "Oral solution"
+            }
+          ]
+        },
+        "producedFrom": [
+          {
+            "reference": "ManufacturedItemDefinition/Panodil500mgoralsolutionsachet-SE-PLC-MID"
+          }
+        ],
+        "routeOfAdministration": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "code": "100000073619",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000073345",
+                  "display": "Oral use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "AdministrableProductDefinition/Panodil500mgoralsolutionsachet-SE-PLC-APD"
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/AdministrableProductDefinition/Panodil500mgoralsolutionsachet-SE-PLC-APD"
+    },
+    {
+      "resource": {
+        "resourceType": "PackagedProductDefinition",
+        "id": "Panodil500mgoralsolutionsachet-SE-PLC-PackageProductDef",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://ema.europa.eu/example/pcid"
+          }
+        ],
+        "packageFor": [
+          {
+            "reference": "MedicinalProductDefinition/Panodil500mgoralsolutionsachet-SE-PLC-MPD"
+          }
+        ],
+        "containedItemQuantity": [
+          {
+            "value": 12,
+            "code": "200000002143",
+            "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+            "unit": "Sachet"
+          }
+        ],
+        "description": "Dospåsar, 12 st",
+        "marketingStatus": [
+          {
+            "country": {
+              "coding": [
+                {
+                  "code": "100000000535",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
+                  "display": "Kingdom of Sweden"
+                }
+              ]
+            },
+            "status": {
+              "coding": [
+                {
+                  "code": "100000072083",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000072052",
+                  "display": "Marketed"
+                }
+              ]
+            }
+          }
+        ],
+        "packaging": {
+          "type": {
+            "coding": [
+              {
+                "code": "100000073498",
+                "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
+                "display": "Box"
+              }
+            ]
+          },
+          "quantity": 1,
+          "material": [
+            {
+              "coding": [
+                {
+                  "code": "200000003529",
+                  "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
+                  "display": "Cardboard"
+                }
+              ]
+            }
+          ],
+          "containedItem": [
+            {
+              "item": {
+                "reference": {
+                  "reference": "ManufacturedItemDefinition/Panodil500mgoralsolutionsachet-SE-PLC-MID"
+                }
+              },
+              "amount": {
+                "value": 12,
+                "code": "200000002143",
+                "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+                "unit": "Sachet"
+              }
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "PackagedProductDefinition/Panodil500mgoralsolutionsachet-SE-PLC-PackageProductDef"
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/PackagedProductDefinition/Panodil500mgoralsolutionsachet-SE-PLC-PackageProductDef"
+    },
+    {
+      "resource": {
+        "resourceType": "ManufacturedItemDefinition",
+        "id": "Panodil500mgoralsolutionsachet-SE-PLC-MID",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"
+          ]
+        },
+        "status": "active",
+        "manufacturedDoseForm": {
+          "coding": [
+            {
+              "code": "100000073364",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
+              "display": "Powder for oral solution"
+            }
+          ]
+        },
+        "unitOfPresentation": {
+          "coding": [
+            {
+              "code": "200000002143",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+              "display": "Sachet"
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ManufacturedItemDefinition/Panodil500mgoralsolutionsachet-SE-PLC-MID"
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/ManufacturedItemDefinition/Panodil500mgoralsolutionsachet-SE-PLC-MID"
+    },
+    {
+      "resource": {
+        "resourceType": "Ingredient",
+        "id": "Panodil500mgoralsolutionsachet-SE-PLC-Ingredient",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"
+          ]
+        },
+        "status": "active",
+        "for": [
+          {
+            "reference": "MedicinalProductDefinition/Panodil500mgoralsolutionsachet-SE-PLC-MPD"
+          },
+          {
+            "reference": "ManufacturedItemDefinition/Panodil500mgoralsolutionsachet-SE-PLC-MID"
+          },
+          {
+            "reference": "AdministrableProductDefinition/Panodil500mgoralsolutionsachet-SE-PLC-APD"
+          }
+        ],
+        "role": {
+          "coding": [
+            {
+              "code": "100000072072",
+              "system": "https://spor.ema.europa.eu/v1/lists/100000072050",
+              "display": "Active"
+            }
+          ]
+        },
+        "substance": {
+          "code": {
+            "concept": {
+              "coding": [
+                {
+                  "code": "100000090270",
+                  "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+                  "display": "Paracetamol"
+                }
+              ]
+            }
+          },
+          "strength": [
+            {
+              "presentationRatio": {
+                "numerator": {
+                  "value": 500,
+                  "code": "100000110655",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+                  "unit": "milligram(s)"
+                },
+                "denominator": {
+                  "value": 1,
+                  "code": "200000002143",
+                  "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+                  "unit": "Sachet"
+                }
+              },
+              "referenceStrength": [
+                {
+                  "substance": {
+                    "concept": {
+                      "coding": [
+                        {
+                          "code": "100000090270",
+                          "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+                          "display": "Paracetamol"
+                        }
+                      ]
+                    }
+                  },
+                  "strengthRatio": {
+                    "numerator": {
+                      "value": 500,
+                      "code": "100000110655",
+                      "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+                      "unit": "milligram(s)"
+                    },
+                    "denominator": {
+                      "value": 1,
+                      "code": "200000002143",
+                      "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+                      "unit": "Sachet"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Ingredient/Panodil500mgoralsolutionsachet-SE-PLC-Ingredient"
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Ingredient/Panodil500mgoralsolutionsachet-SE-PLC-Ingredient"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "resourceType": "Ingredient",
+  "id": "CanifugCremolum-100mg-Pessary-EE-I",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"
+    ]
+  },
+  "status": "active",
+  "for": [
+    {
+      "reference": "MedicinalProductDefinition/CanifugCremolum-EE-MPD"
+    },
+    {
+      "reference": "ManufacturedItemDefinition/CanifugCremolum-100mg-Pessary-EE-MID"
+    },
+    {
+      "reference": "AdministrableProductDefinition/CanifugCremolum-100mg-Pessary-EE-APD"
+    }
+  ],
+  "role": {
+    "coding": [
+      {
+        "code": "100000072072",
+        "system": "https://spor.ema.europa.eu/v1/lists/100000072050",
+        "display": "Active"
+      }
+    ]
+  },
+  "substance": {
+    "code": {
+      "concept": {
+        "coding": [
+          {
+            "code": "100000092074",
+            "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+            "display": "CLOTRIMAZOLE"
+          }
+        ]
+      }
+    },
+    "strength": [
+      {
+        "presentationRatio": {
+          "numerator": {
+            "value": 100,
+            "code": "100000110655",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+            "unit": "milligram(s)"
+          },
+          "denominator": {
+            "value": 1,
+            "code": "200000002137",
+            "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+            "unit": "Pessary"
+          }
+        }
+      }
+    ]
+  }
+}

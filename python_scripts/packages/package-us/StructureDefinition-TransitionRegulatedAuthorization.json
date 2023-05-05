@@ -1,0 +1,116 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "TransitionRegulatedAuthorization",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Specialized.Medication Definition"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "anonymous"
+    }
+  ],
+  "url": "http://unicom-project.eu/fhir/StructureDefinition/TransitionRegulatedAuthorization",
+  "version": "0.1.0",
+  "name": "TransitionRegulatedAuthorization",
+  "title": "Processing Profile - Marketing Authorisation",
+  "status": "active",
+  "description": "Intermediate profile for processing PPL Marketing Authorisation (Regulated Authorization) data",
+  "fhirVersion": "5.0.0-snapshot3",
+  "mapping": [
+    {
+      "identity": "idmp",
+      "uri": "https://en.wikipedia.org/wiki/Identification_of_medicinal_products",
+      "name": "IDMP Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "RegulatedAuthorization",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/RegulatedAuthorization",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "RegulatedAuthorization.identifier",
+        "path": "RegulatedAuthorization.identifier",
+        "short": "Marketing authorisation number",
+        "definition": "EMA IG 2.2"
+      },
+      {
+        "id": "RegulatedAuthorization.identifier.system",
+        "path": "RegulatedAuthorization.identifier.system",
+        "patternUri": "http://ema.europa.eu/fhir/marketingAuthorizationNumber"
+      },
+      {
+        "id": "RegulatedAuthorization.subject",
+        "path": "RegulatedAuthorization.subject",
+        "short": "Reference to the medicinal product or a single package, depending on how the MA has been issued",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/TransitionMedicinalProductDefinition",
+              "http://unicom-project.eu/fhir/StructureDefinition/TransitionPackagedProductDefinition"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "RegulatedAuthorization.type",
+        "path": "RegulatedAuthorization.type",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "220000000061",
+              "system": "https://spor.ema.europa.eu/v1/lists/220000000060",
+              "display": "Marketing Authorisation"
+            }
+          ]
+        }
+      },
+      {
+        "id": "RegulatedAuthorization.region",
+        "path": "RegulatedAuthorization.region",
+        "definition": "EMA IG 2.3",
+        "max": "1"
+      },
+      {
+        "id": "RegulatedAuthorization.status",
+        "path": "RegulatedAuthorization.status",
+        "short": "Marketing authorisation status",
+        "definition": "EMA IG 2.4"
+      },
+      {
+        "id": "RegulatedAuthorization.statusDate",
+        "path": "RegulatedAuthorization.statusDate",
+        "short": "Issue/changing date of the marketing authorisation",
+        "definition": "EMA IG 2.5"
+      },
+      {
+        "id": "RegulatedAuthorization.holder",
+        "path": "RegulatedAuthorization.holder",
+        "definition": "EMA IG 2.8",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/TransitionOrganization"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

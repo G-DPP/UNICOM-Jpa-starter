@@ -1,0 +1,16 @@
+{
+  "resourceType": "Organization",
+  "id": "LOC-torrent-pharmaceuticals-limited",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "https://spor.ema.europa.eu/v1/locations",
+      "value": ""
+    }
+  ],
+  "name": "torrent pharmaceuticals limited"
+}

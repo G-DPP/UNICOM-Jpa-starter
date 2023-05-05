@@ -1,0 +1,16 @@
+{
+  "resourceType": "Organization",
+  "id": "LOC-china-resources-saike-pharmaceutical-co-ltd",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "https://spor.ema.europa.eu/v1/locations",
+      "value": ""
+    }
+  ],
+  "name": "china resources saike pharmaceutical co ltd"
+}

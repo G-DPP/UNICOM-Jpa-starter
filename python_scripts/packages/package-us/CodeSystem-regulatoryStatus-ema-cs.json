@@ -1,0 +1,77 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "RegulatoryStatus_EMA_CS",
+  "id": "regulatoryStatus-ema-cs",
+  "title": "Regulatory Entitlement Status EMA SPOR",
+  "description": "Regulatory Entitlement Status EMA SPOR",
+  "version": "0.1.0",
+  "url": "https://spor.ema.europa.eu/v1/lists/100000072049",
+  "concept": [
+    {
+      "code": "100000072121",
+      "display": "Revoked"
+    },
+    {
+      "code": "200000029967",
+      "display": "Harmonised"
+    },
+    {
+      "code": "200000017708",
+      "display": "Valid - Renewed/Varied"
+    },
+    {
+      "code": "200000017707",
+      "display": "Valid - Transferred marketing authorisation"
+    },
+    {
+      "code": "100000072099",
+      "display": "Valid"
+    },
+    {
+      "code": "100000072100",
+      "display": "Expired"
+    },
+    {
+      "code": "100000072112",
+      "display": "Not renewed"
+    },
+    {
+      "code": "100000072113",
+      "display": "Withdrawn"
+    },
+    {
+      "code": "100000072114",
+      "display": "Withdrawn, unspecified"
+    },
+    {
+      "code": "200000026056",
+      "display": "Presubmission"
+    },
+    {
+      "code": "100000072122",
+      "display": "Suspended"
+    },
+    {
+      "code": "100000072123",
+      "display": "Expired due to Sunset Clause"
+    },
+    {
+      "code": "200000010409",
+      "display": "Surrendered"
+    },
+    {
+      "code": "220000000066",
+      "display": "Pending"
+    },
+    {
+      "code": "220000000067",
+      "display": "Rejected"
+    }
+  ],
+  "experimental": false,
+  "compositional": false,
+  "caseSensitive": false,
+  "count": 15
+}

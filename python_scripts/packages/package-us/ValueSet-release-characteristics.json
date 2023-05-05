@@ -1,0 +1,40 @@
+{
+  "resourceType": "ValueSet",
+  "id": "release-characteristics",
+  "url": "http://unicom-project.eu/fhir/ValueSet/release-characteristics",
+  "name": "ReleaseCharacteristics",
+  "title": "Release characteristics",
+  "status": "active",
+  "experimental": false,
+  "description": "ValueSet Release characteristics from EDQM, RCA, see https://standardterms.edqm.eu/#",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "https://standardterms.edqm.eu",
+        "concept": [
+          {
+            "code": "0044",
+            "display": "Delayed"
+          },
+          {
+            "code": "0045",
+            "display": "Prolonged"
+          },
+          {
+            "code": "0046",
+            "display": "Modified"
+          },
+          {
+            "code": "0047",
+            "display": "Conventional"
+          },
+          {
+            "code": "0048",
+            "display": "Unknown"
+          }
+        ]
+      }
+    ]
+  }
+}

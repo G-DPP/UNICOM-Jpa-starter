@@ -1,0 +1,51 @@
+{
+  "resourceType": "AdministrableProductDefinition",
+  "id": "Cefuroxime-MIP-1500mg-EE-APD",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"
+    ]
+  },
+  "status": "active",
+  "formOf": [
+    {
+      "reference": "MedicinalProductDefinition/Cefuroxime-MIP-1500mg-EE-MPD"
+    }
+  ],
+  "administrableDoseForm": {
+    "coding": [
+      {
+        "code": "100000074038",
+        "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
+        "display": "Solution for injection/infusion"
+      }
+    ]
+  },
+  "unitOfPresentation": {
+    "coding": [
+      {
+        "code": "200000002158",
+        "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+        "display": "Vial"
+      }
+    ]
+  },
+  "producedFrom": [
+    {
+      "reference": "ManufacturedItemDefinition/Cefuroxime-MIP-1500mg-EE-MID"
+    }
+  ],
+  "routeOfAdministration": [
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "100000073600",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000073345",
+            "display": "Intramuscular use"
+          }
+        ]
+      }
+    }
+  ]
+}

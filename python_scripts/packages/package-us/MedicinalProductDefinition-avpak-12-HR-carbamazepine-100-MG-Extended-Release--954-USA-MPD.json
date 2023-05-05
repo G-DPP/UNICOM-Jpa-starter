@@ -1,0 +1,136 @@
+{
+  "resourceType": "MedicinalProductDefinition",
+  "id": "avpak-12-HR-carbamazepine-100-MG-Extended-Release--954-USA-MPD",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://ema.europa.eu/fhir/mpId",
+      "value": "avpak-12-HR-carbamazepine-100-MG-Extended-Release--954-USA-MPD"
+    }
+  ],
+  "name": [
+    {
+      "part": [
+        {
+          "type": {
+            "coding": [
+              {
+                "code": "220000000002",
+                "system": "https://spor.ema.europa.eu/v1/lists/220000000000",
+                "display": "Invented name part"
+              }
+            ]
+          },
+          "part": "invented part"
+        },
+        {
+          "type": {
+            "coding": [
+              {
+                "code": "220000000005",
+                "system": "https://spor.ema.europa.eu/v1/lists/220000000000",
+                "display": "Pharmaceutical dose form part"
+              }
+            ]
+          },
+          "part": "dose form"
+        },
+        {
+          "type": {
+            "coding": [
+              {
+                "code": "220000000004",
+                "system": "https://spor.ema.europa.eu/v1/lists/220000000000",
+                "display": "Strength part"
+              }
+            ]
+          },
+          "part": "strength"
+        }
+      ],
+      "usage": [
+        {
+          "country": {
+            "coding": [
+              {
+                "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
+                "code": "100000000557",
+                "display": "United States of America"
+              }
+            ]
+          },
+          "language": {
+            "coding": [
+              {
+                "system": "https://spor.ema.europa.eu/v1/lists/100000072057",
+                "code": "100000072147",
+                "display": "English"
+              }
+            ]
+          }
+        }
+      ],
+      "productName": "avpak 12 HR carbamazepine 100 MG Extended Release Oral Capsule x 30 BLISTER PACK in 1 BOX   > 1 CAPSULE, EXTENDED RELEASE in 1 BLISTER PACK"
+    }
+  ],
+  "domain": {
+    "coding": [
+      {
+        "code": "100000000012",
+        "system": "https://spor.ema.europa.eu/v1/lists/100000000004",
+        "display": "Human use"
+      }
+    ]
+  },
+  "status": {
+    "coding": [
+      {
+        "code": "200000005004",
+        "system": "https://spor.ema.europa.eu/v1/lists/200000005003",
+        "display": "Provisional"
+      }
+    ]
+  },
+  "combinedPharmaceuticalDoseForm": {
+    "coding": [
+      {
+        "code": "100000073662",
+        "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
+        "display": "Prolonged-release capsule, hard"
+      }
+    ]
+  },
+  "legalStatusOfSupply": {
+    "coding": [
+      {
+        "code": "100000072084",
+        "system": "https://spor.ema.europa.eu/v1/lists/100000072051",
+        "display": "Medicinal Product subject to medical prescription"
+      }
+    ]
+  },
+  "classification": [
+    {
+      "coding": [
+        {
+          "code": "100000095065",
+          "system": "https://spor.ema.europa.eu/v1/lists/100000093533",
+          "display": "amlodipine"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "code": "C08CA01",
+          "system": "http://www.whocc.no/atc",
+          "display": "amlodipine"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1452 @@
+{
+  "resourceType": "Bundle",
+  "id": "4fe1c8c5-7f33-4f26-b3cc-24b5a03efe8c",
+  "meta": {
+    "lastUpdated": "2023-05-10T10:24:01.337+00:00"
+  },
+  "type": "searchset",
+  "total": 38,
+  "link": [
+    {
+      "relation": "self",
+      "url": "http://fhir.hl7.pt/fhir/MedicationStatement/?_count=20000"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationStatement/matilda-med-stat-3",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "matilda-med-stat-3",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T19:01:01.722+00:00",
+          "source": "#Dls2bOt8qdyaskWD"
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu",
+          "display": "Pentasa 1g mesalazine"
+        },
+        "subject": {
+          "reference": "Patient/matilda-patient",
+          "display": "Matilda Gravitate"
+        },
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "system": "http://standardterms.edqm.eu",
+                  "code": "20053000",
+                  "display": "Oral use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationStatement/29074ca4-efcb-4ff4-8446-feed2399a895",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "29074ca4-efcb-4ff4-8446-feed2399a895",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T19:01:02.557+00:00",
+          "source": "#ExKsPksJbhdGrfC2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Brand Name</th><th>MAN</th><th>Active Substance</th><th>Common Name</th><th>ATC</th><th>Strength</th><th>Dose Form</th><th>RoA</th></tr></thead><tbody><tr><td>Skilarence</td><td>EU/1/17/1201/001</td><td>dimethyl fumarate (FO2303MNI2)</td><td>dimethyl fumarate</td><td>L04AX07</td><td>30 mg</td><td>Gastro-resistant tablet</td><td>Oral use</td></tr></tbody></table></div>"
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/b50ae644-e0b7-4007-809f-26f493cbe365",
+          "display": "Dimethyl fumarate 30 mg Tablet"
+        },
+        "subject": {
+          "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd6",
+          "display": "Maria Gravitate"
+        },
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "system": "http://standardterms.edqm.eu",
+                  "code": "20053000",
+                  "display": "Oral use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationStatement/f6cb1218-f81c-4338-80d8-3c10910f78f5",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "f6cb1218-f81c-4338-80d8-3c10910f78f5",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T19:01:02.614+00:00",
+          "source": "#2ywZVN5ctAAUfkx3"
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/de131e15-ed13-4b31-b38c-3204a84d99c5",
+          "display": "Irbesartan 75 mg Tablet"
+        },
+        "subject": {
+          "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd6",
+          "display": "Maria Gravitate"
+        },
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "system": "http://standardterms.edqm.eu",
+                  "code": "20053000",
+                  "display": "Oral use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationStatement/matilda-med-stat-2",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "matilda-med-stat-2",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2023-05-09T17:06:21.668+00:00",
+          "source": "#nH40Kbupz2LPm25j"
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et",
+          "display": "PARACETAMOL 1000 MG"
+        },
+        "subject": {
+          "reference": "Patient/matilda-patient",
+          "display": "Matilda Gravitate"
+        },
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "system": "http://standardterms.edqm.eu",
+                  "code": "20053000",
+                  "display": "Oral use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationStatement/f26084c9-b1c8-46d9-acb2-1d400ade87b5",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "f26084c9-b1c8-46d9-acb2-1d400ade87b5",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T19:01:02.676+00:00",
+          "source": "#fP6n9BHgrXHdBkQl"
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/9ac3356c-4ea4-4814-84c3-235484f2ef15",
+          "display": "Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray"
+        },
+        "subject": {
+          "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd6",
+          "display": "Maria Gravitate"
+        },
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "system": "http://standardterms.edqm.eu",
+                  "code": "20049000",
+                  "display": "Nasal use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationStatement/cecilia-med-stat-1",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "cecilia-med-stat-1",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T19:01:03.431+00:00",
+          "source": "#sA345F9G6FRso5y7"
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/b50ae644-e0b7-4007-809f-26f493cbe36c",
+          "display": "Dimethyl fumarate 30 mg Tablet"
+        },
+        "subject": {
+          "reference": "Patient/cecilia-patient",
+          "display": "Cecilia Gravitate"
+        },
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "system": "http://standardterms.edqm.eu",
+                  "code": "20053000",
+                  "display": "Oral use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationStatement/cecilia-med-stat-2",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "cecilia-med-stat-2",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T19:01:03.489+00:00",
+          "source": "#Laj7QTKr2KIbDD3L"
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/de131e15-ed13-4b31-b38c-3204a84d99c4",
+          "display": "Irbesartan 75 mg Tablet"
+        },
+        "subject": {
+          "reference": "Patient/cecilia-patient",
+          "display": "Cecilia Gravitate"
+        },
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "system": "http://standardterms.edqm.eu",
+                  "code": "20053000",
+                  "display": "Oral use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationStatement/cecilia-med-stat-3",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "cecilia-med-stat-3",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T19:01:03.545+00:00",
+          "source": "#TyIIlmnDyj3uzc1C"
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/9ac3356c-4ea4-4814-84c3-235484f2ef19",
+          "display": "Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray"
+        },
+        "subject": {
+          "reference": "Patient/cecilia-patient",
+          "display": "Cecilia Gravitate"
+        },
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "system": "http://standardterms.edqm.eu",
+                  "code": "20049000",
+                  "display": "Nasal use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationStatement/cecilia-med-stat-4",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "cecilia-med-stat-4",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T19:01:03.611+00:00",
+          "source": "#4EltjFIopRgbM8gH"
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/9ac3356c-4ea4-4814-84c3-235484f2ef19",
+          "display": "Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray"
+        },
+        "subject": {
+          "reference": "Patient/cecilia-patient",
+          "display": "Cecilia Gravitate"
+        },
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "system": "http://standardterms.edqm.eu",
+                  "code": "20049000",
+                  "display": "Nasal use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationStatement/pedro-med-stat-1",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "pedro-med-stat-1",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T19:01:04.231+00:00",
+          "source": "#f5wSuiu0my4vgQ6q"
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/9d7be868-8264-4d94-ad04-ef04ecc92e52",
+          "display": "Dovato 50 mg/300 mg (Dolutegravir/ Lamivudine) tablets"
+        },
+        "subject": {
+          "reference": "Patient/pedro-patient",
+          "display": "Pedro Gravitate"
+        },
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "system": "http://standardterms.edqm.eu",
+                  "code": "20053000",
+                  "display": "Oral use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationStatement/pedro-med-stat-2",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "pedro-med-stat-2",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T19:01:04.284+00:00",
+          "source": "#nwdA8WdUyXby2BmR"
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4",
+          "display": "Mirtazapine 30 mg Coated Tablet"
+        },
+        "subject": {
+          "reference": "Patient/pedro-patient",
+          "display": "Pedro Gravitate"
+        },
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "system": "http://standardterms.edqm.eu",
+                  "code": "20053000",
+                  "display": "Oral use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationStatement/pedro-med-stat-3",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "pedro-med-stat-3",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T19:01:04.340+00:00",
+          "source": "#Bnh9wrQUqCToOrSz"
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g",
+          "display": "CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES"
+        },
+        "subject": {
+          "reference": "Patient/pedro-patient",
+          "display": "Pedro Gravitate"
+        },
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "system": "http://standardterms.edqm.eu",
+                  "code": "20053000",
+                  "display": "Oral use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationStatement/pedro-med-stat-4",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "pedro-med-stat-4",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T19:01:04.394+00:00",
+          "source": "#Dzkb4Q1ROsJjaQfp"
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77854",
+          "display": "cinitrapide 1 mg"
+        },
+        "subject": {
+          "reference": "Patient/pedro-patient",
+          "display": "Pedro Gravitate"
+        },
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "system": "http://standardterms.edqm.eu",
+                  "code": "20053000",
+                  "display": "Oral use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationStatement/pedro-med-stat-5",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "pedro-med-stat-5",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T19:01:04.443+00:00",
+          "source": "#UKcnkNAaanATt7H9"
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77855",
+          "display": "Collagen and magnesium supplements"
+        },
+        "subject": {
+          "reference": "Patient/pedro-patient",
+          "display": "Pedro Gravitate"
+        },
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "system": "http://standardterms.edqm.eu",
+                  "code": "20053000",
+                  "display": "Oral use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationStatement/pedro-med-stat-6",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "pedro-med-stat-6",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T19:01:04.503+00:00",
+          "source": "#zp4dLhUfjq3EDwaS"
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77856",
+          "display": "Vitaminc C supplement"
+        },
+        "subject": {
+          "reference": "Patient/pedro-patient",
+          "display": "Pedro Gravitate"
+        },
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "system": "http://standardterms.edqm.eu",
+                  "code": "20053000",
+                  "display": "Oral use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationStatement/pedro-med-stat-7",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "pedro-med-stat-7",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T19:01:04.554+00:00",
+          "source": "#8fDIAzkCFJegb6us"
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77857",
+          "display": "Protein supplements"
+        },
+        "subject": {
+          "reference": "Patient/pedro-patient",
+          "display": "Pedro Gravitate"
+        },
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "system": "http://standardterms.edqm.eu",
+                  "code": "20053000",
+                  "display": "Oral use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationStatement/18eb9898-dea7-4c5e-b097-e507e011747b",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "18eb9898-dea7-4c5e-b097-e507e011747b",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T19:01:05.405+00:00",
+          "source": "#K7DE8quQdFaXCpnQ"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Brand Name</th><th>MAN</th><th>Active Substance</th><th>Common Name</th><th>ATC</th><th>Strength</th><th>Dose Form</th><th>RoA</th></tr></thead><tbody><tr><td>Humalog Mix50 Insulin KwikPen, 3ml pre-fill</td><td>EU/1/96/007/035</td><td>insulin lispro (GFX7QIS1II)</td><td>insulin lispro</td><td>A10AD04</td><td>100 U/ml</td><td>Suspension for injection</td><td>Subcutaneous use</td></tr></tbody></table></div>"
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/9d7be868-8264-4d94-ad04-ef04ecc92e50",
+          "display": "Humalog Mix50 Insulin KwikPen, 3ml pre-fill"
+        },
+        "subject": {
+          "reference": "Patient/be61951b-44fc-4853-8822-f9d398193c50",
+          "display": "Helen Gravitate"
+        },
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "system": "http://standardterms.edqm.eu",
+                  "code": "20066000",
+                  "display": "Subcutaneous use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationStatement/c90b943a-3d8e-4f14-b56d-5c5c208b2065",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "c90b943a-3d8e-4f14-b56d-5c5c208b2065",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T19:01:05.456+00:00",
+          "source": "#pqGp08ZavV46cmG2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Brand Name</th><th>MAN</th><th>Active Substance</th><th>Common Name</th><th>ATC</th><th>Strength</th><th>Dose Form</th><th>RoA</th></tr></thead><tbody><tr><td>Monuril 3 g granules for oral solution</td><td>PL31654/0006</td><td>FOSFOMYCIN (2N81MY12TE)</td><td>fosfomycin</td><td>J01XX01</td><td>3 g (as trometamol: 5.631g/sachet)</td><td>Granules for oral solution</td><td>Oral use</td></tr></tbody></table></div>"
+        },
+        "basedOn": [
+          {
+            "reference": "MedicationRequest/c872135e-f219-4f32-8fd6-7099009abf42"
+          }
+        ],
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e3",
+          "display": "Monuril 3g granules for oral solution"
+        },
+        "subject": {
+          "reference": "Patient/be61951b-44fc-4853-8822-f9d398193c50",
+          "display": "Helen Gravitate"
+        },
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "system": "http://standardterms.edqm.eu",
+                  "code": "20053000",
+                  "display": "Oral use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationStatement/29074ca4-efcb-4ff4-8446-feed2399a893",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "29074ca4-efcb-4ff4-8446-feed2399a893",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T19:01:06.084+00:00",
+          "source": "#TW4DYzIHzob1GYw2"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Brand Name</th><th>MAN</th><th>Active Substance</th><th>Common Name</th><th>ATC</th><th>Strength</th><th>Dose Form</th><th>RoA</th></tr></thead><tbody><tr><td>Skilarence</td><td>EU/1/17/1201/001</td><td>dimethyl fumarate (FO2303MNI2)</td><td>dimethyl fumarate</td><td>L04AX07</td><td>30 mg</td><td>Gastro-resistant tablet</td><td>Oral use</td></tr></tbody></table></div>"
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/b50ae644-e0b7-4007-809f-26f493cbe363",
+          "display": "Dimethyl fumarate 30 mg Tablet"
+        },
+        "subject": {
+          "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd3",
+          "display": "Maria Gravitate"
+        },
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "system": "http://standardterms.edqm.eu",
+                  "code": "20053000",
+                  "display": "Oral use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationStatement/f6cb1218-f81c-4338-80d8-3c10910f78f3",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "f6cb1218-f81c-4338-80d8-3c10910f78f3",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T19:01:06.132+00:00",
+          "source": "#ov3kdFQgcCitelB6"
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/de131e15-ed13-4b31-b38c-3204a84d99c3",
+          "display": "Irbesartan 75 mg Tablet"
+        },
+        "subject": {
+          "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd3",
+          "display": "Maria Gravitate"
+        },
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "system": "http://standardterms.edqm.eu",
+                  "code": "20053000",
+                  "display": "Oral use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationStatement/f26084c9-b1c8-46d9-acb2-1d400ade87b3",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "f26084c9-b1c8-46d9-acb2-1d400ade87b3",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T19:01:06.186+00:00",
+          "source": "#o3vsSMUjRvvqR59d"
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/9ac3356c-4ea4-4814-84c3-235484f2ef13",
+          "display": "Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray"
+        },
+        "subject": {
+          "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd3",
+          "display": "Maria Gravitate"
+        },
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "system": "http://standardterms.edqm.eu",
+                  "code": "20049000",
+                  "display": "Nasal use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationStatement/29074ca4-efcb-4ff4-8446-feed2399a899",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "29074ca4-efcb-4ff4-8446-feed2399a899",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T19:01:06.896+00:00",
+          "source": "#SzmQD3R2SRS6jsfY"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Brand Name</th><th>MAN</th><th>Active Substance</th><th>Common Name</th><th>ATC</th><th>Strength</th><th>Dose Form</th><th>RoA</th></tr></thead><tbody><tr><td>Skilarence</td><td>EU/1/17/1201/001</td><td>dimethyl fumarate (FO2303MNI2)</td><td>dimethyl fumarate</td><td>L04AX07</td><td>30 mg</td><td>Gastro-resistant tablet</td><td>Oral use</td></tr></tbody></table></div>"
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/b50ae644-e0b7-4007-809f-26f493cbe36b",
+          "display": "Dimethyl fumarate 30 mg Tablet"
+        },
+        "subject": {
+          "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd5",
+          "display": "Maria Gravitate"
+        },
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "system": "http://standardterms.edqm.eu",
+                  "code": "20053000",
+                  "display": "Oral use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationStatement/f6cb1218-f81c-4338-80d8-3c10910f78fd",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "f6cb1218-f81c-4338-80d8-3c10910f78fd",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T19:01:06.960+00:00",
+          "source": "#Gb2L4acnI90I2HmQ"
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/de131e15-ed13-4b31-b38c-3204a84d99c7",
+          "display": "Irbesartan 75 mg Tablet"
+        },
+        "subject": {
+          "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd5",
+          "display": "Maria Gravitate"
+        },
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "system": "http://standardterms.edqm.eu",
+                  "code": "20053000",
+                  "display": "Oral use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationStatement/f26084c9-b1c8-46d9-acb2-1d400ade87ba",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "f26084c9-b1c8-46d9-acb2-1d400ade87ba",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T19:01:07.012+00:00",
+          "source": "#C37HHOcKqrOzdYiw"
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/9ac3356c-4ea4-4814-84c3-235484f2ef10",
+          "display": "Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray"
+        },
+        "subject": {
+          "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd5",
+          "display": "Maria Gravitate"
+        },
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "system": "http://standardterms.edqm.eu",
+                  "code": "20049000",
+                  "display": "Nasal use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationStatement/29074ca4-efcb-4ff4-8446-feed2399a891",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "29074ca4-efcb-4ff4-8446-feed2399a891",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T19:01:07.711+00:00",
+          "source": "#7yHO4PCQIhup23pS"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Brand Name</th><th>MAN</th><th>Active Substance</th><th>Common Name</th><th>ATC</th><th>Strength</th><th>Dose Form</th><th>RoA</th></tr></thead><tbody><tr><td>Skilarence</td><td>EU/1/17/1201/001</td><td>dimethyl fumarate (FO2303MNI2)</td><td>dimethyl fumarate</td><td>L04AX07</td><td>30 mg</td><td>Gastro-resistant tablet</td><td>Oral use</td></tr></tbody></table></div>"
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/b50ae644-e0b7-4007-809f-26f493cbe361",
+          "display": "Dimethyl fumarate 30 mg Tablet"
+        },
+        "subject": {
+          "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd1",
+          "display": "Maria Gravitate"
+        },
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "system": "http://standardterms.edqm.eu",
+                  "code": "20053000",
+                  "display": "Oral use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationStatement/f6cb1218-f81c-4338-80d8-3c10910f78f1",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "f6cb1218-f81c-4338-80d8-3c10910f78f1",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T19:01:07.765+00:00",
+          "source": "#aVWJMJhWduuKeetN"
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/de131e15-ed13-4b31-b38c-3204a84d99c1",
+          "display": "Irbesartan 75 mg Tablet"
+        },
+        "subject": {
+          "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd1",
+          "display": "Maria Gravitate"
+        },
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "system": "http://standardterms.edqm.eu",
+                  "code": "20053000",
+                  "display": "Oral use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationStatement/f26084c9-b1c8-46d9-acb2-1d400ade87b1",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "f26084c9-b1c8-46d9-acb2-1d400ade87b1",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T19:01:07.817+00:00",
+          "source": "#w0cktlZUkVZKmJhY"
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/9ac3356c-4ea4-4814-84c3-235484f2ef11",
+          "display": "Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray"
+        },
+        "subject": {
+          "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd1",
+          "display": "Maria Gravitate"
+        },
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "system": "http://standardterms.edqm.eu",
+                  "code": "20049000",
+                  "display": "Nasal use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationStatement/29074ca4-efcb-4ff4-8446-feed2399a892",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "29074ca4-efcb-4ff4-8446-feed2399a892",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2023-04-16T10:43:47.348+00:00",
+          "source": "#S3X0MYP8634M6mmp"
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/b50ae644-e0b7-4007-809f-26f493cbe362",
+          "display": "Remsima 100 mg powder for concentrate for solution for infusion"
+        },
+        "subject": {
+          "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd2",
+          "display": "IPS 4 Gravitate"
+        },
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "system": "http://standardterms.edqm.eu",
+                  "code": "20045000",
+                  "display": "Intravenous use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationStatement/f6cb1218-f81c-4338-80d8-3c10910f78f2",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "f6cb1218-f81c-4338-80d8-3c10910f78f2",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2023-04-16T10:43:47.396+00:00",
+          "source": "#8TbLqNzCCXMM2Ro9"
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/de131e15-ed13-4b31-b38c-3204a84d99c2",
+          "display": "Karvea 75 mg Tablet"
+        },
+        "subject": {
+          "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd2",
+          "display": "IPS 4 Gravitate"
+        },
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "system": "http://standardterms.edqm.eu",
+                  "code": "20053000",
+                  "display": "Oral use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationStatement/f26084c9-b1c8-46d9-acb2-1d400ade87b2",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "f26084c9-b1c8-46d9-acb2-1d400ade87b2",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2023-04-16T10:43:47.453+00:00",
+          "source": "#kBqWzhfrcYp6htrG"
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/9ac3356c-4ea4-4814-84c3-235484f2ef12",
+          "display": "Humalog 100 U/ml 5 pre-filled pen"
+        },
+        "subject": {
+          "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd2",
+          "display": "IPS 4 Gravitate"
+        },
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "system": "http://standardterms.edqm.eu",
+                  "code": "20066000",
+                  "display": "Subcutaneous use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationStatement/matilda-med-stat-1",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "matilda-med-stat-1",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2023-05-09T17:06:21.354+00:00",
+          "source": "#ONWtozkVXcKygYZn"
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/9d7be868-8264-4d94-ad04-ef04ecc92e51",
+          "display": "Humira 20 mg"
+        },
+        "subject": {
+          "reference": "Patient/matilda-patient",
+          "display": "Matilda Gravitate"
+        },
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "system": "http://standardterms.edqm.eu",
+                  "code": "20066000",
+                  "display": "Subcutaneous use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationStatement/alicia-med-stat-1",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "alicia-med-stat-1",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T17:07:39.268+00:00",
+          "source": "#EynDZySlW4n3Dsuo"
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/9d7be868-8264-4d94-ad04-ef04ecc92i99",
+          "display": "BIKTARVY Bictegravir/Emtricitabine/Tenofovir Alafenamide 1 t QD"
+        },
+        "subject": {
+          "reference": "Patient/alicia-patient",
+          "display": "Alicia Gravitate"
+        },
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "system": "http://standardterms.edqm.eu",
+                  "code": "20053000",
+                  "display": "Oral use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationStatement/alicia-med-stat-2",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "alicia-med-stat-2",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T17:07:39.561+00:00",
+          "source": "#yrjDcfrGdLYtecrf"
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2g8i1",
+          "display": "Folic Acid + Cyanocobalamin + Iodur 1 t QD"
+        },
+        "subject": {
+          "reference": "Patient/alicia-patient",
+          "display": "Alicia Gravitate"
+        },
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "system": "http://standardterms.edqm.eu",
+                  "code": "20053000",
+                  "display": "Oral use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationStatement/alicia-med-stat-3",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "alicia-med-stat-3",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T17:07:40.077+00:00",
+          "source": "#wYsQ6CLFuMquACEa"
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785h",
+          "display": "CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES"
+        },
+        "subject": {
+          "reference": "Patient/alicia-patient",
+          "display": "Alicia Gravitate"
+        },
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "system": "http://standardterms.edqm.eu",
+                  "code": "20053000",
+                  "display": "Oral use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationStatement/alicia-med-stat-4",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "alicia-med-stat-4",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T17:07:40.567+00:00",
+          "source": "#zBPzcB3hmYtdfIiC"
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda78356",
+          "display": "Carbamazepine  1 t TID"
+        },
+        "subject": {
+          "reference": "Patient/alicia-patient",
+          "display": "alicia Gravitate"
+        },
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "system": "http://standardterms.edqm.eu",
+                  "code": "20053000",
+                  "display": "Oral use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationStatement/alicia-med-stat-5",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "alicia-med-stat-5",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T17:07:41.102+00:00",
+          "source": "#jEg1sz0AHKZVt3Bz"
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda78333",
+          "display": "Orlistat 1 cp TID"
+        },
+        "subject": {
+          "reference": "Patient/alicia-patient",
+          "display": "Alicia Gravitate"
+        },
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "system": "http://standardterms.edqm.eu",
+                  "code": "20053000",
+                  "display": "Oral use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationStatement/alicia-med-stat-6",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "alicia-med-stat-6",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T17:07:41.403+00:00",
+          "source": "#jgjVvpJ6J3P7VUgw"
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda79261",
+          "display": "St. John\u2019s Wort 2 cp BID"
+        },
+        "subject": {
+          "reference": "Patient/alicia-patient",
+          "display": "Alicia Gravitate"
+        },
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "system": "http://standardterms.edqm.eu",
+                  "code": "20053000",
+                  "display": "Oral use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationStatement/alicia-med-stat-7",
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "alicia-med-stat-7",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T17:07:41.687+00:00",
+          "source": "#oufrKpgOS8cUJWfX"
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77853",
+          "display": "Collagen and magnesium supplements"
+        },
+        "subject": {
+          "reference": "Patient/alicia-patient",
+          "display": "alicia Gravitate"
+        },
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "system": "http://standardterms.edqm.eu",
+                  "code": "20053000",
+                  "display": "Oral use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    }
+  ]
+}

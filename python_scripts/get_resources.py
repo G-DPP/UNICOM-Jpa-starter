@@ -50,7 +50,9 @@ class Settings:
 def get_search_bundles(server_url="https://jpa.unicom.datawizard.it/fhir", resource_name="MedicinalProductDefinition", count=None, _is_next=False):
     url = os.path.join(server_url, resource_name) if (resource_name and not _is_next) else server_url
     if count:
-        url = PreparedRequest().prepare_url(url, {'_count': count}).url
+        req = PreparedRequest()
+        req.prepare_url(url, {'_count': count})
+        url = req.url
     result_bundle = requests.get(url).json()
 
     request_result_filepath = os.path.join(Settings.result_directory, resource_name, f"{result_bundle['id']}.json")

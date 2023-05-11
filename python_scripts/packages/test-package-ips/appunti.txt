@@ -1,5 +1,56 @@
 TODO:
- Manca un esempio per la risorsa Procedure
- Manca un esempio per la risorsa Immunization
- Manca un esempio per la risorsa DeviceUseStatement
- Manca un esempio per la risorsa Device
+    Manca un esempio per la risorsa Procedure
+    Manca un esempio per la risorsa Immunization
+    Manca un esempio per la risorsa DeviceUseStatement
+    Manca un esempio per la risorsa Device
+
+
+CAMPI DELLE RISORSE:
+Patient
+    nazionalità
+    nome
+    cognome
+    genere
+    data nascita
+
+Practitioner
+    nome
+    cognome
+    prefisso
+
+AllergyIntolerance
+    clinicalStatus
+    verificationStatus
+    code
+    code manifestation
+
+MedicationStatement
+    medication id
+    dosage?
+
+Condition
+    clinicalStatus
+    code disease
+    onsetDateTime?
+    asserter?
+
+Observation (Vital Signs)
+    code
+    value
+    unità di misura?
+
+Observation (Results)
+    code
+    effectiveDateTime
+    value
+    code interpretation?
+    referenceRange?
+
+Observation (Pregnancy History)
+    effectiveDateTime?
+    valueCodeableConcept
+
+
+DOMANDE JOAO:
+    1.Come vedere se l'estensione del Patient "patient-citizenship" è required
+    2.Come si definisce l'identifier del Patient

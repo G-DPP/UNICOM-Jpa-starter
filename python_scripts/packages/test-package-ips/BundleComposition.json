@@ -6,15 +6,6 @@
       "resource": {
         "resourceType": "Patient",
         "id": "test-bundle-ips",
-        "meta": {
-          "versionId": "1",
-          "lastUpdated": "2023-03-11T18:57:44.924+00:00",
-          "source": "#DBeRnGsjNxhXdFAF"
-        },
-        "text": {
-          "status": "generated",
-          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Matilda <b>GRAVITATE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>Matilda-1</td></tr><tr><td>Date of birth</td><td><span>01 September 1950</span></td></tr></tbody></table></div>"
-        },
         "extension": [
           {
             "url": "http://hl7.org/fhir/StructureDefinition/patient-citizenship",

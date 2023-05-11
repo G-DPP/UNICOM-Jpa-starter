@@ -1,6 +1,6 @@
 {
   "resourceType": "Bundle",
-  "type": "transaction",
+  "type": "batch",
   "entry": [
     {
       "resource": {
@@ -36,10 +36,10 @@
         }
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "Observation/e06e43a1-38d4-468f-8c35-f7f12da91061"
       },
-      "fullUrl": "Observation/e06e43a1-38d4-468f-8c35-f7f12da91061"
+      "fullUrl": "http://localhost:3080/fhir/Observation/e06e43a1-38d4-468f-8c35-f7f12da91061"
     },
     {
       "resource": {
@@ -84,10 +84,10 @@
         }
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "Observation/bmi-miguel"
       },
-      "fullUrl": "Observation/bmi-miguel"
+      "fullUrl": "http://localhost:3080/fhir/Observation/bmi-miguel"
     },
     {
       "resource": {
@@ -136,10 +136,10 @@
         }
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "Observation/249"
       },
-      "fullUrl": "Observation/249"
+      "fullUrl": "http://localhost:3080/fhir/Observation/249"
     },
     {
       "resource": {
@@ -189,10 +189,10 @@
         }
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "Observation/bmi-alvar"
       },
-      "fullUrl": "Observation/bmi-alvar"
+      "fullUrl": "http://localhost:3080/fhir/Observation/bmi-alvar"
     },
     {
       "resource": {
@@ -241,10 +241,10 @@
         }
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "Observation/bmi-ilidio-magalhaes"
       },
-      "fullUrl": "Observation/bmi-ilidio-magalhaes"
+      "fullUrl": "http://localhost:3080/fhir/Observation/bmi-ilidio-magalhaes"
     },
     {
       "resource": {
@@ -281,10 +281,10 @@
         }
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "Observation/bmi-ilidio-magalhaes2"
       },
-      "fullUrl": "Observation/bmi-ilidio-magalhaes2"
+      "fullUrl": "http://localhost:3080/fhir/Observation/bmi-ilidio-magalhaes2"
     },
     {
       "resource": {
@@ -332,10 +332,10 @@
         }
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "Observation/1mlima"
       },
-      "fullUrl": "Observation/1mlima"
+      "fullUrl": "http://localhost:3080/fhir/Observation/1mlima"
     },
     {
       "resource": {
@@ -408,10 +408,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "Observation/bp-miguel"
       },
-      "fullUrl": "Observation/bp-miguel"
+      "fullUrl": "http://localhost:3080/fhir/Observation/bp-miguel"
     },
     {
       "resource": {
@@ -493,10 +493,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "Observation/bp-alvar"
       },
-      "fullUrl": "Observation/bp-alvar"
+      "fullUrl": "http://localhost:3080/fhir/Observation/bp-alvar"
     },
     {
       "resource": {
@@ -569,10 +569,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "Observation/bp-ilidio-magalhaes-gracias-miguel"
       },
-      "fullUrl": "Observation/bp-ilidio-magalhaes-gracias-miguel"
+      "fullUrl": "http://localhost:3080/fhir/Observation/bp-ilidio-magalhaes-gracias-miguel"
     },
     {
       "resource": {
@@ -653,10 +653,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "Observation/mlima2"
       },
-      "fullUrl": "Observation/mlima2"
+      "fullUrl": "http://localhost:3080/fhir/Observation/mlima2"
     },
     {
       "resource": {
@@ -705,10 +705,10 @@
         }
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "Observation/259"
       },
-      "fullUrl": "Observation/259"
+      "fullUrl": "http://localhost:3080/fhir/Observation/259"
     },
     {
       "resource": {
@@ -755,10 +755,10 @@
         }
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "Observation/cfsb1680166702525-ricsal"
       },
-      "fullUrl": "Observation/cfsb1680166702525-ricsal"
+      "fullUrl": "http://localhost:3080/fhir/Observation/cfsb1680166702525-ricsal"
     },
     {
       "resource": {
@@ -806,10 +806,10 @@
         }
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "Observation/emarques"
       },
-      "fullUrl": "Observation/emarques"
+      "fullUrl": "http://localhost:3080/fhir/Observation/emarques"
     },
     {
       "resource": {
@@ -890,10 +890,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "Observation/emarques-bp"
       },
-      "fullUrl": "Observation/emarques-bp"
+      "fullUrl": "http://localhost:3080/fhir/Observation/emarques-bp"
     },
     {
       "resource": {
@@ -930,10 +930,10 @@
         }
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "Observation/e06e43a1-38d4-468f-8c35-f7f12da91062"
       },
-      "fullUrl": "Observation/e06e43a1-38d4-468f-8c35-f7f12da91062"
+      "fullUrl": "http://localhost:3080/fhir/Observation/e06e43a1-38d4-468f-8c35-f7f12da91062"
     },
     {
       "resource": {
@@ -990,10 +990,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "Observation/ObservationExampleMiguel"
       },
-      "fullUrl": "Observation/ObservationExampleMiguel"
+      "fullUrl": "http://localhost:3080/fhir/Observation/ObservationExampleMiguel"
     },
     {
       "resource": {
@@ -1039,10 +1039,10 @@
         }
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "Observation/286"
       },
-      "fullUrl": "Observation/286"
+      "fullUrl": "http://localhost:3080/fhir/Observation/286"
     },
     {
       "resource": {
@@ -1106,10 +1106,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "Observation/IlidioObservationFSH"
       },
-      "fullUrl": "Observation/IlidioObservationFSH"
+      "fullUrl": "http://localhost:3080/fhir/Observation/IlidioObservationFSH"
     },
     {
       "resource": {
@@ -1152,10 +1152,10 @@
         }
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "Observation/bw"
       },
-      "fullUrl": "Observation/bw"
+      "fullUrl": "http://localhost:3080/fhir/Observation/bw"
     },
     {
       "resource": {
@@ -1226,10 +1226,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "Observation/glucose"
       },
-      "fullUrl": "Observation/glucose"
+      "fullUrl": "http://localhost:3080/fhir/Observation/glucose"
     },
     {
       "resource": {
@@ -1272,10 +1272,10 @@
         }
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "Observation/ObservationExemploAlvar"
       },
-      "fullUrl": "Observation/ObservationExemploAlvar"
+      "fullUrl": "http://localhost:3080/fhir/Observation/ObservationExemploAlvar"
     },
     {
       "resource": {
@@ -1347,10 +1347,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "Observation/bp"
       },
-      "fullUrl": "Observation/bp"
+      "fullUrl": "http://localhost:3080/fhir/Observation/bp"
     },
     {
       "resource": {
@@ -1393,10 +1393,10 @@
         }
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "Observation/bh"
       },
-      "fullUrl": "Observation/bh"
+      "fullUrl": "http://localhost:3080/fhir/Observation/bh"
     }
   ]
 }

@@ -1,8 +1,20 @@
 {
   "resourceType": "Bundle",
-  "type": "transaction",
+  "id": "af1ae80f-cc66-4364-9b72-bdf5577db0cb",
+  "meta": {
+    "lastUpdated": "2023-05-11T09:46:47.043+00:00"
+  },
+  "type": "searchset",
+  "total": 76,
+  "link": [
+    {
+      "relation": "self",
+      "url": "http://fhir.hl7.pt/fhir/Medication?_count=20000"
+    }
+  ],
   "entry": [
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/b50ae644-e0b7-4007-809f-26f493cbe365",
       "resource": {
         "resourceType": "Medication",
         "id": "b50ae644-e0b7-4007-809f-26f493cbe365",
@@ -72,13 +84,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/b50ae644-e0b7-4007-809f-26f493cbe365"
-      },
-      "fullUrl": "Medication/b50ae644-e0b7-4007-809f-26f493cbe365"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/de131e15-ed13-4b31-b38c-3204a84d99c5",
       "resource": {
         "resourceType": "Medication",
         "id": "de131e15-ed13-4b31-b38c-3204a84d99c5",
@@ -148,13 +159,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/de131e15-ed13-4b31-b38c-3204a84d99c5"
-      },
-      "fullUrl": "Medication/de131e15-ed13-4b31-b38c-3204a84d99c5"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/9ac3356c-4ea4-4814-84c3-235484f2ef15",
       "resource": {
         "resourceType": "Medication",
         "id": "9ac3356c-4ea4-4814-84c3-235484f2ef15",
@@ -218,13 +228,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/9ac3356c-4ea4-4814-84c3-235484f2ef15"
-      },
-      "fullUrl": "Medication/9ac3356c-4ea4-4814-84c3-235484f2ef15"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/b50ae644-e0b7-4007-809f-26f493cbe36c",
       "resource": {
         "resourceType": "Medication",
         "id": "b50ae644-e0b7-4007-809f-26f493cbe36c",
@@ -293,13 +302,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/b50ae644-e0b7-4007-809f-26f493cbe36c"
-      },
-      "fullUrl": "Medication/b50ae644-e0b7-4007-809f-26f493cbe36c"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/de131e15-ed13-4b31-b38c-3204a84d99c4",
       "resource": {
         "resourceType": "Medication",
         "id": "de131e15-ed13-4b31-b38c-3204a84d99c4",
@@ -363,13 +371,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/de131e15-ed13-4b31-b38c-3204a84d99c4"
-      },
-      "fullUrl": "Medication/de131e15-ed13-4b31-b38c-3204a84d99c4"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/9ac3356c-4ea4-4814-84c3-235484f2ef19",
       "resource": {
         "resourceType": "Medication",
         "id": "9ac3356c-4ea4-4814-84c3-235484f2ef19",
@@ -438,13 +445,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/9ac3356c-4ea4-4814-84c3-235484f2ef19"
-      },
-      "fullUrl": "Medication/9ac3356c-4ea4-4814-84c3-235484f2ef19"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/9d7be868-8264-4d94-ad04-ef04ecc92e52",
       "resource": {
         "resourceType": "Medication",
         "id": "9d7be868-8264-4d94-ad04-ef04ecc92e52",
@@ -543,13 +549,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/9d7be868-8264-4d94-ad04-ef04ecc92e52"
-      },
-      "fullUrl": "Medication/9d7be868-8264-4d94-ad04-ef04ecc92e52"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77855",
       "resource": {
         "resourceType": "Medication",
         "id": "6f4151e9-91f6-4f1e-adc3-fb94dda77855",
@@ -620,13 +625,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77855"
-      },
-      "fullUrl": "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77855"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77856",
       "resource": {
         "resourceType": "Medication",
         "id": "6f4151e9-91f6-4f1e-adc3-fb94dda77856",
@@ -678,13 +682,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77856"
-      },
-      "fullUrl": "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77856"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77857",
       "resource": {
         "resourceType": "Medication",
         "id": "6f4151e9-91f6-4f1e-adc3-fb94dda77857",
@@ -731,13 +734,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77857"
-      },
-      "fullUrl": "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77857"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et",
       "resource": {
         "resourceType": "Medication",
         "id": "fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et",
@@ -806,13 +808,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et"
-      },
-      "fullUrl": "Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu",
       "resource": {
         "resourceType": "Medication",
         "id": "fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu",
@@ -882,13 +883,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu"
-      },
-      "fullUrl": "Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4",
       "resource": {
         "resourceType": "Medication",
         "id": "fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4",
@@ -957,13 +957,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4"
-      },
-      "fullUrl": "Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g",
       "resource": {
         "resourceType": "Medication",
         "id": "6f4151e9-91f6-4f1e-adc3-fb94dda7785g",
@@ -1053,13 +1052,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g"
-      },
-      "fullUrl": "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77854",
       "resource": {
         "resourceType": "Medication",
         "id": "6f4151e9-91f6-4f1e-adc3-fb94dda77854",
@@ -1129,13 +1127,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77854"
-      },
-      "fullUrl": "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77854"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/9d7be868-8264-4d94-ad04-ef04ecc92e50",
       "resource": {
         "resourceType": "Medication",
         "id": "9d7be868-8264-4d94-ad04-ef04ecc92e50",
@@ -1210,13 +1207,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/9d7be868-8264-4d94-ad04-ef04ecc92e50"
-      },
-      "fullUrl": "Medication/9d7be868-8264-4d94-ad04-ef04ecc92e50"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e3",
       "resource": {
         "resourceType": "Medication",
         "id": "fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e3",
@@ -1286,13 +1282,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e3"
-      },
-      "fullUrl": "Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e3"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/b50ae644-e0b7-4007-809f-26f493cbe363",
       "resource": {
         "resourceType": "Medication",
         "id": "b50ae644-e0b7-4007-809f-26f493cbe363",
@@ -1362,13 +1357,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/b50ae644-e0b7-4007-809f-26f493cbe363"
-      },
-      "fullUrl": "Medication/b50ae644-e0b7-4007-809f-26f493cbe363"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/de131e15-ed13-4b31-b38c-3204a84d99c3",
       "resource": {
         "resourceType": "Medication",
         "id": "de131e15-ed13-4b31-b38c-3204a84d99c3",
@@ -1438,13 +1432,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/de131e15-ed13-4b31-b38c-3204a84d99c3"
-      },
-      "fullUrl": "Medication/de131e15-ed13-4b31-b38c-3204a84d99c3"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/9ac3356c-4ea4-4814-84c3-235484f2ef13",
       "resource": {
         "resourceType": "Medication",
         "id": "9ac3356c-4ea4-4814-84c3-235484f2ef13",
@@ -1508,13 +1501,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/9ac3356c-4ea4-4814-84c3-235484f2ef13"
-      },
-      "fullUrl": "Medication/9ac3356c-4ea4-4814-84c3-235484f2ef13"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/b50ae644-e0b7-4007-809f-26f493cbe36b",
       "resource": {
         "resourceType": "Medication",
         "id": "b50ae644-e0b7-4007-809f-26f493cbe36b",
@@ -1584,13 +1576,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/b50ae644-e0b7-4007-809f-26f493cbe36b"
-      },
-      "fullUrl": "Medication/b50ae644-e0b7-4007-809f-26f493cbe36b"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/de131e15-ed13-4b31-b38c-3204a84d99c7",
       "resource": {
         "resourceType": "Medication",
         "id": "de131e15-ed13-4b31-b38c-3204a84d99c7",
@@ -1660,13 +1651,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/de131e15-ed13-4b31-b38c-3204a84d99c7"
-      },
-      "fullUrl": "Medication/de131e15-ed13-4b31-b38c-3204a84d99c7"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/9ac3356c-4ea4-4814-84c3-235484f2ef10",
       "resource": {
         "resourceType": "Medication",
         "id": "9ac3356c-4ea4-4814-84c3-235484f2ef10",
@@ -1730,13 +1720,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/9ac3356c-4ea4-4814-84c3-235484f2ef10"
-      },
-      "fullUrl": "Medication/9ac3356c-4ea4-4814-84c3-235484f2ef10"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/b50ae644-e0b7-4007-809f-26f493cbe361",
       "resource": {
         "resourceType": "Medication",
         "id": "b50ae644-e0b7-4007-809f-26f493cbe361",
@@ -1806,13 +1795,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/b50ae644-e0b7-4007-809f-26f493cbe361"
-      },
-      "fullUrl": "Medication/b50ae644-e0b7-4007-809f-26f493cbe361"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/de131e15-ed13-4b31-b38c-3204a84d99c1",
       "resource": {
         "resourceType": "Medication",
         "id": "de131e15-ed13-4b31-b38c-3204a84d99c1",
@@ -1882,13 +1870,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/de131e15-ed13-4b31-b38c-3204a84d99c1"
-      },
-      "fullUrl": "Medication/de131e15-ed13-4b31-b38c-3204a84d99c1"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/9ac3356c-4ea4-4814-84c3-235484f2ef11",
       "resource": {
         "resourceType": "Medication",
         "id": "9ac3356c-4ea4-4814-84c3-235484f2ef11",
@@ -1952,13 +1939,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/9ac3356c-4ea4-4814-84c3-235484f2ef11"
-      },
-      "fullUrl": "Medication/9ac3356c-4ea4-4814-84c3-235484f2ef11"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/5d129355-4b20-40d8-841f-7f93acbc3e61",
       "resource": {
         "resourceType": "Medication",
         "id": "5d129355-4b20-40d8-841f-7f93acbc3e61",
@@ -2012,13 +1998,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/5d129355-4b20-40d8-841f-7f93acbc3e61"
-      },
-      "fullUrl": "Medication/5d129355-4b20-40d8-841f-7f93acbc3e61"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/de131e15-ed13-4b31-b38c-3204a84d99c2",
       "resource": {
         "resourceType": "Medication",
         "id": "de131e15-ed13-4b31-b38c-3204a84d99c2",
@@ -2088,13 +2073,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/de131e15-ed13-4b31-b38c-3204a84d99c2"
-      },
-      "fullUrl": "Medication/de131e15-ed13-4b31-b38c-3204a84d99c2"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/9ac3356c-4ea4-4814-84c3-235484f2ef12",
       "resource": {
         "resourceType": "Medication",
         "id": "9ac3356c-4ea4-4814-84c3-235484f2ef12",
@@ -2160,13 +2144,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/9ac3356c-4ea4-4814-84c3-235484f2ef12"
-      },
-      "fullUrl": "Medication/9ac3356c-4ea4-4814-84c3-235484f2ef12"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/5d129355-4b20-40d8-841f-7f93acbc3e62",
       "resource": {
         "resourceType": "Medication",
         "id": "5d129355-4b20-40d8-841f-7f93acbc3e62",
@@ -2220,13 +2203,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/5d129355-4b20-40d8-841f-7f93acbc3e62"
-      },
-      "fullUrl": "Medication/5d129355-4b20-40d8-841f-7f93acbc3e62"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/b50ae644-e0b7-4007-809f-26f493cbe362",
       "resource": {
         "resourceType": "Medication",
         "id": "b50ae644-e0b7-4007-809f-26f493cbe362",
@@ -2291,13 +2273,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/b50ae644-e0b7-4007-809f-26f493cbe362"
-      },
-      "fullUrl": "Medication/b50ae644-e0b7-4007-809f-26f493cbe362"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/9d7be868-8264-4d94-ad04-ef04ecc92e51",
       "resource": {
         "resourceType": "Medication",
         "id": "9d7be868-8264-4d94-ad04-ef04ecc92e51",
@@ -2365,13 +2346,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/9d7be868-8264-4d94-ad04-ef04ecc92e51"
-      },
-      "fullUrl": "Medication/9d7be868-8264-4d94-ad04-ef04ecc92e51"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/6f4151e9-91f6-4f1e-adc3-fb94dda78367",
       "resource": {
         "resourceType": "Medication",
         "id": "6f4151e9-91f6-4f1e-adc3-fb94dda78367",
@@ -2441,13 +2421,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda78367"
-      },
-      "fullUrl": "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda78367"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/6f4151e9-91f6-4f1e-adc3-fb94dda79261",
       "resource": {
         "resourceType": "Medication",
         "id": "6f4151e9-91f6-4f1e-adc3-fb94dda79261",
@@ -2517,13 +2496,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda79261"
-      },
-      "fullUrl": "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda79261"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785h",
       "resource": {
         "resourceType": "Medication",
         "id": "6f4151e9-91f6-4f1e-adc3-fb94dda7785h",
@@ -2613,13 +2591,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785h"
-      },
-      "fullUrl": "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785h"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2g8i1",
       "resource": {
         "resourceType": "Medication",
         "id": "fdb5c97f-0a46-41ba-bc34-2efd2ef2g8i1",
@@ -2688,13 +2665,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2g8i1"
-      },
-      "fullUrl": "Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2g8i1"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/9d7be868-8264-4d94-ad04-ef04ecc92i99",
       "resource": {
         "resourceType": "Medication",
         "id": "9d7be868-8264-4d94-ad04-ef04ecc92i99",
@@ -2818,13 +2794,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/9d7be868-8264-4d94-ad04-ef04ecc92i99"
-      },
-      "fullUrl": "Medication/9d7be868-8264-4d94-ad04-ef04ecc92i99"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/6f4151e9-91f6-4f1e-adc3-fb94dda78356",
       "resource": {
         "resourceType": "Medication",
         "id": "6f4151e9-91f6-4f1e-adc3-fb94dda78356",
@@ -2889,13 +2864,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda78356"
-      },
-      "fullUrl": "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda78356"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/6f4151e9-91f6-4f1e-adc3-fb94dda78333",
       "resource": {
         "resourceType": "Medication",
         "id": "6f4151e9-91f6-4f1e-adc3-fb94dda78333",
@@ -2960,13 +2934,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda78333"
-      },
-      "fullUrl": "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda78333"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77853",
       "resource": {
         "resourceType": "Medication",
         "id": "6f4151e9-91f6-4f1e-adc3-fb94dda77853",
@@ -3037,13 +3010,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77853"
-      },
-      "fullUrl": "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77853"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/06520e16-88df-3e2c-8a39-2d57f59375aa",
       "resource": {
         "resourceType": "Medication",
         "id": "06520e16-88df-3e2c-8a39-2d57f59375aa",
@@ -3118,13 +3090,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/06520e16-88df-3e2c-8a39-2d57f59375aa"
-      },
-      "fullUrl": "Medication/06520e16-88df-3e2c-8a39-2d57f59375aa"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/e5a8c48b-7ddc-3350-9388-36afc8702356",
       "resource": {
         "resourceType": "Medication",
         "id": "e5a8c48b-7ddc-3350-9388-36afc8702356",
@@ -3199,13 +3170,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/e5a8c48b-7ddc-3350-9388-36afc8702356"
-      },
-      "fullUrl": "Medication/e5a8c48b-7ddc-3350-9388-36afc8702356"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/93f4b432-06f7-3d23-8e17-35ca143e4951",
       "resource": {
         "resourceType": "Medication",
         "id": "93f4b432-06f7-3d23-8e17-35ca143e4951",
@@ -3280,13 +3250,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/93f4b432-06f7-3d23-8e17-35ca143e4951"
-      },
-      "fullUrl": "Medication/93f4b432-06f7-3d23-8e17-35ca143e4951"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/91939311-86b6-3bfc-8640-d1ec357b0369",
       "resource": {
         "resourceType": "Medication",
         "id": "91939311-86b6-3bfc-8640-d1ec357b0369",
@@ -3361,13 +3330,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/91939311-86b6-3bfc-8640-d1ec357b0369"
-      },
-      "fullUrl": "Medication/91939311-86b6-3bfc-8640-d1ec357b0369"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/c4c89eca-0b66-3773-97cf-99c519051f8e",
       "resource": {
         "resourceType": "Medication",
         "id": "c4c89eca-0b66-3773-97cf-99c519051f8e",
@@ -3442,13 +3410,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/c4c89eca-0b66-3773-97cf-99c519051f8e"
-      },
-      "fullUrl": "Medication/c4c89eca-0b66-3773-97cf-99c519051f8e"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/bf718851-946b-3156-9abf-f7985d912d62",
       "resource": {
         "resourceType": "Medication",
         "id": "bf718851-946b-3156-9abf-f7985d912d62",
@@ -3486,13 +3453,12 @@
           ]
         }
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/bf718851-946b-3156-9abf-f7985d912d62"
-      },
-      "fullUrl": "Medication/bf718851-946b-3156-9abf-f7985d912d62"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/8b6b1af6-be30-3aab-bc03-1806cddaef86",
       "resource": {
         "resourceType": "Medication",
         "id": "8b6b1af6-be30-3aab-bc03-1806cddaef86",
@@ -3567,13 +3533,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/8b6b1af6-be30-3aab-bc03-1806cddaef86"
-      },
-      "fullUrl": "Medication/8b6b1af6-be30-3aab-bc03-1806cddaef86"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/a5c53c39-570e-3b46-9161-7ba1aae2dc59",
       "resource": {
         "resourceType": "Medication",
         "id": "a5c53c39-570e-3b46-9161-7ba1aae2dc59",
@@ -3648,13 +3613,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/a5c53c39-570e-3b46-9161-7ba1aae2dc59"
-      },
-      "fullUrl": "Medication/a5c53c39-570e-3b46-9161-7ba1aae2dc59"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/6c10a690-7099-3185-b46c-29b17c77f135",
       "resource": {
         "resourceType": "Medication",
         "id": "6c10a690-7099-3185-b46c-29b17c77f135",
@@ -3729,13 +3693,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/6c10a690-7099-3185-b46c-29b17c77f135"
-      },
-      "fullUrl": "Medication/6c10a690-7099-3185-b46c-29b17c77f135"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/4471ece3-f761-3b48-a2c3-e9785eea95ac",
       "resource": {
         "resourceType": "Medication",
         "id": "4471ece3-f761-3b48-a2c3-e9785eea95ac",
@@ -3810,13 +3773,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/4471ece3-f761-3b48-a2c3-e9785eea95ac"
-      },
-      "fullUrl": "Medication/4471ece3-f761-3b48-a2c3-e9785eea95ac"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/3df02ba7-025a-3ce0-b4f4-cf34c7d4036d",
       "resource": {
         "resourceType": "Medication",
         "id": "3df02ba7-025a-3ce0-b4f4-cf34c7d4036d",
@@ -3891,13 +3853,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/3df02ba7-025a-3ce0-b4f4-cf34c7d4036d"
-      },
-      "fullUrl": "Medication/3df02ba7-025a-3ce0-b4f4-cf34c7d4036d"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/acd71632-fc3f-3f65-8dab-7ef1e213ec9b",
       "resource": {
         "resourceType": "Medication",
         "id": "acd71632-fc3f-3f65-8dab-7ef1e213ec9b",
@@ -3958,13 +3919,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/acd71632-fc3f-3f65-8dab-7ef1e213ec9b"
-      },
-      "fullUrl": "Medication/acd71632-fc3f-3f65-8dab-7ef1e213ec9b"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/748dfcbf-fcde-3c1e-9fb9-798641608296",
       "resource": {
         "resourceType": "Medication",
         "id": "748dfcbf-fcde-3c1e-9fb9-798641608296",
@@ -4011,13 +3971,12 @@
           ]
         }
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/748dfcbf-fcde-3c1e-9fb9-798641608296"
-      },
-      "fullUrl": "Medication/748dfcbf-fcde-3c1e-9fb9-798641608296"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/4dc06f2b-af82-3fad-be2f-85c751829380",
       "resource": {
         "resourceType": "Medication",
         "id": "4dc06f2b-af82-3fad-be2f-85c751829380",
@@ -4092,13 +4051,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/4dc06f2b-af82-3fad-be2f-85c751829380"
-      },
-      "fullUrl": "Medication/4dc06f2b-af82-3fad-be2f-85c751829380"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/107d658d-ed47-35c5-9f26-8e9af5e338df",
       "resource": {
         "resourceType": "Medication",
         "id": "107d658d-ed47-35c5-9f26-8e9af5e338df",
@@ -4136,13 +4094,12 @@
           ]
         }
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/107d658d-ed47-35c5-9f26-8e9af5e338df"
-      },
-      "fullUrl": "Medication/107d658d-ed47-35c5-9f26-8e9af5e338df"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/0d5c4680-cde4-3d3e-a8cc-7921d92c7318",
       "resource": {
         "resourceType": "Medication",
         "id": "0d5c4680-cde4-3d3e-a8cc-7921d92c7318",
@@ -4215,13 +4172,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/0d5c4680-cde4-3d3e-a8cc-7921d92c7318"
-      },
-      "fullUrl": "Medication/0d5c4680-cde4-3d3e-a8cc-7921d92c7318"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/d875b59e-95cb-3393-af74-e8d2ee67a2c8",
       "resource": {
         "resourceType": "Medication",
         "id": "d875b59e-95cb-3393-af74-e8d2ee67a2c8",
@@ -4268,13 +4224,12 @@
           ]
         }
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/d875b59e-95cb-3393-af74-e8d2ee67a2c8"
-      },
-      "fullUrl": "Medication/d875b59e-95cb-3393-af74-e8d2ee67a2c8"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/dd56c4fe-aa05-3074-84c3-04e4f0306c11",
       "resource": {
         "resourceType": "Medication",
         "id": "dd56c4fe-aa05-3074-84c3-04e4f0306c11",
@@ -4347,13 +4302,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/dd56c4fe-aa05-3074-84c3-04e4f0306c11"
-      },
-      "fullUrl": "Medication/dd56c4fe-aa05-3074-84c3-04e4f0306c11"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/f6a544c5-067d-3472-9842-9ba0a234141d",
       "resource": {
         "resourceType": "Medication",
         "id": "f6a544c5-067d-3472-9842-9ba0a234141d",
@@ -4428,13 +4382,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/f6a544c5-067d-3472-9842-9ba0a234141d"
-      },
-      "fullUrl": "Medication/f6a544c5-067d-3472-9842-9ba0a234141d"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/0f2266d9-47b8-32d4-a457-8c1cdf1aa76a",
       "resource": {
         "resourceType": "Medication",
         "id": "0f2266d9-47b8-32d4-a457-8c1cdf1aa76a",
@@ -4509,13 +4462,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/0f2266d9-47b8-32d4-a457-8c1cdf1aa76a"
-      },
-      "fullUrl": "Medication/0f2266d9-47b8-32d4-a457-8c1cdf1aa76a"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/791c3eec-4133-32b6-82be-631edafcdacc",
       "resource": {
         "resourceType": "Medication",
         "id": "791c3eec-4133-32b6-82be-631edafcdacc",
@@ -4590,13 +4542,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/791c3eec-4133-32b6-82be-631edafcdacc"
-      },
-      "fullUrl": "Medication/791c3eec-4133-32b6-82be-631edafcdacc"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/71e4e5e5-0bdc-3ace-8629-d49a790a9f8d",
       "resource": {
         "resourceType": "Medication",
         "id": "71e4e5e5-0bdc-3ace-8629-d49a790a9f8d",
@@ -4671,13 +4622,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/71e4e5e5-0bdc-3ace-8629-d49a790a9f8d"
-      },
-      "fullUrl": "Medication/71e4e5e5-0bdc-3ace-8629-d49a790a9f8d"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/0599fc68-abff-37e1-a5c2-f272291c5f8a",
       "resource": {
         "resourceType": "Medication",
         "id": "0599fc68-abff-37e1-a5c2-f272291c5f8a",
@@ -4752,13 +4702,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/0599fc68-abff-37e1-a5c2-f272291c5f8a"
-      },
-      "fullUrl": "Medication/0599fc68-abff-37e1-a5c2-f272291c5f8a"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/f15ebc61-e708-3bf8-8530-45c221f79e0f",
       "resource": {
         "resourceType": "Medication",
         "id": "f15ebc61-e708-3bf8-8530-45c221f79e0f",
@@ -4805,13 +4754,12 @@
           ]
         }
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/f15ebc61-e708-3bf8-8530-45c221f79e0f"
-      },
-      "fullUrl": "Medication/f15ebc61-e708-3bf8-8530-45c221f79e0f"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/393e5c51-1641-385b-9a18-069b597106a8",
       "resource": {
         "resourceType": "Medication",
         "id": "393e5c51-1641-385b-9a18-069b597106a8",
@@ -4886,13 +4834,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/393e5c51-1641-385b-9a18-069b597106a8"
-      },
-      "fullUrl": "Medication/393e5c51-1641-385b-9a18-069b597106a8"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/f4e4d9b4-25b4-3808-b970-8ac1fe41b088",
       "resource": {
         "resourceType": "Medication",
         "id": "f4e4d9b4-25b4-3808-b970-8ac1fe41b088",
@@ -4967,13 +4914,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/f4e4d9b4-25b4-3808-b970-8ac1fe41b088"
-      },
-      "fullUrl": "Medication/f4e4d9b4-25b4-3808-b970-8ac1fe41b088"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/a5228734-6734-3d2a-b0d2-b6f45b23210e",
       "resource": {
         "resourceType": "Medication",
         "id": "a5228734-6734-3d2a-b0d2-b6f45b23210e",
@@ -5046,13 +4992,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/a5228734-6734-3d2a-b0d2-b6f45b23210e"
-      },
-      "fullUrl": "Medication/a5228734-6734-3d2a-b0d2-b6f45b23210e"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/a85e2b7a-7c23-3292-9c81-f4d37c4656bd",
       "resource": {
         "resourceType": "Medication",
         "id": "a85e2b7a-7c23-3292-9c81-f4d37c4656bd",
@@ -5127,13 +5072,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/a85e2b7a-7c23-3292-9c81-f4d37c4656bd"
-      },
-      "fullUrl": "Medication/a85e2b7a-7c23-3292-9c81-f4d37c4656bd"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/08b7dcd1-4bf1-3c00-b857-997232599b3a",
       "resource": {
         "resourceType": "Medication",
         "id": "08b7dcd1-4bf1-3c00-b857-997232599b3a",
@@ -5208,13 +5152,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/08b7dcd1-4bf1-3c00-b857-997232599b3a"
-      },
-      "fullUrl": "Medication/08b7dcd1-4bf1-3c00-b857-997232599b3a"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/7c1c59a6-c198-3b04-8130-c721aab665d0",
       "resource": {
         "resourceType": "Medication",
         "id": "7c1c59a6-c198-3b04-8130-c721aab665d0",
@@ -5289,13 +5232,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/7c1c59a6-c198-3b04-8130-c721aab665d0"
-      },
-      "fullUrl": "Medication/7c1c59a6-c198-3b04-8130-c721aab665d0"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/51b4d793-c635-3e47-b9b9-e37b6a391e61",
       "resource": {
         "resourceType": "Medication",
         "id": "51b4d793-c635-3e47-b9b9-e37b6a391e61",
@@ -5370,13 +5312,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/51b4d793-c635-3e47-b9b9-e37b6a391e61"
-      },
-      "fullUrl": "Medication/51b4d793-c635-3e47-b9b9-e37b6a391e61"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/0b6b9668-11f0-3b81-a4b6-8a93edc8d29b",
       "resource": {
         "resourceType": "Medication",
         "id": "0b6b9668-11f0-3b81-a4b6-8a93edc8d29b",
@@ -5423,13 +5364,12 @@
           ]
         }
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/0b6b9668-11f0-3b81-a4b6-8a93edc8d29b"
-      },
-      "fullUrl": "Medication/0b6b9668-11f0-3b81-a4b6-8a93edc8d29b"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/6e4ef1e0-96ec-3161-9b63-db07588fb514",
       "resource": {
         "resourceType": "Medication",
         "id": "6e4ef1e0-96ec-3161-9b63-db07588fb514",
@@ -5467,13 +5407,12 @@
           ]
         }
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/6e4ef1e0-96ec-3161-9b63-db07588fb514"
-      },
-      "fullUrl": "Medication/6e4ef1e0-96ec-3161-9b63-db07588fb514"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/108abb8c-6a45-3d46-90fe-2a6c23eb5f90",
       "resource": {
         "resourceType": "Medication",
         "id": "108abb8c-6a45-3d46-90fe-2a6c23eb5f90",
@@ -5520,13 +5459,12 @@
           ]
         }
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/108abb8c-6a45-3d46-90fe-2a6c23eb5f90"
-      },
-      "fullUrl": "Medication/108abb8c-6a45-3d46-90fe-2a6c23eb5f90"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/e05a2437-83d7-3421-9b6f-3ef09ba87ce0",
       "resource": {
         "resourceType": "Medication",
         "id": "e05a2437-83d7-3421-9b6f-3ef09ba87ce0",
@@ -5587,13 +5525,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/e05a2437-83d7-3421-9b6f-3ef09ba87ce0"
-      },
-      "fullUrl": "Medication/e05a2437-83d7-3421-9b6f-3ef09ba87ce0"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/b8065c87-dec6-36a4-8605-ca213a0c533a",
       "resource": {
         "resourceType": "Medication",
         "id": "b8065c87-dec6-36a4-8605-ca213a0c533a",
@@ -5640,11 +5577,9 @@
           ]
         }
       },
-      "request": {
-        "method": "POST",
-        "url": "Medication/b8065c87-dec6-36a4-8605-ca213a0c533a"
-      },
-      "fullUrl": "Medication/b8065c87-dec6-36a4-8605-ca213a0c533a"
+      "search": {
+        "mode": "match"
+      }
     }
   ]
 }

@@ -1,8 +1,20 @@
 {
   "resourceType": "Bundle",
-  "type": "transaction",
+  "id": "1c8fdf1f-ad2a-4348-9764-1bb4192493fd",
+  "meta": {
+    "lastUpdated": "2023-05-11T09:46:54.290+00:00"
+  },
+  "type": "searchset",
+  "total": 2,
+  "link": [
+    {
+      "relation": "self",
+      "url": "http://fhir.hl7.pt/fhir/Encounter?_count=20000"
+    }
+  ],
   "entry": [
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Encounter/160",
       "resource": {
         "resourceType": "Encounter",
         "id": "160",
@@ -64,13 +76,12 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Encounter/160"
-      },
-      "fullUrl": "Encounter/160"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Encounter/161",
       "resource": {
         "resourceType": "Encounter",
         "id": "161",
@@ -132,11 +143,9 @@
           }
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "Encounter/161"
-      },
-      "fullUrl": "Encounter/161"
+      "search": {
+        "mode": "match"
+      }
     }
   ]
 }

@@ -1,8 +1,20 @@
 {
   "resourceType": "Bundle",
-  "type": "transaction",
+  "id": "eaeb982c-212e-4720-8a27-eb0300b1f0b6",
+  "meta": {
+    "lastUpdated": "2023-05-11T09:46:51.299+00:00"
+  },
+  "type": "searchset",
+  "total": 47,
+  "link": [
+    {
+      "relation": "self",
+      "url": "http://fhir.hl7.pt/fhir/SearchParameter?_count=20000"
+    }
+  ],
   "entry": [
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/201",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "201",
@@ -24,13 +36,12 @@
         "expression": "Patient.MaritalStatus('http://terminology.hl7.org/CodeSystem/v3-MaritalStatus').value",
         "xpathUsage": "normal"
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/201"
-      },
-      "fullUrl": "SearchParameter/201"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/202",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "202",
@@ -63,13 +74,12 @@
           "CodeableConcept"
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/202"
-      },
-      "fullUrl": "SearchParameter/202"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/maritalStatus-mlima",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "maritalStatus-mlima",
@@ -93,13 +103,12 @@
           "CodeableConcept"
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/maritalStatus-mlima"
-      },
-      "fullUrl": "SearchParameter/maritalStatus-mlima"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/203",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "203",
@@ -121,13 +130,12 @@
         "expression": "Patient.maritalStatus",
         "xpathUsage": "normal"
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/203"
-      },
-      "fullUrl": "SearchParameter/203"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/204",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "204",
@@ -157,13 +165,12 @@
         "type": "token",
         "expression": "Patient.maritalStatus('http://terminology.hl7.org/CodeSystem/v3-MaritalStatus').value"
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/204"
-      },
-      "fullUrl": "SearchParameter/204"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/205",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "205",
@@ -197,13 +204,12 @@
           "CodeableConcept"
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/205"
-      },
-      "fullUrl": "SearchParameter/205"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/206",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "206",
@@ -224,13 +230,12 @@
         "expression": "Patient.maritalStatus",
         "xpathUsage": "normal"
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/206"
-      },
-      "fullUrl": "SearchParameter/206"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/207",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "207",
@@ -260,13 +265,12 @@
           "CodeableConcept"
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/207"
-      },
-      "fullUrl": "SearchParameter/207"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/marital-joca",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "marital-joca",
@@ -290,13 +294,12 @@
           "CodeableConcept"
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/marital-joca"
-      },
-      "fullUrl": "SearchParameter/marital-joca"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/209",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "209",
@@ -317,13 +320,12 @@
         "expression": "Patient.maritalStatus",
         "xpathUsage": "normal"
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/209"
-      },
-      "fullUrl": "SearchParameter/209"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/211",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "211",
@@ -349,13 +351,12 @@
           "exact"
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/211"
-      },
-      "fullUrl": "SearchParameter/211"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/213",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "213",
@@ -376,13 +377,12 @@
         "expression": "Patient.maritalStatus",
         "xpathUsage": "normal"
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/213"
-      },
-      "fullUrl": "SearchParameter/213"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/200",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "200",
@@ -408,13 +408,12 @@
           "CodeableConcept"
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/200"
-      },
-      "fullUrl": "SearchParameter/200"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/214",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "214",
@@ -435,13 +434,12 @@
         "expression": "Patient.maritalStatus",
         "xpathUsage": "normal"
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/214"
-      },
-      "fullUrl": "SearchParameter/214"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/215",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "215",
@@ -462,13 +460,12 @@
         "expression": "Patient.maritalStatus",
         "xpathUsage": "normal"
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/215"
-      },
-      "fullUrl": "SearchParameter/215"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/EstadoCivil-RS",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "EstadoCivil-RS",
@@ -488,13 +485,12 @@
         "type": "token",
         "expression": "Patient.maritalStatus"
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/EstadoCivil-RS"
-      },
-      "fullUrl": "SearchParameter/EstadoCivil-RS"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/218",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "218",
@@ -518,13 +514,12 @@
           "CodeableConcept"
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/218"
-      },
-      "fullUrl": "SearchParameter/218"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/maritalStatus-emarques",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "maritalStatus-emarques",
@@ -545,13 +540,12 @@
         "expression": "Patient.maritalStatus",
         "xpathUsage": "normal"
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/maritalStatus-emarques"
-      },
-      "fullUrl": "SearchParameter/maritalStatus-emarques"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/219",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "219",
@@ -575,13 +569,12 @@
           "CodeableConcept"
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/219"
-      },
-      "fullUrl": "SearchParameter/219"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/220",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "220",
@@ -604,13 +597,12 @@
           "CodeableConcept"
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/220"
-      },
-      "fullUrl": "SearchParameter/220"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/221",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "221",
@@ -634,13 +626,12 @@
           "CodeableConcept"
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/221"
-      },
-      "fullUrl": "SearchParameter/221"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/222",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "222",
@@ -664,13 +655,12 @@
           "CodeableConcept"
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/222"
-      },
-      "fullUrl": "SearchParameter/222"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/223",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "223",
@@ -693,13 +683,12 @@
           "CodeableConcept"
         ]
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/223"
-      },
-      "fullUrl": "SearchParameter/223"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/224",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "224",
@@ -718,13 +707,12 @@
         "type": "token",
         "expression": "Patient.maritalStatus"
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/224"
-      },
-      "fullUrl": "SearchParameter/224"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/225",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "225",
@@ -744,13 +732,12 @@
         "type": "token",
         "expression": "Patient.maritalStatus"
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/225"
-      },
-      "fullUrl": "SearchParameter/225"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/226",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "226",
@@ -770,13 +757,12 @@
         "type": "token",
         "expression": "Patient.maritalStatus"
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/226"
-      },
-      "fullUrl": "SearchParameter/226"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/227",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "227",
@@ -796,13 +782,12 @@
         "type": "token",
         "expression": "Patient.maritalStatus"
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/227"
-      },
-      "fullUrl": "SearchParameter/227"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/228",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "228",
@@ -822,13 +807,12 @@
         "type": "token",
         "expression": "Patient.maritalStatus"
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/228"
-      },
-      "fullUrl": "SearchParameter/228"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/cfsb1679993988442",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "cfsb1679993988442",
@@ -848,13 +832,12 @@
         "type": "token",
         "expression": "Patient.maritalStatus"
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/cfsb1679993988442"
-      },
-      "fullUrl": "SearchParameter/cfsb1679993988442"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/229",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "229",
@@ -874,13 +857,12 @@
         "type": "token",
         "expression": "Patient.maritalStatus"
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/229"
-      },
-      "fullUrl": "SearchParameter/229"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/230",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "230",
@@ -900,13 +882,12 @@
         "type": "token",
         "expression": "Patient.maritalStatus"
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/230"
-      },
-      "fullUrl": "SearchParameter/230"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/231",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "231",
@@ -926,13 +907,12 @@
         "type": "token",
         "expression": "Patient.maritalStatus"
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/231"
-      },
-      "fullUrl": "SearchParameter/231"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/232",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "232",
@@ -953,13 +933,12 @@
         "expression": "Patient.maritalStatus",
         "xpathUsage": "normal"
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/232"
-      },
-      "fullUrl": "SearchParameter/232"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/233",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "233",
@@ -980,13 +959,12 @@
         "expression": "Patient.maritalStatus",
         "xpathUsage": "normal"
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/233"
-      },
-      "fullUrl": "SearchParameter/233"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/234",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "234",
@@ -1007,13 +985,12 @@
         "expression": "Patient.maritalStatus",
         "xpathUsage": "normal"
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/234"
-      },
-      "fullUrl": "SearchParameter/234"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/235",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "235",
@@ -1034,13 +1011,12 @@
         "expression": "Patient.maritalStatus",
         "xpathUsage": "normal"
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/235"
-      },
-      "fullUrl": "SearchParameter/235"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/236",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "236",
@@ -1061,13 +1037,12 @@
         "expression": "Patient.maritalStatus",
         "xpathUsage": "normal"
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/236"
-      },
-      "fullUrl": "SearchParameter/236"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/martStatuszz",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "martStatuszz",
@@ -1088,13 +1063,12 @@
         "expression": "Patient.maritalStatus",
         "xpathUsage": "normal"
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/martStatuszz"
-      },
-      "fullUrl": "SearchParameter/martStatuszz"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/maritalStatus-RS2",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "maritalStatus-RS2",
@@ -1115,13 +1089,12 @@
         "expression": "Patient.maritalStatus",
         "xpathUsage": "normal"
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/maritalStatus-RS2"
-      },
-      "fullUrl": "SearchParameter/maritalStatus-RS2"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/239",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "239",
@@ -1142,13 +1115,12 @@
         "expression": "Patient.maritalStatus",
         "xpathUsage": "normal"
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/239"
-      },
-      "fullUrl": "SearchParameter/239"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/maritalStatus-RS3",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "maritalStatus-RS3",
@@ -1169,13 +1141,12 @@
         "expression": "Patient.maritalStatus",
         "xpathUsage": "normal"
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/maritalStatus-RS3"
-      },
-      "fullUrl": "SearchParameter/maritalStatus-RS3"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/241",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "241",
@@ -1196,13 +1167,12 @@
         "expression": "Patient.maritalStatus",
         "xpathUsage": "normal"
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/241"
-      },
-      "fullUrl": "SearchParameter/241"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/242",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "242",
@@ -1223,13 +1193,12 @@
         "expression": "Patient.maritalStatus",
         "xpathUsage": "normal"
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/242"
-      },
-      "fullUrl": "SearchParameter/242"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/243",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "243",
@@ -1250,13 +1219,12 @@
         "expression": "Patient.maritalStatus",
         "xpathUsage": "normal"
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/243"
-      },
-      "fullUrl": "SearchParameter/243"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/244",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "244",
@@ -1277,13 +1245,12 @@
         "expression": "Patient.maritalStatus",
         "xpathUsage": "normal"
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/244"
-      },
-      "fullUrl": "SearchParameter/244"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/245",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "245",
@@ -1303,13 +1270,12 @@
         "expression": "Patient.maritalStatus",
         "xpathUsage": "normal"
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/245"
-      },
-      "fullUrl": "SearchParameter/245"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/SearchParameter/xxxxxxrelationshipjocayyyyy",
       "resource": {
         "resourceType": "SearchParameter",
         "id": "xxxxxxrelationshipjocayyyyy",
@@ -1332,11 +1298,9 @@
         "expression": "Patient.contact.relationship",
         "xpathUsage": "normal"
       },
-      "request": {
-        "method": "POST",
-        "url": "SearchParameter/xxxxxxrelationshipjocayyyyy"
-      },
-      "fullUrl": "SearchParameter/xxxxxxrelationshipjocayyyyy"
+      "search": {
+        "mode": "match"
+      }
     }
   ]
 }

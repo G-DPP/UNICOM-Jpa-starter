@@ -1,6 +1,6 @@
 {
   "resourceType": "Bundle",
-  "type": "transaction",
+  "type": "batch",
   "entry": [
     {
       "resource": {
@@ -86,10 +86,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "Composition/gravitate-Matilda"
       },
-      "fullUrl": "Composition/gravitate-Matilda"
+      "fullUrl": "http://localhost:3080/fhir/Composition/gravitate-Matilda"
     },
     {
       "resource": {
@@ -201,10 +201,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "Composition/ips-example-1"
       },
-      "fullUrl": "Composition/ips-example-1"
+      "fullUrl": "http://localhost:3080/fhir/Composition/ips-example-1"
     },
     {
       "resource": {
@@ -306,10 +306,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "Composition/gravitate-Cecilia"
       },
-      "fullUrl": "Composition/gravitate-Cecilia"
+      "fullUrl": "http://localhost:3080/fhir/Composition/gravitate-Cecilia"
     },
     {
       "resource": {
@@ -419,10 +419,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "Composition/gravitate-Pedro"
       },
-      "fullUrl": "Composition/gravitate-Pedro"
+      "fullUrl": "http://localhost:3080/fhir/Composition/gravitate-Pedro"
     },
     {
       "resource": {
@@ -530,10 +530,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "Composition/gravitate-helen"
       },
-      "fullUrl": "Composition/gravitate-helen"
+      "fullUrl": "http://localhost:3080/fhir/Composition/gravitate-helen"
     },
     {
       "resource": {
@@ -641,10 +641,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "Composition/ips-example-2"
       },
-      "fullUrl": "Composition/ips-example-2"
+      "fullUrl": "http://localhost:3080/fhir/Composition/ips-example-2"
     },
     {
       "resource": {
@@ -764,10 +764,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "Composition/gravitate-maria"
       },
-      "fullUrl": "Composition/gravitate-maria"
+      "fullUrl": "http://localhost:3080/fhir/Composition/gravitate-maria"
     },
     {
       "resource": {
@@ -897,10 +897,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "Composition/ips-example-3"
       },
-      "fullUrl": "Composition/ips-example-3"
+      "fullUrl": "http://localhost:3080/fhir/Composition/ips-example-3"
     },
     {
       "resource": {
@@ -1074,10 +1074,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "Composition/ips-example-4"
       },
-      "fullUrl": "Composition/ips-example-4"
+      "fullUrl": "http://localhost:3080/fhir/Composition/ips-example-4"
     },
     {
       "resource": {
@@ -1202,10 +1202,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "Composition/gravitate-Alicia"
       },
-      "fullUrl": "Composition/gravitate-Alicia"
+      "fullUrl": "http://localhost:3080/fhir/Composition/gravitate-Alicia"
     }
   ]
 }

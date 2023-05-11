@@ -1,0 +1,543 @@
+{
+  "resourceType": "Bundle",
+  "type": "batch",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "test-bundle-ips",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:57:44.924+00:00",
+          "source": "#DBeRnGsjNxhXdFAF"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Matilda <b>GRAVITATE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>Matilda-1</td></tr><tr><td>Date of birth</td><td><span>01 September 1950</span></td></tr></tbody></table></div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-citizenship",
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "urn:iso:std:iso:3166",
+                      "code": "ES",
+                      "display": "Spain"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://www.gravitatehealth.eu/sid/doc",
+            "value": "Matilda-1"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Gravitate",
+            "given": [
+              "Matilda"
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1950-09-01"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Patient/test-bundle-ips"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/test-bundle-ips"
+    },
+    {
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "test-bundle-ips",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:04.354+00:00",
+          "source": "#FaVrWYzdguge0mju"
+        },
+        "name": [
+          {
+            "family": "Lopez",
+            "given": [
+              "Ana"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/test-bundle-ips"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Practitioner/test-bundle-ips"
+},
+    {
+      "resource": {
+        "resourceType": "AllergyIntolerance",
+        "id": "test-bundle-ips",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:14.866+00:00",
+          "source": "#3ADOqcjX4Z9Nw9Ik"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Hay fever</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "256259004",
+              "display": "Pollen"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd6",
+          "display": "IPS 1"
+        },
+        "reaction": [
+          {
+            "manifestation": [
+              {
+                "coding": [
+                  {
+                    "system": "http://snomed.info/sct",
+                    "code": "21719001",
+                    "display": "Allergic rhinitis caused by pollen"
+                  }
+                ],
+                "text": "Hay fever"
+              }
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "AllergyIntolerance/test-bundle-ips"
+      },
+      "fullUrl": "http://localhost:3080/fhir/AllergyIntolerance/test-bundle-ips"
+    },
+    {
+      "resource": {
+        "resourceType": "MedicationStatement",
+        "id": "test-bundle-ips",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T19:01:01.722+00:00",
+          "source": "#Dls2bOt8qdyaskWD"
+        },
+        "status": "active",
+        "medicationReference": {
+          "reference": "Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu",
+          "display": "Pentasa 1g mesalazine"
+        },
+        "subject": {
+          "reference": "Patient/test-bundle-ips",
+          "display": "Matilda Gravitate"
+        },
+        "dosage": [
+          {
+            "route": {
+              "coding": [
+                {
+                  "system": "http://standardterms.edqm.eu",
+                  "code": "20053000",
+                  "display": "Oral use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "MedicationStatement/test-bundle-ips"
+      },
+      "fullUrl": "http://localhost:3080/fhir/MedicationStatement/test-bundle-ips"
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "test-bundle-ips",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:04.484+00:00",
+          "source": "#bT5qcwhLE2cBDFCy"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "34000006",
+              "display": "Crohn's disease"
+            }
+          ],
+          "text": "Crohn's disease"
+        },
+        "subject": {
+          "reference": "Patient/matilda-patient",
+          "display": "Matilda Gravitate"
+        },
+        "onsetDateTime": "2015",
+        "asserter": {
+          "reference": "Practitioner/matilda-pract",
+          "display": "Dr. Ana Lopez"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Condition/test-bundle-ips"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Condition/test-bundle-ips"
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "test-bundle-ips-bw",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-04-12T11:06:22.653+00:00",
+          "source": "#o9AQUvuEm1uR2GW0"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "display": "Body weight"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/test-bundle-ips",
+          "display": "IPS 4 Gravitate"
+        },
+        "effectiveDateTime": "2009-10-09",
+        "valueQuantity": {
+          "value": 70,
+          "system": "http://unitsofmeasure.org",
+          "code": "kg"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/test-bundle-ips-bw"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Observation/test-bundle-ips-bw"
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "test-bundle-ips-glucose",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-04-12T11:06:22.833+00:00",
+          "source": "#SKFqCs1PEwoj3897"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs"
+              }
+            ]
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "15074-8",
+              "display": "Glucose [Moles/volume] in Blood"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd2",
+          "display": "IPS 4 Gravitate"
+        },
+        "effectiveDateTime": "2013-04-02T09:30:10+01:00",
+        "valueQuantity": {
+          "value": 6.3,
+          "unit": "mmol/l",
+          "system": "http://unitsofmeasure.org",
+          "code": "mmol/L"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "H",
+                "display": "High"
+              }
+            ]
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 3.1,
+              "unit": "mmol/l",
+              "system": "http://unitsofmeasure.org",
+              "code": "mmol/L"
+            },
+            "high": {
+              "value": 6.2,
+              "unit": "mmol/l",
+              "system": "http://unitsofmeasure.org",
+              "code": "mmol/L"
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/test-bundle-ips-glucose"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Observation/test-bundle-ips-glucose"
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "test-bundle-ips-pregnancy-status",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:22.292+00:00",
+          "source": "#KtaLtTZeFbu6CRwm"
+        },
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "82810-3",
+              "display": "Pregnancy status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/test-bundle-ips"
+        },
+        "effectiveDateTime": "2020-01-10",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "LA15173-0",
+              "display": "Pregnant"
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Observation/test-bundle-ips-pregnancy-status"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Observation/test-bundle-ips-pregnancy-status"
+    },
+    {
+      "resource": {
+        "resourceType": "Composition",
+        "id": "test-bundle-ips",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T19:01:09.509+00:00",
+          "source": "#81bqAldO8BpIWeSi"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><b>Id:</b> gravitate-Matilda<br/><b>status:</b> final<br/><b>Type:</b> Patient summary Document<br/><b>Subject:</b> Matilda Gravitate<br/><b>Sections:</b><br/><ul><li><b>Title:</b> Problem List<br/><b>Code:</b> Problem list Reported (11450-4)</li><br/><ul><li><b>Entry:</b> <a href=\"Condition-matilda-cond-1.html\">Crohn's disease</a></li><br/></ul><li><b>Title:</b> Medication Summary<br/><b>Code:</b> Hx of Medication use (10160-0)</li><br/><ul><li><b>Entry:</b> <a href=\"MedicationStatement-matilda-med-stat-1.html\">Humira 40 mg</a></li><br/><li><b>Entry:</b> <a href=\"MedicationStatement-matilda-med-stat-2.html\">Paracetamol 500 mg</a></li><br/><li><b>Entry:</b> <a href=\"MedicationStatement-matilda-med-stat-3.html\">Pentasa 1g mesalazine</a></li><br/></ul></ul></div>"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/test-bundle-ips",
+          "display": "Matilda Gravitate"
+        },
+        "date": "2018-07-10T15:22:00+02:00",
+        "author": [
+          {
+            "reference": "Practitioner/test-bundle-ips",
+            "display": "Dr. Ana Lopez"
+          }
+        ],
+        "title": "Patient Summary (Matilda Gravitate)",
+        "confidentiality": "N",
+        "section": [
+          {
+            "title": "Problem List",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list Reported"
+                }
+              ]
+            },
+            "entry": [
+            ]
+          },
+          {
+            "title": "Medication Summary",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "Hx of Medication use"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "MedicationStatement/test-bundle-ips",
+                "display": "Diego armando maradona"
+              }
+            ]
+          },
+          {
+            "title": "Allergies and Intolerances",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "AllergyIntolerance/test-bundle-ips",
+                "display": "Lactose Intolerance"
+              }
+            ]
+          },
+          {
+            "title": "Vital Signs",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8716-3",
+                  "display": "Vital Signs"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "Observation/test-bundle-ips-bw",
+                "display": "Body weight"
+              }
+            ]
+          },
+          {
+            "title": "Results",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "30954-2",
+                  "display": "Relevant diagnostic tests/laboratory data Narrative"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "Observation/test-bundle-ips-glucose",
+                "display": "glucose"
+              }
+            ]
+          },
+          {
+            "title": "Pregnancy History",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10162-6",
+                  "display": "Pregnancies Hx"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "Observation/test-bundle-ips-pregnancy-status",
+                "display": "Pregrancy Status"
+              }
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Composition/test-bundle-ips"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Composition/test-bundle-ips"
+    }
+  ]
+}

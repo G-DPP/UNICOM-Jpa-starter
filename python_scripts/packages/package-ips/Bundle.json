@@ -1,6 +1,6 @@
 {
   "resourceType": "Bundle",
-  "type": "transaction",
+  "type": "batch",
   "entry": [
     {
       "resource": {
@@ -713,10 +713,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "Bundle/262"
       },
-      "fullUrl": "Bundle/262"
+      "fullUrl": "http://localhost:3080/fhir/Bundle/262"
     }
   ]
 }

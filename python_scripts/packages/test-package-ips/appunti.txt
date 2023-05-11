@@ -1,0 +1,5 @@
+TODO:
+ Manca un esempio per la risorsa Procedure
+ Manca un esempio per la risorsa Immunization
+ Manca un esempio per la risorsa DeviceUseStatement
+ Manca un esempio per la risorsa Device

@@ -1,20 +1,8 @@
 {
   "resourceType": "Bundle",
-  "id": "863b5f55-89ee-447a-a9a4-2fa8dfe43de9",
-  "meta": {
-    "lastUpdated": "2023-05-10T10:40:58.410+00:00"
-  },
-  "type": "searchset",
-  "total": 17,
-  "link": [
-    {
-      "relation": "self",
-      "url": "http://fhir.hl7.pt/fhir/Practitioner?_count=20000"
-    }
-  ],
+  "type": "batch",
   "entry": [
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Practitioner/matilda-pract",
       "resource": {
         "resourceType": "Practitioner",
         "id": "matilda-pract",
@@ -35,12 +23,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/matilda-pract"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Practitioner/matilda-pract"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d5",
       "resource": {
         "resourceType": "Practitioner",
         "id": "1ece89c5-fda3-4db9-ace6-decbe6c603d5",
@@ -65,12 +54,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d5"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d5"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Practitioner/cecilia-pract",
       "resource": {
         "resourceType": "Practitioner",
         "id": "cecilia-pract",
@@ -91,12 +81,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/cecilia-pract"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Practitioner/cecilia-pract"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Practitioner/pedro-pract",
       "resource": {
         "resourceType": "Practitioner",
         "id": "pedro-pract",
@@ -117,12 +108,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/pedro-pract"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Practitioner/pedro-pract"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Practitioner/45cd0bd4-f685-4117-a9f0-5c53fffb7266",
       "resource": {
         "resourceType": "Practitioner",
         "id": "45cd0bd4-f685-4117-a9f0-5c53fffb7266",
@@ -147,12 +139,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/45cd0bd4-f685-4117-a9f0-5c53fffb7266"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Practitioner/45cd0bd4-f685-4117-a9f0-5c53fffb7266"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d3",
       "resource": {
         "resourceType": "Practitioner",
         "id": "1ece89c5-fda3-4db9-ace6-decbe6c603d3",
@@ -177,12 +170,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d3"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d3"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d8",
       "resource": {
         "resourceType": "Practitioner",
         "id": "1ece89c5-fda3-4db9-ace6-decbe6c603d8",
@@ -207,12 +201,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d8"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d8"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d1",
       "resource": {
         "resourceType": "Practitioner",
         "id": "1ece89c5-fda3-4db9-ace6-decbe6c603d1",
@@ -237,12 +232,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d1"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d1"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Practitioner/f201",
       "resource": {
         "resourceType": "Practitioner",
         "id": "f201",
@@ -311,12 +307,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/f201"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Practitioner/f201"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Practitioner/196",
       "resource": {
         "resourceType": "Practitioner",
         "id": "196",
@@ -460,12 +457,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/196"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Practitioner/196"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d2",
       "resource": {
         "resourceType": "Practitioner",
         "id": "1ece89c5-fda3-4db9-ace6-decbe6c603d2",
@@ -486,12 +484,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d2"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d2"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Practitioner/alicia-pract",
       "resource": {
         "resourceType": "Practitioner",
         "id": "alicia-pract",
@@ -512,12 +511,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/alicia-pract"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Practitioner/alicia-pract"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Practitioner/b469dcd5-3746-35d5-868f-09c7ebf1f460",
       "resource": {
         "resourceType": "Practitioner",
         "id": "b469dcd5-3746-35d5-868f-09c7ebf1f460",
@@ -568,12 +568,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/b469dcd5-3746-35d5-868f-09c7ebf1f460"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Practitioner/b469dcd5-3746-35d5-868f-09c7ebf1f460"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Practitioner/f81e478b-a8dd-3f68-a9c3-1b857ea2472e",
       "resource": {
         "resourceType": "Practitioner",
         "id": "f81e478b-a8dd-3f68-a9c3-1b857ea2472e",
@@ -624,12 +625,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/f81e478b-a8dd-3f68-a9c3-1b857ea2472e"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Practitioner/f81e478b-a8dd-3f68-a9c3-1b857ea2472e"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Practitioner/0bf711af-c78d-3709-b87a-00d31a48c740",
       "resource": {
         "resourceType": "Practitioner",
         "id": "0bf711af-c78d-3709-b87a-00d31a48c740",
@@ -680,12 +682,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/0bf711af-c78d-3709-b87a-00d31a48c740"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Practitioner/0bf711af-c78d-3709-b87a-00d31a48c740"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Practitioner/323724ff-ee66-352c-a0fc-48b55a248355",
       "resource": {
         "resourceType": "Practitioner",
         "id": "323724ff-ee66-352c-a0fc-48b55a248355",
@@ -736,12 +739,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/323724ff-ee66-352c-a0fc-48b55a248355"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Practitioner/323724ff-ee66-352c-a0fc-48b55a248355"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Practitioner/55aa2345-b156-3218-b706-d9a4e4fb3d63",
       "resource": {
         "resourceType": "Practitioner",
         "id": "55aa2345-b156-3218-b706-d9a4e4fb3d63",
@@ -792,9 +796,11 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Practitioner/55aa2345-b156-3218-b706-d9a4e4fb3d63"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Practitioner/55aa2345-b156-3218-b706-d9a4e4fb3d63"
     }
   ]
 }

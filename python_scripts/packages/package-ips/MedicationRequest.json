@@ -1,20 +1,8 @@
 {
   "resourceType": "Bundle",
-  "id": "57ff1b4f-21df-466d-a3f5-bc83e847d2d0",
-  "meta": {
-    "lastUpdated": "2023-05-10T10:40:59.426+00:00"
-  },
-  "type": "searchset",
-  "total": 4,
-  "link": [
-    {
-      "relation": "self",
-      "url": "http://fhir.hl7.pt/fhir/MedicationRequest?_count=20000"
-    }
-  ],
+  "type": "batch",
   "entry": [
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationRequest/c872135e-f219-4f32-8fd6-7099009abf42",
       "resource": {
         "resourceType": "MedicationRequest",
         "id": "c872135e-f219-4f32-8fd6-7099009abf42",
@@ -33,12 +21,13 @@
           "reference": "Patient/be61951b-44fc-4853-8822-f9d398193c50"
         }
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "MedicationRequest/c872135e-f219-4f32-8fd6-7099009abf42"
+      },
+      "fullUrl": "http://localhost:3080/fhir/MedicationRequest/c872135e-f219-4f32-8fd6-7099009abf42"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationRequest/MedicationRequestFSHIlidio",
       "resource": {
         "resourceType": "MedicationRequest",
         "id": "MedicationRequestFSHIlidio",
@@ -125,12 +114,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "MedicationRequest/MedicationRequestFSHIlidio"
+      },
+      "fullUrl": "http://localhost:3080/fhir/MedicationRequest/MedicationRequestFSHIlidio"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationRequest/MedicationRequestExemploAlvar",
       "resource": {
         "resourceType": "MedicationRequest",
         "id": "MedicationRequestExemploAlvar",
@@ -175,12 +165,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "MedicationRequest/MedicationRequestExemploAlvar"
+      },
+      "fullUrl": "http://localhost:3080/fhir/MedicationRequest/MedicationRequestExemploAlvar"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationRequest/MedicationRequestMiguel",
       "resource": {
         "resourceType": "MedicationRequest",
         "id": "MedicationRequestMiguel",
@@ -268,9 +259,11 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "MedicationRequest/MedicationRequestMiguel"
+      },
+      "fullUrl": "http://localhost:3080/fhir/MedicationRequest/MedicationRequestMiguel"
     }
   ]
 }

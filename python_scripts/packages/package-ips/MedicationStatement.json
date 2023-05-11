@@ -1,6 +1,6 @@
 {
   "resourceType": "Bundle",
-  "type": "transaction",
+  "type": "batch",
   "entry": [
     {
       "resource": {
@@ -35,10 +35,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "MedicationStatement/matilda-med-stat-3"
       },
-      "fullUrl": "MedicationStatement/matilda-med-stat-3"
+      "fullUrl": "http://localhost:3080/fhir/MedicationStatement/matilda-med-stat-3"
     },
     {
       "resource": {
@@ -77,10 +77,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "MedicationStatement/29074ca4-efcb-4ff4-8446-feed2399a895"
       },
-      "fullUrl": "MedicationStatement/29074ca4-efcb-4ff4-8446-feed2399a895"
+      "fullUrl": "http://localhost:3080/fhir/MedicationStatement/29074ca4-efcb-4ff4-8446-feed2399a895"
     },
     {
       "resource": {
@@ -115,10 +115,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "MedicationStatement/f6cb1218-f81c-4338-80d8-3c10910f78f5"
       },
-      "fullUrl": "MedicationStatement/f6cb1218-f81c-4338-80d8-3c10910f78f5"
+      "fullUrl": "http://localhost:3080/fhir/MedicationStatement/f6cb1218-f81c-4338-80d8-3c10910f78f5"
     },
     {
       "resource": {
@@ -153,10 +153,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "MedicationStatement/matilda-med-stat-2"
       },
-      "fullUrl": "MedicationStatement/matilda-med-stat-2"
+      "fullUrl": "http://localhost:3080/fhir/MedicationStatement/matilda-med-stat-2"
     },
     {
       "resource": {
@@ -191,10 +191,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "MedicationStatement/f26084c9-b1c8-46d9-acb2-1d400ade87b5"
       },
-      "fullUrl": "MedicationStatement/f26084c9-b1c8-46d9-acb2-1d400ade87b5"
+      "fullUrl": "http://localhost:3080/fhir/MedicationStatement/f26084c9-b1c8-46d9-acb2-1d400ade87b5"
     },
     {
       "resource": {
@@ -229,10 +229,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "MedicationStatement/cecilia-med-stat-1"
       },
-      "fullUrl": "MedicationStatement/cecilia-med-stat-1"
+      "fullUrl": "http://localhost:3080/fhir/MedicationStatement/cecilia-med-stat-1"
     },
     {
       "resource": {
@@ -267,10 +267,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "MedicationStatement/cecilia-med-stat-2"
       },
-      "fullUrl": "MedicationStatement/cecilia-med-stat-2"
+      "fullUrl": "http://localhost:3080/fhir/MedicationStatement/cecilia-med-stat-2"
     },
     {
       "resource": {
@@ -305,10 +305,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "MedicationStatement/cecilia-med-stat-3"
       },
-      "fullUrl": "MedicationStatement/cecilia-med-stat-3"
+      "fullUrl": "http://localhost:3080/fhir/MedicationStatement/cecilia-med-stat-3"
     },
     {
       "resource": {
@@ -343,10 +343,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "MedicationStatement/cecilia-med-stat-4"
       },
-      "fullUrl": "MedicationStatement/cecilia-med-stat-4"
+      "fullUrl": "http://localhost:3080/fhir/MedicationStatement/cecilia-med-stat-4"
     },
     {
       "resource": {
@@ -381,10 +381,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "MedicationStatement/pedro-med-stat-1"
       },
-      "fullUrl": "MedicationStatement/pedro-med-stat-1"
+      "fullUrl": "http://localhost:3080/fhir/MedicationStatement/pedro-med-stat-1"
     },
     {
       "resource": {
@@ -419,10 +419,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "MedicationStatement/pedro-med-stat-2"
       },
-      "fullUrl": "MedicationStatement/pedro-med-stat-2"
+      "fullUrl": "http://localhost:3080/fhir/MedicationStatement/pedro-med-stat-2"
     },
     {
       "resource": {
@@ -457,10 +457,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "MedicationStatement/pedro-med-stat-3"
       },
-      "fullUrl": "MedicationStatement/pedro-med-stat-3"
+      "fullUrl": "http://localhost:3080/fhir/MedicationStatement/pedro-med-stat-3"
     },
     {
       "resource": {
@@ -495,10 +495,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "MedicationStatement/pedro-med-stat-4"
       },
-      "fullUrl": "MedicationStatement/pedro-med-stat-4"
+      "fullUrl": "http://localhost:3080/fhir/MedicationStatement/pedro-med-stat-4"
     },
     {
       "resource": {
@@ -533,10 +533,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "MedicationStatement/pedro-med-stat-5"
       },
-      "fullUrl": "MedicationStatement/pedro-med-stat-5"
+      "fullUrl": "http://localhost:3080/fhir/MedicationStatement/pedro-med-stat-5"
     },
     {
       "resource": {
@@ -571,10 +571,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "MedicationStatement/pedro-med-stat-6"
       },
-      "fullUrl": "MedicationStatement/pedro-med-stat-6"
+      "fullUrl": "http://localhost:3080/fhir/MedicationStatement/pedro-med-stat-6"
     },
     {
       "resource": {
@@ -609,10 +609,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "MedicationStatement/pedro-med-stat-7"
       },
-      "fullUrl": "MedicationStatement/pedro-med-stat-7"
+      "fullUrl": "http://localhost:3080/fhir/MedicationStatement/pedro-med-stat-7"
     },
     {
       "resource": {
@@ -651,10 +651,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "MedicationStatement/18eb9898-dea7-4c5e-b097-e507e011747b"
       },
-      "fullUrl": "MedicationStatement/18eb9898-dea7-4c5e-b097-e507e011747b"
+      "fullUrl": "http://localhost:3080/fhir/MedicationStatement/18eb9898-dea7-4c5e-b097-e507e011747b"
     },
     {
       "resource": {
@@ -698,10 +698,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "MedicationStatement/c90b943a-3d8e-4f14-b56d-5c5c208b2065"
       },
-      "fullUrl": "MedicationStatement/c90b943a-3d8e-4f14-b56d-5c5c208b2065"
+      "fullUrl": "http://localhost:3080/fhir/MedicationStatement/c90b943a-3d8e-4f14-b56d-5c5c208b2065"
     },
     {
       "resource": {
@@ -740,10 +740,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "MedicationStatement/29074ca4-efcb-4ff4-8446-feed2399a893"
       },
-      "fullUrl": "MedicationStatement/29074ca4-efcb-4ff4-8446-feed2399a893"
+      "fullUrl": "http://localhost:3080/fhir/MedicationStatement/29074ca4-efcb-4ff4-8446-feed2399a893"
     },
     {
       "resource": {
@@ -778,10 +778,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "MedicationStatement/f6cb1218-f81c-4338-80d8-3c10910f78f3"
       },
-      "fullUrl": "MedicationStatement/f6cb1218-f81c-4338-80d8-3c10910f78f3"
+      "fullUrl": "http://localhost:3080/fhir/MedicationStatement/f6cb1218-f81c-4338-80d8-3c10910f78f3"
     },
     {
       "resource": {
@@ -816,10 +816,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "MedicationStatement/f26084c9-b1c8-46d9-acb2-1d400ade87b3"
       },
-      "fullUrl": "MedicationStatement/f26084c9-b1c8-46d9-acb2-1d400ade87b3"
+      "fullUrl": "http://localhost:3080/fhir/MedicationStatement/f26084c9-b1c8-46d9-acb2-1d400ade87b3"
     },
     {
       "resource": {
@@ -858,10 +858,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "MedicationStatement/29074ca4-efcb-4ff4-8446-feed2399a899"
       },
-      "fullUrl": "MedicationStatement/29074ca4-efcb-4ff4-8446-feed2399a899"
+      "fullUrl": "http://localhost:3080/fhir/MedicationStatement/29074ca4-efcb-4ff4-8446-feed2399a899"
     },
     {
       "resource": {
@@ -896,10 +896,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "MedicationStatement/f6cb1218-f81c-4338-80d8-3c10910f78fd"
       },
-      "fullUrl": "MedicationStatement/f6cb1218-f81c-4338-80d8-3c10910f78fd"
+      "fullUrl": "http://localhost:3080/fhir/MedicationStatement/f6cb1218-f81c-4338-80d8-3c10910f78fd"
     },
     {
       "resource": {
@@ -934,10 +934,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "MedicationStatement/f26084c9-b1c8-46d9-acb2-1d400ade87ba"
       },
-      "fullUrl": "MedicationStatement/f26084c9-b1c8-46d9-acb2-1d400ade87ba"
+      "fullUrl": "http://localhost:3080/fhir/MedicationStatement/f26084c9-b1c8-46d9-acb2-1d400ade87ba"
     },
     {
       "resource": {
@@ -976,10 +976,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "MedicationStatement/29074ca4-efcb-4ff4-8446-feed2399a891"
       },
-      "fullUrl": "MedicationStatement/29074ca4-efcb-4ff4-8446-feed2399a891"
+      "fullUrl": "http://localhost:3080/fhir/MedicationStatement/29074ca4-efcb-4ff4-8446-feed2399a891"
     },
     {
       "resource": {
@@ -1014,10 +1014,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "MedicationStatement/f6cb1218-f81c-4338-80d8-3c10910f78f1"
       },
-      "fullUrl": "MedicationStatement/f6cb1218-f81c-4338-80d8-3c10910f78f1"
+      "fullUrl": "http://localhost:3080/fhir/MedicationStatement/f6cb1218-f81c-4338-80d8-3c10910f78f1"
     },
     {
       "resource": {
@@ -1052,10 +1052,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "MedicationStatement/f26084c9-b1c8-46d9-acb2-1d400ade87b1"
       },
-      "fullUrl": "MedicationStatement/f26084c9-b1c8-46d9-acb2-1d400ade87b1"
+      "fullUrl": "http://localhost:3080/fhir/MedicationStatement/f26084c9-b1c8-46d9-acb2-1d400ade87b1"
     },
     {
       "resource": {
@@ -1090,10 +1090,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "MedicationStatement/29074ca4-efcb-4ff4-8446-feed2399a892"
       },
-      "fullUrl": "MedicationStatement/29074ca4-efcb-4ff4-8446-feed2399a892"
+      "fullUrl": "http://localhost:3080/fhir/MedicationStatement/29074ca4-efcb-4ff4-8446-feed2399a892"
     },
     {
       "resource": {
@@ -1128,10 +1128,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "MedicationStatement/f6cb1218-f81c-4338-80d8-3c10910f78f2"
       },
-      "fullUrl": "MedicationStatement/f6cb1218-f81c-4338-80d8-3c10910f78f2"
+      "fullUrl": "http://localhost:3080/fhir/MedicationStatement/f6cb1218-f81c-4338-80d8-3c10910f78f2"
     },
     {
       "resource": {
@@ -1166,10 +1166,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "MedicationStatement/f26084c9-b1c8-46d9-acb2-1d400ade87b2"
       },
-      "fullUrl": "MedicationStatement/f26084c9-b1c8-46d9-acb2-1d400ade87b2"
+      "fullUrl": "http://localhost:3080/fhir/MedicationStatement/f26084c9-b1c8-46d9-acb2-1d400ade87b2"
     },
     {
       "resource": {
@@ -1204,10 +1204,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "MedicationStatement/matilda-med-stat-1"
       },
-      "fullUrl": "MedicationStatement/matilda-med-stat-1"
+      "fullUrl": "http://localhost:3080/fhir/MedicationStatement/matilda-med-stat-1"
     },
     {
       "resource": {
@@ -1242,10 +1242,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "MedicationStatement/alicia-med-stat-1"
       },
-      "fullUrl": "MedicationStatement/alicia-med-stat-1"
+      "fullUrl": "http://localhost:3080/fhir/MedicationStatement/alicia-med-stat-1"
     },
     {
       "resource": {
@@ -1280,10 +1280,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "MedicationStatement/alicia-med-stat-2"
       },
-      "fullUrl": "MedicationStatement/alicia-med-stat-2"
+      "fullUrl": "http://localhost:3080/fhir/MedicationStatement/alicia-med-stat-2"
     },
     {
       "resource": {
@@ -1318,10 +1318,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "MedicationStatement/alicia-med-stat-3"
       },
-      "fullUrl": "MedicationStatement/alicia-med-stat-3"
+      "fullUrl": "http://localhost:3080/fhir/MedicationStatement/alicia-med-stat-3"
     },
     {
       "resource": {
@@ -1356,10 +1356,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "MedicationStatement/alicia-med-stat-4"
       },
-      "fullUrl": "MedicationStatement/alicia-med-stat-4"
+      "fullUrl": "http://localhost:3080/fhir/MedicationStatement/alicia-med-stat-4"
     },
     {
       "resource": {
@@ -1394,10 +1394,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "MedicationStatement/alicia-med-stat-5"
       },
-      "fullUrl": "MedicationStatement/alicia-med-stat-5"
+      "fullUrl": "http://localhost:3080/fhir/MedicationStatement/alicia-med-stat-5"
     },
     {
       "resource": {
@@ -1432,10 +1432,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "MedicationStatement/alicia-med-stat-6"
       },
-      "fullUrl": "MedicationStatement/alicia-med-stat-6"
+      "fullUrl": "http://localhost:3080/fhir/MedicationStatement/alicia-med-stat-6"
     },
     {
       "resource": {
@@ -1470,10 +1470,10 @@
         ]
       },
       "request": {
-        "method": "POST",
+        "method": "PUT",
         "url": "MedicationStatement/alicia-med-stat-7"
       },
-      "fullUrl": "MedicationStatement/alicia-med-stat-7"
+      "fullUrl": "http://localhost:3080/fhir/MedicationStatement/alicia-med-stat-7"
     }
   ]
 }

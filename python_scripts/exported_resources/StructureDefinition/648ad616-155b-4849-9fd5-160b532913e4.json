@@ -1,8 +1,20 @@
 {
   "resourceType": "Bundle",
-  "type": "transaction",
+  "id": "648ad616-155b-4849-9fd5-160b532913e4",
+  "meta": {
+    "lastUpdated": "2023-05-11T09:46:54.499+00:00"
+  },
+  "type": "searchset",
+  "total": 2,
+  "link": [
+    {
+      "relation": "self",
+      "url": "http://fhir.hl7.pt/fhir/StructureDefinition?_count=20000"
+    }
+  ],
   "entry": [
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/StructureDefinition/alvar-patient-profile",
       "resource": {
         "resourceType": "StructureDefinition",
         "id": "alvar-patient-profile",
@@ -110,13 +122,12 @@
           ]
         }
       },
-      "request": {
-        "method": "POST",
-        "url": "StructureDefinition/alvar-patient-profile"
-      },
-      "fullUrl": "StructureDefinition/alvar-patient-profile"
+      "search": {
+        "mode": "match"
+      }
     },
     {
+      "fullUrl": "http://fhir.hl7.pt/fhir/StructureDefinition/ilidio-patient-profile-example",
       "resource": {
         "resourceType": "StructureDefinition",
         "id": "ilidio-patient-profile-example",
@@ -224,11 +235,9 @@
           ]
         }
       },
-      "request": {
-        "method": "POST",
-        "url": "StructureDefinition/ilidio-patient-profile-example"
-      },
-      "fullUrl": "StructureDefinition/ilidio-patient-profile-example"
+      "search": {
+        "mode": "match"
+      }
     }
   ]
 }

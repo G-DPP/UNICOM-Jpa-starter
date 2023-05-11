@@ -1,20 +1,8 @@
 {
   "resourceType": "Bundle",
-  "id": "3d3af127-3a59-413e-b607-741d471bcb30",
-  "meta": {
-    "lastUpdated": "2023-05-10T10:40:56.111+00:00"
-  },
-  "type": "searchset",
-  "total": 73,
-  "link": [
-    {
-      "relation": "self",
-      "url": "http://fhir.hl7.pt/fhir/Patient?_count=20000"
-    }
-  ],
+  "type": "batch",
   "entry": [
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/matilda-patient",
       "resource": {
         "resourceType": "Patient",
         "id": "matilda-patient",
@@ -64,12 +52,13 @@
         "gender": "female",
         "birthDate": "1950-09-01"
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/matilda-patient"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/matilda-patient"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd6",
       "resource": {
         "resourceType": "Patient",
         "id": "c154158f-6a43-4ab7-8443-e7f4bf915dd6",
@@ -119,12 +108,13 @@
         "gender": "female",
         "birthDate": "1946-05-05"
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd6"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd6"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/cecilia-patient",
       "resource": {
         "resourceType": "Patient",
         "id": "cecilia-patient",
@@ -174,12 +164,13 @@
         "gender": "female",
         "birthDate": "1946-05-05"
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/cecilia-patient"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/cecilia-patient"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/pedro-patient",
       "resource": {
         "resourceType": "Patient",
         "id": "pedro-patient",
@@ -229,12 +220,13 @@
         "gender": "male",
         "birthDate": "1980-10-05"
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/pedro-patient"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/pedro-patient"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/be61951b-44fc-4853-8822-f9d398193c50",
       "resource": {
         "resourceType": "Patient",
         "id": "be61951b-44fc-4853-8822-f9d398193c50",
@@ -284,12 +276,13 @@
         "gender": "female",
         "birthDate": "1946-05-05"
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/be61951b-44fc-4853-8822-f9d398193c50"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/be61951b-44fc-4853-8822-f9d398193c50"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd3",
       "resource": {
         "resourceType": "Patient",
         "id": "c154158f-6a43-4ab7-8443-e7f4bf915dd3",
@@ -339,12 +332,13 @@
         "gender": "female",
         "birthDate": "1946-05-05"
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd3"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd3"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd5",
       "resource": {
         "resourceType": "Patient",
         "id": "c154158f-6a43-4ab7-8443-e7f4bf915dd5",
@@ -394,12 +388,13 @@
         "gender": "female",
         "birthDate": "1946-05-05"
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd5"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd5"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd1",
       "resource": {
         "resourceType": "Patient",
         "id": "c154158f-6a43-4ab7-8443-e7f4bf915dd1",
@@ -449,12 +444,13 @@
         "gender": "female",
         "birthDate": "1978-05-05"
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd1"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd1"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/152",
       "resource": {
         "resourceType": "Patient",
         "id": "152",
@@ -557,12 +553,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/152"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/152"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/153",
       "resource": {
         "resourceType": "Patient",
         "id": "153",
@@ -674,12 +671,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/153"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/153"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/154",
       "resource": {
         "resourceType": "Patient",
         "id": "154",
@@ -791,12 +789,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/154"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/154"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/155",
       "resource": {
         "resourceType": "Patient",
         "id": "155",
@@ -908,12 +907,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/155"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/155"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/156",
       "resource": {
         "resourceType": "Patient",
         "id": "156",
@@ -1025,12 +1025,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/156"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/156"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/157",
       "resource": {
         "resourceType": "Patient",
         "id": "157",
@@ -1141,12 +1142,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/157"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/157"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/a100",
       "resource": {
         "resourceType": "Patient",
         "id": "a100",
@@ -1249,12 +1251,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/a100"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/a100"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/example-r4",
       "resource": {
         "resourceType": "Patient",
         "id": "example-r4",
@@ -1357,12 +1360,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/example-r4"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/example-r4"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/34dc88d5972fd5472a942fc80f69f35c",
       "resource": {
         "resourceType": "Patient",
         "id": "34dc88d5972fd5472a942fc80f69f35c",
@@ -1385,12 +1389,13 @@
         "gender": "male",
         "birthDate": "2000-05-10"
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/34dc88d5972fd5472a942fc80f69f35c"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/34dc88d5972fd5472a942fc80f69f35c"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/example-3",
       "resource": {
         "resourceType": "Patient",
         "id": "example-3",
@@ -1493,12 +1498,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/example-3"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/example-3"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/165",
       "resource": {
         "resourceType": "Patient",
         "id": "165",
@@ -1512,12 +1518,13 @@
           "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody></tbody></table></div>"
         }
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/165"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/165"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/166",
       "resource": {
         "resourceType": "Patient",
         "id": "166",
@@ -1531,12 +1538,13 @@
           "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody></tbody></table></div>"
         }
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/166"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/166"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/168",
       "resource": {
         "resourceType": "Patient",
         "id": "168",
@@ -1577,12 +1585,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/168"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/168"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/cfsb1679566058011",
       "resource": {
         "resourceType": "Patient",
         "id": "cfsb1679566058011",
@@ -1624,12 +1633,13 @@
           ]
         }
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/cfsb1679566058011"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/cfsb1679566058011"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/164-x",
       "resource": {
         "resourceType": "Patient",
         "id": "164-x",
@@ -1685,12 +1695,13 @@
           "text": "Married"
         }
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/164-x"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/164-x"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/164",
       "resource": {
         "resourceType": "Patient",
         "id": "164",
@@ -1746,12 +1757,13 @@
           "text": "Married"
         }
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/164"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/164"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/cfsb1679427012195",
       "resource": {
         "resourceType": "Patient",
         "id": "cfsb1679427012195",
@@ -1801,12 +1813,13 @@
           ]
         }
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/cfsb1679427012195"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/cfsb1679427012195"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/169",
       "resource": {
         "resourceType": "Patient",
         "id": "169",
@@ -1855,12 +1868,13 @@
           "text": "Married"
         }
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/169"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/169"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/174",
       "resource": {
         "resourceType": "Patient",
         "id": "174",
@@ -1906,12 +1920,13 @@
           ]
         }
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/174"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/174"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/cfsb1679566037252",
       "resource": {
         "resourceType": "Patient",
         "id": "cfsb1679566037252",
@@ -1957,12 +1972,13 @@
           ]
         }
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/cfsb1679566037252"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/cfsb1679566037252"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/adsdsdafsdafsd",
       "resource": {
         "resourceType": "Patient",
         "id": "adsdsdafsdafsd",
@@ -2000,12 +2016,13 @@
           ]
         }
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/adsdsdafsdafsd"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/adsdsdafsdafsd"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/178",
       "resource": {
         "resourceType": "Patient",
         "id": "178",
@@ -2047,12 +2064,13 @@
           ]
         }
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/178"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/178"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/179",
       "resource": {
         "resourceType": "Patient",
         "id": "179",
@@ -2099,12 +2117,13 @@
           ]
         }
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/179"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/179"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/testingFHIRIlidio",
       "resource": {
         "resourceType": "Patient",
         "id": "testingFHIRIlidio",
@@ -2151,12 +2170,13 @@
           ]
         }
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/testingFHIRIlidio"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/testingFHIRIlidio"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/BrunoMatos",
       "resource": {
         "resourceType": "Patient",
         "id": "BrunoMatos",
@@ -2213,12 +2233,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/BrunoMatos"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/BrunoMatos"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/A169",
       "resource": {
         "resourceType": "Patient",
         "id": "A169",
@@ -2267,12 +2288,13 @@
           "text": "Married"
         }
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/A169"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/A169"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/182",
       "resource": {
         "resourceType": "Patient",
         "id": "182",
@@ -2375,12 +2397,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/182"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/182"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/183",
       "resource": {
         "resourceType": "Patient",
         "id": "183",
@@ -2483,12 +2506,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/183"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/183"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/184",
       "resource": {
         "resourceType": "Patient",
         "id": "184",
@@ -2591,12 +2615,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/184"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/184"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/185",
       "resource": {
         "resourceType": "Patient",
         "id": "185",
@@ -2699,12 +2724,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/185"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/185"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/186",
       "resource": {
         "resourceType": "Patient",
         "id": "186",
@@ -2761,12 +2787,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/186"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/186"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/167",
       "resource": {
         "resourceType": "Patient",
         "id": "167",
@@ -2823,12 +2850,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/167"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/167"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/188",
       "resource": {
         "resourceType": "Patient",
         "id": "188",
@@ -2875,12 +2903,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/188"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/188"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/189",
       "resource": {
         "resourceType": "Patient",
         "id": "189",
@@ -2927,12 +2956,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/189"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/189"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/190",
       "resource": {
         "resourceType": "Patient",
         "id": "190",
@@ -2989,12 +3019,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/190"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/190"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/BrunoFILIPE",
       "resource": {
         "resourceType": "Patient",
         "id": "BrunoFILIPE",
@@ -3051,12 +3082,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/BrunoFILIPE"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/BrunoFILIPE"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/192",
       "resource": {
         "resourceType": "Patient",
         "id": "192",
@@ -3113,12 +3145,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/192"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/192"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/193",
       "resource": {
         "resourceType": "Patient",
         "id": "193",
@@ -3175,12 +3208,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/193"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/193"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/BrunoMATOS",
       "resource": {
         "resourceType": "Patient",
         "id": "BrunoMATOS",
@@ -3237,12 +3271,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/BrunoMATOS"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/BrunoMATOS"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/195",
       "resource": {
         "resourceType": "Patient",
         "id": "195",
@@ -3299,12 +3334,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/195"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/195"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/197",
       "resource": {
         "resourceType": "Patient",
         "id": "197",
@@ -3326,12 +3362,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/197"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/197"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/testingFHIRIlidioV2",
       "resource": {
         "resourceType": "Patient",
         "id": "testingFHIRIlidioV2",
@@ -3378,12 +3415,13 @@
           ]
         }
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/testingFHIRIlidioV2"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/testingFHIRIlidioV2"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/187",
       "resource": {
         "resourceType": "Patient",
         "id": "187",
@@ -3440,12 +3478,13 @@
           ]
         }
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/187"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/187"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/176",
       "resource": {
         "resourceType": "Patient",
         "id": "176",
@@ -3506,12 +3545,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/176"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/176"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/210",
       "resource": {
         "resourceType": "Patient",
         "id": "210",
@@ -3558,12 +3598,13 @@
           ]
         }
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/210"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/210"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/0b3a0b23a0c6e223b941e63787f15a6a",
       "resource": {
         "resourceType": "Patient",
         "id": "0b3a0b23a0c6e223b941e63787f15a6a",
@@ -3594,12 +3635,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/0b3a0b23a0c6e223b941e63787f15a6a"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/0b3a0b23a0c6e223b941e63787f15a6a"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd2",
       "resource": {
         "resourceType": "Patient",
         "id": "c154158f-6a43-4ab7-8443-e7f4bf915dd2",
@@ -3649,12 +3691,13 @@
         "gender": "female",
         "birthDate": "1989-05-05"
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd2"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd2"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/PatientExemploMiguel",
       "resource": {
         "resourceType": "Patient",
         "id": "PatientExemploMiguel",
@@ -3723,12 +3766,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/PatientExemploMiguel"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/PatientExemploMiguel"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/ilidiofsh",
       "resource": {
         "resourceType": "Patient",
         "id": "ilidiofsh",
@@ -3780,12 +3824,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/ilidiofsh"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/ilidiofsh"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/285",
       "resource": {
         "resourceType": "Patient",
         "id": "285",
@@ -3827,12 +3872,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/285"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/285"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/49d3c335681ab7fb2d4cdf19769655db",
       "resource": {
         "resourceType": "Patient",
         "id": "49d3c335681ab7fb2d4cdf19769655db",
@@ -3855,12 +3901,13 @@
         "gender": "male",
         "birthDate": "1997-02"
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/49d3c335681ab7fb2d4cdf19769655db"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/49d3c335681ab7fb2d4cdf19769655db"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/0bbad2343eb86d5cdc16a1b292537576",
       "resource": {
         "resourceType": "Patient",
         "id": "0bbad2343eb86d5cdc16a1b292537576",
@@ -3890,12 +3937,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/0bbad2343eb86d5cdc16a1b292537576"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/0bbad2343eb86d5cdc16a1b292537576"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/7b650be0176d6d29351f84314a5efbe3",
       "resource": {
         "resourceType": "Patient",
         "id": "7b650be0176d6d29351f84314a5efbe3",
@@ -3926,12 +3974,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/7b650be0176d6d29351f84314a5efbe3"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/7b650be0176d6d29351f84314a5efbe3"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/17c7c9664ac82f384de0ad4625f2ae4c",
       "resource": {
         "resourceType": "Patient",
         "id": "17c7c9664ac82f384de0ad4625f2ae4c",
@@ -3954,12 +4003,13 @@
         "gender": "female",
         "birthDate": "1991-03"
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/17c7c9664ac82f384de0ad4625f2ae4c"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/17c7c9664ac82f384de0ad4625f2ae4c"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/PatientExemploAlvar",
       "resource": {
         "resourceType": "Patient",
         "id": "PatientExemploAlvar",
@@ -4011,12 +4061,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/PatientExemploAlvar"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/PatientExemploAlvar"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/e1ea114dcfcea572982f224e43deb7a6",
       "resource": {
         "resourceType": "Patient",
         "id": "e1ea114dcfcea572982f224e43deb7a6",
@@ -4046,12 +4097,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/e1ea114dcfcea572982f224e43deb7a6"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/e1ea114dcfcea572982f224e43deb7a6"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/Utente1Miguel",
       "resource": {
         "resourceType": "Patient",
         "id": "Utente1Miguel",
@@ -4107,12 +4159,13 @@
         "gender": "male",
         "birthDate": "1980-09-28"
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/Utente1Miguel"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/Utente1Miguel"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/f6bf84d63799f65dcdd4f5027021adf3",
       "resource": {
         "resourceType": "Patient",
         "id": "f6bf84d63799f65dcdd4f5027021adf3",
@@ -4142,12 +4195,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/f6bf84d63799f65dcdd4f5027021adf3"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/f6bf84d63799f65dcdd4f5027021adf3"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/a06f7d449f8a655d9163204f0de8237f",
       "resource": {
         "resourceType": "Patient",
         "id": "a06f7d449f8a655d9163204f0de8237f",
@@ -4170,12 +4224,13 @@
         "gender": "female",
         "birthDate": "1999-05-12"
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/a06f7d449f8a655d9163204f0de8237f"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/a06f7d449f8a655d9163204f0de8237f"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/7bd4fad75b1efbdc50859a736b839e24",
       "resource": {
         "resourceType": "Patient",
         "id": "7bd4fad75b1efbdc50859a736b839e24",
@@ -4198,12 +4253,13 @@
         "gender": "female",
         "birthDate": "2003-11"
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/7bd4fad75b1efbdc50859a736b839e24"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/7bd4fad75b1efbdc50859a736b839e24"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/d2c82e97245ed12a2f4b9c9e5b14e1ee",
       "resource": {
         "resourceType": "Patient",
         "id": "d2c82e97245ed12a2f4b9c9e5b14e1ee",
@@ -4233,12 +4289,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/d2c82e97245ed12a2f4b9c9e5b14e1ee"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/d2c82e97245ed12a2f4b9c9e5b14e1ee"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/0866d0d7011f4e7af7b065bac9a552d2",
       "resource": {
         "resourceType": "Patient",
         "id": "0866d0d7011f4e7af7b065bac9a552d2",
@@ -4268,12 +4325,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/0866d0d7011f4e7af7b065bac9a552d2"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/0866d0d7011f4e7af7b065bac9a552d2"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/b2eb4f1f1104c46c231dd8b4292ca2f9",
       "resource": {
         "resourceType": "Patient",
         "id": "b2eb4f1f1104c46c231dd8b4292ca2f9",
@@ -4303,12 +4361,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/b2eb4f1f1104c46c231dd8b4292ca2f9"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/b2eb4f1f1104c46c231dd8b4292ca2f9"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/alicia-patient",
       "resource": {
         "resourceType": "Patient",
         "id": "alicia-patient",
@@ -4358,12 +4417,13 @@
         "gender": "female",
         "birthDate": "1998-10-05"
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/alicia-patient"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/alicia-patient"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Patient/f7ab35b2-cbaf-3e6c-8913-f046f50f7e33",
       "resource": {
         "resourceType": "Patient",
         "id": "f7ab35b2-cbaf-3e6c-8913-f046f50f7e33",
@@ -4407,9 +4467,11 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Patient/f7ab35b2-cbaf-3e6c-8913-f046f50f7e33"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Patient/f7ab35b2-cbaf-3e6c-8913-f046f50f7e33"
     }
   ]
 }

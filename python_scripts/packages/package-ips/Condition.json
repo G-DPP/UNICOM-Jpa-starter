@@ -1,20 +1,8 @@
 {
   "resourceType": "Bundle",
-  "id": "e1342cbe-3e2b-4f02-9388-b8ef5441cf6e",
-  "meta": {
-    "lastUpdated": "2023-05-10T10:40:57.715+00:00"
-  },
-  "type": "searchset",
-  "total": 28,
-  "link": [
-    {
-      "relation": "self",
-      "url": "http://fhir.hl7.pt/fhir/Condition?_count=20000"
-    }
-  ],
+  "type": "batch",
   "entry": [
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/matilda-cond-1",
       "resource": {
         "resourceType": "Condition",
         "id": "matilda-cond-1",
@@ -51,12 +39,13 @@
           "display": "Dr. Ana Lopez"
         }
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Condition/matilda-cond-1"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Condition/matilda-cond-1"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/bcc79261-142c-48ec-b032-f3f9af49ec55",
       "resource": {
         "resourceType": "Condition",
         "id": "bcc79261-142c-48ec-b032-f3f9af49ec55",
@@ -92,12 +81,13 @@
           "display": "Dr. Anna Karlsson"
         }
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Condition/bcc79261-142c-48ec-b032-f3f9af49ec55"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Condition/bcc79261-142c-48ec-b032-f3f9af49ec55"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/a4a9d90a-d1b0-4d60-82f0-c52343dc6255",
       "resource": {
         "resourceType": "Condition",
         "id": "a4a9d90a-d1b0-4d60-82f0-c52343dc6255",
@@ -138,12 +128,13 @@
           "display": "Dr. Anna Karlsson"
         }
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Condition/a4a9d90a-d1b0-4d60-82f0-c52343dc6255"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Condition/a4a9d90a-d1b0-4d60-82f0-c52343dc6255"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/f06b7cf8-c15c-4288-a0f9-45a1026e5135",
       "resource": {
         "resourceType": "Condition",
         "id": "f06b7cf8-c15c-4288-a0f9-45a1026e5135",
@@ -176,12 +167,13 @@
         },
         "onsetDateTime": "1993"
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Condition/f06b7cf8-c15c-4288-a0f9-45a1026e5135"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Condition/f06b7cf8-c15c-4288-a0f9-45a1026e5135"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/cecilia-cond-1",
       "resource": {
         "resourceType": "Condition",
         "id": "cecilia-cond-1",
@@ -217,12 +209,13 @@
           "display": "Dr. Anna Karlsson"
         }
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Condition/cecilia-cond-1"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Condition/cecilia-cond-1"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/cecilia-cond-2",
       "resource": {
         "resourceType": "Condition",
         "id": "cecilia-cond-2",
@@ -259,12 +252,13 @@
           "display": "Dr. Anna Karlsson"
         }
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Condition/cecilia-cond-2"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Condition/cecilia-cond-2"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/cecilia-cond-3",
       "resource": {
         "resourceType": "Condition",
         "id": "cecilia-cond-3",
@@ -297,12 +291,13 @@
         },
         "onsetDateTime": "1993"
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Condition/cecilia-cond-3"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Condition/cecilia-cond-3"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/cecilia-cond-4",
       "resource": {
         "resourceType": "Condition",
         "id": "cecilia-cond-4",
@@ -334,12 +329,13 @@
           "display": "Cecilia Gravitate"
         }
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Condition/cecilia-cond-4"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Condition/cecilia-cond-4"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/pedro-cond-1",
       "resource": {
         "resourceType": "Condition",
         "id": "pedro-cond-1",
@@ -381,12 +377,13 @@
           "display": "Pedro Gravitate"
         }
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Condition/pedro-cond-1"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Condition/pedro-cond-1"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/pedro-cond-2",
       "resource": {
         "resourceType": "Condition",
         "id": "pedro-cond-2",
@@ -433,12 +430,13 @@
           "display": "Dr. Xavier Garc\u00eda"
         }
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Condition/pedro-cond-2"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Condition/pedro-cond-2"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/pedro-cond-3",
       "resource": {
         "resourceType": "Condition",
         "id": "pedro-cond-3",
@@ -480,12 +478,13 @@
           "display": "Pedro Gravitate"
         }
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Condition/pedro-cond-3"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Condition/pedro-cond-3"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/de06df6b-0967-4b01-822b-7cfeea970aa7",
       "resource": {
         "resourceType": "Condition",
         "id": "de06df6b-0967-4b01-822b-7cfeea970aa7",
@@ -526,12 +525,13 @@
           "display": "Dr. Anna Karlsson"
         }
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Condition/de06df6b-0967-4b01-822b-7cfeea970aa7"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Condition/de06df6b-0967-4b01-822b-7cfeea970aa7"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/bcc79261-142c-48ec-b032-f3f9af49ec53",
       "resource": {
         "resourceType": "Condition",
         "id": "bcc79261-142c-48ec-b032-f3f9af49ec53",
@@ -567,12 +567,13 @@
           "display": "Dr. Anna Karlsson"
         }
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Condition/bcc79261-142c-48ec-b032-f3f9af49ec53"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Condition/bcc79261-142c-48ec-b032-f3f9af49ec53"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/a4a9d90a-d1b0-4d60-82f0-c52343dc6253",
       "resource": {
         "resourceType": "Condition",
         "id": "a4a9d90a-d1b0-4d60-82f0-c52343dc6253",
@@ -613,12 +614,13 @@
           "display": "Dr. Anna Karlsson"
         }
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Condition/a4a9d90a-d1b0-4d60-82f0-c52343dc6253"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Condition/a4a9d90a-d1b0-4d60-82f0-c52343dc6253"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/f06b7cf8-c15c-4288-a0f9-45a1026e5133",
       "resource": {
         "resourceType": "Condition",
         "id": "f06b7cf8-c15c-4288-a0f9-45a1026e5133",
@@ -651,12 +653,13 @@
         },
         "onsetDateTime": "1993"
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Condition/f06b7cf8-c15c-4288-a0f9-45a1026e5133"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Condition/f06b7cf8-c15c-4288-a0f9-45a1026e5133"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/bcc79261-142c-48ec-b032-f3f9af49ec58",
       "resource": {
         "resourceType": "Condition",
         "id": "bcc79261-142c-48ec-b032-f3f9af49ec58",
@@ -692,12 +695,13 @@
           "display": "Dr. Anna Karlsson"
         }
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Condition/bcc79261-142c-48ec-b032-f3f9af49ec58"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Condition/bcc79261-142c-48ec-b032-f3f9af49ec58"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/a4a9d90a-d1b0-4d60-82f0-c52343dc6256",
       "resource": {
         "resourceType": "Condition",
         "id": "a4a9d90a-d1b0-4d60-82f0-c52343dc6256",
@@ -738,12 +742,13 @@
           "display": "Dr. Anna Karlsson"
         }
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Condition/a4a9d90a-d1b0-4d60-82f0-c52343dc6256"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Condition/a4a9d90a-d1b0-4d60-82f0-c52343dc6256"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/f06b7cf8-c15c-4288-a0f9-45a1026e5130",
       "resource": {
         "resourceType": "Condition",
         "id": "f06b7cf8-c15c-4288-a0f9-45a1026e5130",
@@ -776,12 +781,13 @@
         },
         "onsetDateTime": "1993"
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Condition/f06b7cf8-c15c-4288-a0f9-45a1026e5130"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Condition/f06b7cf8-c15c-4288-a0f9-45a1026e5130"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/bcc79261-142c-48ec-b032-f3f9af49ec51",
       "resource": {
         "resourceType": "Condition",
         "id": "bcc79261-142c-48ec-b032-f3f9af49ec51",
@@ -817,12 +823,13 @@
           "display": "Dr. Anna Karlsson"
         }
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Condition/bcc79261-142c-48ec-b032-f3f9af49ec51"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Condition/bcc79261-142c-48ec-b032-f3f9af49ec51"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/a4a9d90a-d1b0-4d60-82f0-c52343dc6251",
       "resource": {
         "resourceType": "Condition",
         "id": "a4a9d90a-d1b0-4d60-82f0-c52343dc6251",
@@ -863,12 +870,13 @@
           "display": "Dr. Anna Karlsson"
         }
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Condition/a4a9d90a-d1b0-4d60-82f0-c52343dc6251"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Condition/a4a9d90a-d1b0-4d60-82f0-c52343dc6251"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/f06b7cf8-c15c-4288-a0f9-45a1026e5131",
       "resource": {
         "resourceType": "Condition",
         "id": "f06b7cf8-c15c-4288-a0f9-45a1026e5131",
@@ -901,12 +909,13 @@
         },
         "onsetDateTime": "1993"
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Condition/f06b7cf8-c15c-4288-a0f9-45a1026e5131"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Condition/f06b7cf8-c15c-4288-a0f9-45a1026e5131"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/bcc79261-142c-48ec-b032-f3f9af49ec52",
       "resource": {
         "resourceType": "Condition",
         "id": "bcc79261-142c-48ec-b032-f3f9af49ec52",
@@ -942,12 +951,13 @@
           "display": "Dr. Anna Karlsson"
         }
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Condition/bcc79261-142c-48ec-b032-f3f9af49ec52"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Condition/bcc79261-142c-48ec-b032-f3f9af49ec52"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/a4a9d90a-d1b0-4d60-82f0-c52343dc6252",
       "resource": {
         "resourceType": "Condition",
         "id": "a4a9d90a-d1b0-4d60-82f0-c52343dc6252",
@@ -984,12 +994,13 @@
           "display": "Dr. Anna Karlsson"
         }
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Condition/a4a9d90a-d1b0-4d60-82f0-c52343dc6252"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Condition/a4a9d90a-d1b0-4d60-82f0-c52343dc6252"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/f06b7cf8-c15c-4288-a0f9-45a1026e5132",
       "resource": {
         "resourceType": "Condition",
         "id": "f06b7cf8-c15c-4288-a0f9-45a1026e5132",
@@ -1022,12 +1033,13 @@
         },
         "onsetDateTime": "1993"
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Condition/f06b7cf8-c15c-4288-a0f9-45a1026e5132"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Condition/f06b7cf8-c15c-4288-a0f9-45a1026e5132"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/alicia-cond-2",
       "resource": {
         "resourceType": "Condition",
         "id": "alicia-cond-2",
@@ -1067,12 +1079,13 @@
           "display": "Dr. Walter Waltz"
         }
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Condition/alicia-cond-2"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Condition/alicia-cond-2"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/alicia-cond-3",
       "resource": {
         "resourceType": "Condition",
         "id": "alicia-cond-3",
@@ -1112,12 +1125,13 @@
           "display": "Dr. Walter Waltz"
         }
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Condition/alicia-cond-3"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Condition/alicia-cond-3"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/alicia-cond-4",
       "resource": {
         "resourceType": "Condition",
         "id": "alicia-cond-4",
@@ -1157,12 +1171,13 @@
           "display": "Dr. Walter Waltz"
         }
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Condition/alicia-cond-4"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Condition/alicia-cond-4"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/alicia-cond-1",
       "resource": {
         "resourceType": "Condition",
         "id": "alicia-cond-1",
@@ -1197,9 +1212,11 @@
           "display": "alicia Gravitate"
         }
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "PUT",
+        "url": "Condition/alicia-cond-1"
+      },
+      "fullUrl": "http://localhost:3080/fhir/Condition/alicia-cond-1"
     }
   ]
 }

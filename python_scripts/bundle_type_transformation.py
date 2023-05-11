@@ -13,7 +13,7 @@ class BundleTypes:
 class Settings:
     json_input_folder = './exported_resources/'
     json_output_folder = './transformed_bundles/'
-    server_url = ''
+    server_url = 'http://localhost:3080/fhir'
 
 
 def bundle_entries_resources(bundle_dict):
@@ -25,13 +25,13 @@ def bundle_type_is(bundle_dict, bundle_type):
     return bundle_dict.get('type') == bundle_type
 
 
-def searchset_to_transaction(bundle_dict, method):
+def _searchset_to_operation(bundle_dict, method, operation_type):
     assert bundle_type_is(bundle_dict, BundleTypes.searchset), "This bundle is not searchset"
 
     entries = []
     res_bundle = {
         "resourceType": "Bundle",
-        "type": "transaction",
+        "type": operation_type,
         "entry": entries,
     }
 
@@ -39,6 +39,14 @@ def searchset_to_transaction(bundle_dict, method):
         entries.append(transaction_entry(resource_dict, method))
 
     return res_bundle
+
+
+def searchset_to_batch(bundle_dict, method):
+    return _searchset_to_operation(bundle_dict, method, BundleTypes.batch)
+
+
+def searchset_to_transaction(bundle_dict, method):
+    return _searchset_to_operation(bundle_dict, method, BundleTypes.transaction)
 
 
 def transaction_entry(resource_dict, method):
@@ -58,8 +66,8 @@ def main():
         with open(file_path, "r") as json_file:
             bundle_dict = json.load(json_file)
 
-        transaction_bundle = searchset_to_transaction(bundle_dict, 'post')
-        request_result_filepath = os.path.join(Settings.json_output_folder, f"{bundle_dict['id']}.json")
+        transaction_bundle = searchset_to_batch(bundle_dict, 'put')
+        request_result_filepath = os.path.join(Settings.json_output_folder, f"{bundle_dict['entry'][0]['resource']['resourceType']}.json")
         with open(request_result_filepath, "w") as outfile:
             json.dump(transaction_bundle, outfile, indent=2)
 

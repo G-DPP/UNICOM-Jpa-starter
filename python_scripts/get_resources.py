@@ -3,7 +3,7 @@ import os.path
 import shutil
 
 import requests
-# from python_scripts.utilities import next_bundle_page
+from requests.models import PreparedRequest
 
 
 class Settings:
@@ -50,7 +50,7 @@ class Settings:
 def get_search_bundles(server_url="https://jpa.unicom.datawizard.it/fhir", resource_name="MedicinalProductDefinition", count=None, _is_next=False):
     url = os.path.join(server_url, resource_name) if (resource_name and not _is_next) else server_url
     if count:
-        url = os.path.join(url, f"?_count={count}")
+        url = PreparedRequest().prepare_url(url, {'_count': count}).url
     result_bundle = requests.get(url).json()
 
     request_result_filepath = os.path.join(Settings.result_directory, resource_name, f"{result_bundle['id']}.json")

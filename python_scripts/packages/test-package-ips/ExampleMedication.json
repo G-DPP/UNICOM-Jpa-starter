@@ -1,0 +1,69 @@
+{
+    "resourceType": "Medication",
+    "id": "fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu",
+    "meta": {
+      "versionId": "2",
+      "lastUpdated": "2023-05-09T17:06:22.862+00:00",
+      "source": "#kGquoEWabeZ2XKga"
+    },
+    "text": {
+      "status": "generated",
+      "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> Pentasa Slow Release Tablets 1g </div></div>"
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "https://www.gravitatehealth.eu/sid/man",
+          "code": "77022",
+          "display": "Pentasa Slow Release Tablets 1g"
+        },
+        {
+          "system": "https://www.who-umc.org/phpid",
+          "code": "0xF79CABF272B6A7EEF104DDDA44E827xx",
+          "display": "Mesalazine, 1g, Tablets"
+        },
+        {
+          "system": "http://www.whocc.no/atc",
+          "code": "A07EC02",
+          "display": "mesalazine"
+        }
+      ]
+    },
+    "form": {
+      "coding": [
+        {
+          "system": "http://standardterms.edqm.eu",
+          "code": "10219000",
+          "display": "Tablet"
+        }
+      ],
+      "text": "Tablet"
+    },
+    "ingredient": [
+      {
+        "itemCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://fdasis.nlm.nih.gov",
+              "code": "4Q81I59GXC",
+              "display": "MESALAMINE"
+            }
+          ],
+          "text": "MESALAMINE"
+        },
+        "strength": {
+          "numerator": {
+            "value": 1000,
+            "system": "http://unitsofmeasure.org",
+            "code": "mg"
+          },
+          "denominator": {
+            "value": 1,
+            "unit": "Tablet",
+            "system": "http://standardterms.edqm.eu",
+            "code": "15054000"
+          }
+        }
+      }
+    ]
+}

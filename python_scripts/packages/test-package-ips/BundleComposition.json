@@ -124,7 +124,7 @@
           ]
         },
         "patient": {
-          "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd6",
+          "reference": "Patient/test-bundle-ips",
           "display": "IPS 1"
         },
         "reaction": [
@@ -216,12 +216,12 @@
           "text": "Crohn's disease"
         },
         "subject": {
-          "reference": "Patient/matilda-patient",
+          "reference": "Patient/test-bundle-ips",
           "display": "Matilda Gravitate"
         },
         "onsetDateTime": "2015",
         "asserter": {
-          "reference": "Practitioner/matilda-pract",
+          "reference": "Practitioner/test-bundle-ips",
           "display": "Dr. Ana Lopez"
         }
       },
@@ -307,7 +307,7 @@
           ]
         },
         "subject": {
-          "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd2",
+          "reference": "Patient/test-bundle-ips",
           "display": "IPS 4 Gravitate"
         },
         "effectiveDateTime": "2013-04-02T09:30:10+01:00",

@@ -1,0 +1,4477 @@
+{
+  "resourceType": "Bundle",
+  "type": "transaction",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "matilda-patient",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:57:44.924+00:00",
+          "source": "#DBeRnGsjNxhXdFAF"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Matilda <b>GRAVITATE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>Matilda-1</td></tr><tr><td>Date of birth</td><td><span>01 September 1950</span></td></tr></tbody></table></div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-citizenship",
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "urn:iso:std:iso:3166",
+                      "code": "ES",
+                      "display": "Spain"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://www.gravitatehealth.eu/sid/doc",
+            "value": "Matilda-1"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Gravitate",
+            "given": [
+              "Matilda"
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1950-09-01"
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/matilda-patient"
+      },
+      "fullUrl": "Patient/matilda-patient"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "c154158f-6a43-4ab7-8443-e7f4bf915dd6",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:14.679+00:00",
+          "source": "#bPd3CDgxR59rWtnU"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Maria Gravitate, Female, 75 years old (1946-05-05)</div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-citizenship",
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "urn:iso:std:iso:3166",
+                      "code": "NO",
+                      "display": "Norway"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://www.gravitatehealth.eu/sid/doc",
+            "value": "maria-1"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Gravitate",
+            "given": [
+              "IPS"
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1946-05-05"
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd6"
+      },
+      "fullUrl": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd6"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "cecilia-patient",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:15.882+00:00",
+          "source": "#rk84vOrdh5so5rvB"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Cecilia <b>GRAVITATE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>Cecilia-1</td></tr><tr><td>Date of birth</td><td><span>05 May 1946</span></td></tr></tbody></table></div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-citizenship",
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "urn:iso:std:iso:3166",
+                      "code": "SWE",
+                      "display": "Sweden"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://www.gravitatehealth.eu/sid/doc",
+            "value": "Cecilia-1"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Gravitate",
+            "given": [
+              "Cecilia"
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1946-05-05"
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/cecilia-patient"
+      },
+      "fullUrl": "Patient/cecilia-patient"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "pedro-patient",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:17.129+00:00",
+          "source": "#30SNsQb3JyBYUXwA"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Age: 42 years. I live alone, single. Electronics store salesperson Smoker since the age of 20 Interests: cultural events and concerts. I enjoy mountain activities, skiing in winter and hiking the rest of the year. Health Conditions HIV (diagnosed with 38 years) Depression</div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-citizenship",
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "urn:iso:std:iso:3166",
+                      "code": "ES",
+                      "display": "Spain"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://www.gravitatehealth.eu/sid/doc",
+            "value": "Pedro-1"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Gravitate",
+            "given": [
+              "Pedro"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1980-10-05"
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/pedro-patient"
+      },
+      "fullUrl": "Patient/pedro-patient"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "be61951b-44fc-4853-8822-f9d398193c50",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:18.671+00:00",
+          "source": "#zjJTX7Y5Q7qaC8IO"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Helen Gravitate, Female, 75 years old (1946-05-05)</div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-citizenship",
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "urn:iso:std:iso:3166",
+                      "code": "GB",
+                      "display": "United Kingdom of Great Britain and Northern Ireland"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://www.gravitatehealth.eu/sid/doc",
+            "value": "helen-1"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Gravitate",
+            "given": [
+              "Helen"
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1946-05-05"
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/be61951b-44fc-4853-8822-f9d398193c50"
+      },
+      "fullUrl": "Patient/be61951b-44fc-4853-8822-f9d398193c50"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "c154158f-6a43-4ab7-8443-e7f4bf915dd3",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:19.387+00:00",
+          "source": "#D6XHMaurzDCU1nP4"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Maria Gravitate, Female, 75 years old (1946-05-05)</div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-citizenship",
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "urn:iso:std:iso:3166",
+                      "code": "NO",
+                      "display": "Norway"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://www.gravitatehealth.eu/sid/doc",
+            "value": "maria-1"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Gravitate",
+            "given": [
+              "Maria"
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1946-05-05"
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd3"
+      },
+      "fullUrl": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd3"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "c154158f-6a43-4ab7-8443-e7f4bf915dd5",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:20.343+00:00",
+          "source": "#59jY74HCkbjUFYA4"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Maria Gravitate, Female, 75 years old (1946-05-05)</div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-citizenship",
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "urn:iso:std:iso:3166",
+                      "code": "NO",
+                      "display": "Norway"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://www.gravitatehealth.eu/sid/doc",
+            "value": "maria-1"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Gravitate",
+            "given": [
+              "Maria"
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1946-05-05"
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd5"
+      },
+      "fullUrl": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd5"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "c154158f-6a43-4ab7-8443-e7f4bf915dd1",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:21.286+00:00",
+          "source": "#uACxxXOp5acwop8k"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">IPS 3 example <b>GRAVITATE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ips-3</td></tr><tr><td>Date of birth</td><td><span>05 May 1978</span></td></tr></tbody></table></div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-citizenship",
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "urn:iso:std:iso:3166",
+                      "code": "NO",
+                      "display": "Norway"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://www.gravitatehealth.eu/sid/doc",
+            "value": "ips-3"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Gravitate",
+            "given": [
+              "IPS 3 example"
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1978-05-05"
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd1"
+      },
+      "fullUrl": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd1"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "152",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-23T08:09:21.779+00:00",
+          "source": "#1f9ov7MvQpHDGhNH"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Jo\u00e3o <b>SILVA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>89765a87b</td></tr><tr><td>Address</td><td><span>Rua Nova 534 </span><br/><span>Santa Rosa </span></td></tr><tr><td>Date of birth</td><td><span>17 August 1971</span></td></tr></tbody></table></div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "urn:iso:std:iso:3166",
+                      "code": "PT",
+                      "display": "Portugal"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MRS"
+                }
+              ]
+            },
+            "system": "urn:oid:1.2.3.4.5",
+            "value": "89765a87b"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Silva",
+            "given": [
+              "Jo\u00e3o"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "919999999"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1971-08-17",
+        "deceasedBoolean": false,
+        "address": [
+          {
+            "use": "home",
+            "line": [
+              "Rua Nova 534"
+            ],
+            "city": "Santa Rosa"
+          }
+        ],
+        "contact": [
+          {
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "N",
+                    "display": "Next-of-Kin"
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                    "code": "MTH",
+                    "display": "mother"
+                  }
+                ]
+              }
+            ],
+            "name": {
+              "family": "Silva",
+              "given": [
+                "In\u00eas"
+              ]
+            },
+            "gender": "female"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/152"
+      },
+      "fullUrl": "Patient/152"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "153",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-23T08:13:46.566+00:00",
+          "source": "#fjpcJNJ0MbOFs2wn"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Nuno <b>SILVA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>89765a87b</td></tr><tr><td>Address</td><td><span>Rua Nova 534 </span><br/><span>Santa Rosa </span></td></tr><tr><td>Date of birth</td><td><span>17 August 1971</span></td></tr></tbody></table></div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "urn:iso:std:iso:3166",
+                      "code": "PT",
+                      "display": "Portugal"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MRS"
+                }
+              ]
+            },
+            "system": "urn:oid:1.2.3.4.5",
+            "value": "89765a87b"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Silva",
+            "given": [
+              "Nuno"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "919999999"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1971-08-17",
+        "deceasedBoolean": false,
+        "address": [
+          {
+            "use": "home",
+            "line": [
+              "Rua Nova 534"
+            ],
+            "city": "Santa Rosa"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "M",
+              "display": "Married"
+            }
+          ]
+        },
+        "contact": [
+          {
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "N",
+                    "display": "Next-of-Kin"
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                    "code": "MTH",
+                    "display": "mother"
+                  }
+                ]
+              }
+            ],
+            "name": {
+              "family": "Silva",
+              "given": [
+                "In\u00eas"
+              ]
+            },
+            "gender": "female"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/153"
+      },
+      "fullUrl": "Patient/153"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "154",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-23T08:13:53.658+00:00",
+          "source": "#E770RV4OaOMc61Xs"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Gon\u00e7alo <b>SILVA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>89765a87b</td></tr><tr><td>Address</td><td><span>Rua Nova 534 </span><br/><span>Santa Rosa </span></td></tr><tr><td>Date of birth</td><td><span>17 August 1971</span></td></tr></tbody></table></div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "urn:iso:std:iso:3166",
+                      "code": "PT",
+                      "display": "Portugal"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MRS"
+                }
+              ]
+            },
+            "system": "urn:oid:1.2.3.4.5",
+            "value": "89765a87b"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Silva",
+            "given": [
+              "Gon\u00e7alo"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "919999999"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1971-08-17",
+        "deceasedBoolean": false,
+        "address": [
+          {
+            "use": "home",
+            "line": [
+              "Rua Nova 534"
+            ],
+            "city": "Santa Rosa"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "M",
+              "display": "Married"
+            }
+          ]
+        },
+        "contact": [
+          {
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "N",
+                    "display": "Next-of-Kin"
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                    "code": "MTH",
+                    "display": "mother"
+                  }
+                ]
+              }
+            ],
+            "name": {
+              "family": "Silva",
+              "given": [
+                "In\u00eas"
+              ]
+            },
+            "gender": "female"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/154"
+      },
+      "fullUrl": "Patient/154"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "155",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-23T08:14:23.761+00:00",
+          "source": "#21rEjSsJIZayzyp4"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Justino <b>SILVA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>89765a87b</td></tr><tr><td>Address</td><td><span>Rua Nova 534 </span><br/><span>Santa Rosa </span></td></tr><tr><td>Date of birth</td><td><span>17 August 1992</span></td></tr></tbody></table></div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "urn:iso:std:iso:3166",
+                      "code": "PT",
+                      "display": "Portugal"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MRS"
+                }
+              ]
+            },
+            "system": "urn:oid:1.2.3.4.5",
+            "value": "89765a87b"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Silva",
+            "given": [
+              "Justino"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "919999999"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1992-08-17",
+        "deceasedBoolean": false,
+        "address": [
+          {
+            "use": "home",
+            "line": [
+              "Rua Nova 534"
+            ],
+            "city": "Santa Rosa"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "M",
+              "display": "Married"
+            }
+          ]
+        },
+        "contact": [
+          {
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "N",
+                    "display": "Next-of-Kin"
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                    "code": "MTH",
+                    "display": "mother"
+                  }
+                ]
+              }
+            ],
+            "name": {
+              "family": "Silva",
+              "given": [
+                "In\u00eas"
+              ]
+            },
+            "gender": "female"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/155"
+      },
+      "fullUrl": "Patient/155"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "156",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-23T08:14:38.817+00:00",
+          "source": "#2vW0ZJ4ZGrKkyxby"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sofia <b>SILVA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>89765a87b</td></tr><tr><td>Address</td><td><span>Rua Nova 534 </span><br/><span>Santa Rosa </span></td></tr><tr><td>Date of birth</td><td><span>17 August 1993</span></td></tr></tbody></table></div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "urn:iso:std:iso:3166",
+                      "code": "PT",
+                      "display": "Portugal"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MRS"
+                }
+              ]
+            },
+            "system": "urn:oid:1.2.3.4.5",
+            "value": "89765a87b"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Silva",
+            "given": [
+              "Sofia"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "919999999"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1993-08-17",
+        "deceasedBoolean": false,
+        "address": [
+          {
+            "use": "home",
+            "line": [
+              "Rua Nova 534"
+            ],
+            "city": "Santa Rosa"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "M",
+              "display": "Married"
+            }
+          ]
+        },
+        "contact": [
+          {
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "N",
+                    "display": "Next-of-Kin"
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                    "code": "MTH",
+                    "display": "mother"
+                  }
+                ]
+              }
+            ],
+            "name": {
+              "family": "Silva",
+              "given": [
+                "In\u00eas"
+              ]
+            },
+            "gender": "female"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/156"
+      },
+      "fullUrl": "Patient/156"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "157",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-23T08:14:47.533+00:00",
+          "source": "#gtKkdPm8S59RnuLr"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Sofia <b>SILVA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>89765a87b</td></tr><tr><td>Address</td><td><span>Rua Nova 534 </span><br/><span>Santa Rosa </span></td></tr><tr><td>Date of birth</td><td><span>17 August 1993</span></td></tr></tbody></table></div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "urn:iso:std:iso:3166",
+                      "code": "PT",
+                      "display": "Portugal"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MRS"
+                }
+              ]
+            },
+            "system": "urn:oid:1.2.3.4.5",
+            "value": "89765a87b"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Silva",
+            "given": [
+              "Sofia"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "919999999"
+          }
+        ],
+        "birthDate": "1993-08-17",
+        "deceasedBoolean": false,
+        "address": [
+          {
+            "use": "home",
+            "line": [
+              "Rua Nova 534"
+            ],
+            "city": "Santa Rosa"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "M",
+              "display": "Married"
+            }
+          ]
+        },
+        "contact": [
+          {
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "N",
+                    "display": "Next-of-Kin"
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                    "code": "MTH",
+                    "display": "mother"
+                  }
+                ]
+              }
+            ],
+            "name": {
+              "family": "Silva",
+              "given": [
+                "In\u00eas"
+              ]
+            },
+            "gender": "female"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/157"
+      },
+      "fullUrl": "Patient/157"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "a100",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-23T08:15:30.982+00:00",
+          "source": "#xxWjprsy4P4z2htV"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Peter <b>OLIVEIRA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>89765a87b</td></tr><tr><td>Address</td><td><span>Rua Nova 534 </span><br/><span>Santa Rosa </span></td></tr><tr><td>Date of birth</td><td><span>17 August 1971</span></td></tr></tbody></table></div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "urn:iso:std:iso:3166",
+                      "code": "PT",
+                      "display": "Portugal"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MRS"
+                }
+              ]
+            },
+            "system": "urn:oid:1.2.3.4.5",
+            "value": "89765a87b"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Oliveira",
+            "given": [
+              "Peter"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "919999999"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1971-08-17",
+        "deceasedBoolean": false,
+        "address": [
+          {
+            "use": "home",
+            "line": [
+              "Rua Nova 534"
+            ],
+            "city": "Santa Rosa"
+          }
+        ],
+        "contact": [
+          {
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "N",
+                    "display": "Next-of-Kin"
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                    "code": "MTH",
+                    "display": "mother"
+                  }
+                ]
+              }
+            ],
+            "name": {
+              "family": "Carvalho",
+              "given": [
+                "In\u00eas"
+              ]
+            },
+            "gender": "female"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/a100"
+      },
+      "fullUrl": "Patient/a100"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "example-r4",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-23T09:30:36.908+00:00",
+          "source": "#yac1OyuRj5N2BdTy"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Peter <b>OLIVEIRA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>89765a87b</td></tr><tr><td>Address</td><td><span>Rua Nova 534 </span><br/><span>Santa Rosa </span></td></tr><tr><td>Date of birth</td><td><span>17 August 1971</span></td></tr></tbody></table></div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "urn:iso:std:iso:3166",
+                      "code": "PT",
+                      "display": "Portugal"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MRS"
+                }
+              ]
+            },
+            "system": "urn:oid:1.2.3.4.5",
+            "value": "89765a87b"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Oliveira",
+            "given": [
+              "Peter"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "919999999"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1971-08-17",
+        "deceasedBoolean": false,
+        "address": [
+          {
+            "use": "home",
+            "line": [
+              "Rua Nova 534"
+            ],
+            "city": "Santa Rosa"
+          }
+        ],
+        "contact": [
+          {
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "N",
+                    "display": "Next-of-Kin"
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                    "code": "MTH",
+                    "display": "mother"
+                  }
+                ]
+              }
+            ],
+            "name": {
+              "family": "Carvalho",
+              "given": [
+                "In\u00eas"
+              ]
+            },
+            "gender": "female"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/example-r4"
+      },
+      "fullUrl": "Patient/example-r4"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "34dc88d5972fd5472a942fc80f69f35c",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-04-28T13:20:18.005+00:00",
+          "source": "https://aiccelerate.eu/data-integration-suite/test-data#vYZQ8PNtBAzkNIZv",
+          "profile": [
+            "https://aiccelerate.eu/fhir/StructureDefinition/AIC-Patient"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://aiccelerate.eu/data-integration-suite/test-data",
+            "value": "p1"
+          }
+        ],
+        "active": true,
+        "gender": "male",
+        "birthDate": "2000-05-10"
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/34dc88d5972fd5472a942fc80f69f35c"
+      },
+      "fullUrl": "Patient/34dc88d5972fd5472a942fc80f69f35c"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "example-3",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2023-03-23T09:36:24.762+00:00",
+          "source": "#65lVUhBAv8QLpVA4"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Peter <b>OLIVEIRA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>12345678</td></tr><tr><td>Address</td><td><span>Rua Nova 534 </span><br/><span>Santa Rosa </span></td></tr><tr><td>Date of birth</td><td><span>17 August 1971</span></td></tr></tbody></table></div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "urn:iso:std:iso:3166",
+                      "code": "PT",
+                      "display": "Portugal"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MRS"
+                }
+              ]
+            },
+            "system": "urn:oid:1.2.3.4.5",
+            "value": "12345678"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Oliveira",
+            "given": [
+              "Peter"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "919999999"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1971-08-17",
+        "deceasedBoolean": false,
+        "address": [
+          {
+            "use": "home",
+            "line": [
+              "Rua Nova 534"
+            ],
+            "city": "Santa Rosa"
+          }
+        ],
+        "contact": [
+          {
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "N",
+                    "display": "Next-of-Kin"
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                    "code": "MTH",
+                    "display": "mother"
+                  }
+                ]
+              }
+            ],
+            "name": {
+              "family": "Carvalho",
+              "given": [
+                "In\u00eas"
+              ]
+            },
+            "gender": "female"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/example-3"
+      },
+      "fullUrl": "Patient/example-3"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "165",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-23T10:06:37.997+00:00",
+          "source": "#x3vGeMwOHmKUAl8O"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody></tbody></table></div>"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/165"
+      },
+      "fullUrl": "Patient/165"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "166",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-23T10:07:51.769+00:00",
+          "source": "#2YXCDqEjcgNobsFp"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody></tbody></table></div>"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/166"
+      },
+      "fullUrl": "Patient/166"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "168",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-23T10:11:49.101+00:00",
+          "source": "#E1nKl74oeXK8zVNz"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Ricardo <b>SAL </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>9999</td></tr><tr><td>Address</td><td><span>cpimbvra </span><span>portugal </span></td></tr><tr><td>Date of birth</td><td><span>01 January 1977</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "PI",
+            "value": "9999"
+          }
+        ],
+        "name": [
+          {
+            "family": "sal",
+            "given": [
+              "Ricardo"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1977",
+        "deceasedBoolean": false,
+        "address": [
+          {
+            "city": "cpimbvra",
+            "country": "portugal"
+          },
+          {
+            "city": "almeirim",
+            "country": "portugal"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/168"
+      },
+      "fullUrl": "Patient/168"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "cfsb1679566058011",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-23T10:15:14.518+00:00",
+          "source": "#QMznuBFkJZxZMFTz"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Marco <b>LIMA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>000000000</td></tr><tr><td>Date of birth</td><td><span>16 February 1979</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "SNS",
+            "value": "000000000"
+          }
+        ],
+        "name": [
+          {
+            "use": "usual",
+            "text": "Marco Lima",
+            "family": "Lima",
+            "given": [
+              "Marco"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1979-02-16",
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "M",
+              "display": "Married"
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/cfsb1679566058011"
+      },
+      "fullUrl": "Patient/cfsb1679566058011"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "164-x",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2023-03-23T10:18:57.281+00:00",
+          "source": "#6jXJLOKdtMZNY9IC"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Fernando Miguel Oliveira <b>DUARTE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>Miguel-1</td></tr><tr><td>Date of birth</td><td><span>28 September 1980</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "https://www.gravitatehealth.eu/sid/doc",
+            "value": "Miguel-1"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Duarte",
+            "given": [
+              "Fernando",
+              "Miguel",
+              "Oliveira"
+            ]
+          },
+          {
+            "use": "usual",
+            "family": "Duarte",
+            "given": [
+              "Miguel"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "911111111"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1980-09-28",
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "M"
+            }
+          ],
+          "text": "Married"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/164-x"
+      },
+      "fullUrl": "Patient/164-x"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "164",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2023-03-23T10:19:12.424+00:00",
+          "source": "#1nbbeEJHqoOrdUjW"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Fernando Miguel Oliveira <b>DUARTE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>Miguel-1</td></tr><tr><td>Date of birth</td><td><span>28 September 1980</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "https://www.gravitatehealth.eu/sid/doc",
+            "value": "Miguel-1"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Duarte",
+            "given": [
+              "Fernando",
+              "Miguel",
+              "Oliveira"
+            ]
+          },
+          {
+            "use": "usual",
+            "family": "Duarte",
+            "given": [
+              "Miguel"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "911111111"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1980-09-28",
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "M"
+            }
+          ],
+          "text": "Married"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/164"
+      },
+      "fullUrl": "Patient/164"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "cfsb1679427012195",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2023-03-23T10:20:50.345+00:00",
+          "source": "#nIznD5H1PTzH0E2U"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Ricardo <b>SAL </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>99999</td></tr><tr><td>Address</td><td><span>cpimbvra </span><span>portugal </span></td></tr><tr><td>Date of birth</td><td><span>01 January 1977</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "PI",
+            "value": "99999"
+          }
+        ],
+        "name": [
+          {
+            "family": "sal",
+            "given": [
+              "Ricardo"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1977",
+        "deceasedBoolean": false,
+        "address": [
+          {
+            "city": "cpimbvra",
+            "country": "portugal"
+          },
+          {
+            "city": "almeirim",
+            "country": "portugal"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "M",
+              "display": "Married"
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/cfsb1679427012195"
+      },
+      "fullUrl": "Patient/cfsb1679427012195"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "169",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2023-03-23T10:22:49.766+00:00",
+          "source": "#IcFYUcH09tsnKK0T"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Rui Alvar <b>SILVA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>Rui-1</td></tr><tr><td>Date of birth</td><td><span>20 July 1982</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "https://www.gravitatehealth.eu/sid/doc",
+            "value": "Rui-1"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Silva",
+            "given": [
+              "Rui",
+              "Alvar"
+            ]
+          },
+          {
+            "use": "usual",
+            "family": "Alvar",
+            "given": [
+              "Rui"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1982-07-20",
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "M"
+            }
+          ],
+          "text": "Married"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/169"
+      },
+      "fullUrl": "Patient/169"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "174",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-23T10:22:51.038+00:00",
+          "source": "#pyujFjwTBtpjrSTw"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Mariquinhas <b>TRASCAESCADA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td></td></tr><tr><td>Address</td><td><span>Porto </span><span>Indon\u00e9sia </span></td></tr><tr><td>Date of birth</td><td><span>01 January 2010</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "12"
+          }
+        ],
+        "name": [
+          {
+            "family": "TrascAEscada",
+            "given": [
+              "Mariquinhas"
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "2010-01-01",
+        "address": [
+          {
+            "use": "home",
+            "type": "physical",
+            "city": "Porto",
+            "country": "Indon\u00e9sia"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "D",
+              "display": "Divorced"
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/174"
+      },
+      "fullUrl": "Patient/174"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "cfsb1679566037252",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2023-03-23T10:23:58.750+00:00",
+          "source": "#Z7G9r3GSZY68eRl6"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Mariquinhas <b>TRASCAESCADA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td></td></tr><tr><td>Address</td><td><span>Porto </span><span>Indon\u00e9sia </span></td></tr><tr><td>Date of birth</td><td><span>01 January 2010</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "12"
+          }
+        ],
+        "name": [
+          {
+            "family": "TrascAEscada",
+            "given": [
+              "Mariquinhas"
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "2010-01-01",
+        "address": [
+          {
+            "use": "home",
+            "type": "physical",
+            "city": "Porto",
+            "country": "Indon\u00e9sia"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "D",
+              "display": "Divorced"
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/cfsb1679566037252"
+      },
+      "fullUrl": "Patient/cfsb1679566037252"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "adsdsdafsdafsd",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-23T10:26:36.196+00:00",
+          "source": "#xrKgWb5yPnRSoyyT"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Mariquinhas <b>TRASCAESCADA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td></td></tr><tr><td>Date of birth</td><td><span>10 January 2010</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "12"
+          }
+        ],
+        "name": [
+          {
+            "family": "TrascAEscada",
+            "given": [
+              "Mariquinhas"
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "2010-01-10",
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "D",
+              "display": "Divorced"
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/adsdsdafsdafsd"
+      },
+      "fullUrl": "Patient/adsdsdafsdafsd"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "178",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-23T10:30:27.739+00:00",
+          "source": "#JYJ8b38FCE7kaPPR"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Marco <b>LIMA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>000000000</td></tr><tr><td>Date of birth</td><td><span>16 February 1979</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "SNS",
+            "value": "000000000"
+          }
+        ],
+        "name": [
+          {
+            "use": "usual",
+            "text": "Marco Lima",
+            "family": "Lima",
+            "given": [
+              "Marco"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1979-02-16",
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "M",
+              "display": "Married"
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/178"
+      },
+      "fullUrl": "Patient/178"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "179",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-23T10:31:27.739+00:00",
+          "source": "#QhIZQa8Gup1lYZyH"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Ilidio <b>MAGALHAES </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td></td></tr><tr><td>Date of birth</td><td><span>06 March 1989</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ]
+            }
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Magalhaes",
+            "given": [
+              "Ilidio"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1989-03-06",
+        "deceasedBoolean": false,
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "M"
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/179"
+      },
+      "fullUrl": "Patient/179"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "testingFHIRIlidio",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2023-03-23T10:33:35.543+00:00",
+          "source": "#Cu4jLABwW1oN76p6"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Ilidio Miguel <b>MAGALHAES </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td></td></tr><tr><td>Date of birth</td><td><span>06 March 1989</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ]
+            }
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Magalhaes",
+            "given": [
+              "Ilidio Miguel"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1989-03-06",
+        "deceasedBoolean": false,
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "M"
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/testingFHIRIlidio"
+      },
+      "fullUrl": "Patient/testingFHIRIlidio"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "BrunoMatos",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2023-03-23T10:34:52.879+00:00",
+          "source": "#mcaEPqqG1izeI7z0"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Bruno <b>MATOS </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>89765a87b</td></tr><tr><td>Address</td><td><span>Rua Nova 547 </span><br/><span>Vila </span></td></tr><tr><td>Date of birth</td><td><span>17 August 1982</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MRS"
+                }
+              ]
+            },
+            "system": "urn:oid:1.2.3.4.5",
+            "value": "89765a87b"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Matos",
+            "given": [
+              "Bruno"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "912345678"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1982-08-17",
+        "deceasedBoolean": false,
+        "address": [
+          {
+            "use": "home",
+            "line": [
+              "Rua Nova 547"
+            ],
+            "city": "Vila"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/BrunoMatos"
+      },
+      "fullUrl": "Patient/BrunoMatos"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "A169",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2023-03-23T10:35:40.389+00:00",
+          "source": "#cMKjgpmrjMNTn6c6"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Rui Alvar <b>SILVA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>Rui-1</td></tr><tr><td>Date of birth</td><td><span>20 July 1982</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "https://www.gravitatehealth.eu/sid/doc",
+            "value": "Rui-1"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Silva",
+            "given": [
+              "Rui",
+              "Alvar"
+            ]
+          },
+          {
+            "use": "usual",
+            "family": "Silva",
+            "given": [
+              "Rui"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1982-07-20",
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "M"
+            }
+          ],
+          "text": "Married"
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/A169"
+      },
+      "fullUrl": "Patient/A169"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "182",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-23T10:37:13.174+00:00",
+          "source": "#Ht69JXLQsjO9FV5F"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Peter <b>GONCALVES </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>89765a87b</td></tr><tr><td>Address</td><td><span>Rua Nova 534 </span><br/><span>Santa Rosa </span></td></tr><tr><td>Date of birth</td><td><span>17 August 1971</span></td></tr></tbody></table></div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "urn:iso:std:iso:3166",
+                      "code": "PT",
+                      "display": "Portugal"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MRS"
+                }
+              ]
+            },
+            "system": "urn:oid:1.2.3.4.5",
+            "value": "89765a87b"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "goncalves",
+            "given": [
+              "Peter"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "919999999"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1971-08-17",
+        "deceasedBoolean": false,
+        "address": [
+          {
+            "use": "home",
+            "line": [
+              "Rua Nova 534"
+            ],
+            "city": "Santa Rosa"
+          }
+        ],
+        "contact": [
+          {
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "N",
+                    "display": "Next-of-Kin"
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                    "code": "MTH",
+                    "display": "mother"
+                  }
+                ]
+              }
+            ],
+            "name": {
+              "family": "Carvalho",
+              "given": [
+                "In\u00eas"
+              ]
+            },
+            "gender": "female"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/182"
+      },
+      "fullUrl": "Patient/182"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "183",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-23T10:37:22.617+00:00",
+          "source": "#mJn4Z9unhpzsSjrX"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Jose <b>GONCALVES </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>89765a87b</td></tr><tr><td>Address</td><td><span>Rua Nova 534 </span><br/><span>Santa Rosa </span></td></tr><tr><td>Date of birth</td><td><span>17 August 1971</span></td></tr></tbody></table></div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "urn:iso:std:iso:3166",
+                      "code": "PT",
+                      "display": "Portugal"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MRS"
+                }
+              ]
+            },
+            "system": "urn:oid:1.2.3.4.5",
+            "value": "89765a87b"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Goncalves",
+            "given": [
+              "Jose"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "919999999"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1971-08-17",
+        "deceasedBoolean": false,
+        "address": [
+          {
+            "use": "home",
+            "line": [
+              "Rua Nova 534"
+            ],
+            "city": "Santa Rosa"
+          }
+        ],
+        "contact": [
+          {
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "N",
+                    "display": "Next-of-Kin"
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                    "code": "MTH",
+                    "display": "mother"
+                  }
+                ]
+              }
+            ],
+            "name": {
+              "family": "Carvalho",
+              "given": [
+                "In\u00eas"
+              ]
+            },
+            "gender": "female"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/183"
+      },
+      "fullUrl": "Patient/183"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "184",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-23T10:38:31.980+00:00",
+          "source": "#ExtLH6YOAEj2q4eY"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">goncalo <b>RIBEIRO </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>89765a87b</td></tr><tr><td>Address</td><td><span>Rua Nova 534 </span><br/><span>Santa Rosa </span></td></tr><tr><td>Date of birth</td><td><span>17 August 1971</span></td></tr></tbody></table></div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "urn:iso:std:iso:3166",
+                      "code": "PT",
+                      "display": "Portugal"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MRS"
+                }
+              ]
+            },
+            "system": "urn:oid:1.2.3.4.5",
+            "value": "89765a87b"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "ribeiro",
+            "given": [
+              "goncalo"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "919999999"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1971-08-17",
+        "deceasedBoolean": false,
+        "address": [
+          {
+            "use": "home",
+            "line": [
+              "Rua Nova 534"
+            ],
+            "city": "Santa Rosa"
+          }
+        ],
+        "contact": [
+          {
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "N",
+                    "display": "Next-of-Kin"
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                    "code": "MTH",
+                    "display": "mother"
+                  }
+                ]
+              }
+            ],
+            "name": {
+              "family": "Carvalho",
+              "given": [
+                "In\u00eas"
+              ]
+            },
+            "gender": "female"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/184"
+      },
+      "fullUrl": "Patient/184"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "185",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-23T10:38:42.322+00:00",
+          "source": "#2q3C2QnkB0PzdogB"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Nuno <b>RIBEIRO </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>89765a87b</td></tr><tr><td>Address</td><td><span>Rua Nova 534 </span><br/><span>Santa Rosa </span></td></tr><tr><td>Date of birth</td><td><span>17 August 1971</span></td></tr></tbody></table></div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-nationality",
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "urn:iso:std:iso:3166",
+                      "code": "PT",
+                      "display": "Portugal"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MRS"
+                }
+              ]
+            },
+            "system": "urn:oid:1.2.3.4.5",
+            "value": "89765a87b"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "ribeiro",
+            "given": [
+              "Nuno"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "919999999"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1971-08-17",
+        "deceasedBoolean": false,
+        "address": [
+          {
+            "use": "home",
+            "line": [
+              "Rua Nova 534"
+            ],
+            "city": "Santa Rosa"
+          }
+        ],
+        "contact": [
+          {
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "N",
+                    "display": "Next-of-Kin"
+                  },
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+                    "code": "MTH",
+                    "display": "mother"
+                  }
+                ]
+              }
+            ],
+            "name": {
+              "family": "Carvalho",
+              "given": [
+                "In\u00eas"
+              ]
+            },
+            "gender": "female"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/185"
+      },
+      "fullUrl": "Patient/185"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "186",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-23T10:38:53.725+00:00",
+          "source": "#dI4CKENrfiZrorCs"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Bruno <b>FILIPE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>89765a87b</td></tr><tr><td>Address</td><td><span>ALT 547 </span><br/><span>Vila </span></td></tr><tr><td>Date of birth</td><td><span>16 August 1982</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MRS"
+                }
+              ]
+            },
+            "system": "urn:oid:1.2.3.4.5",
+            "value": "89765a87b"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Filipe",
+            "given": [
+              "Bruno"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "962345678"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1982-08-16",
+        "deceasedBoolean": false,
+        "address": [
+          {
+            "use": "home",
+            "line": [
+              "ALT 547"
+            ],
+            "city": "Vila"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/186"
+      },
+      "fullUrl": "Patient/186"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "167",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2023-03-23T10:40:31.830+00:00",
+          "source": "#faRDHUCDv93m2I0Q"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Bruno <b>FILIPE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>89765a87b</td></tr><tr><td>Address</td><td><span>ALT 547 </span><br/><span>Vila </span></td></tr><tr><td>Date of birth</td><td><span>16 August 1982</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MRS"
+                }
+              ]
+            },
+            "system": "urn:oid:1.2.3.4.5",
+            "value": "89765a87b"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Filipe",
+            "given": [
+              "Bruno"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "962345678"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1982-08-16",
+        "deceasedBoolean": false,
+        "address": [
+          {
+            "use": "home",
+            "line": [
+              "ALT 547"
+            ],
+            "city": "Vila"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/167"
+      },
+      "fullUrl": "Patient/167"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "188",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-23T10:50:38.968+00:00",
+          "source": "#MQi27UCawa4JhmFr"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Jose Alberto <b>SILVA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>1323</td></tr><tr><td>Address</td><td><span>Rua das amoras </span><br/><span>Vila Nova de Gaia </span><span>Portugal </span></td></tr><tr><td>Date of birth</td><td><span>08 December 1956</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "value": "1323"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "family": "Silva",
+            "given": [
+              "Jose Alberto"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "96242456",
+            "use": "mobile"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1956-12-08",
+        "address": [
+          {
+            "line": [
+              "Rua das amoras"
+            ],
+            "city": "Vila Nova de Gaia",
+            "country": "Portugal"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/188"
+      },
+      "fullUrl": "Patient/188"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "189",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-23T10:52:16.755+00:00",
+          "source": "#CeWFTDJK4lOmP0wh"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Jose Alberto <b>SILVA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>1323</td></tr><tr><td>Address</td><td><span>Rua das amoras </span><br/><span>Vila Nova de Gaia </span><span>Portugal </span></td></tr><tr><td>Date of birth</td><td><span>08 December 1956</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "value": "1323"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "family": "Silva",
+            "given": [
+              "Jose Alberto"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "96242456",
+            "use": "mobile"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1956-12-08",
+        "address": [
+          {
+            "line": [
+              "Rua das amoras"
+            ],
+            "city": "Vila Nova de Gaia",
+            "country": "Portugal"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/189"
+      },
+      "fullUrl": "Patient/189"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "190",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-23T11:04:14.021+00:00",
+          "source": "#ipL6To0mj0PTCqxn"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Bruno <b>FILIPE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>89765a87b</td></tr><tr><td>Address</td><td><span>ALT 547 </span><br/><span>Vila </span></td></tr><tr><td>Date of birth</td><td><span>16 August 1982</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MRS"
+                }
+              ]
+            },
+            "system": "urn:oid:1.2.3.4.5",
+            "value": "89765a87b"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Filipe",
+            "given": [
+              "Bruno"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "962345678"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1982-08-16",
+        "deceasedBoolean": false,
+        "address": [
+          {
+            "use": "home",
+            "line": [
+              "ALT 547"
+            ],
+            "city": "Vila"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/190"
+      },
+      "fullUrl": "Patient/190"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "BrunoFILIPE",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2023-03-23T11:08:43.803+00:00",
+          "source": "#IUbTsWNuw6pFdX2o"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Bruno <b>FILIPE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>89765a87b</td></tr><tr><td>Address</td><td><span>ALT 5000-547 </span><br/><span>Vila </span></td></tr><tr><td>Date of birth</td><td><span>16 August 1982</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MRS"
+                }
+              ]
+            },
+            "system": "urn:oid:1.2.3.4.5",
+            "value": "89765a87b"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Filipe",
+            "given": [
+              "Bruno"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "962345678"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1982-08-16",
+        "deceasedBoolean": false,
+        "address": [
+          {
+            "use": "home",
+            "line": [
+              "ALT 5000-547"
+            ],
+            "city": "Vila"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/BrunoFILIPE"
+      },
+      "fullUrl": "Patient/BrunoFILIPE"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "192",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-23T11:19:17.163+00:00",
+          "source": "#HWiJJee2HDRy2ldy"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Bruno-2 <b>FILIPE-2 </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>89765a87b</td></tr><tr><td>Address</td><td><span>ALT 547 </span><br/><span>Vila </span></td></tr><tr><td>Date of birth</td><td><span>16 August 1982</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MRS"
+                }
+              ]
+            },
+            "system": "urn:oid:1.2.3.4.5",
+            "value": "89765a87b"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Filipe-2",
+            "given": [
+              "Bruno-2"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "962345678"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1982-08-16",
+        "deceasedBoolean": false,
+        "address": [
+          {
+            "use": "home",
+            "line": [
+              "ALT 547"
+            ],
+            "city": "Vila"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/192"
+      },
+      "fullUrl": "Patient/192"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "193",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-23T11:21:28.326+00:00",
+          "source": "#6tgAZQcAOjvHrlzm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Bruno <b>FILIPE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>89765a87b</td></tr><tr><td>Address</td><td><span>ALT 547 </span><br/><span>Vila </span></td></tr><tr><td>Date of birth</td><td><span>16 August 1982</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MRS"
+                }
+              ]
+            },
+            "system": "urn:oid:1.2.3.4.5",
+            "value": "89765a87b"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Filipe",
+            "given": [
+              "Bruno"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "962345678"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1982-08-16",
+        "deceasedBoolean": false,
+        "address": [
+          {
+            "use": "home",
+            "line": [
+              "ALT 547"
+            ],
+            "city": "Vila"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/193"
+      },
+      "fullUrl": "Patient/193"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "BrunoMATOS",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2023-03-23T11:26:15.716+00:00",
+          "source": "#AOtna8uuXnV24S4l"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Bruno <b>MATOS </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>89765a87b</td></tr><tr><td>Address</td><td><span>ALT 5000-547 </span><br/><span>Vila Real </span></td></tr><tr><td>Date of birth</td><td><span>16 August 1992</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MRS"
+                }
+              ]
+            },
+            "system": "urn:oid:1.2.3.4.5",
+            "value": "89765a87b"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Matos",
+            "given": [
+              "Bruno"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "912345678"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1992-08-16",
+        "deceasedBoolean": false,
+        "address": [
+          {
+            "use": "home",
+            "line": [
+              "ALT 5000-547"
+            ],
+            "city": "Vila Real"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/BrunoMATOS"
+      },
+      "fullUrl": "Patient/BrunoMATOS"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "195",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-23T11:27:34.418+00:00",
+          "source": "#yGSgXNKXVWaHz5UP"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Bruno <b>FILIPE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>89765a87b</td></tr><tr><td>Address</td><td><span>ALT 547 </span><br/><span>Vila </span></td></tr><tr><td>Date of birth</td><td><span>16 August 1982</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MRS"
+                }
+              ]
+            },
+            "system": "urn:oid:1.2.3.4.5",
+            "value": "89765a87b"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Filipe",
+            "given": [
+              "Bruno"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "962345678"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1982-08-16",
+        "deceasedBoolean": false,
+        "address": [
+          {
+            "use": "home",
+            "line": [
+              "ALT 547"
+            ],
+            "city": "Vila"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/195"
+      },
+      "fullUrl": "Patient/195"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "197",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2023-03-27T21:17:22.971+00:00",
+          "source": "#hacxLX7B8zLOnZ3U"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"hapiPropertyTable\"><tbody></tbody></table></div>"
+        },
+        "name": [
+          {
+            "family": "Alexander",
+            "given": [
+              "Bob"
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/197"
+      },
+      "fullUrl": "Patient/197"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "testingFHIRIlidioV2",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-28T09:07:18.233+00:00",
+          "source": "#GEgfnRWi0S7yA6Jf"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Ilidio Miguel <b>TEIXEIRA MAGALHAES </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td></td></tr><tr><td>Date of birth</td><td><span>06 March 1989</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ]
+            }
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Teixeira Magalhaes",
+            "given": [
+              "Ilidio Miguel"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1989-03-06",
+        "deceasedBoolean": false,
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "M"
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/testingFHIRIlidioV2"
+      },
+      "fullUrl": "Patient/testingFHIRIlidioV2"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "187",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2023-03-28T09:17:55.789+00:00",
+          "source": "#Hh4sCLoLrk1g9BPy"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Jose Alberto <b>SILVA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>1323</td></tr><tr><td>Address</td><td><span>Rua das amoras </span><br/><span>Vila Nova de Gaia </span><span>Portugal </span></td></tr><tr><td>Date of birth</td><td><span>08 December 1956</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "sonho",
+            "value": "1323"
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "family": "Silva",
+            "given": [
+              "Jose Alberto"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "96242456",
+            "use": "mobile"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1956-12-08",
+        "address": [
+          {
+            "line": [
+              "Rua das amoras"
+            ],
+            "city": "Vila Nova de Gaia",
+            "country": "Portugal"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "P",
+              "display": "Polygamous"
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/187"
+      },
+      "fullUrl": "Patient/187"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "176",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2023-03-28T19:42:58.177+00:00",
+          "source": "#2k1a6Ib8ZaYj4J3Q"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Mariquinhas <b>TRASCAESCADA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td></td></tr><tr><td>Address</td><td><span>Porto </span><span>Indon\u00e9sia </span></td></tr><tr><td>Date of birth</td><td><span>10 January 2010</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "system": "12"
+          }
+        ],
+        "name": [
+          {
+            "family": "TrascAEscada",
+            "given": [
+              "Mariquinhas"
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "2010-01-10",
+        "address": [
+          {
+            "use": "home",
+            "type": "physical",
+            "city": "Porto",
+            "country": "Indon\u00e9sia"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "D",
+              "display": "Divorced"
+            }
+          ]
+        },
+        "contact": [
+          {
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "CP",
+                    "display": "Contact person"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/176"
+      },
+      "fullUrl": "Patient/176"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "210",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-28T09:45:30.430+00:00",
+          "source": "#ICUCYMUey9N0mShf"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Ilidio Miguel <b>TEIXEIRA MAGALHAES </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td></td></tr><tr><td>Date of birth</td><td><span>06 March 1989</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MR"
+                }
+              ]
+            }
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Teixeira Magalhaes",
+            "given": [
+              "Ilidio Miguel"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1989-03-06",
+        "deceasedBoolean": false,
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "M"
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/210"
+      },
+      "fullUrl": "Patient/210"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "0b3a0b23a0c6e223b941e63787f15a6a",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-04-28T13:20:18.251+00:00",
+          "source": "https://aiccelerate.eu/data-integration-suite/test-data#vYZQ8PNtBAzkNIZv",
+          "profile": [
+            "https://aiccelerate.eu/fhir/StructureDefinition/AIC-Patient"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://aiccelerate.eu/data-integration-suite/test-data",
+            "value": "p2"
+          }
+        ],
+        "active": true,
+        "gender": "male",
+        "birthDate": "1985-05-08",
+        "deceasedDateTime": "2017-03-10",
+        "address": [
+          {
+            "use": "home",
+            "type": "both",
+            "postalCode": "G02547"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/0b3a0b23a0c6e223b941e63787f15a6a"
+      },
+      "fullUrl": "Patient/0b3a0b23a0c6e223b941e63787f15a6a"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "c154158f-6a43-4ab7-8443-e7f4bf915dd2",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-04-04T10:31:51.144+00:00",
+          "source": "#vcoMrhxkew80D0p8"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">IPS 4 example <b>GRAVITATE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>ips-4</td></tr><tr><td>Date of birth</td><td><span>05 May 1989</span></td></tr></tbody></table></div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-citizenship",
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "urn:iso:std:iso:3166",
+                      "code": "NO",
+                      "display": "Norway"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://www.gravitatehealth.eu/sid/doc",
+            "value": "ips-4"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Gravitate",
+            "given": [
+              "IPS 4 example"
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1989-05-05"
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd2"
+      },
+      "fullUrl": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd2"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "PatientExemploMiguel",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-04-11T08:46:02.722+00:00",
+          "source": "#7Y5nxQrXRQXMSo4H"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Fernando Miguel Oliveira <b>DUARTE </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Address</td><td><span>Porto </span><span>PT </span></td></tr><tr><td>Date of birth</td><td><span>28 September 1980</span></td></tr></tbody></table></div>"
+        },
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "text": "Fernando Miguel Oliveira Duarte",
+            "family": "Duarte",
+            "given": [
+              "Fernando",
+              "Miguel",
+              "Oliveira"
+            ]
+          },
+          {
+            "use": "usual",
+            "text": "Miguel Duarte",
+            "family": "Duarte",
+            "given": [
+              "Miguel"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1980-09-28",
+        "deceasedBoolean": false,
+        "address": [
+          {
+            "use": "work",
+            "text": "Hospital S\u00e3o Jo\u00e3o",
+            "city": "Porto",
+            "country": "PT",
+            "period": {
+              "start": "2008-09-01"
+            }
+          },
+          {
+            "use": "home",
+            "text": "Casa",
+            "city": "Arouca",
+            "country": "PT",
+            "period": {
+              "start": "1980-09-28"
+            }
+          }
+        ],
+        "multipleBirthBoolean": false,
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "phone",
+                "value": "911111111"
+              }
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/PatientExemploMiguel"
+      },
+      "fullUrl": "Patient/PatientExemploMiguel"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "ilidiofsh",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-04-11T08:56:19.932+00:00",
+          "source": "#pdRLNPPZbIPXizJ6"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Ilidio M. <b>TEIXEIRA </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Address</td><td><span>Rua das Cam\u00e9lias </span><br/><span>Sintra </span><span>PT </span></td></tr><tr><td>Date of birth</td><td><span>06 March 1989</span></td></tr></tbody></table></div>"
+        },
+        "active": true,
+        "name": [
+          {
+            "family": "Teixeira",
+            "given": [
+              "Ilidio",
+              "M."
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1989-03-06",
+        "deceasedBoolean": true,
+        "address": [
+          {
+            "line": [
+              "Rua das Cam\u00e9lias"
+            ],
+            "city": "Sintra",
+            "postalCode": "4400-123",
+            "country": "PT"
+          }
+        ],
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "phone",
+                "value": "931-123-4561",
+                "use": "home"
+              },
+              {
+                "system": "email",
+                "value": "ilidio.teste@gmail.com"
+              }
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/ilidiofsh"
+      },
+      "fullUrl": "Patient/ilidiofsh"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "285",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-04-11T09:23:07.488+00:00",
+          "source": "#XxB6YaKNFfINLgns"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Miguel <b>BAP </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Address</td><td><span>Rua das laranjas, 11 </span><br/><span>Porto </span></td></tr><tr><td>Date of birth</td><td><span>01 January 1994</span></td></tr></tbody></table></div>"
+        },
+        "active": true,
+        "name": [
+          {
+            "use": "usual",
+            "family": "Bap",
+            "given": [
+              "Miguel"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "969798421"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1994-01-01",
+        "address": [
+          {
+            "use": "home",
+            "line": [
+              "Rua das laranjas, 11"
+            ],
+            "city": "Porto",
+            "postalCode": "4910-339"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/285"
+      },
+      "fullUrl": "Patient/285"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "49d3c335681ab7fb2d4cdf19769655db",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-04-28T13:20:18.269+00:00",
+          "source": "https://aiccelerate.eu/data-integration-suite/test-data#vYZQ8PNtBAzkNIZv",
+          "profile": [
+            "https://aiccelerate.eu/fhir/StructureDefinition/AIC-Patient"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://aiccelerate.eu/data-integration-suite/test-data",
+            "value": "p3"
+          }
+        ],
+        "active": true,
+        "gender": "male",
+        "birthDate": "1997-02"
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/49d3c335681ab7fb2d4cdf19769655db"
+      },
+      "fullUrl": "Patient/49d3c335681ab7fb2d4cdf19769655db"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "0bbad2343eb86d5cdc16a1b292537576",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-04-28T13:20:18.285+00:00",
+          "source": "https://aiccelerate.eu/data-integration-suite/test-data#vYZQ8PNtBAzkNIZv",
+          "profile": [
+            "https://aiccelerate.eu/fhir/StructureDefinition/AIC-Patient"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://aiccelerate.eu/data-integration-suite/test-data",
+            "value": "p4"
+          }
+        ],
+        "active": true,
+        "gender": "male",
+        "birthDate": "1999-06-05",
+        "address": [
+          {
+            "use": "home",
+            "type": "both",
+            "postalCode": "H10564"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/0bbad2343eb86d5cdc16a1b292537576"
+      },
+      "fullUrl": "Patient/0bbad2343eb86d5cdc16a1b292537576"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "7b650be0176d6d29351f84314a5efbe3",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-04-28T13:20:18.310+00:00",
+          "source": "https://aiccelerate.eu/data-integration-suite/test-data#vYZQ8PNtBAzkNIZv",
+          "profile": [
+            "https://aiccelerate.eu/fhir/StructureDefinition/AIC-Patient"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://aiccelerate.eu/data-integration-suite/test-data",
+            "value": "p5"
+          }
+        ],
+        "active": true,
+        "gender": "male",
+        "birthDate": "1965-10-01",
+        "deceasedDateTime": "2019-04-21",
+        "address": [
+          {
+            "use": "home",
+            "type": "both",
+            "postalCode": "G02547"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/7b650be0176d6d29351f84314a5efbe3"
+      },
+      "fullUrl": "Patient/7b650be0176d6d29351f84314a5efbe3"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "17c7c9664ac82f384de0ad4625f2ae4c",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-04-28T13:20:18.325+00:00",
+          "source": "https://aiccelerate.eu/data-integration-suite/test-data#vYZQ8PNtBAzkNIZv",
+          "profile": [
+            "https://aiccelerate.eu/fhir/StructureDefinition/AIC-Patient"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://aiccelerate.eu/data-integration-suite/test-data",
+            "value": "p6"
+          }
+        ],
+        "active": true,
+        "gender": "female",
+        "birthDate": "1991-03"
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/17c7c9664ac82f384de0ad4625f2ae4c"
+      },
+      "fullUrl": "Patient/17c7c9664ac82f384de0ad4625f2ae4c"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "PatientExemploAlvar",
+        "meta": {
+          "versionId": "6",
+          "lastUpdated": "2023-04-11T09:49:27.851+00:00",
+          "source": "#kQPztpuJTkDcRvUV",
+          "profile": [
+            "http://fhir.hl7.pt/fhir/StructureDefinition/alvar-patient-profile"
+          ]
+        },
+        "active": true,
+        "name": [
+          {
+            "family": "Alvar",
+            "given": [
+              "Rui"
+            ]
+          }
+        ],
+        "birthDate": "1982-07-20",
+        "address": [
+          {
+            "line": [
+              "Rua"
+            ],
+            "city": "Cidade",
+            "postalCode": "4415",
+            "country": "PT"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+              "code": "M",
+              "display": "Married"
+            }
+          ]
+        },
+        "contact": [
+          {
+            "telecom": [
+              {
+                "system": "email",
+                "value": "rui.alvar@example.com"
+              }
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/PatientExemploAlvar"
+      },
+      "fullUrl": "Patient/PatientExemploAlvar"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "e1ea114dcfcea572982f224e43deb7a6",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-04-28T13:20:18.341+00:00",
+          "source": "https://aiccelerate.eu/data-integration-suite/test-data#vYZQ8PNtBAzkNIZv",
+          "profile": [
+            "https://aiccelerate.eu/fhir/StructureDefinition/AIC-Patient"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://aiccelerate.eu/data-integration-suite/test-data",
+            "value": "p7"
+          }
+        ],
+        "active": true,
+        "gender": "female",
+        "birthDate": "1972-10-25",
+        "address": [
+          {
+            "use": "home",
+            "type": "both",
+            "postalCode": "V13135"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/e1ea114dcfcea572982f224e43deb7a6"
+      },
+      "fullUrl": "Patient/e1ea114dcfcea572982f224e43deb7a6"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "Utente1Miguel",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-04-13T08:59:05.145+00:00",
+          "source": "#qQv3sQXAWi6w8DEL",
+          "profile": [
+            "http://example.org/StructureDefinition/omeu-utente"
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://example.org/StructureDefinition/tipo-episodio-extension",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://joneapp.chsj.min-saude.pt/tipoepisodio",
+                  "code": "CON",
+                  "display": "Consulta"
+                }
+              ]
+            }
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "value": "1234567"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "text": "Fernando Miguel Oliveira Duarte",
+            "family": "Duarte",
+            "given": [
+              "Fernando",
+              "Miguel",
+              "Oliveira"
+            ]
+          },
+          {
+            "use": "usual",
+            "text": "Miguel Duarte",
+            "family": "Duarte",
+            "given": [
+              "Miguel"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1980-09-28"
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/Utente1Miguel"
+      },
+      "fullUrl": "Patient/Utente1Miguel"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "f6bf84d63799f65dcdd4f5027021adf3",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-04-28T13:20:18.356+00:00",
+          "source": "https://aiccelerate.eu/data-integration-suite/test-data#vYZQ8PNtBAzkNIZv",
+          "profile": [
+            "https://aiccelerate.eu/fhir/StructureDefinition/AIC-Patient"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://aiccelerate.eu/data-integration-suite/test-data",
+            "value": "p8"
+          }
+        ],
+        "active": true,
+        "gender": "female",
+        "birthDate": "2010-01-10",
+        "address": [
+          {
+            "use": "home",
+            "type": "both",
+            "postalCode": "Z54564"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/f6bf84d63799f65dcdd4f5027021adf3"
+      },
+      "fullUrl": "Patient/f6bf84d63799f65dcdd4f5027021adf3"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "a06f7d449f8a655d9163204f0de8237f",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-04-28T13:20:18.369+00:00",
+          "source": "https://aiccelerate.eu/data-integration-suite/test-data#vYZQ8PNtBAzkNIZv",
+          "profile": [
+            "https://aiccelerate.eu/fhir/StructureDefinition/AIC-Patient"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://aiccelerate.eu/data-integration-suite/test-data",
+            "value": "p9"
+          }
+        ],
+        "active": true,
+        "gender": "female",
+        "birthDate": "1999-05-12"
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/a06f7d449f8a655d9163204f0de8237f"
+      },
+      "fullUrl": "Patient/a06f7d449f8a655d9163204f0de8237f"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "7bd4fad75b1efbdc50859a736b839e24",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-04-28T13:20:18.383+00:00",
+          "source": "https://aiccelerate.eu/data-integration-suite/test-data#vYZQ8PNtBAzkNIZv",
+          "profile": [
+            "https://aiccelerate.eu/fhir/StructureDefinition/AIC-Patient"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://aiccelerate.eu/data-integration-suite/test-data",
+            "value": "p10"
+          }
+        ],
+        "active": true,
+        "gender": "female",
+        "birthDate": "2003-11"
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/7bd4fad75b1efbdc50859a736b839e24"
+      },
+      "fullUrl": "Patient/7bd4fad75b1efbdc50859a736b839e24"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "d2c82e97245ed12a2f4b9c9e5b14e1ee",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-04-28T13:20:18.399+00:00",
+          "source": "https://aiccelerate.eu/data-integration-suite/test-data#vYZQ8PNtBAzkNIZv",
+          "profile": [
+            "https://aiccelerate.eu/fhir/StructureDefinition/AIC-Patient"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://aiccelerate.eu/data-integration-suite/test-data",
+            "value": "p11"
+          }
+        ],
+        "active": true,
+        "gender": "female",
+        "birthDate": "2010-01-10",
+        "address": [
+          {
+            "use": "home",
+            "type": "both",
+            "postalCode": "123123"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/d2c82e97245ed12a2f4b9c9e5b14e1ee"
+      },
+      "fullUrl": "Patient/d2c82e97245ed12a2f4b9c9e5b14e1ee"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "0866d0d7011f4e7af7b065bac9a552d2",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-04-28T13:20:18.413+00:00",
+          "source": "https://aiccelerate.eu/data-integration-suite/test-data#vYZQ8PNtBAzkNIZv",
+          "profile": [
+            "https://aiccelerate.eu/fhir/StructureDefinition/AIC-Patient"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://aiccelerate.eu/data-integration-suite/test-data",
+            "value": "p12"
+          }
+        ],
+        "active": true,
+        "gender": "female",
+        "birthDate": "2010-01-10",
+        "address": [
+          {
+            "use": "home",
+            "type": "both",
+            "postalCode": "Z54123123564"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/0866d0d7011f4e7af7b065bac9a552d2"
+      },
+      "fullUrl": "Patient/0866d0d7011f4e7af7b065bac9a552d2"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "b2eb4f1f1104c46c231dd8b4292ca2f9",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-04-28T13:20:18.427+00:00",
+          "source": "https://aiccelerate.eu/data-integration-suite/test-data#vYZQ8PNtBAzkNIZv",
+          "profile": [
+            "https://aiccelerate.eu/fhir/StructureDefinition/AIC-Patient"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://aiccelerate.eu/data-integration-suite/test-data",
+            "value": "p13"
+          }
+        ],
+        "active": true,
+        "gender": "female",
+        "birthDate": "2010-01-10",
+        "address": [
+          {
+            "use": "home",
+            "type": "both",
+            "postalCode": "Z545123264"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/b2eb4f1f1104c46c231dd8b4292ca2f9"
+      },
+      "fullUrl": "Patient/b2eb4f1f1104c46c231dd8b4292ca2f9"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "alicia-patient",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T17:06:50.346+00:00",
+          "source": "#8H8puwgp6HlknDcE"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Age: 28 years. I live with my boyfriend. PhD Student Interests: I love reading and walking outdoors with my dog. I also love art and photography. Health Conditions: HIV (diagnosed with 25 years) Trigeminal neuralgia Depression Overweight</div>"
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/patient-citizenship",
+            "extension": [
+              {
+                "url": "code",
+                "valueCodeableConcept": {
+                  "coding": [
+                    {
+                      "system": "urn:iso:std:iso:3166",
+                      "code": "ES",
+                      "display": "Spain"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "system": "https://www.gravitatehealth.eu/sid/doc",
+            "value": "alicia-1"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Gravitate",
+            "given": [
+              "Alicia"
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1998-10-05"
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/alicia-patient"
+      },
+      "fullUrl": "Patient/alicia-patient"
+    },
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "f7ab35b2-cbaf-3e6c-8913-f046f50f7e33",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:11:30.252+00:00",
+          "source": "https://services.nsi.dk/en/Services/FMK#fwotmyvtplqGXWYB",
+          "profile": [
+            "http://hl7.dk/fhir/core/StructureDefinition/dk-core-patient",
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-ips",
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-patient"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "urn:oid:1.2.208.176.1.2",
+            "value": "0101010101"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Rasmussen",
+            "given": [
+              "Ole"
+            ]
+          }
+        ],
+        "gender": "unknown",
+        "birthDate": "1901-01-01",
+        "address": [
+          {
+            "type": "both",
+            "line": [
+              "Strandvejen 218, 3. tv"
+            ],
+            "district": "Gr\u00e5sten",
+            "postalCode": "6300"
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Patient/f7ab35b2-cbaf-3e6c-8913-f046f50f7e33"
+      },
+      "fullUrl": "Patient/f7ab35b2-cbaf-3e6c-8913-f046f50f7e33"
+    }
+  ]
+}

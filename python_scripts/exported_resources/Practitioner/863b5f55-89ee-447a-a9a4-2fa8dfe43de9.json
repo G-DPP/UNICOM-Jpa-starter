@@ -1,15 +1,15 @@
 {
   "resourceType": "Bundle",
-  "id": "854b15d8-3797-4fdf-a310-8e74f9852336",
+  "id": "863b5f55-89ee-447a-a9a4-2fa8dfe43de9",
   "meta": {
-    "lastUpdated": "2023-05-10T10:24:02.442+00:00"
+    "lastUpdated": "2023-05-10T10:40:58.410+00:00"
   },
   "type": "searchset",
   "total": 17,
   "link": [
     {
       "relation": "self",
-      "url": "http://fhir.hl7.pt/fhir/Practitioner/?_count=20000"
+      "url": "http://fhir.hl7.pt/fhir/Practitioner?_count=20000"
     }
   ],
   "entry": [

@@ -1,15 +1,15 @@
 {
   "resourceType": "Bundle",
-  "id": "40c21e4c-324f-442d-a269-2c47b81e0827",
+  "id": "1c60850a-01a2-4548-945b-72dc2b08d616",
   "meta": {
-    "lastUpdated": "2023-05-10T10:24:03.612+00:00"
+    "lastUpdated": "2023-05-10T10:40:59.690+00:00"
   },
   "type": "searchset",
   "total": 2,
   "link": [
     {
       "relation": "self",
-      "url": "http://fhir.hl7.pt/fhir/Encounter/?_count=20000"
+      "url": "http://fhir.hl7.pt/fhir/Encounter?_count=20000"
     }
   ],
   "entry": [

@@ -1,0 +1,1212 @@
+{
+  "resourceType": "Bundle",
+  "id": "e8bcd54f-8ab6-41fc-bcd3-e18e0512e5b1",
+  "meta": {
+    "lastUpdated": "2023-05-10T10:40:58.722+00:00"
+  },
+  "type": "searchset",
+  "total": 10,
+  "link": [
+    {
+      "relation": "self",
+      "url": "http://fhir.hl7.pt/fhir/Composition?_count=20000"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Composition/gravitate-Matilda",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "gravitate-Matilda",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T19:01:09.509+00:00",
+          "source": "#81bqAldO8BpIWeSi"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><b>Id:</b> gravitate-Matilda<br/><b>status:</b> final<br/><b>Type:</b> Patient summary Document<br/><b>Subject:</b> Matilda Gravitate<br/><b>Sections:</b><br/><ul><li><b>Title:</b> Problem List<br/><b>Code:</b> Problem list Reported (11450-4)</li><br/><ul><li><b>Entry:</b> <a href=\"Condition-matilda-cond-1.html\">Crohn's disease</a></li><br/></ul><li><b>Title:</b> Medication Summary<br/><b>Code:</b> Hx of Medication use (10160-0)</li><br/><ul><li><b>Entry:</b> <a href=\"MedicationStatement-matilda-med-stat-1.html\">Humira 40 mg</a></li><br/><li><b>Entry:</b> <a href=\"MedicationStatement-matilda-med-stat-2.html\">Paracetamol 500 mg</a></li><br/><li><b>Entry:</b> <a href=\"MedicationStatement-matilda-med-stat-3.html\">Pentasa 1g mesalazine</a></li><br/></ul></ul></div>"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/matilda-patient",
+          "display": "Matilda Gravitate"
+        },
+        "date": "2018-07-10T15:22:00+02:00",
+        "author": [
+          {
+            "reference": "Practitioner/matilda-pract",
+            "display": "Dr. Ana Lopez"
+          }
+        ],
+        "title": "Patient Summary (Matilda Gravitate)",
+        "confidentiality": "N",
+        "section": [
+          {
+            "title": "Problem List",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list Reported"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "Condition/matilda-cond-1",
+                "display": "Crohn's disease"
+              }
+            ]
+          },
+          {
+            "title": "Medication Summary",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "Hx of Medication use"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "MedicationStatement/matilda-med-stat-1",
+                "display": "Humira 40 mg"
+              },
+              {
+                "reference": "MedicationStatement/matilda-med-stat-2",
+                "display": "Paracetamol 500 mg"
+              },
+              {
+                "reference": "MedicationStatement/matilda-med-stat-3",
+                "display": "Pentasa 1g mesalazine"
+              }
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Composition/ips-example-1",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "ips-example-1",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T19:01:10.084+00:00",
+          "source": "#gsqnBV7zszd4w1nr"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd6",
+          "display": "Maria Gravitate"
+        },
+        "date": "2018-07-10T15:22:00+02:00",
+        "author": [
+          {
+            "reference": "Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d5",
+            "display": "Dr. Anna Karlsson"
+          }
+        ],
+        "title": "Patient Summary (Maria Gravitate)",
+        "confidentiality": "N",
+        "section": [
+          {
+            "title": "Allergies and Intolerances",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "AllergyIntolerance/1dff4474-fa08-4f45-8260-dbb23094bf05",
+                "display": "Hay fever (pollen)"
+              },
+              {
+                "reference": "AllergyIntolerance/9d18cddb-8e58-4fbb-82ec-09cc561ac805",
+                "display": "Lactose Intolerance"
+              }
+            ]
+          },
+          {
+            "title": "Problem List",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list Reported"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "Condition/bcc79261-142c-48ec-b032-f3f9af49ec55",
+                "display": "Psoriasis"
+              },
+              {
+                "reference": "Condition/f06b7cf8-c15c-4288-a0f9-45a1026e5135",
+                "display": "Hypertension"
+              },
+              {
+                "reference": "Condition/a4a9d90a-d1b0-4d60-82f0-c52343dc6255",
+                "display": "Congestive heart failure"
+              }
+            ]
+          },
+          {
+            "title": "Medication Summary",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "Hx of Medication use"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "MedicationStatement/29074ca4-efcb-4ff4-8446-feed2399a895",
+                "display": "Dimethyl fumarate 30 mg Gastro-resistant tablet"
+              },
+              {
+                "reference": "MedicationStatement/f6cb1218-f81c-4338-80d8-3c10910f78f5",
+                "display": "Irbesartan 75 mg Tablet"
+              },
+              {
+                "reference": "MedicationStatement/f26084c9-b1c8-46d9-acb2-1d400ade87b5",
+                "display": "Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray"
+              }
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Composition/gravitate-Cecilia",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "gravitate-Cecilia",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T19:01:10.846+00:00",
+          "source": "#9Z2fGU3lgkZdZF78"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><b>Id:</b> gravitate-Cecilia<br/><b>status:</b> final<br/><b>Type:</b> Patient summary Document<br/><b>Subject:</b> Cecilia Gravitate<br/><b>Sections:</b><br/><ul><li><b>Title:</b> Problem List<br/><b>Code:</b> Problem list Reported (11450-4)</li><br/><ul><li><b>Entry:</b> <a href=\"Condition-cecilia-cond-1.html\">COPD</a></li><br/><li><b>Entry:</b> <a href=\"Condition-cecilia-cond-2.html\">Diabetese Type 2</a></li><br/><li><b>Entry:</b> <a href=\"Condition-cecilia-cond-3.html\">Osteoporosis</a></li><br/><li><b>Entry:</b> <a href=\"Condition-cecilia-cond-4.html\">Congestive Heart Failure</a></li><br/></ul><li><b>Title:</b> Medication Summary<br/><b>Code:</b> Hx of Medication use (10160-0)</li><br/><ul><li><b>Entry:</b> <a href=\"MedicationStatement-cecilia-med-stat-1.html\">Fosamax 70 mg tablets</a></li><br/><li><b>Entry:</b> <a href=\"MedicationStatement-cecilia-med-stat-2.html\">Metformine + sitagliptine</a></li><br/><li><b>Entry:</b> <a href=\"MedicationStatement-cecilia-med-stat-3.html\">Fluticasone 92mcg + vilanterol 22mcg</a></li><br/><li><b>Entry:</b> <a href=\"MedicationStatement-cecilia-med-stat-4.html\">Digoxin</a></li><br/></ul></ul></div>"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/cecilia-patient",
+          "display": "Cecilia Gravitate"
+        },
+        "date": "2018-07-10T15:22:00+02:00",
+        "author": [
+          {
+            "reference": "Practitioner/cecilia-pract",
+            "display": "Dr. Anna Karlsson"
+          }
+        ],
+        "title": "Patient Summary (Cecilia Gravitate)",
+        "confidentiality": "N",
+        "section": [
+          {
+            "title": "Problem List",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list Reported"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "Condition/cecilia-cond-1",
+                "display": "COPD"
+              },
+              {
+                "reference": "Condition/cecilia-cond-2",
+                "display": "Congestive Heart Failure"
+              },
+              {
+                "reference": "Condition/cecilia-cond-3",
+                "display": "Osteoporosis"
+              },
+              {
+                "reference": "Condition/cecilia-cond-4",
+                "display": "Diabetese Type 2"
+              }
+            ]
+          },
+          {
+            "title": "Medication Summary",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "Hx of Medication use"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "MedicationStatement/cecilia-med-stat-1",
+                "display": "Fosamax 70 mg tablets"
+              },
+              {
+                "reference": "MedicationStatement/cecilia-med-stat-2",
+                "display": "Metformine + sitagliptine"
+              },
+              {
+                "reference": "MedicationStatement/cecilia-med-stat-3",
+                "display": "Fluticasone 92mcg + vilanterol 22mcg"
+              },
+              {
+                "reference": "MedicationStatement/cecilia-med-stat-4",
+                "display": "Digoxin"
+              }
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Composition/gravitate-Pedro",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "gravitate-Pedro",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T19:01:11.613+00:00",
+          "source": "#Inh0pboBStZIVLRJ"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><b>Id:</b> gravitate-Pedro<br/><b>status:</b> final<br/><b>Type:</b> Patient summary Document<br/><b>Subject:</b> Pedro Gravitate<br/><b>Sections:</b><br/><ul><li><b>Title:</b> Problem List<br/><b>Code:</b> Problem list Reported (11450-4)</li><br/><ul><li><b>Entry:</b> <a href=\"Condition-pedro-cond-1.html\">HIV</a></li><br/><li><b>Entry:</b> <a href=\"Condition-pedro-cond-2.html\">Depression</a></li><br/><li><b>Entry:</b> <a href=\"Condition-pedro-cond-3.html\">IBS</a></li><br/></ul><li><b>Title:</b> Medication Summary<br/><b>Code:</b> Hx of Medication use (10160-0)</li><br/><ul><li><b>Entry:</b> <a href=\"MedicationStatement-pedro-med-stat-1.html\">Dovato lamivudine and dolutegravir, 300 mg/50 mg</a></li><br/><li><b>Entry:</b> <a href=\"MedicationStatement-pedro-med-stat-2.html\">Mirtazapine 15 mg</a></li><br/><li><b>Entry:</b> <a href=\"MedicationStatement-pedro-med-stat-3.html\">Calcium carbonate 500 mg</a></li><br/><li><b>Entry:</b> <a href=\"MedicationStatement-pedro-med-stat-4.html\">Cinitrapide 1 mg</a></li><br/><li><b>Entry:</b> <a href=\"MedicationStatement-pedro-med-stat-5.html\">Collagen and magnesium supplements</a></li><br/><li><b>Entry:</b> <a href=\"MedicationStatement-pedro-med-stat-6.html\">Vitamin C supplements</a></li><br/><li><b>Entry:</b> <a href=\"MedicationStatement-pedro-med-stat-7.html\">Protein supplements</a></li><br/></ul></ul></div>"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/pedro-patient",
+          "display": "Pedro Gravitate"
+        },
+        "date": "2018-07-10T15:22:00+02:00",
+        "author": [
+          {
+            "reference": "Practitioner/pedro-pract",
+            "display": "Dr. Anna Karlsson"
+          }
+        ],
+        "title": "Patient Summary (Pedro Gravitate)",
+        "confidentiality": "N",
+        "section": [
+          {
+            "title": "Problem List",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list Reported"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "Condition/pedro-cond-1",
+                "display": "Depression"
+              },
+              {
+                "reference": "Condition/pedro-cond-2",
+                "display": "HIV"
+              },
+              {
+                "reference": "Condition/pedro-cond-3",
+                "display": "IBS"
+              }
+            ]
+          },
+          {
+            "title": "Medication Summary",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "Hx of Medication use"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "MedicationStatement/pedro-med-stat-1",
+                "display": "Dovato lamivudine and dolutegravir, 300 mg/50 mg"
+              },
+              {
+                "reference": "MedicationStatement/pedro-med-stat-2",
+                "display": "Mirtazapine 15 mg"
+              },
+              {
+                "reference": "MedicationStatement/pedro-med-stat-3",
+                "display": "Calcium carbonate 500 mg"
+              },
+              {
+                "reference": "MedicationStatement/pedro-med-stat-4",
+                "display": "Cinitrapide 1 mg"
+              },
+              {
+                "reference": "MedicationStatement/pedro-med-stat-5",
+                "display": "Collagen and magnesium supplements"
+              },
+              {
+                "reference": "MedicationStatement/pedro-med-stat-6",
+                "display": "Vitamin C supplements"
+              },
+              {
+                "reference": "MedicationStatement/pedro-med-stat-7",
+                "display": "Protein supplements"
+              }
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Composition/gravitate-helen",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "gravitate-helen",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T19:01:12.774+00:00",
+          "source": "#Wpum51tbklmkHE75"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/be61951b-44fc-4853-8822-f9d398193c50",
+          "display": "Helen Gravitate"
+        },
+        "date": "2018-07-10T15:22:00+02:00",
+        "author": [
+          {
+            "reference": "Practitioner/45cd0bd4-f685-4117-a9f0-5c53fffb7266",
+            "display": "Dr. Anna Karlsson"
+          }
+        ],
+        "title": "Patient Summary (Helen Gravitate)",
+        "confidentiality": "N",
+        "section": [
+          {
+            "title": "Allergies and Intolerances",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Hay fever (pollen)</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "AllergyIntolerance/cb6e84fa-4302-4569-ac1c-6b1b32507d16",
+                "display": "Lactose Intolerance"
+              }
+            ]
+          },
+          {
+            "title": "Problem List",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list Reported"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Diabetes type 1</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "Condition/de06df6b-0967-4b01-822b-7cfeea970aa7",
+                "display": "Diabetes type 1"
+              }
+            ]
+          },
+          {
+            "title": "Medication Summary",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "Hx of Medication use"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Brand Name</th><th>MAN</th><th>Active Substance</th><th>Common Name</th><th>ATC</th><th>Strength</th><th>Dose Form</th><th>RoA</th></tr></thead><tbody><tr><td>Humalog Mix50 Insulin KwikPen, 3ml pre-fill</td><td>EU/1/96/007/035</td><td>insulin lispro (GFX7QIS1II)</td><td>insulin lispro</td><td>A10AD04</td><td>100 U/ml</td><td>Suspension for injection</td><td>Subcutaneous use</td></tr><tr><td>Monuril 3 g granules for oral solution</td><td>PL31654/0006</td><td>FOSFOMYCIN (2N81MY12TE)</td><td>fosfomycin</td><td>J01XX01</td><td>3 g (as trometamol: 5.631g/sachet)</td><td>Granules for oral solution</td><td>Oral use</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "MedicationStatement/18eb9898-dea7-4c5e-b097-e507e011747b",
+                "display": "Humalog Mix50 Insulin KwikPen, 3ml pre-fill"
+              },
+              {
+                "reference": "MedicationStatement/c90b943a-3d8e-4f14-b56d-5c5c208b2065",
+                "display": "Monuril 3 g granules for oral solution"
+              }
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Composition/ips-example-2",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "ips-example-2",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T19:01:13.319+00:00",
+          "source": "#X8RePcZ8tBBxt1as"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd3",
+          "display": "Maria Gravitate"
+        },
+        "date": "2018-07-10T15:22:00+02:00",
+        "author": [
+          {
+            "reference": "Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d3",
+            "display": "Dr. Anna Karlsson"
+          }
+        ],
+        "title": "Patient Summary (Maria Gravitate)",
+        "confidentiality": "N",
+        "section": [
+          {
+            "title": "Allergies and Intolerances",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "AllergyIntolerance/1dff4474-fa08-4f45-8260-dbb23094bf03",
+                "display": "Hay fever (pollen)"
+              }
+            ]
+          },
+          {
+            "title": "Problem List",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list Reported"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "Condition/bcc79261-142c-48ec-b032-f3f9af49ec53",
+                "display": "Psoriasis"
+              },
+              {
+                "reference": "Condition/f06b7cf8-c15c-4288-a0f9-45a1026e5133",
+                "display": "Hypertension"
+              },
+              {
+                "reference": "Condition/a4a9d90a-d1b0-4d60-82f0-c52343dc6253",
+                "display": "Congestive heart failure"
+              }
+            ]
+          },
+          {
+            "title": "Medication Summary",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "Hx of Medication use"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "MedicationStatement/29074ca4-efcb-4ff4-8446-feed2399a893",
+                "display": "Dimethyl fumarate 30 mg Gastro-resistant tablet"
+              },
+              {
+                "reference": "MedicationStatement/f6cb1218-f81c-4338-80d8-3c10910f78f3",
+                "display": "Irbesartan 75 mg Tablet"
+              },
+              {
+                "reference": "MedicationStatement/f26084c9-b1c8-46d9-acb2-1d400ade87b3",
+                "display": "Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray"
+              }
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Composition/gravitate-maria",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "gravitate-maria",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T19:01:14.034+00:00",
+          "source": "#iAxpKXl6F6py0FhY"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd5",
+          "display": "Maria Gravitate"
+        },
+        "date": "2018-07-10T15:22:00+02:00",
+        "author": [
+          {
+            "reference": "Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d8",
+            "display": "Dr. Anna Karlsson"
+          }
+        ],
+        "title": "Patient Summary (Maria Gravitate)",
+        "confidentiality": "N",
+        "section": [
+          {
+            "title": "Allergies and Intolerances",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Hay fever (pollen)</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "AllergyIntolerance/1dff4474-fa08-4f45-8260-dbb23094bf07",
+                "display": "Hay fever (pollen)"
+              }
+            ]
+          },
+          {
+            "title": "Problem List",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list Reported"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Psoriasis</li><li>Hypertension</li><li>Congestive heart failure</li></ul></div>"
+            },
+            "entry": [
+              {
+                "reference": "Condition/bcc79261-142c-48ec-b032-f3f9af49ec58",
+                "display": "Psoriasis"
+              },
+              {
+                "reference": "Condition/f06b7cf8-c15c-4288-a0f9-45a1026e5130",
+                "display": "Hypertension"
+              },
+              {
+                "reference": "Condition/a4a9d90a-d1b0-4d60-82f0-c52343dc6256",
+                "display": "Congestive heart failure"
+              }
+            ]
+          },
+          {
+            "title": "Medication Summary",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "Hx of Medication use"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Brand Name</th><th>MAN</th><th>Active Substance</th><th>Common Name</th><th>ATC</th><th>Strength</th><th>Dose Form</th><th>RoA</th></tr></thead><tbody><tr><td>Skilarence</td><td>EU/1/17/1201/001</td><td>dimethyl fumarate (FO2303MNI2)</td><td>dimethyl fumarate</td><td>L04AX07</td><td>30 mg</td><td>Gastro-resistant tablet</td><td>Oral use</td></tr><tr><td>Karvea</td><td>EMEA/H/C/000142</td><td>irbesartan (J0E2756Z7N)</td><td>irbesartan</td><td>C09DA04</td><td>75 mg</td><td>Tablet</td><td>Oral use</td></tr><tr><td>Boots Decongestant 0.05% w/v Nasal spray</td><td>PL 16028/0049</td><td>oxymetazoline hydrochloride (K89MJ0S5VY)</td><td>oxymetazoline hydrochloride</td><td>R01AA05</td><td>0.05 mg / 1 ml</td><td>Nasal spray, solution</td><td>Nasal use</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "MedicationStatement/29074ca4-efcb-4ff4-8446-feed2399a899",
+                "display": "Dimethyl fumarate 30 mg Gastro-resistant tablet"
+              },
+              {
+                "reference": "MedicationStatement/f6cb1218-f81c-4338-80d8-3c10910f78fd",
+                "display": "Irbesartan 75 mg Tablet"
+              },
+              {
+                "reference": "MedicationStatement/f26084c9-b1c8-46d9-acb2-1d400ade87ba",
+                "display": "Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray"
+              }
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Composition/ips-example-3",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "ips-example-3",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T19:01:14.728+00:00",
+          "source": "#zGwoyed5HYDJYZIe"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd1",
+          "display": "Example 1 Gravitate"
+        },
+        "date": "2018-07-10T15:22:00+02:00",
+        "author": [
+          {
+            "reference": "Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d1",
+            "display": "Dr. Anna Karlsson"
+          }
+        ],
+        "title": "Patient Summary (Maria Gravitate)",
+        "confidentiality": "N",
+        "section": [
+          {
+            "title": "Allergies and Intolerances",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "AllergyIntolerance/1dff4474-fa08-4f45-8260-dbb23094bf01",
+                "display": "Hay fever (pollen)"
+              }
+            ]
+          },
+          {
+            "title": "Problem List",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list Reported"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "Condition/bcc79261-142c-48ec-b032-f3f9af49ec51",
+                "display": "Psoriasis"
+              },
+              {
+                "reference": "Condition/f06b7cf8-c15c-4288-a0f9-45a1026e5131",
+                "display": "Hypertension"
+              },
+              {
+                "reference": "Condition/a4a9d90a-d1b0-4d60-82f0-c52343dc6251",
+                "display": "Congestive heart failure"
+              }
+            ]
+          },
+          {
+            "title": "Medication Summary",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "Hx of Medication use"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "MedicationStatement/29074ca4-efcb-4ff4-8446-feed2399a891",
+                "display": "Dimethyl fumarate 30 mg Gastro-resistant tablet"
+              },
+              {
+                "reference": "MedicationStatement/f6cb1218-f81c-4338-80d8-3c10910f78f1",
+                "display": "Irbesartan 75 mg Tablet"
+              },
+              {
+                "reference": "MedicationStatement/f26084c9-b1c8-46d9-acb2-1d400ade87b1",
+                "display": "Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray"
+              },
+              {
+                "reference": "Medication/5d129355-4b20-40d8-841f-7f93acbc3e61",
+                "display": "valproic acid"
+              }
+            ]
+          },
+          {
+            "title": "Pregnancy History",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10162-6",
+                  "display": "Pregnancies Hx"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "Observation/e06e43a1-38d4-468f-8c35-f7f12da91061",
+                "display": "Pregrancy Status"
+              }
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Composition/ips-example-4",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "ips-example-4",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2023-04-16T10:43:46.988+00:00",
+          "source": "#nXJtb6tiEYNsOk8r"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd2",
+          "display": "Example 4 Gravitate"
+        },
+        "date": "2018-07-10T15:22:00+02:00",
+        "author": [
+          {
+            "reference": "Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d2",
+            "display": "Dr. Anna Karlsson"
+          }
+        ],
+        "title": "Patient Summary (IPS Example 4 Gravitate)",
+        "confidentiality": "N",
+        "section": [
+          {
+            "title": "Allergies and Intolerances",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "48765-2",
+                  "display": "Allergies and adverse reactions Document"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "AllergyIntolerance/1dff4474-fa08-4f45-8260-dbb23094bf02",
+                "display": "Hay fever (pollen)"
+              },
+              {
+                "reference": "AllergyIntolerance/9d18cddb-8e58-4fbb-82ec-09cc561ac802",
+                "display": "Lactose Intolerance"
+              }
+            ]
+          },
+          {
+            "title": "Problem List",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list Reported"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "Condition/bcc79261-142c-48ec-b032-f3f9af49ec52",
+                "display": "Psoriasis"
+              },
+              {
+                "reference": "Condition/f06b7cf8-c15c-4288-a0f9-45a1026e5132",
+                "display": "Hypertension"
+              },
+              {
+                "reference": "Condition/a4a9d90a-d1b0-4d60-82f0-c52343dc6252",
+                "display": "Congestive heart failure"
+              }
+            ]
+          },
+          {
+            "title": "Medication Summary",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "Hx of Medication use"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "MedicationStatement/29074ca4-efcb-4ff4-8446-feed2399a892",
+                "display": "Remsima 100 mg powder for concentrate for solution for infusion"
+              },
+              {
+                "reference": "MedicationStatement/f6cb1218-f81c-4338-80d8-3c10910f78f2",
+                "display": "Irbesartan 75 mg Tablet"
+              },
+              {
+                "reference": "MedicationStatement/f26084c9-b1c8-46d9-acb2-1d400ade87b2",
+                "display": "Pentasa Slow Release Tablets 1g"
+              }
+            ]
+          },
+          {
+            "title": "Vital Signs",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8716-3",
+                  "display": "Vital Signs"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "Observation/bw",
+                "display": "Body weight"
+              },
+              {
+                "reference": "Observation/bh",
+                "display": "Body height"
+              },
+              {
+                "reference": "Observation/bp",
+                "display": "Blood pressure"
+              }
+            ]
+          },
+          {
+            "title": "Results",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "30954-2",
+                  "display": "Relevant diagnostic tests/laboratory data Narrative"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "Observation/glucose",
+                "display": "glucose"
+              }
+            ]
+          },
+          {
+            "title": "Pregnancy History",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10162-6",
+                  "display": "Pregnancies Hx"
+                }
+              ]
+            },
+            "entry": [
+              {
+                "reference": "Observation/e06e43a1-38d4-468f-8c35-f7f12da91062",
+                "display": "Pregrancy Status"
+              }
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Composition/gravitate-Alicia",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "gravitate-Alicia",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:10:26.093+00:00",
+          "source": "#uH41p8R6BLiQUoM6",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Composition-uv-ips"
+          ]
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><b>Id:</b> gravitate-alicia<br/><b>status:</b> final<br/><b>Type:</b> Patient summary Document<br/><b>Subject:</b> alicia Gravitate<br/><b>Sections:</b><br/><ul><li><b>Title:</b> Problem List<br/><b>Code:</b> Problem list Reported (11450-4)</li><br/><ul><li><b>Entry:</b> <a href=\"Condition-alicia-cond-1.html\">HIV</a></li><br/><li><b>Entry:</b> <a href=\"Condition-alicia-cond-2.html\">Trigeminal neuralgia</a></li><br/><li><b>Entry:</b> <a href=\"Condition-alicia-cond-3.html\">Depression</a></li><br/><li><b>Entry:</b> <a href=\"Condition-alicia-cond-4.html\">Overweight</a></li></ul><li><b>Title:</b> Medication Summary<br/><b>Code:</b> Hx of Medication use (10160-0)</li><br/><ul><li><b>Entry:</b> <a href=\"MedicationStatement-alicia-med-stat-1.html\">BIKTARVY Bictegravir/Emtricitabine/Tenofovir Alafenamide 1 t QD</a></li><br/><li><b>Entry:</b> <a href=\"MedicationStatement-alicia-med-stat-2.html\">Calcium/Vit D</a></li><br/><li><b>Entry:</b> <a href=\"MedicationStatement-alicia-med-stat-3.html\">Folic Acid + Cyanocobalamin + Iodur 1 t QD</a></li><br/><li><b>Entry:</b> <a href=\"MedicationStatement-alicia-med-stat-4.html\">Carbamazepine 1 t TID</a></li><br/><li><b>Entry:</b> <a href=\"MedicationStatement-alicia-med-stat-5.html\">Orlistat 1 cp TID</a></li><br/><li><b>Entry:</b> <a href=\"MedicationStatement-alicia-med-stat-6.html\">St. John\u2019s Wort 2 cp BID</a></li><br/><li><b>Entry:</b> <a href=\"MedicationStatement-alicia-med-stat-7.html\">Collagen and magnesium supplements</a></li><br/></ul></ul></div>"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "60591-5",
+              "display": "Patient summary Document"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/alicia-patient",
+          "display": "Alicia Gravitate"
+        },
+        "date": "2018-07-10T15:22:00+02:00",
+        "author": [
+          {
+            "reference": "Practitioner/alicia-pract",
+            "display": "Dr. Walter Waltz"
+          }
+        ],
+        "title": "Patient Summary (Alicia Gravitate)",
+        "confidentiality": "N",
+        "section": [
+          {
+            "title": "Problem List",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "11450-4",
+                  "display": "Problem list Reported"
+                }
+              ]
+            },
+            "text": {
+              "status": "additional",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Problem list Reported</div>"
+            },
+            "entry": [
+              {
+                "reference": "Condition/alicia-cond-1",
+                "display": "Depression"
+              },
+              {
+                "reference": "Condition/alicia-cond-2",
+                "display": "HIV"
+              },
+              {
+                "reference": "Condition/alicia-cond-3",
+                "display": "Trigeminal neuralgia"
+              },
+              {
+                "reference": "Condition/alicia-cond-4",
+                "display": "Overweight"
+              }
+            ]
+          },
+          {
+            "title": "Medication Summary",
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "10160-0",
+                  "display": "Hx of Medication use"
+                }
+              ]
+            },
+            "text": {
+              "status": "additional",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Medication list Reported</div>"
+            },
+            "entry": [
+              {
+                "reference": "MedicationStatement/alicia-med-stat-1",
+                "display": "BIKTARVY Bictegravir/Emtricitabine/Tenofovir Alafenamide 1 t QD"
+              },
+              {
+                "reference": "MedicationStatement/alicia-med-stat-2",
+                "display": "Folic Acid + Cyanocobalamin + Iodur 1 t QD"
+              },
+              {
+                "reference": "MedicationStatement/alicia-med-stat-3",
+                "display": "CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES"
+              },
+              {
+                "reference": "MedicationStatement/alicia-med-stat-4",
+                "display": "Carbamazepine  1 t TID"
+              },
+              {
+                "reference": "MedicationStatement/alicia-med-stat-5",
+                "display": "Orlistat 1 cp TID"
+              },
+              {
+                "reference": "MedicationStatement/alicia-med-stat-6",
+                "display": "St. John\u2019s Wort 2 cp BID"
+              },
+              {
+                "reference": "MedicationStatement/alicia-med-stat-7",
+                "display": "Collagen and magnesium supplements"
+              }
+            ]
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    }
+  ]
+}

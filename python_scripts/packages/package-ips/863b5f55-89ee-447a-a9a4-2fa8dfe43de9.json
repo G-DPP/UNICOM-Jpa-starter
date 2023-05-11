@@ -1,0 +1,806 @@
+{
+  "resourceType": "Bundle",
+  "type": "transaction",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "matilda-pract",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:04.354+00:00",
+          "source": "#FaVrWYzdguge0mju"
+        },
+        "name": [
+          {
+            "family": "Lopez",
+            "given": [
+              "Ana"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Practitioner/matilda-pract"
+      },
+      "fullUrl": "Practitioner/matilda-pract"
+    },
+    {
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "1ece89c5-fda3-4db9-ace6-decbe6c603d5",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:14.776+00:00",
+          "source": "#pu5Gy6BZYQNhXO5r"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Dr. Anne Karlsson</div>"
+        },
+        "name": [
+          {
+            "family": "Karlsson",
+            "given": [
+              "Anne"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d5"
+      },
+      "fullUrl": "Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d5"
+    },
+    {
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "cecilia-pract",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:15.995+00:00",
+          "source": "#FIB9sgiQbGwon17I"
+        },
+        "name": [
+          {
+            "family": "Karlsson",
+            "given": [
+              "Anne"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Practitioner/cecilia-pract"
+      },
+      "fullUrl": "Practitioner/cecilia-pract"
+    },
+    {
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "pedro-pract",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:17.195+00:00",
+          "source": "#shQf7rKb8X3HN3Nh"
+        },
+        "name": [
+          {
+            "family": "Garc\u00eda",
+            "given": [
+              "Xavier"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Practitioner/pedro-pract"
+      },
+      "fullUrl": "Practitioner/pedro-pract"
+    },
+    {
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "45cd0bd4-f685-4117-a9f0-5c53fffb7266",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:18.730+00:00",
+          "source": "#luYwHxmi38ogbJNs"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Dr. Anne Karlsson</div>"
+        },
+        "name": [
+          {
+            "family": "Karlsson",
+            "given": [
+              "Anne"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Practitioner/45cd0bd4-f685-4117-a9f0-5c53fffb7266"
+      },
+      "fullUrl": "Practitioner/45cd0bd4-f685-4117-a9f0-5c53fffb7266"
+    },
+    {
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "1ece89c5-fda3-4db9-ace6-decbe6c603d3",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:19.443+00:00",
+          "source": "#T4Kfrbh0ReIHhjWk"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Dr. Anne Karlsson</div>"
+        },
+        "name": [
+          {
+            "family": "Karlsson",
+            "given": [
+              "Anne"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d3"
+      },
+      "fullUrl": "Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d3"
+    },
+    {
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "1ece89c5-fda3-4db9-ace6-decbe6c603d8",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:20.404+00:00",
+          "source": "#g0dSUF6St7WKUQwH"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Dr. Anne Karlsson</div>"
+        },
+        "name": [
+          {
+            "family": "Karlsson",
+            "given": [
+              "Anne"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d8"
+      },
+      "fullUrl": "Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d8"
+    },
+    {
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "1ece89c5-fda3-4db9-ace6-decbe6c603d1",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:21.431+00:00",
+          "source": "#zKElbVoUiz7CwDBQ"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Dr. Anne Karlsson</div>"
+        },
+        "name": [
+          {
+            "family": "Karlsson",
+            "given": [
+              "Anne"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d1"
+      },
+      "fullUrl": "Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d1"
+    },
+    {
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "f201",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-23T08:17:12.854+00:00",
+          "source": "#hnZ26tVM2pxDcdmH"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <p>Dr Adam Careful is a Referring Practitioner for Acme Hospital from 1-Jan 2012 to 31-Mar\n        2012</p>\n    </div>"
+        },
+        "identifier": [
+          {
+            "system": "http://www.acme.org/practitioners",
+            "value": "23"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Careful",
+            "given": [
+              "Adam"
+            ],
+            "prefix": [
+              "Dr"
+            ]
+          }
+        ],
+        "address": [
+          {
+            "use": "home",
+            "line": [
+              "534 Erewhon St"
+            ],
+            "city": "PleasantVille",
+            "state": "Vic",
+            "postalCode": "3999"
+          }
+        ],
+        "qualification": [
+          {
+            "identifier": [
+              {
+                "system": "http://example.org/UniversityIdentifier",
+                "value": "12345"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0360/2.7",
+                  "code": "BS",
+                  "display": "Bachelor of Science"
+                }
+              ],
+              "text": "Bachelor of Science"
+            },
+            "period": {
+              "start": "1995"
+            },
+            "issuer": {
+              "display": "Example University"
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Practitioner/f201"
+      },
+      "fullUrl": "Practitioner/f201"
+    },
+    {
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "196",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-23T15:24:52.232+00:00",
+          "source": "#ezSsgLXKZAHThQFz"
+        },
+        "identifier": [
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "MD",
+                  "display": "Medical License number"
+                }
+              ],
+              "text": "N\u00famero da C\u00e9dula Profissional M\u00e9dica"
+            },
+            "system": "https://www.ordemdosmedicos.pt",
+            "value": "99999",
+            "period": {
+              "start": "2020-01-01"
+            }
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "NP",
+                  "display": "Nurse practitioner number"
+                }
+              ],
+              "text": "Nu\u0301mero da Ce\u0301dula Profissional de Enfermagem"
+            },
+            "system": "https://www.ordemenfermeiros.pt",
+            "value": "E-99999",
+            "period": {
+              "start": "2020-01-01"
+            }
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "EI",
+                  "display": "Employee number"
+                }
+              ],
+              "text": "Nu\u0301mero Mecanogra\u0301gico do Profissional"
+            },
+            "system": "https://chsj.min-saude.pt",
+            "value": "7240",
+            "period": {
+              "start": "2008-09-01"
+            }
+          },
+          {
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "PN",
+                  "display": "Person number"
+                }
+              ],
+              "text": "Id Pessoa interno do JOne"
+            },
+            "system": "https://joneapp.chsj.min-saude.pt",
+            "value": "5",
+            "period": {
+              "start": "2008-09-01"
+            }
+          }
+        ],
+        "name": [
+          {
+            "use": "official",
+            "family": "Duarte",
+            "given": [
+              "Fernando",
+              "Miguel",
+              "Oliveira"
+            ],
+            "prefix": [
+              "Eng\u00ba"
+            ]
+          },
+          {
+            "use": "usual",
+            "family": "Duarte",
+            "given": [
+              "Miguel"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "911111111"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1980-09-28",
+        "qualification": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "urn:uri:medical-specialty",
+                  "code": "10",
+                  "display": "Neurologia"
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "urn:uri:medical-sub-specialty",
+                  "code": "25000",
+                  "display": "Neonatologia Internamento"
+                }
+              ]
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "urn:uri:medical-sub-specialty",
+                  "code": "24000",
+                  "display": "Neurocirurgia"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Practitioner/196"
+      },
+      "fullUrl": "Practitioner/196"
+    },
+    {
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "1ece89c5-fda3-4db9-ace6-decbe6c603d2",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-04-04T10:31:51.238+00:00",
+          "source": "#jRUupCnDFKEqbQvl"
+        },
+        "name": [
+          {
+            "family": "Karlsson",
+            "given": [
+              "Anne"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d2"
+      },
+      "fullUrl": "Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d2"
+    },
+    {
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "alicia-pract",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T17:06:50.715+00:00",
+          "source": "#rwzhXgyYwzqQStIz"
+        },
+        "name": [
+          {
+            "family": "Waltz",
+            "given": [
+              "Walter"
+            ],
+            "prefix": [
+              "Dr."
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Practitioner/alicia-pract"
+      },
+      "fullUrl": "Practitioner/alicia-pract"
+    },
+    {
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "b469dcd5-3746-35d5-868f-09c7ebf1f460",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:11:28.558+00:00",
+          "source": "https://services.nsi.dk/en/Services/FMK#4qh0aLws8Be1h1OY",
+          "profile": [
+            "http://hl7.dk/fhir/core/StructureDefinition/dk-core-practitioner",
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Practitioner-uv-ips",
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-practitioner"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://autregweb.sst.dk",
+            "value": "J0184"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Larsen",
+            "given": [
+              "Lars"
+            ]
+          }
+        ],
+        "qualification": [
+          {
+            "identifier": [
+              {
+                "use": "official",
+                "system": "https://autregweb.sst.dk",
+                "value": "J0184"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://hl7.dk/fhir/core/CodeSystem/DkCoreProfessionGroupCodes",
+                  "code": "7170",
+                  "display": "L\u00e6ge"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Practitioner/b469dcd5-3746-35d5-868f-09c7ebf1f460"
+      },
+      "fullUrl": "Practitioner/b469dcd5-3746-35d5-868f-09c7ebf1f460"
+    },
+    {
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "f81e478b-a8dd-3f68-a9c3-1b857ea2472e",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:11:28.986+00:00",
+          "source": "https://services.nsi.dk/en/Services/FMK#jPn5pkMdJ2nV0S3g",
+          "profile": [
+            "http://hl7.dk/fhir/core/StructureDefinition/dk-core-practitioner",
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Practitioner-uv-ips",
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-practitioner"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://autregweb.sst.dk",
+            "value": "05087"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Andersen",
+            "given": [
+              "Emma"
+            ]
+          }
+        ],
+        "qualification": [
+          {
+            "identifier": [
+              {
+                "use": "official",
+                "system": "https://autregweb.sst.dk",
+                "value": "05087"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://hl7.dk/fhir/core/CodeSystem/DkCoreProfessionGroupCodes",
+                  "code": "7170",
+                  "display": "L\u00e6ge"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Practitioner/f81e478b-a8dd-3f68-a9c3-1b857ea2472e"
+      },
+      "fullUrl": "Practitioner/f81e478b-a8dd-3f68-a9c3-1b857ea2472e"
+    },
+    {
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "0bf711af-c78d-3709-b87a-00d31a48c740",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:11:29.307+00:00",
+          "source": "https://services.nsi.dk/en/Services/FMK#emvkBhqb7oNhawt6",
+          "profile": [
+            "http://hl7.dk/fhir/core/StructureDefinition/dk-core-practitioner",
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Practitioner-uv-ips",
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-practitioner"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://autregweb.sst.dk",
+            "value": "NS189"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Bach",
+            "given": [
+              "Andreas"
+            ]
+          }
+        ],
+        "qualification": [
+          {
+            "identifier": [
+              {
+                "use": "official",
+                "system": "https://autregweb.sst.dk",
+                "value": "NS189"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://hl7.dk/fhir/core/CodeSystem/DkCoreProfessionGroupCodes",
+                  "code": "7170",
+                  "display": "L\u00e6ge"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Practitioner/0bf711af-c78d-3709-b87a-00d31a48c740"
+      },
+      "fullUrl": "Practitioner/0bf711af-c78d-3709-b87a-00d31a48c740"
+    },
+    {
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "323724ff-ee66-352c-a0fc-48b55a248355",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:11:29.615+00:00",
+          "source": "https://services.nsi.dk/en/Services/FMK#pb6OCtyR4AQKTdSH",
+          "profile": [
+            "http://hl7.dk/fhir/core/StructureDefinition/dk-core-practitioner",
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Practitioner-uv-ips",
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-practitioner"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://autregweb.sst.dk",
+            "value": "FMK04"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Larsen",
+            "given": [
+              "Trine"
+            ]
+          }
+        ],
+        "qualification": [
+          {
+            "identifier": [
+              {
+                "use": "official",
+                "system": "https://autregweb.sst.dk",
+                "value": "FMK04"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://hl7.dk/fhir/core/CodeSystem/DkCoreProfessionGroupCodes",
+                  "code": "7170",
+                  "display": "L\u00e6ge"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Practitioner/323724ff-ee66-352c-a0fc-48b55a248355"
+      },
+      "fullUrl": "Practitioner/323724ff-ee66-352c-a0fc-48b55a248355"
+    },
+    {
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "55aa2345-b156-3218-b706-d9a4e4fb3d63",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:11:29.931+00:00",
+          "source": "https://services.nsi.dk/en/Services/FMK#3zj32dfMCtzmAxYU",
+          "profile": [
+            "http://hl7.dk/fhir/core/StructureDefinition/dk-core-practitioner",
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Practitioner-uv-ips",
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-practitioner"
+          ]
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://autregweb.sst.dk",
+            "value": "NRD40"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Pedersen",
+            "given": [
+              "Allan"
+            ]
+          }
+        ],
+        "qualification": [
+          {
+            "identifier": [
+              {
+                "use": "official",
+                "system": "https://autregweb.sst.dk",
+                "value": "NRD40"
+              }
+            ],
+            "code": {
+              "coding": [
+                {
+                  "system": "http://hl7.dk/fhir/core/CodeSystem/DkCoreProfessionGroupCodes",
+                  "code": "7170",
+                  "display": "L\u00e6ge"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "POST",
+        "url": "Practitioner/55aa2345-b156-3218-b706-d9a4e4fb3d63"
+      },
+      "fullUrl": "Practitioner/55aa2345-b156-3218-b706-d9a4e4fb3d63"
+    }
+  ]
+}

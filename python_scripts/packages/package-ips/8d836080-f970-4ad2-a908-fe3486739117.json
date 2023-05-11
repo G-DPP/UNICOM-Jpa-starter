@@ -1,20 +1,8 @@
 {
   "resourceType": "Bundle",
-  "id": "d83bfba3-5256-4932-8633-4c15860c6258",
-  "meta": {
-    "lastUpdated": "2023-05-10T10:24:03.094+00:00"
-  },
-  "type": "searchset",
-  "total": 8,
-  "link": [
-    {
-      "relation": "self",
-      "url": "http://fhir.hl7.pt/fhir/AllergyIntolerance/?_count=20000"
-    }
-  ],
+  "type": "transaction",
   "entry": [
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/AllergyIntolerance/1dff4474-fa08-4f45-8260-dbb23094bf05",
       "resource": {
         "resourceType": "AllergyIntolerance",
         "id": "1dff4474-fa08-4f45-8260-dbb23094bf05",
@@ -73,12 +61,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "POST",
+        "url": "AllergyIntolerance/1dff4474-fa08-4f45-8260-dbb23094bf05"
+      },
+      "fullUrl": "AllergyIntolerance/1dff4474-fa08-4f45-8260-dbb23094bf05"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/AllergyIntolerance/9d18cddb-8e58-4fbb-82ec-09cc561ac805",
       "resource": {
         "resourceType": "AllergyIntolerance",
         "id": "9d18cddb-8e58-4fbb-82ec-09cc561ac805",
@@ -174,12 +163,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "POST",
+        "url": "AllergyIntolerance/9d18cddb-8e58-4fbb-82ec-09cc561ac805"
+      },
+      "fullUrl": "AllergyIntolerance/9d18cddb-8e58-4fbb-82ec-09cc561ac805"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/AllergyIntolerance/cb6e84fa-4302-4569-ac1c-6b1b32507d16",
       "resource": {
         "resourceType": "AllergyIntolerance",
         "id": "cb6e84fa-4302-4569-ac1c-6b1b32507d16",
@@ -222,12 +212,13 @@
           "display": "Helen Gravitate"
         }
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "POST",
+        "url": "AllergyIntolerance/cb6e84fa-4302-4569-ac1c-6b1b32507d16"
+      },
+      "fullUrl": "AllergyIntolerance/cb6e84fa-4302-4569-ac1c-6b1b32507d16"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/AllergyIntolerance/1dff4474-fa08-4f45-8260-dbb23094bf03",
       "resource": {
         "resourceType": "AllergyIntolerance",
         "id": "1dff4474-fa08-4f45-8260-dbb23094bf03",
@@ -286,12 +277,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "POST",
+        "url": "AllergyIntolerance/1dff4474-fa08-4f45-8260-dbb23094bf03"
+      },
+      "fullUrl": "AllergyIntolerance/1dff4474-fa08-4f45-8260-dbb23094bf03"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/AllergyIntolerance/1dff4474-fa08-4f45-8260-dbb23094bf07",
       "resource": {
         "resourceType": "AllergyIntolerance",
         "id": "1dff4474-fa08-4f45-8260-dbb23094bf07",
@@ -350,12 +342,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "POST",
+        "url": "AllergyIntolerance/1dff4474-fa08-4f45-8260-dbb23094bf07"
+      },
+      "fullUrl": "AllergyIntolerance/1dff4474-fa08-4f45-8260-dbb23094bf07"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/AllergyIntolerance/1dff4474-fa08-4f45-8260-dbb23094bf01",
       "resource": {
         "resourceType": "AllergyIntolerance",
         "id": "1dff4474-fa08-4f45-8260-dbb23094bf01",
@@ -414,12 +407,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "POST",
+        "url": "AllergyIntolerance/1dff4474-fa08-4f45-8260-dbb23094bf01"
+      },
+      "fullUrl": "AllergyIntolerance/1dff4474-fa08-4f45-8260-dbb23094bf01"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/AllergyIntolerance/1dff4474-fa08-4f45-8260-dbb23094bf02",
       "resource": {
         "resourceType": "AllergyIntolerance",
         "id": "1dff4474-fa08-4f45-8260-dbb23094bf02",
@@ -478,12 +472,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "POST",
+        "url": "AllergyIntolerance/1dff4474-fa08-4f45-8260-dbb23094bf02"
+      },
+      "fullUrl": "AllergyIntolerance/1dff4474-fa08-4f45-8260-dbb23094bf02"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/AllergyIntolerance/9d18cddb-8e58-4fbb-82ec-09cc561ac802",
       "resource": {
         "resourceType": "AllergyIntolerance",
         "id": "9d18cddb-8e58-4fbb-82ec-09cc561ac802",
@@ -575,9 +570,11 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "POST",
+        "url": "AllergyIntolerance/9d18cddb-8e58-4fbb-82ec-09cc561ac802"
+      },
+      "fullUrl": "AllergyIntolerance/9d18cddb-8e58-4fbb-82ec-09cc561ac802"
     }
   ]
 }

@@ -1,20 +1,8 @@
 {
   "resourceType": "Bundle",
-  "id": "9025e5b2-23db-4e1c-b736-caad2c775d68",
-  "meta": {
-    "lastUpdated": "2023-05-10T10:24:04.043+00:00"
-  },
-  "type": "searchset",
-  "total": 1,
-  "link": [
-    {
-      "relation": "self",
-      "url": "http://fhir.hl7.pt/fhir/Bundle/?_count=20000"
-    }
-  ],
+  "type": "transaction",
   "entry": [
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Bundle/262",
       "resource": {
         "resourceType": "Bundle",
         "id": "262",
@@ -724,9 +712,11 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "POST",
+        "url": "Bundle/262"
+      },
+      "fullUrl": "Bundle/262"
     }
   ]
 }

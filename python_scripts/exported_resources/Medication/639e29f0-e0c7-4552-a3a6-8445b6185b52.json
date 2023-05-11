@@ -1,0 +1,5585 @@
+{
+  "resourceType": "Bundle",
+  "id": "639e29f0-e0c7-4552-a3a6-8445b6185b52",
+  "meta": {
+    "lastUpdated": "2023-05-10T10:40:50.432+00:00"
+  },
+  "type": "searchset",
+  "total": 76,
+  "link": [
+    {
+      "relation": "self",
+      "url": "http://fhir.hl7.pt/fhir/Medication?_count=20000"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/b50ae644-e0b7-4007-809f-26f493cbe365",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "b50ae644-e0b7-4007-809f-26f493cbe365",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:15.461+00:00",
+          "source": "#6Sf9gHara53kqTLp"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> Skilarence </div></div>"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://ema.europa.eu/fhir/marketingAuthorizationNumber",
+              "code": "EU/1/17/1201/001",
+              "display": "Skilarence"
+            },
+            {
+              "system": "https://www.who-umc.org/phpid",
+              "code": "0x9982CA8A825D4561506CE808982E3B9D",
+              "display": "dimethyl fumarate, 30 mg/ 1 tablet, Gastro-resistant tablet"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "L04AX07",
+              "display": "dimethyl fumarate"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://standardterms.edqm.eu",
+              "code": "10225000",
+              "display": "Gastro-resistant tablet"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "FO2303MNI2",
+                  "display": "dimethyl fumarate"
+                }
+              ],
+              "text": "dimethyl fumarate"
+            },
+            "strength": {
+              "numerator": {
+                "value": 30,
+                "unit": "mg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "Tablet",
+                "system": "http://unitsofmeasure.org",
+                "code": "{tablet}"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/de131e15-ed13-4b31-b38c-3204a84d99c5",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "de131e15-ed13-4b31-b38c-3204a84d99c5",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:15.590+00:00",
+          "source": "#EjEjFmhhgdzyMlmM"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> Karvea </div></div>"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://ema.europa.eu/fhir/marketingAuthorizationNumber",
+              "code": "EMEA/H/C/000142",
+              "display": "Karvea"
+            },
+            {
+              "system": "https://www.who-umc.org/phpid",
+              "code": "0x8DFB446EDB3B8AE508AE493827A704E4",
+              "display": "Irbesartan, 75 mg/ 1 tablet, Tablet"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C09DA04",
+              "display": "irbesartan and diuretics"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://standardterms.edqm.eu",
+              "code": "10219000",
+              "display": "Tablet"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "J0E2756Z7N",
+                  "display": "irbesartan"
+                }
+              ],
+              "text": "irbesartan"
+            },
+            "strength": {
+              "numerator": {
+                "value": 75,
+                "unit": "mg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "Tablet",
+                "system": "http://unitsofmeasure.org",
+                "code": "{tablet}"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/9ac3356c-4ea4-4814-84c3-235484f2ef15",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "9ac3356c-4ea4-4814-84c3-235484f2ef15",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:15.712+00:00",
+          "source": "#ntsorKVeXtOOcDt3"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> Boots Decongestant 0.05% w/v Nasal spray </div></div>"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "https://www.gravitatehealth.eu/sid/man",
+              "code": "16028/0049",
+              "display": "Boots Decongestant 0.05% w/v Nasal spray"
+            },
+            {
+              "system": "https://www.who-umc.org/phpid",
+              "code": "0xF79CABF272B6A7EEF104DDDA44E82716",
+              "display": "Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "R01AA05",
+              "display": "oxymetazoline"
+            }
+          ]
+        },
+        "form": {
+          "text": "Nasal spray, solution"
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "K89MJ0S5VY",
+                  "display": "oxymetazoline hydrochloride"
+                }
+              ],
+              "text": "oxymetazoline hydrochloride"
+            },
+            "strength": {
+              "numerator": {
+                "value": 0.05,
+                "unit": "mg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "ml",
+                "system": "http://unitsofmeasure.org",
+                "code": "ml"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/b50ae644-e0b7-4007-809f-26f493cbe36c",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "b50ae644-e0b7-4007-809f-26f493cbe36c",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:16.694+00:00",
+          "source": "#9PCMy913bGhDL2YP"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> Skilarence </div></div>"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://ema.europa.eu/fhir/marketingAuthorizationNumber",
+              "code": "EU/1/17/1201/001",
+              "display": "Skilarence"
+            },
+            {
+              "system": "https://www.who-umc.org/phpid",
+              "code": "0x9982CA8A825D4561506CE808982E3B9D",
+              "display": "dimethyl fumarate, 30 mg/ 1 tablet, Gastro-resistant tablet"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "L04AX07",
+              "display": "dimethyl fumarate"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://standardterms.edqm.eu",
+              "code": "10225000",
+              "display": "Gastro-resistant tablet"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "FO2303MNI2",
+                  "display": "dimethyl fumarate"
+                }
+              ],
+              "text": "dimethyl fumarate"
+            },
+            "strength": {
+              "numerator": {
+                "value": 30,
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "Tablet",
+                "system": "http://standardterms.edqm.eu",
+                "code": "15054000"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/de131e15-ed13-4b31-b38c-3204a84d99c4",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "de131e15-ed13-4b31-b38c-3204a84d99c4",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:16.793+00:00",
+          "source": "#HqbVtEd1nENZAAKP"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> Karvea </div></div>"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://ema.europa.eu/fhir/marketingAuthorizationNumber",
+              "code": "EMEA/H/C/000142",
+              "display": "Karvea"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C09DA04",
+              "display": "irbesartan and diuretics"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://standardterms.edqm.eu",
+              "code": "10219000",
+              "display": "Tablet"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "J0E2756Z7N",
+                  "display": "irbesartan"
+                }
+              ],
+              "text": "irbesartan"
+            },
+            "strength": {
+              "numerator": {
+                "value": 75,
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "Tablet",
+                "system": "http://standardterms.edqm.eu",
+                "code": "15054000"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/9ac3356c-4ea4-4814-84c3-235484f2ef19",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "9ac3356c-4ea4-4814-84c3-235484f2ef19",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:16.912+00:00",
+          "source": "#fw0rww0YdSvoEF5A"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> Boots Decongestant 0.05% w/v Nasal spray </div></div>"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "https://www.gravitatehealth.eu/sid/man",
+              "code": "16028/0049",
+              "display": "Boots Decongestant 0.05% w/v Nasal spray"
+            },
+            {
+              "system": "https://www.who-umc.org/phpid",
+              "code": "0xF79CABF272B6A7EEF104DDDA44E82716",
+              "display": "Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "R01AA05",
+              "display": "oxymetazoline"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://standardterms.edqm.eu",
+              "code": "10808000",
+              "display": "Nasal spray, solution"
+            }
+          ],
+          "text": "Nasal spray, solution"
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "K89MJ0S5VY",
+                  "display": "oxymetazoline hydrochloride"
+                }
+              ],
+              "text": "oxymetazoline hydrochloride"
+            },
+            "strength": {
+              "numerator": {
+                "value": 0.05,
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "system": "http://unitsofmeasure.org",
+                "code": "ml"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/9d7be868-8264-4d94-ad04-ef04ecc92e52",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "9d7be868-8264-4d94-ad04-ef04ecc92e52",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:17.940+00:00",
+          "source": "#LlCp7N2BWLH9vLCS"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> Dovato 50 mg/300 mg 30 tablets </div></div>"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://ema.europa.eu/fhir/marketingAuthorizationNumber",
+              "code": "EU/1/19/1370/001",
+              "display": "Dovato 50 mg/300 mg 30 tablets"
+            },
+            {
+              "system": "https://www.who-umc.org/phpid",
+              "code": "0x073AF2E5B92AE19E8B67635AFFB3D6CA",
+              "display": "lamivudine and dolutegravir, 300 mg/50 mg, tablets"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "787165000",
+              "display": "Dolutegravir- and lamivudine-containing product in oral dose form"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "J05AR25",
+              "display": "lamivudine and dolutegravir"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://standardterms.edqm.eu",
+              "code": "10220000",
+              "display": "Coated tablet"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "2T8Q726O95",
+                  "display": "lamivudine"
+                }
+              ],
+              "text": "lamivudine"
+            },
+            "strength": {
+              "numerator": {
+                "value": 300,
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "Tablet",
+                "system": "http://standardterms.edqm.eu",
+                "code": "15054000"
+              }
+            }
+          },
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "DKO1W9H7M1",
+                  "display": "dolutegravir"
+                }
+              ],
+              "text": "dolutegravir"
+            },
+            "strength": {
+              "numerator": {
+                "value": 50,
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "Tablet",
+                "system": "http://standardterms.edqm.eu",
+                "code": "15054000"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77855",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "6f4151e9-91f6-4f1e-adc3-fb94dda77855",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:18.350+00:00",
+          "source": "#0zsPKXQSxnVyiyf5"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> AQUILEA ARTICULACIONES COLAGENO Y MAGNESIO 375GR </div></div>"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "https://www.gravitatehealth.eu/sid/man",
+              "code": "yyy",
+              "display": "AQUILEA ARTICULACIONES COLAGENO Y MAGNESIO 375GR"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://standardterms.edqm.eu",
+              "code": "10201000",
+              "display": "Oral powder"
+            }
+          ],
+          "text": "Oral powder"
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "I38ZP9992A",
+                  "display": "MAGNESIUM"
+                }
+              ],
+              "text": "MAGNESIUM"
+            }
+          },
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "S270N0TRQY",
+                  "display": "HYALURONIC ACID"
+                }
+              ],
+              "text": "HYALURONIC ACID"
+            }
+          },
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "PT3TGI7OIP",
+                  "display": "HUMAN TYPE I COLLAGEN"
+                }
+              ],
+              "text": "HUMAN TYPE I COLLAGEN"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77856",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "6f4151e9-91f6-4f1e-adc3-fb94dda77856",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:18.448+00:00",
+          "source": "#c0sylWhpv7KRMYpE"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> SORIA NATURAL VITAMINA C 36 COMPRIMIDOS </div></div>"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "https://www.gravitatehealth.eu/sid/man",
+              "code": "kkk",
+              "display": "SORIA NATURAL VITAMINA C 36 COMPRIMIDOS"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "A11GA01",
+              "display": "ascorbic acid (vit C)"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://standardterms.edqm.eu",
+              "code": "10227000",
+              "display": "Modified-release tablet"
+            }
+          ],
+          "text": "Modified-release tablet"
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "PQ6CK8PD0R",
+                  "display": "ASCORBIC ACID"
+                }
+              ],
+              "text": "Vitamin C"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77857",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "6f4151e9-91f6-4f1e-adc3-fb94dda77857",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:18.528+00:00",
+          "source": "#0habWxgA3q5ey35f"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> NATURES PLUS SPIRU-TEIN BATIDO PROTEINA SABOR COOKIES 525GR </div></div>"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "https://www.gravitatehealth.eu/sid/man",
+              "code": "zzzz",
+              "display": "NATURES PLUS SPIRU-TEIN BATIDO PROTEINA SABOR COOKIES 525GR"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://standardterms.edqm.eu",
+              "code": "10201000",
+              "display": "Oral powder"
+            }
+          ],
+          "text": "Oral powder"
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "R44IWB3RN5",
+                  "display": "SOY PROTEIN"
+                }
+              ],
+              "text": "SOY PROTEIN"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2023-05-09T17:06:22.563+00:00",
+          "source": "#3E1f0xY41M8oXqOk"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> DOLOCATIL 1 g tablets </div></div>"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://ema.europa.eu/fhir/marketingAuthorizationNumber",
+              "code": "PL31654/0006",
+              "display": "DOLOCATIL 1 g tablets"
+            },
+            {
+              "system": "https://www.who-umc.org/phpid",
+              "code": "0xE857DA811B4A6F3BD57810C45D2EA1ED",
+              "display": "Paracetamol 1g tablets"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "N02BE01",
+              "display": "paracetamol"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://standardterms.edqm.eu",
+              "code": "10220000",
+              "display": "Coated tablet"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "362O9ITL9D",
+                  "display": "ACETAMINOPHEN"
+                }
+              ],
+              "text": "ACETAMINOPHEN"
+            },
+            "strength": {
+              "numerator": {
+                "value": 1000,
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "Tablet",
+                "system": "http://standardterms.edqm.eu",
+                "code": "15054000"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2023-05-09T17:06:22.862+00:00",
+          "source": "#kGquoEWabeZ2XKga"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> Pentasa Slow Release Tablets 1g </div></div>"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "https://www.gravitatehealth.eu/sid/man",
+              "code": "77022",
+              "display": "Pentasa Slow Release Tablets 1g"
+            },
+            {
+              "system": "https://www.who-umc.org/phpid",
+              "code": "0xF79CABF272B6A7EEF104DDDA44E827xx",
+              "display": "Mesalazine, 1g, Tablets"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "A07EC02",
+              "display": "mesalazine"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://standardterms.edqm.eu",
+              "code": "10219000",
+              "display": "Tablet"
+            }
+          ],
+          "text": "Tablet"
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "4Q81I59GXC",
+                  "display": "MESALAMINE"
+                }
+              ],
+              "text": "MESALAMINE"
+            },
+            "strength": {
+              "numerator": {
+                "value": 1000,
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "Tablet",
+                "system": "http://standardterms.edqm.eu",
+                "code": "15054000"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2023-05-09T17:06:38.417+00:00",
+          "source": "#rekvaOXZ5kM2CzkE"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> MIRTAZAPINA CINFA 30 mg Coated Tablet </div></div>"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://ema.europa.eu/fhir/marketingAuthorizationNumber",
+              "code": "PL31654/0006",
+              "display": "MIRTAZAPINA CINFA 30 mg Coated Tablet"
+            },
+            {
+              "system": "https://www.who-umc.org/phpid",
+              "code": "0x6c47381b040e5b588db23b2272f28eec",
+              "display": "mirtazapine 30 mg, tablets"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "N06AX11",
+              "display": "mirtazapine"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://standardterms.edqm.eu",
+              "code": "10220000",
+              "display": "Coated tablet"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "A051Q2099Q",
+                  "display": "Mirtazapine"
+                }
+              ],
+              "text": "Mirtazapine"
+            },
+            "strength": {
+              "numerator": {
+                "value": 30,
+                "system": "http://unitsofmeasure.org",
+                "code": "g"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "Tablet",
+                "system": "http://standardterms.edqm.eu",
+                "code": "15054000"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "6f4151e9-91f6-4f1e-adc3-fb94dda7785g",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2023-05-09T17:06:39.087+00:00",
+          "source": "#eLt5dILRuxViwwKI"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES </div></div>"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "https://www.gravitatehealth.eu/sid/man",
+              "code": "16028/0049",
+              "display": "CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES"
+            },
+            {
+              "system": "https://www.who-umc.org/phpid",
+              "code": "0xF79CABF272B6A7EEF104DDDA44E82716",
+              "display": "Calcium carbonate 500 mg"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://standardterms.edqm.eu",
+              "code": "10222000",
+              "display": "Effervescent tablet"
+            }
+          ],
+          "text": "Effervescent tablet"
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "H0G9379FGK",
+                  "display": "Calcium carbonate"
+                }
+              ],
+              "text": "calcium carbonate"
+            },
+            "strength": {
+              "numerator": {
+                "value": 1000,
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "Tablet",
+                "system": "http://standardterms.edqm.eu",
+                "code": "15054000"
+              }
+            }
+          },
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "1C6V77QF41",
+                  "display": "cholecalciferol"
+                }
+              ],
+              "text": "cholecalciferol"
+            },
+            "strength": {
+              "numerator": {
+                "value": 880,
+                "system": "http://unitsofmeasure.org",
+                "code": "{UI}"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "Tablet",
+                "system": "http://standardterms.edqm.eu",
+                "code": "15054000"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77854",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "6f4151e9-91f6-4f1e-adc3-fb94dda77854",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2023-05-09T17:06:39.553+00:00",
+          "source": "#xAkczSToGOAbikER"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> BLASTON 1 mg tablets </div></div>"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "https://www.gravitatehealth.eu/sid/man",
+              "code": "xxxxxx",
+              "display": "BLASTON 1 mg tablets"
+            },
+            {
+              "system": "https://www.who-umc.org/phpid",
+              "code": "0xbb82cd10ab2add752b2b9224931077b2",
+              "display": "cinitrapide 1 mg tablet"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "A03FA08",
+              "display": "Cinitapride"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://standardterms.edqm.eu",
+              "code": "10219000",
+              "display": "Tablet"
+            }
+          ],
+          "text": "Tablet"
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "R8I97I2L24",
+                  "display": "CINITAPRIDE"
+                }
+              ],
+              "text": "CINITAPRIDE"
+            },
+            "strength": {
+              "numerator": {
+                "value": 1,
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "Tablet",
+                "system": "http://standardterms.edqm.eu",
+                "code": "15054000"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/9d7be868-8264-4d94-ad04-ef04ecc92e50",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "9d7be868-8264-4d94-ad04-ef04ecc92e50",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:19.150+00:00",
+          "source": "#0bk5OHGgS43qOVUX"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> Humalog Mix50 </div></div>"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://ema.europa.eu/fhir/marketingAuthorizationNumber",
+              "code": "EU/1/96/007/035",
+              "display": "Humalog Mix50"
+            },
+            {
+              "system": "https://www.who-umc.org/phpid",
+              "code": "0x073AF2E5B92AE19E8B67635AFFB3D6CA",
+              "display": "insulin lispro, 100 units/ml, suspension for injection"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "388454007",
+              "display": "Product containing insulin lispro (medicinal product)"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "A10AD04",
+              "display": "insulin lispro"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://standardterms.edqm.eu",
+              "code": "11202000",
+              "display": "Suspension for injection"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "GFX7QIS1II",
+                  "display": "insulin lispro"
+                }
+              ],
+              "text": "insulin lispro"
+            },
+            "strength": {
+              "numerator": {
+                "value": 100,
+                "unit": "units",
+                "system": "http://unitsofmeasure.org",
+                "code": "U"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "ml",
+                "system": "http://unitsofmeasure.org",
+                "code": "ml"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e3",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e3",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:19.243+00:00",
+          "source": "#MFBd3VtUNnPzlach"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> Monuril </div></div>"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://ema.europa.eu/fhir/marketingAuthorizationNumber",
+              "code": "PL31654/0006",
+              "display": "Monuril"
+            },
+            {
+              "system": "https://www.who-umc.org/phpid",
+              "code": "0xE857DA811B4A6F3BD57810C45D2EA1ED",
+              "display": "Fosfomycin, 3g, Granules for oral solution"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "J01XX01",
+              "display": "fosfomycin"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://standardterms.edqm.eu",
+              "code": "10112000",
+              "display": "Granules for oral solution"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "7FXW6U30GY",
+                  "display": "FOSFOMYCIN TROMETHAMINE"
+                }
+              ],
+              "text": "FOSFOMYCIN TROMETAMOL"
+            },
+            "strength": {
+              "numerator": {
+                "value": 5.631,
+                "unit": "g",
+                "system": "http://unitsofmeasure.org",
+                "code": "g"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "Sachet",
+                "system": "http://unitsofmeasure.org",
+                "code": "{sachet}"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/b50ae644-e0b7-4007-809f-26f493cbe363",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "b50ae644-e0b7-4007-809f-26f493cbe363",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:19.945+00:00",
+          "source": "#mU4yaRTQFgkyj7sM"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> Skilarence </div></div>"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://ema.europa.eu/fhir/marketingAuthorizationNumber",
+              "code": "EU/1/17/1201/001",
+              "display": "Skilarence"
+            },
+            {
+              "system": "https://www.who-umc.org/phpid",
+              "code": "0x9982CA8A825D4561506CE808982E3B9D",
+              "display": "dimethyl fumarate, 30 mg/ 1 tablet, Gastro-resistant tablet"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "L04AX07",
+              "display": "dimethyl fumarate"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://standardterms.edqm.eu",
+              "code": "10225000",
+              "display": "Gastro-resistant tablet"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "FO2303MNI2",
+                  "display": "dimethyl fumarate"
+                }
+              ],
+              "text": "dimethyl fumarate"
+            },
+            "strength": {
+              "numerator": {
+                "value": 30,
+                "unit": "mg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "Tablet",
+                "system": "http://unitsofmeasure.org",
+                "code": "{tablet}"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/de131e15-ed13-4b31-b38c-3204a84d99c3",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "de131e15-ed13-4b31-b38c-3204a84d99c3",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:20.036+00:00",
+          "source": "#iuY6hSqmqrrGwGY6"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> Karvea </div></div>"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://ema.europa.eu/fhir/marketingAuthorizationNumber",
+              "code": "EMEA/H/C/000142",
+              "display": "Karvea"
+            },
+            {
+              "system": "https://www.who-umc.org/phpid",
+              "code": "0x8DFB446EDB3B8AE508AE493827A704E4",
+              "display": "Irbesartan, 75 mg/ 1 tablet, Tablet"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C09DA04",
+              "display": "irbesartan and diuretics"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://standardterms.edqm.eu",
+              "code": "10219000",
+              "display": "Tablet"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "J0E2756Z7N",
+                  "display": "irbesartan"
+                }
+              ],
+              "text": "irbesartan"
+            },
+            "strength": {
+              "numerator": {
+                "value": 75,
+                "unit": "mg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "Tablet",
+                "system": "http://unitsofmeasure.org",
+                "code": "{tablet}"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/9ac3356c-4ea4-4814-84c3-235484f2ef13",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "9ac3356c-4ea4-4814-84c3-235484f2ef13",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:20.156+00:00",
+          "source": "#XuQgs1KhZIXNwjfg"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> Boots Decongestant 0.05% w/v Nasal spray </div></div>"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "https://www.gravitatehealth.eu/sid/man",
+              "code": "16028/0049",
+              "display": "Boots Decongestant 0.05% w/v Nasal spray"
+            },
+            {
+              "system": "https://www.who-umc.org/phpid",
+              "code": "0xF79CABF272B6A7EEF104DDDA44E82716",
+              "display": "Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "R01AA05",
+              "display": "oxymetazoline"
+            }
+          ]
+        },
+        "form": {
+          "text": "Nasal spray, solution"
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "K89MJ0S5VY",
+                  "display": "oxymetazoline hydrochloride"
+                }
+              ],
+              "text": "oxymetazoline hydrochloride"
+            },
+            "strength": {
+              "numerator": {
+                "value": 0.05,
+                "unit": "mg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "ml",
+                "system": "http://unitsofmeasure.org",
+                "code": "ml"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/b50ae644-e0b7-4007-809f-26f493cbe36b",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "b50ae644-e0b7-4007-809f-26f493cbe36b",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:20.925+00:00",
+          "source": "#gKLVHNgRsjoCt3WY"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> Skilarence </div></div>"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://ema.europa.eu/fhir/marketingAuthorizationNumber",
+              "code": "EU/1/17/1201/001",
+              "display": "Skilarence"
+            },
+            {
+              "system": "https://www.who-umc.org/phpid",
+              "code": "0x9982CA8A825D4561506CE808982E3B9D",
+              "display": "dimethyl fumarate, 30 mg/ 1 tablet, Gastro-resistant tablet"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "L04AX07",
+              "display": "dimethyl fumarate"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://standardterms.edqm.eu",
+              "code": "10225000",
+              "display": "Gastro-resistant tablet"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "FO2303MNI2",
+                  "display": "dimethyl fumarate"
+                }
+              ],
+              "text": "dimethyl fumarate"
+            },
+            "strength": {
+              "numerator": {
+                "value": 30,
+                "unit": "mg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "Tablet",
+                "system": "http://unitsofmeasure.org",
+                "code": "{tablet}"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/de131e15-ed13-4b31-b38c-3204a84d99c7",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "de131e15-ed13-4b31-b38c-3204a84d99c7",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:21.029+00:00",
+          "source": "#59bZ6Wghz3rym7a4"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> Karvea </div></div>"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://ema.europa.eu/fhir/marketingAuthorizationNumber",
+              "code": "EMEA/H/C/000142",
+              "display": "Karvea"
+            },
+            {
+              "system": "https://www.who-umc.org/phpid",
+              "code": "0x8DFB446EDB3B8AE508AE493827A704E4",
+              "display": "Irbesartan, 75 mg/ 1 tablet, Tablet"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C09DA04",
+              "display": "irbesartan and diuretics"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://standardterms.edqm.eu",
+              "code": "10219000",
+              "display": "Tablet"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "J0E2756Z7N",
+                  "display": "irbesartan"
+                }
+              ],
+              "text": "irbesartan"
+            },
+            "strength": {
+              "numerator": {
+                "value": 75,
+                "unit": "mg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "Tablet",
+                "system": "http://unitsofmeasure.org",
+                "code": "{tablet}"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/9ac3356c-4ea4-4814-84c3-235484f2ef10",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "9ac3356c-4ea4-4814-84c3-235484f2ef10",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:21.117+00:00",
+          "source": "#p7dW4ezgF5HghtGP"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> Boots Decongestant 0.05% w/v Nasal spray </div></div>"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "https://www.gravitatehealth.eu/sid/man",
+              "code": "16028/0049",
+              "display": "Boots Decongestant 0.05% w/v Nasal spray"
+            },
+            {
+              "system": "https://www.who-umc.org/phpid",
+              "code": "0xF79CABF272B6A7EEF104DDDA44E82716",
+              "display": "Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "R01AA05",
+              "display": "oxymetazoline"
+            }
+          ]
+        },
+        "form": {
+          "text": "Nasal spray, solution"
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "K89MJ0S5VY",
+                  "display": "oxymetazoline hydrochloride"
+                }
+              ],
+              "text": "oxymetazoline hydrochloride"
+            },
+            "strength": {
+              "numerator": {
+                "value": 0.05,
+                "unit": "mg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "ml",
+                "system": "http://unitsofmeasure.org",
+                "code": "ml"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/b50ae644-e0b7-4007-809f-26f493cbe361",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "b50ae644-e0b7-4007-809f-26f493cbe361",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:21.916+00:00",
+          "source": "#A75eIjktXcNytUxP"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> Skilarence </div></div>"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://ema.europa.eu/fhir/marketingAuthorizationNumber",
+              "code": "EU/1/17/1201/001",
+              "display": "Skilarence"
+            },
+            {
+              "system": "https://www.who-umc.org/phpid",
+              "code": "0x9982CA8A825D4561506CE808982E3B9D",
+              "display": "dimethyl fumarate, 30 mg/ 1 tablet, Gastro-resistant tablet"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "L04AX07",
+              "display": "dimethyl fumarate"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://standardterms.edqm.eu",
+              "code": "10225000",
+              "display": "Gastro-resistant tablet"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "FO2303MNI2",
+                  "display": "dimethyl fumarate"
+                }
+              ],
+              "text": "dimethyl fumarate"
+            },
+            "strength": {
+              "numerator": {
+                "value": 30,
+                "unit": "mg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "Tablet",
+                "system": "http://unitsofmeasure.org",
+                "code": "{tablet}"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/de131e15-ed13-4b31-b38c-3204a84d99c1",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "de131e15-ed13-4b31-b38c-3204a84d99c1",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:22.013+00:00",
+          "source": "#DChNObRcryZAkpTB"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> Karvea </div></div>"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://ema.europa.eu/fhir/marketingAuthorizationNumber",
+              "code": "EMEA/H/C/000142",
+              "display": "Karvea"
+            },
+            {
+              "system": "https://www.who-umc.org/phpid",
+              "code": "0x8DFB446EDB3B8AE508AE493827A704E4",
+              "display": "Irbesartan, 75 mg/ 1 tablet, Tablet"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C09DA04",
+              "display": "irbesartan and diuretics"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://standardterms.edqm.eu",
+              "code": "10219000",
+              "display": "Tablet"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "J0E2756Z7N",
+                  "display": "irbesartan"
+                }
+              ],
+              "text": "irbesartan"
+            },
+            "strength": {
+              "numerator": {
+                "value": 75,
+                "unit": "mg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "Tablet",
+                "system": "http://unitsofmeasure.org",
+                "code": "{tablet}"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/9ac3356c-4ea4-4814-84c3-235484f2ef11",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "9ac3356c-4ea4-4814-84c3-235484f2ef11",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:22.109+00:00",
+          "source": "#BuOlT67GSTVblWkY"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> Boots Decongestant 0.05% w/v Nasal spray </div></div>"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "https://www.gravitatehealth.eu/sid/man",
+              "code": "16028/0049",
+              "display": "Boots Decongestant 0.05% w/v Nasal spray"
+            },
+            {
+              "system": "https://www.who-umc.org/phpid",
+              "code": "0xF79CABF272B6A7EEF104DDDA44E82716",
+              "display": "Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "R01AA05",
+              "display": "oxymetazoline"
+            }
+          ]
+        },
+        "form": {
+          "text": "Nasal spray, solution"
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "K89MJ0S5VY",
+                  "display": "oxymetazoline hydrochloride"
+                }
+              ],
+              "text": "oxymetazoline hydrochloride"
+            },
+            "strength": {
+              "numerator": {
+                "value": 0.05,
+                "unit": "mg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "ml",
+                "system": "http://unitsofmeasure.org",
+                "code": "ml"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/5d129355-4b20-40d8-841f-7f93acbc3e61",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "5d129355-4b20-40d8-841f-7f93acbc3e61",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:22.193+00:00",
+          "source": "#g8HYVfJoU95zPiqj"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> valproic acid </div></div>"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "N03AG01",
+              "display": "valproic acid"
+            }
+          ]
+        },
+        "form": {
+          "text": "Nasal spray, solution"
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "K89MJ0S5VY",
+                  "display": "oxymetazoline hydrochloride"
+                }
+              ],
+              "text": "oxymetazoline hydrochloride"
+            },
+            "strength": {
+              "numerator": {
+                "value": 0.05,
+                "unit": "mg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "ml",
+                "system": "http://unitsofmeasure.org",
+                "code": "ml"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/de131e15-ed13-4b31-b38c-3204a84d99c2",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "de131e15-ed13-4b31-b38c-3204a84d99c2",
+        "meta": {
+          "versionId": "4",
+          "lastUpdated": "2023-04-17T08:43:11.578+00:00",
+          "source": "#68ozKqthj2ZpFR1i"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> Karvea 75 mg/ 1 tablet, Tablet </div></div>"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://ema.europa.eu/fhir/marketingAuthorizationNumber",
+              "code": "EU/1/97/049/001",
+              "display": "Karvea 75 mg/ 1 tablet, Tablet"
+            },
+            {
+              "system": "https://www.who-umc.org/phpid",
+              "code": "0xF79CABF272B6A7EEF104DDDA44E82719",
+              "display": "Irbesartan, 75 mg/ 1 tablet, Tablet"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C09DA04",
+              "display": "irbesartan and diuretics"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://standardterms.edqm.eu",
+              "code": "10219000",
+              "display": "Tablet"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "J0E2756Z7N",
+                  "display": "irbesartan"
+                }
+              ],
+              "text": "irbesartan"
+            },
+            "strength": {
+              "numerator": {
+                "value": 75,
+                "unit": "mg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "Tablet",
+                "system": "http://unitsofmeasure.org",
+                "code": "{tablet}"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/9ac3356c-4ea4-4814-84c3-235484f2ef12",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "9ac3356c-4ea4-4814-84c3-235484f2ef12",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2023-04-17T13:14:20.479+00:00",
+          "source": "#6c7MqJkCRErvZE35"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> Humalog Mix50 KwikPen 100 U/ml 5 pre-filled pen </div></div>"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://ema.europa.eu/fhir/marketingAuthorizationNumber",
+              "code": "EU/1/96/007/035",
+              "display": "Humalog Mix50 KwikPen 100 U/ml 5 pre-filled pen"
+            },
+            {
+              "system": "https://www.who-umc.org/phpid",
+              "code": "0xF79CABF272B6A7EEF104DDDA44E82717",
+              "display": "Insulin Lispro 100 U/ml 5 pre-filled pen"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://standardterms.edqm.eu",
+              "code": "11202000",
+              "display": "Suspension for injection"
+            }
+          ],
+          "text": "Suspension for injection"
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "GFX7QIS1II",
+                  "display": "Insulin Lispro"
+                }
+              ],
+              "text": "Insulin Lispro"
+            },
+            "strength": {
+              "numerator": {
+                "value": 100,
+                "unit": "U",
+                "system": "http://unitsofmeasure.org",
+                "code": "U"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "ml",
+                "system": "http://unitsofmeasure.org",
+                "code": "ml"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/5d129355-4b20-40d8-841f-7f93acbc3e62",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "5d129355-4b20-40d8-841f-7f93acbc3e62",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-04-04T10:31:51.781+00:00",
+          "source": "#PwThFlAaNK2F7UCf"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> valproic acid </div></div>"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "N03AG01",
+              "display": "valproic acid"
+            }
+          ]
+        },
+        "form": {
+          "text": "Nasal spray, solution"
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "K89MJ0S5VY",
+                  "display": "oxymetazoline hydrochloride"
+                }
+              ],
+              "text": "oxymetazoline hydrochloride"
+            },
+            "strength": {
+              "numerator": {
+                "value": 0.05,
+                "unit": "mg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "ml",
+                "system": "http://unitsofmeasure.org",
+                "code": "ml"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/b50ae644-e0b7-4007-809f-26f493cbe362",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "b50ae644-e0b7-4007-809f-26f493cbe362",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2023-04-16T10:43:47.502+00:00",
+          "source": "#F4IF2QnrUHrxX39X"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> Remsima 100 mg powder for concentrate for solution for infusion </div></div>"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://ema.europa.eu/fhir/marketingAuthorizationNumber",
+              "code": "EU/1/13/853/001",
+              "display": "Remsima 100 mg powder for concentrate for solution for infusion"
+            },
+            {
+              "system": "https://www.who-umc.org/phpid",
+              "code": "0xF79CABF272B6A7EEF104DDDA44E82718",
+              "display": "Infliximab 100 mg powder for concentrate for solution for infusion"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://standardterms.edqm.eu",
+              "code": "50049250",
+              "display": "Powder for concentrate for solution for injection/infusion"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "B72HH48FLU",
+                  "display": "INFLIXIMAB"
+                }
+              ],
+              "text": "INFLIXIMAB"
+            },
+            "strength": {
+              "numerator": {
+                "value": 100,
+                "unit": "mg",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "Vial",
+                "system": "http://unitsofmeasure.org",
+                "code": "{vial}"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/9d7be868-8264-4d94-ad04-ef04ecc92e51",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "9d7be868-8264-4d94-ad04-ef04ecc92e51",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2023-05-09T17:06:22.253+00:00",
+          "source": "#mcL711Vm2nWNbNqM"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> Humira 20 mg </div></div>"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://ema.europa.eu/fhir/marketingAuthorizationNumber",
+              "code": "EU/1/96/007/035",
+              "display": "Humira 20 mg"
+            },
+            {
+              "system": "https://www.who-umc.org/phpid",
+              "code": "0xe72f98caa2b13cb3ccb489a1a7945c91",
+              "display": "Humira 20 mg solution for injection in pre-filled syringe 2 pre-filled syringes + 2 alcohol pads"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "L04AB04",
+              "display": "adalimumab"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://standardterms.edqm.eu",
+              "code": "11201000",
+              "display": "Solution for injection"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "FYS6T7F842",
+                  "display": "adalimumab"
+                }
+              ],
+              "text": "adalimumab"
+            },
+            "strength": {
+              "numerator": {
+                "value": 20,
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "system": "http://unitsofmeasure.org",
+                "code": "ml"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/6f4151e9-91f6-4f1e-adc3-fb94dda78367",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "6f4151e9-91f6-4f1e-adc3-fb94dda78367",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T17:06:54.231+00:00",
+          "source": "#Bdr819GjKy6gwShb"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> Flucelvax </div></div>"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://ema.europa.eu/fhir/marketingAuthorizationNumber",
+              "code": "EU/1/18/1326/001",
+              "display": "Flucelvax"
+            },
+            {
+              "system": "https://www.who-umc.org/phpid",
+              "code": "0xbb82cd10ab2add752b2b9224931000k2",
+              "display": "Flucelvax"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "A03ku92",
+              "display": "Flucelvax"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://standardterms.edqm.eu",
+              "code": "10219999",
+              "display": "suspension for injection in pre-filled syringe"
+            }
+          ],
+          "text": "suspension for injection in pre-filled syringe"
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "TU2UN5CG9C",
+                  "display": "INFLUENZA A VIRUS A/WISCONSIN/588/2019 (H1N1) WHOLE"
+                }
+              ],
+              "text": "INFLUENZA A VIRUS A/WISCONSIN/588/2019 (H1N1) WHOLE"
+            },
+            "strength": {
+              "numerator": {
+                "value": 15,
+                "system": "http://unitsofmeasure.org",
+                "code": "mcg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "suspension for injection in pre-filled syringe",
+                "system": "http://standardterms.edqm.eu",
+                "code": "15054000"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/6f4151e9-91f6-4f1e-adc3-fb94dda79261",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "6f4151e9-91f6-4f1e-adc3-fb94dda79261",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T17:06:54.602+00:00",
+          "source": "#FbDbRHpfKgyZn2H1"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> St. John's Wort (HIP\u00c9RICO ARKOPHARMA c\u00e1psulas duras 200 mg tablet </div></div>"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "https://www.gravitatehealth.eu/sid/man",
+              "code": "xxxxxx",
+              "display": "St. John's Wort (HIP\u00c9RICO ARKOPHARMA c\u00e1psulas duras 200 mg tablet"
+            },
+            {
+              "system": "https://www.who-umc.org/phpid",
+              "code": "0xbb82cd10ab2add752b2b9224931099j1",
+              "display": "St. John's Wort (HIP\u00c9RICO ARKOPHARMA c\u00e1psulas duras 200 mg tablet"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "A03FA02",
+              "display": "HYPERICUM PERFORATUM WHOLE"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://standardterms.edqm.eu",
+              "code": "10219000",
+              "display": "Tablet"
+            }
+          ],
+          "text": "Tablet"
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "XK4IUX8MNB",
+                  "display": "HYPERICUM PERFORATUM WHOLE"
+                }
+              ],
+              "text": "HYPERICUM PERFORATUM WHOLE"
+            },
+            "strength": {
+              "numerator": {
+                "value": 175,
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "Tablet",
+                "system": "http://standardterms.edqm.eu",
+                "code": "15054000"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785h",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "6f4151e9-91f6-4f1e-adc3-fb94dda7785h",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T17:06:54.900+00:00",
+          "source": "#Z8QjMeIjnwfZEuHj"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES </div></div>"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "https://www.gravitatehealth.eu/sid/man",
+              "code": "16028/0049",
+              "display": "CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES"
+            },
+            {
+              "system": "https://www.who-umc.org/phpid",
+              "code": "0xF79CABF272B6A7EEF104DDDA44E82716",
+              "display": "Calcium carbonate 500 mg"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://standardterms.edqm.eu",
+              "code": "10222000",
+              "display": "Effervescent tablet"
+            }
+          ],
+          "text": "Effervescent tablet"
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "H0G9379FGK",
+                  "display": "Calcium carbonate"
+                }
+              ],
+              "text": "calcium carbonate"
+            },
+            "strength": {
+              "numerator": {
+                "value": 1000,
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "Tablet",
+                "system": "http://standardterms.edqm.eu",
+                "code": "15054000"
+              }
+            }
+          },
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "1C6V77QF41",
+                  "display": "cholecalciferol"
+                }
+              ],
+              "text": "cholecalciferol"
+            },
+            "strength": {
+              "numerator": {
+                "value": 880,
+                "system": "http://unitsofmeasure.org",
+                "code": "{UI}"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "Tablet",
+                "system": "http://standardterms.edqm.eu",
+                "code": "15054000"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2g8i1",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "fdb5c97f-0a46-41ba-bc34-2efd2ef2g8i1",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T17:06:55.515+00:00",
+          "source": "#AyxgPzNAaMbC1jmL"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> Folic Acid + Cyanocobalamin + Iodur 1 t QD </div></div>"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://ema.europa.eu/fhir/marketingAuthorizationNumber",
+              "code": "PL31654/0092",
+              "display": "Folic Acid + Cyanocobalamin + Iodur 1 t QD"
+            },
+            {
+              "system": "https://www.who-umc.org/phpid",
+              "code": "0x6c47381b040e5b588db23b2272f22ppf",
+              "display": "Folic Acid + Cyanocobalamin + Iodur 1 t QD"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "B03B",
+              "display": "VITAMIN B12 AND FOLIC ACID"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://standardterms.edqm.eu",
+              "code": "10220000",
+              "display": "Coated tablet"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "935E97BOY8",
+                  "display": "FOLIC ACID"
+                }
+              ],
+              "text": "FOLIC ACID"
+            },
+            "strength": {
+              "numerator": {
+                "value": 30,
+                "system": "http://unitsofmeasure.org",
+                "code": "g"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "Tablet",
+                "system": "http://standardterms.edqm.eu",
+                "code": "15054000"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/9d7be868-8264-4d94-ad04-ef04ecc92i99",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "9d7be868-8264-4d94-ad04-ef04ecc92i99",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T17:06:55.810+00:00",
+          "source": "#Ayaf7h0meaIlYzMx"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> Biktarvy 30 mg/120 mg/15 mg film-coated tablets </div></div>"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://ema.europa.eu/fhir/marketingAuthorizationNumber",
+              "code": "EU/1/18/1289/001",
+              "display": "Biktarvy 30 mg/120 mg/15 mg film-coated tablets"
+            },
+            {
+              "system": "https://www.who-umc.org/phpid",
+              "code": "0x073AF2E5B92AE19E8B67635AFFB3D9nq",
+              "display": "Biktarvy 30 mg/120 mg/15 mg film-coated tablets"
+            },
+            {
+              "system": "http://snomed.info/sct",
+              "code": "774856007",
+              "display": "Product containing only bictegravir and emtricitabine and tenofovir (medicinal product)"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "J05AR20",
+              "display": "emtricitabine, tenofovir alafenamide and bictegravir"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://standardterms.edqm.eu",
+              "code": "10220000",
+              "display": "Coated tablet"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "8GB79LOJ07",
+                  "display": "bictegravir"
+                }
+              ],
+              "text": "bictegravir"
+            },
+            "strength": {
+              "numerator": {
+                "value": 30,
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "Tablet",
+                "system": "http://standardterms.edqm.eu",
+                "code": "15054000"
+              }
+            }
+          },
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "G70B4ETF4S",
+                  "display": "emtricitabine"
+                }
+              ],
+              "text": "emtricitabine"
+            },
+            "strength": {
+              "numerator": {
+                "value": 120,
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "Tablet",
+                "system": "http://standardterms.edqm.eu",
+                "code": "15054000"
+              }
+            }
+          },
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "EL9943AG5J",
+                  "display": "tenofovir alafenamida"
+                }
+              ],
+              "text": "tenofovir alafenamida"
+            },
+            "strength": {
+              "numerator": {
+                "value": 15,
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "Tablet",
+                "system": "http://standardterms.edqm.eu",
+                "code": "15054000"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/6f4151e9-91f6-4f1e-adc3-fb94dda78356",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "6f4151e9-91f6-4f1e-adc3-fb94dda78356",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T17:06:56.103+00:00",
+          "source": "#LwRJCFGjWDlBuaUm"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> Carbamazepine 200 mg tablets </div></div>"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://ema.europa.eu/fhir/marketingAuthorizationNumber",
+              "code": "xxxx",
+              "display": "Carbamazepine 200 mg tablets"
+            },
+            {
+              "system": "https://www.who-umc.org/phpid",
+              "code": "xxx",
+              "display": "Carbamazepine 2oo mg tablets"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://standardterms.edqm.eu",
+              "code": "10219000",
+              "display": "Tablet"
+            }
+          ],
+          "text": "Tablet"
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "33CM23913M",
+                  "display": "CARBAMAZEPINE"
+                }
+              ],
+              "text": "CARBAMAZEPINE"
+            },
+            "strength": {
+              "numerator": {
+                "value": 200,
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "Tablet",
+                "system": "http://standardterms.edqm.eu",
+                "code": "15054000"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/6f4151e9-91f6-4f1e-adc3-fb94dda78333",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "6f4151e9-91f6-4f1e-adc3-fb94dda78333",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T17:06:56.402+00:00",
+          "source": "#VIQqbDvAPSrPj50C"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> Orlistat 60 mg capsule </div></div>"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://ema.europa.eu/fhir/marketingAuthorizationNumber",
+              "code": "xx",
+              "display": "Orlistat 60 mg capsule"
+            },
+            {
+              "system": "https://www.who-umc.org/phpid",
+              "code": "xx",
+              "display": "Orlistat 60 mg capsule"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://standardterms.edqm.eu",
+              "code": "10210000",
+              "display": "Capsule, hard"
+            }
+          ],
+          "text": "Capsule, hard"
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "95M8R751W8",
+                  "display": "ORLISTAT"
+                }
+              ],
+              "text": "ORLISTAT"
+            },
+            "strength": {
+              "numerator": {
+                "value": 60,
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "Tablet",
+                "system": "http://standardterms.edqm.eu",
+                "code": "15054000"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77853",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "6f4151e9-91f6-4f1e-adc3-fb94dda77853",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T17:06:56.705+00:00",
+          "source": "#skqHybulE47AAbdr"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> AQUILEA ARTICULACIONES COLAGENO Y MAGNESIO 375GR </div></div>"
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "https://www.gravitatehealth.eu/sid/man",
+              "code": "yyy",
+              "display": "AQUILEA ARTICULACIONES COLAGENO Y MAGNESIO 375GR"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://standardterms.edqm.eu",
+              "code": "10201000",
+              "display": "Oral powder"
+            }
+          ],
+          "text": "Oral powder"
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "I38ZP9992A",
+                  "display": "MAGNESIUM"
+                }
+              ],
+              "text": "MAGNESIUM"
+            }
+          },
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "S270N0TRQY",
+                  "display": "HYALURONIC ACID"
+                }
+              ],
+              "text": "HYALURONIC ACID"
+            }
+          },
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://fdasis.nlm.nih.gov",
+                  "code": "PT3TGI7OIP",
+                  "display": "HUMAN TYPE I COLLAGEN"
+                }
+              ],
+              "text": "HUMAN TYPE I COLLAGEN"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/06520e16-88df-3e2c-8a39-2d57f59375aa",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "06520e16-88df-3e2c-8a39-2d57f59375aa",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:10:59.788+00:00",
+          "source": "https://services.nsi.dk/en/Services/FMK#G39wDtWJ067bWKvg",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips",
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+            "value": "28105044712"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "N02BE01"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+              "code": "28105044712",
+              "display": "Pinemol"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "N02BE01",
+              "display": "Paracetamol"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "TABFILM",
+              "display": "filmovertrukne tabletter"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "PARACETAMOL",
+                  "display": "PARACETAMOL"
+                }
+              ]
+            },
+            "isActive": true,
+            "strength": {
+              "numerator": {
+                "value": 1000,
+                "unit": "milligram",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "filmovertrukne tabletter",
+                "system": "http://unitsofmeasure.org",
+                "code": "{filmovertrukne tabletter}"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/e5a8c48b-7ddc-3350-9388-36afc8702356",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "e5a8c48b-7ddc-3350-9388-36afc8702356",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:11:00.125+00:00",
+          "source": "https://services.nsi.dk/en/Services/FMK#lT64xBSlirANOtXJ",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips",
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+            "value": "28101005764"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "B01AA03"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+              "code": "28101005764",
+              "display": "Marevan"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "B01AA03",
+              "display": "Warfarin"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "TAB",
+              "display": "tabletter"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "WARFARINNATRIUM",
+                  "display": "WARFARINNATRIUM"
+                }
+              ]
+            },
+            "isActive": true,
+            "strength": {
+              "numerator": {
+                "value": 2.5,
+                "unit": "milligram",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "tabletter",
+                "system": "http://unitsofmeasure.org",
+                "code": "{tabletter}"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/93f4b432-06f7-3d23-8e17-35ca143e4951",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "93f4b432-06f7-3d23-8e17-35ca143e4951",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:11:00.458+00:00",
+          "source": "https://services.nsi.dk/en/Services/FMK#QSX1RsChcS4EeN8e",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips",
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+            "value": "28101921397"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "R03BA01"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+              "code": "28101921397",
+              "display": "Beclomet Easyhaler"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "R03BA01",
+              "display": "Beclomethason"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "INHPUL",
+              "display": "inhalationspulver"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "BECLOMETASONDIPROPIONAT",
+                  "display": "BECLOMETASONDIPROPIONAT"
+                }
+              ]
+            },
+            "isActive": true,
+            "strength": {
+              "numerator": {
+                "value": 200,
+                "unit": "microgram",
+                "system": "http://unitsofmeasure.org",
+                "code": "ug"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "dose",
+                "system": "http://unitsofmeasure.org",
+                "code": "{Dose}"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/91939311-86b6-3bfc-8640-d1ec357b0369",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "91939311-86b6-3bfc-8640-d1ec357b0369",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:11:00.782+00:00",
+          "source": "https://services.nsi.dk/en/Services/FMK#QhjT2DVacNeCtvVH",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips",
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+            "value": "28105398114"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "H03AA01"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+              "code": "28105398114",
+              "display": "Eltroxin"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "H03AA01",
+              "display": "Levothyroxinnatrium"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "TAB",
+              "display": "tabletter"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "LEVOTHYROXINNATRIUM",
+                  "display": "LEVOTHYROXINNATRIUM"
+                }
+              ]
+            },
+            "isActive": true,
+            "strength": {
+              "numerator": {
+                "value": 100,
+                "unit": "microgram",
+                "system": "http://unitsofmeasure.org",
+                "code": "ug"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "tabletter",
+                "system": "http://unitsofmeasure.org",
+                "code": "{tabletter}"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/c4c89eca-0b66-3773-97cf-99c519051f8e",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "c4c89eca-0b66-3773-97cf-99c519051f8e",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:11:01.106+00:00",
+          "source": "https://services.nsi.dk/en/Services/FMK#4mZYFOh9YpxK1W0x",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips",
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+            "value": "28101317587"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "N02BE01"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+              "code": "28101317587",
+              "display": "Pamol"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "N02BE01",
+              "display": "Paracetamol"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "TABFILM",
+              "display": "filmovertrukne tabletter"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "PARACETAMOL",
+                  "display": "PARACETAMOL"
+                }
+              ]
+            },
+            "isActive": true,
+            "strength": {
+              "numerator": {
+                "value": 500,
+                "unit": "milligram",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "filmovertrukne tabletter",
+                "system": "http://unitsofmeasure.org",
+                "code": "{filmovertrukne tabletter}"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/bf718851-946b-3156-9abf-f7985d912d62",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "bf718851-946b-3156-9abf-f7985d912d62",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:11:01.424+00:00",
+          "source": "https://services.nsi.dk/en/Services/FMK#LFuXvKoprnGOg2Uy",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips",
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugIdentifierPredefinedSourceType/Magistrel",
+            "value": "73019000051"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugIdentifierPredefinedSourceType/Magistrel",
+              "code": "73019000051",
+              "display": "Cannabidiol"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugFormCodePredefinedSourceType/Magistrel",
+              "code": "ORALDRB",
+              "display": "orale dr\u00e5ber"
+            }
+          ]
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/8b6b1af6-be30-3aab-bc03-1806cddaef86",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "8b6b1af6-be30-3aab-bc03-1806cddaef86",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:11:01.743+00:00",
+          "source": "https://services.nsi.dk/en/Services/FMK#hb1MWDCEml5tTGfR",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips",
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+            "value": "28105468514"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "B03BA01"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+              "code": "28105468514",
+              "display": "Betolvex"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "B03BA01",
+              "display": "Cyanocobalamin"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "TABFILM",
+              "display": "filmovertrukne tabletter"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "CYANOCOBALAMIN",
+                  "display": "CYANOCOBALAMIN"
+                }
+              ]
+            },
+            "isActive": true,
+            "strength": {
+              "numerator": {
+                "value": 1,
+                "unit": "milligram",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "filmovertrukne tabletter",
+                "system": "http://unitsofmeasure.org",
+                "code": "{filmovertrukne tabletter}"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/a5c53c39-570e-3b46-9161-7ba1aae2dc59",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "a5c53c39-570e-3b46-9161-7ba1aae2dc59",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:11:02.064+00:00",
+          "source": "https://services.nsi.dk/en/Services/FMK#nYks7FJmMXfwQrAv",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips",
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+            "value": "28101107682"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "B03BA01"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+              "code": "28101107682",
+              "display": "Betolvex"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "B03BA01",
+              "display": "Cyanocobalamin"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "TABFILM",
+              "display": "filmovertrukne tabletter"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "CYANOCOBALAMIN",
+                  "display": "CYANOCOBALAMIN"
+                }
+              ]
+            },
+            "isActive": true,
+            "strength": {
+              "numerator": {
+                "value": 1,
+                "unit": "milligram",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "filmovertrukne tabletter",
+                "system": "http://unitsofmeasure.org",
+                "code": "{filmovertrukne tabletter}"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/6c10a690-7099-3185-b46c-29b17c77f135",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "6c10a690-7099-3185-b46c-29b17c77f135",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:11:02.389+00:00",
+          "source": "https://services.nsi.dk/en/Services/FMK#58weZVEP0EIMYniW",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips",
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+            "value": "28101339688"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "R03BA02"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+              "code": "28101339688",
+              "display": "Spirocort Turbuhaler"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "R03BA02",
+              "display": "Budesonid"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "INHPUL",
+              "display": "inhalationspulver"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "BUDESONID",
+                  "display": "BUDESONID"
+                }
+              ]
+            },
+            "isActive": true,
+            "strength": {
+              "numerator": {
+                "value": 400,
+                "unit": "microgram",
+                "system": "http://unitsofmeasure.org",
+                "code": "ug"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "dose",
+                "system": "http://unitsofmeasure.org",
+                "code": "{Dose}"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/4471ece3-f761-3b48-a2c3-e9785eea95ac",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "4471ece3-f761-3b48-a2c3-e9785eea95ac",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:11:02.703+00:00",
+          "source": "https://services.nsi.dk/en/Services/FMK#S3yAf5J7waw0kigq",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips",
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+            "value": "28101674394"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "N02BE01"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+              "code": "28101674394",
+              "display": "Panodil"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "N02BE01",
+              "display": "Paracetamol"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "TABFILM",
+              "display": "filmovertrukne tabletter"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "PARACETAMOL",
+                  "display": "PARACETAMOL"
+                }
+              ]
+            },
+            "isActive": true,
+            "strength": {
+              "numerator": {
+                "value": 1000,
+                "unit": "milligram",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "filmovertrukne tabletter",
+                "system": "http://unitsofmeasure.org",
+                "code": "{filmovertrukne tabletter}"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/3df02ba7-025a-3ce0-b4f4-cf34c7d4036d",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "3df02ba7-025a-3ce0-b4f4-cf34c7d4036d",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:11:03.034+00:00",
+          "source": "https://services.nsi.dk/en/Services/FMK#wFCgtJzufzeiEo5q",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips",
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+            "value": "28101807196"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "N04BC06"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+              "code": "28101807196",
+              "display": "Cabaser"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "N04BC06",
+              "display": "Cabergolin"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "TAB",
+              "display": "tabletter"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "CABERGOLIN",
+                  "display": "CABERGOLIN"
+                }
+              ]
+            },
+            "isActive": true,
+            "strength": {
+              "numerator": {
+                "value": 1,
+                "unit": "milligram",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "tabletter",
+                "system": "http://unitsofmeasure.org",
+                "code": "{tabletter}"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/acd71632-fc3f-3f65-8dab-7ef1e213ec9b",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "acd71632-fc3f-3f65-8dab-7ef1e213ec9b",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:11:03.350+00:00",
+          "source": "https://services.nsi.dk/en/Services/FMK#zfPGntFqumy3T6ww",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips",
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+            "value": "28105484214"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "A10AE04"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+              "code": "28105484214",
+              "display": "Abasaglar KwikPen"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "A10AE04",
+              "display": "Insulin glargin"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "INJVOP",
+              "display": "injektionsv\u00e6ske, opl\u00f8sning i fyldt pen"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "Insulin glargin",
+                  "display": "Insulin glargin"
+                }
+              ]
+            },
+            "isActive": true
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/748dfcbf-fcde-3c1e-9fb9-798641608296",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "748dfcbf-fcde-3c1e-9fb9-798641608296",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:11:03.665+00:00",
+          "source": "https://services.nsi.dk/en/Services/FMK#WhjrdBO3XPs7iA7v",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips",
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugIdentifierPredefinedSourceType/Magistrel",
+            "value": "73019000250"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "N02AA01"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugIdentifierPredefinedSourceType/Magistrel",
+              "code": "73019000250",
+              "display": "R\u00f8de morfindr\u00e5ber"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "N02AA01",
+              "display": "Morphin"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugFormCodePredefinedSourceType/Magistrel",
+              "code": "ORALDRB",
+              "display": "orale dr\u00e5ber"
+            }
+          ]
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/4dc06f2b-af82-3fad-be2f-85c751829380",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "4dc06f2b-af82-3fad-be2f-85c751829380",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:11:04.038+00:00",
+          "source": "https://services.nsi.dk/en/Services/FMK#5VvoBAYT7gpTaIZl",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips",
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+            "value": "28101891697"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "R06AX26"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+              "code": "28101891697",
+              "display": "Telfast"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "R06AX26",
+              "display": "Fexofenadin"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "TABFILM",
+              "display": "filmovertrukne tabletter"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "FEXOFENADINHYDROCHLORID",
+                  "display": "FEXOFENADINHYDROCHLORID"
+                }
+              ]
+            },
+            "isActive": true,
+            "strength": {
+              "numerator": {
+                "value": 120,
+                "unit": "milligram",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "filmovertrukne tabletter",
+                "system": "http://unitsofmeasure.org",
+                "code": "{filmovertrukne tabletter}"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/107d658d-ed47-35c5-9f26-8e9af5e338df",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "107d658d-ed47-35c5-9f26-8e9af5e338df",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:11:04.358+00:00",
+          "source": "https://services.nsi.dk/en/Services/FMK#q5gEnPZjqLo36ZQU",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips",
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugIdentifierPredefinedSourceType/Magistrel",
+            "value": "73019000053"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugIdentifierPredefinedSourceType/Magistrel",
+              "code": "73019000053",
+              "display": "Cannabidiol"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugFormCodePredefinedSourceType/Magistrel",
+              "code": "ORALDRB",
+              "display": "orale dr\u00e5ber"
+            }
+          ]
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/0d5c4680-cde4-3d3e-a8cc-7921d92c7318",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "0d5c4680-cde4-3d3e-a8cc-7921d92c7318",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:11:04.681+00:00",
+          "source": "https://services.nsi.dk/en/Services/FMK#gJo7FJHwTO0do19z",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips",
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+            "value": "28105051112"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "G03AA12"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+              "code": "28105051112",
+              "display": "Asubtela"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "G03AA12",
+              "display": "Drospirenon og ethinylestradiol"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "TABFILM",
+              "display": "filmovertrukne tabletter"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "DROSPIRENON",
+                  "display": "DROSPIRENON"
+                }
+              ]
+            },
+            "isActive": true
+          },
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "Ethinylestradiol",
+                  "display": "Ethinylestradiol"
+                }
+              ]
+            },
+            "isActive": true
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/d875b59e-95cb-3393-af74-e8d2ee67a2c8",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "d875b59e-95cb-3393-af74-e8d2ee67a2c8",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:11:05.003+00:00",
+          "source": "https://services.nsi.dk/en/Services/FMK#owyrTUXBW4oh4R3V",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips",
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugIdentifierPredefinedSourceType/Magistrel",
+            "value": "73019685388"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "N02BG10"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugIdentifierPredefinedSourceType/Magistrel",
+              "code": "73019685388",
+              "display": "Cannabidiol/dronabinol "
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "N02BG10",
+              "display": "Cannabinoider"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugFormCodePredefinedSourceType/Magistrel",
+              "code": "ORALDRB",
+              "display": "orale dr\u00e5ber"
+            }
+          ]
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/dd56c4fe-aa05-3074-84c3-04e4f0306c11",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "dd56c4fe-aa05-3074-84c3-04e4f0306c11",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:11:05.314+00:00",
+          "source": "https://services.nsi.dk/en/Services/FMK#6tajIhNreJab5S3o",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips",
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+            "value": "28102960614"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "J05AR02"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+              "code": "28102960614",
+              "display": "Abacavir/Lamivudin \"Mylan\""
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "J05AR02",
+              "display": "Lamivudin og abacavir"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "TABFILM",
+              "display": "filmovertrukne tabletter"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "Abacavirhydrochlorid",
+                  "display": "Abacavirhydrochlorid"
+                }
+              ]
+            },
+            "isActive": true
+          },
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "LAMIVUDIN",
+                  "display": "LAMIVUDIN"
+                }
+              ]
+            },
+            "isActive": true
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/f6a544c5-067d-3472-9842-9ba0a234141d",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "f6a544c5-067d-3472-9842-9ba0a234141d",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:11:05.631+00:00",
+          "source": "https://services.nsi.dk/en/Services/FMK#OUItZl27NN3wJraq",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips",
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+            "value": "28100902676"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "J01CE02"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+              "code": "28100902676",
+              "display": "Primcillin"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "J01CE02",
+              "display": "Phenoxymethylpenicillin"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "ORAGRAS",
+              "display": "granulat til oral suspension"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "Phenoxymethylpenicillinkalium",
+                  "display": "Phenoxymethylpenicillinkalium"
+                }
+              ]
+            },
+            "isActive": true,
+            "strength": {
+              "numerator": {
+                "value": 50,
+                "unit": "milligram",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "milliliter",
+                "system": "http://unitsofmeasure.org",
+                "code": "ml"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/0f2266d9-47b8-32d4-a457-8c1cdf1aa76a",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "0f2266d9-47b8-32d4-a457-8c1cdf1aa76a",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:11:05.955+00:00",
+          "source": "https://services.nsi.dk/en/Services/FMK#GHM81ZavpFoXLrlq",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips",
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+            "value": "28103253401"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "A10AB01"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+              "code": "28103253401",
+              "display": "Actrapid Penfill"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "A10AB01",
+              "display": "Insulin (human)"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "INJOCYL",
+              "display": "injektionsv\u00e6ske, opl\u00f8sning i cylinderampul"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "Insulin, humant (rDNA)",
+                  "display": "Insulin, humant (rDNA)"
+                }
+              ]
+            },
+            "isActive": true,
+            "strength": {
+              "numerator": {
+                "value": 100,
+                "unit": "international unit",
+                "system": "http://unitsofmeasure.org",
+                "code": "[iU]"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "milliliter",
+                "system": "http://unitsofmeasure.org",
+                "code": "ml"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/791c3eec-4133-32b6-82be-631edafcdacc",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "791c3eec-4133-32b6-82be-631edafcdacc",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:11:06.284+00:00",
+          "source": "https://services.nsi.dk/en/Services/FMK#Zn6uCOunGfFUCcb3",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips",
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+            "value": "28100736376"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "N02AA01"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+              "code": "28100736376",
+              "display": "Morfin \"DAK\""
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "N02AA01",
+              "display": "Morphin"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "INJVSKO",
+              "display": "injektionsv\u00e6ske, opl\u00f8sning"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "MORPHINHYDROCHLORID (trihydrate)",
+                  "display": "MORPHINHYDROCHLORID (trihydrate)"
+                }
+              ]
+            },
+            "isActive": true,
+            "strength": {
+              "numerator": {
+                "value": 20,
+                "unit": "milligram",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "milliliter",
+                "system": "http://unitsofmeasure.org",
+                "code": "ml"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/71e4e5e5-0bdc-3ace-8629-d49a790a9f8d",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "71e4e5e5-0bdc-3ace-8629-d49a790a9f8d",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:11:06.620+00:00",
+          "source": "https://services.nsi.dk/en/Services/FMK#vFcYNquU51YUqh0z",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips",
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+            "value": "28101492592"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "R03AC03"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+              "code": "28101492592",
+              "display": "Bricanyl Turbuhaler"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "R03AC03",
+              "display": "Terbutalin"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "INHPUL",
+              "display": "inhalationspulver"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "TERBUTALINSULFAT",
+                  "display": "TERBUTALINSULFAT"
+                }
+              ]
+            },
+            "isActive": true,
+            "strength": {
+              "numerator": {
+                "value": 0.25,
+                "unit": "milligram",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "dose",
+                "system": "http://unitsofmeasure.org",
+                "code": "{Dose}"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/0599fc68-abff-37e1-a5c2-f272291c5f8a",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "0599fc68-abff-37e1-a5c2-f272291c5f8a",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:11:06.944+00:00",
+          "source": "https://services.nsi.dk/en/Services/FMK#83avirwOwJ8DwGWv",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips",
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+            "value": "28101497692"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "N05AX08"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+              "code": "28101497692",
+              "display": "Risperdal"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "N05AX08",
+              "display": "Risperidon"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "TABFILM",
+              "display": "filmovertrukne tabletter"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "RISPERIDON",
+                  "display": "RISPERIDON"
+                }
+              ]
+            },
+            "isActive": true,
+            "strength": {
+              "numerator": {
+                "value": 1,
+                "unit": "milligram",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "filmovertrukne tabletter",
+                "system": "http://unitsofmeasure.org",
+                "code": "{filmovertrukne tabletter}"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/f15ebc61-e708-3bf8-8530-45c221f79e0f",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "f15ebc61-e708-3bf8-8530-45c221f79e0f",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:11:07.290+00:00",
+          "source": "https://services.nsi.dk/en/Services/FMK#rqGKjx1VtaTHXr4H",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips",
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugIdentifierPredefinedSourceType/Local",
+            "value": "87000042004"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "M01AH02"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugIdentifierPredefinedSourceType/Local",
+              "code": "87000042004",
+              "display": "Vioxx"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "M01AH02",
+              "display": "Rofecoxib"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "ORALOPL",
+              "display": "oral opl\u00f8sning"
+            }
+          ]
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/393e5c51-1641-385b-9a18-069b597106a8",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "393e5c51-1641-385b-9a18-069b597106a8",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:11:07.618+00:00",
+          "source": "https://services.nsi.dk/en/Services/FMK#4LFSW1zcHD39J3Hb",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips",
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+            "value": "28101195484"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "N02BE01"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+              "code": "28101195484",
+              "display": "Pinex"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "N02BE01",
+              "display": "Paracetamol"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "BRUTAB",
+              "display": "brusetabletter"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "PARACETAMOL",
+                  "display": "PARACETAMOL"
+                }
+              ]
+            },
+            "isActive": true,
+            "strength": {
+              "numerator": {
+                "value": 500,
+                "unit": "milligram",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "brusetabletter",
+                "system": "http://unitsofmeasure.org",
+                "code": "{brusetabletter}"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/f4e4d9b4-25b4-3808-b970-8ac1fe41b088",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "f4e4d9b4-25b4-3808-b970-8ac1fe41b088",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:11:07.937+00:00",
+          "source": "https://services.nsi.dk/en/Services/FMK#MZUrwkmDwwDbA8wU",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips",
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+            "value": "28103176800"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "N02BE01"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+              "code": "28103176800",
+              "display": "Panodil"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "N02BE01",
+              "display": "Paracetamol"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "TABMOD",
+              "display": "tabletter med modificeret udl\u00f8sning"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "PARACETAMOL",
+                  "display": "PARACETAMOL"
+                }
+              ]
+            },
+            "isActive": true,
+            "strength": {
+              "numerator": {
+                "value": 665,
+                "unit": "milligram",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "tabletter med modificeret udl\u00f8sning",
+                "system": "http://unitsofmeasure.org",
+                "code": "{tabletter med modificeret udl\u00f8sning}"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/a5228734-6734-3d2a-b0d2-b6f45b23210e",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "a5228734-6734-3d2a-b0d2-b6f45b23210e",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:11:08.264+00:00",
+          "source": "https://services.nsi.dk/en/Services/FMK#ilXuulNpmb5fwz1W",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips",
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+            "value": "28100485165"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "H02AB01"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+              "code": "28100485165",
+              "display": "Celeston"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "H02AB01",
+              "display": "Betamethason"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "INJVSKS",
+              "display": "injektionsv\u00e6ske, suspension"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "BETAMETHASONDINATRIUMPHOSPHAT",
+                  "display": "BETAMETHASONDINATRIUMPHOSPHAT"
+                }
+              ]
+            },
+            "isActive": true
+          },
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "BETAMETHASONACETAT",
+                  "display": "BETAMETHASONACETAT"
+                }
+              ]
+            },
+            "isActive": true
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/a85e2b7a-7c23-3292-9c81-f4d37c4656bd",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "a85e2b7a-7c23-3292-9c81-f4d37c4656bd",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:11:08.598+00:00",
+          "source": "https://services.nsi.dk/en/Services/FMK#6JjP1NRlChOddJP1",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips",
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+            "value": "28103606003"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "M05BA04"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+              "code": "28103606003",
+              "display": "Alendronat \"Mylan\""
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "M05BA04",
+              "display": "Alendronsyre"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "TAB",
+              "display": "tabletter"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "Natriumalendronattrihydrat",
+                  "display": "Natriumalendronattrihydrat"
+                }
+              ]
+            },
+            "isActive": true,
+            "strength": {
+              "numerator": {
+                "value": 70,
+                "unit": "milligram",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "tabletter",
+                "system": "http://unitsofmeasure.org",
+                "code": "{tabletter}"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/08b7dcd1-4bf1-3c00-b857-997232599b3a",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "08b7dcd1-4bf1-3c00-b857-997232599b3a",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:11:08.934+00:00",
+          "source": "https://services.nsi.dk/en/Services/FMK#GNfOceSCLsiaR7Tg",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips",
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+            "value": "28104061107"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "B02AA02"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+              "code": "28104061107",
+              "display": "Cyklonova"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "B02AA02",
+              "display": "Tranexamsyre"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "TABFILM",
+              "display": "filmovertrukne tabletter"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "TRANEXAMSYRE",
+                  "display": "TRANEXAMSYRE"
+                }
+              ]
+            },
+            "isActive": true,
+            "strength": {
+              "numerator": {
+                "value": 500,
+                "unit": "milligram",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "filmovertrukne tabletter",
+                "system": "http://unitsofmeasure.org",
+                "code": "{filmovertrukne tabletter}"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/7c1c59a6-c198-3b04-8130-c721aab665d0",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "7c1c59a6-c198-3b04-8130-c721aab665d0",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:11:09.258+00:00",
+          "source": "https://services.nsi.dk/en/Services/FMK#bCSTBKLtucEa6II3",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips",
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+            "value": "28100636073"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "N02BE01"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+              "code": "28100636073",
+              "display": "Panodil"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "N02BE01",
+              "display": "Paracetamol"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "TABFILM",
+              "display": "filmovertrukne tabletter"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "PARACETAMOL",
+                  "display": "PARACETAMOL"
+                }
+              ]
+            },
+            "isActive": true,
+            "strength": {
+              "numerator": {
+                "value": 500,
+                "unit": "milligram",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "filmovertrukne tabletter",
+                "system": "http://unitsofmeasure.org",
+                "code": "{filmovertrukne tabletter}"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/51b4d793-c635-3e47-b9b9-e37b6a391e61",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "51b4d793-c635-3e47-b9b9-e37b6a391e61",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:11:09.605+00:00",
+          "source": "https://services.nsi.dk/en/Services/FMK#wLWmFBdICsCEStrg",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips",
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+            "value": "28104249507"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "C08CA01"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+              "code": "28104249507",
+              "display": "Amlodipin \"Teva\""
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C08CA01",
+              "display": "Amlodipin"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "TAB",
+              "display": "tabletter"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "AMLODIPINBESILAT",
+                  "display": "AMLODIPINBESILAT"
+                }
+              ]
+            },
+            "isActive": true,
+            "strength": {
+              "numerator": {
+                "value": 10,
+                "unit": "milligram",
+                "system": "http://unitsofmeasure.org",
+                "code": "mg"
+              },
+              "denominator": {
+                "value": 1,
+                "unit": "tabletter",
+                "system": "http://unitsofmeasure.org",
+                "code": "{tabletter}"
+              }
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/0b6b9668-11f0-3b81-a4b6-8a93edc8d29b",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "0b6b9668-11f0-3b81-a4b6-8a93edc8d29b",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:11:09.917+00:00",
+          "source": "https://services.nsi.dk/en/Services/FMK#LKRlh0VeEzVNqfSN",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips",
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugIdentifierPredefinedSourceType/Magistrel",
+            "value": "73019000071"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "S01HA01"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugIdentifierPredefinedSourceType/Magistrel",
+              "code": "73019000071",
+              "display": "Kokain"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "S01HA01",
+              "display": "Cocain"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugFormCodePredefinedSourceType/Magistrel",
+              "code": "OJDRB",
+              "display": "\u00f8jendr\u00e5ber"
+            }
+          ]
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/6e4ef1e0-96ec-3161-9b63-db07588fb514",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "6e4ef1e0-96ec-3161-9b63-db07588fb514",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:11:10.244+00:00",
+          "source": "https://services.nsi.dk/en/Services/FMK#ftJR4CtpqLf6R34q",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips",
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugIdentifierPredefinedSourceType/Magistrel",
+            "value": "73019000052"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugIdentifierPredefinedSourceType/Magistrel",
+              "code": "73019000052",
+              "display": "Cannabidiol"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugFormCodePredefinedSourceType/Magistrel",
+              "code": "ORALDRB",
+              "display": "orale dr\u00e5ber"
+            }
+          ]
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/108abb8c-6a45-3d46-90fe-2a6c23eb5f90",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "108abb8c-6a45-3d46-90fe-2a6c23eb5f90",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:11:10.563+00:00",
+          "source": "https://services.nsi.dk/en/Services/FMK#AuPNvzQymrfn99Ou",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips",
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugIdentifierPredefinedSourceType/Magistrel",
+            "value": "73019000331"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "N02AA01"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugIdentifierPredefinedSourceType/Magistrel",
+              "code": "73019000331",
+              "display": "Morfin u. stabilisering"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "N02AA01",
+              "display": "Morphin"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugFormCodePredefinedSourceType/Magistrel",
+              "code": "INJVSK",
+              "display": "injektionsv\u00e6ske"
+            }
+          ]
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/e05a2437-83d7-3421-9b6f-3ef09ba87ce0",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "e05a2437-83d7-3421-9b6f-3ef09ba87ce0",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:11:10.875+00:00",
+          "source": "https://services.nsi.dk/en/Services/FMK#myzHEhoOzNBpgzZl",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips",
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+            "value": "28101697994"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "N01AB08"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS01/DrugID",
+              "code": "28101697994",
+              "display": "Sevorane"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "N01AB08",
+              "display": "Sevofluran"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "https://laegemiddelstyrelsen.dk/LMS22/Kode",
+              "code": "INHDVSK",
+              "display": "v\u00e6ske til inhalationsdamp"
+            }
+          ]
+        },
+        "ingredient": [
+          {
+            "itemCodeableConcept": {
+              "coding": [
+                {
+                  "system": "https://laegemiddelstyrelsen.dk/LMS30/Substans",
+                  "code": "SEVOFLURAN",
+                  "display": "SEVOFLURAN"
+                }
+              ]
+            },
+            "isActive": true
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Medication/b8065c87-dec6-36a4-8605-ca213a0c533a",
+      "resource": {
+        "resourceType": "Medication",
+        "id": "b8065c87-dec6-36a4-8605-ca213a0c533a",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-05-09T18:11:11.183+00:00",
+          "source": "https://services.nsi.dk/en/Services/FMK#3iVtn7XylnSKZ9yI",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Medication-uv-ips",
+            "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-medication"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugIdentifierPredefinedSourceType/Magistrel",
+            "value": "73019685346"
+          },
+          {
+            "system": "http://www.whocc.no/atc",
+            "value": "C04AC01"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugIdentifierPredefinedSourceType/Magistrel",
+              "code": "73019685346",
+              "display": "Nikotinsyre"
+            },
+            {
+              "system": "http://www.whocc.no/atc",
+              "code": "C04AC01",
+              "display": "Nicotinsyre"
+            }
+          ]
+        },
+        "form": {
+          "coding": [
+            {
+              "system": "http://www.dkma.dk/medicinecard/xml.schema/2015/01/01/DrugFormCodePredefinedSourceType/Magistrel",
+              "code": "TAB",
+              "display": "tabletter"
+            }
+          ]
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    }
+  ]
+}

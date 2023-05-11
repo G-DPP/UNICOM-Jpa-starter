@@ -5,7 +5,7 @@ services:
 #    image: costateixeira/hapi-fhir-jpaserver-starter:latest
     image: hapiproject/hapi:latest
     restart: on-failure
-    container_name: hapiR5
+    container_name: hapi-ips
 #    platform: linux/amd64
     ports:
       - ${server_port:-8080}:8080

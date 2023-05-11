@@ -1,20 +1,8 @@
 {
   "resourceType": "Bundle",
-  "id": "a6fbe94b-2d88-4a1f-812b-8b40de2bc890",
-  "meta": {
-    "lastUpdated": "2023-05-10T10:24:02.731+00:00"
-  },
-  "type": "searchset",
-  "total": 10,
-  "link": [
-    {
-      "relation": "self",
-      "url": "http://fhir.hl7.pt/fhir/Composition/?_count=20000"
-    }
-  ],
+  "type": "transaction",
   "entry": [
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Composition/gravitate-Matilda",
       "resource": {
         "resourceType": "Composition",
         "id": "gravitate-Matilda",
@@ -97,12 +85,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "POST",
+        "url": "Composition/gravitate-Matilda"
+      },
+      "fullUrl": "Composition/gravitate-Matilda"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Composition/ips-example-1",
       "resource": {
         "resourceType": "Composition",
         "id": "ips-example-1",
@@ -211,12 +200,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "POST",
+        "url": "Composition/ips-example-1"
+      },
+      "fullUrl": "Composition/ips-example-1"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Composition/gravitate-Cecilia",
       "resource": {
         "resourceType": "Composition",
         "id": "gravitate-Cecilia",
@@ -315,12 +305,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "POST",
+        "url": "Composition/gravitate-Cecilia"
+      },
+      "fullUrl": "Composition/gravitate-Cecilia"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Composition/gravitate-Pedro",
       "resource": {
         "resourceType": "Composition",
         "id": "gravitate-Pedro",
@@ -427,12 +418,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "POST",
+        "url": "Composition/gravitate-Pedro"
+      },
+      "fullUrl": "Composition/gravitate-Pedro"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Composition/gravitate-helen",
       "resource": {
         "resourceType": "Composition",
         "id": "gravitate-helen",
@@ -537,12 +529,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "POST",
+        "url": "Composition/gravitate-helen"
+      },
+      "fullUrl": "Composition/gravitate-helen"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Composition/ips-example-2",
       "resource": {
         "resourceType": "Composition",
         "id": "ips-example-2",
@@ -647,12 +640,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "POST",
+        "url": "Composition/ips-example-2"
+      },
+      "fullUrl": "Composition/ips-example-2"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Composition/gravitate-maria",
       "resource": {
         "resourceType": "Composition",
         "id": "gravitate-maria",
@@ -769,12 +763,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "POST",
+        "url": "Composition/gravitate-maria"
+      },
+      "fullUrl": "Composition/gravitate-maria"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Composition/ips-example-3",
       "resource": {
         "resourceType": "Composition",
         "id": "ips-example-3",
@@ -901,12 +896,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "POST",
+        "url": "Composition/ips-example-3"
+      },
+      "fullUrl": "Composition/ips-example-3"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Composition/ips-example-4",
       "resource": {
         "resourceType": "Composition",
         "id": "ips-example-4",
@@ -1077,12 +1073,13 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "POST",
+        "url": "Composition/ips-example-4"
+      },
+      "fullUrl": "Composition/ips-example-4"
     },
     {
-      "fullUrl": "http://fhir.hl7.pt/fhir/Composition/gravitate-Alicia",
       "resource": {
         "resourceType": "Composition",
         "id": "gravitate-Alicia",
@@ -1204,9 +1201,11 @@
           }
         ]
       },
-      "search": {
-        "mode": "match"
-      }
+      "request": {
+        "method": "POST",
+        "url": "Composition/gravitate-Alicia"
+      },
+      "fullUrl": "Composition/gravitate-Alicia"
     }
   ]
 }

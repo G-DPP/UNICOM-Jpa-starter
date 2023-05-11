@@ -1,15 +1,15 @@
 {
   "resourceType": "Bundle",
-  "id": "5828ea1b-1ae7-447c-8cff-d74dec6fc4e4",
+  "id": "de9cf23a-7ecd-41d6-a51c-0de1d32c8fe2",
   "meta": {
-    "lastUpdated": "2023-05-10T10:24:02.075+00:00"
+    "lastUpdated": "2023-05-10T10:40:58.033+00:00"
   },
   "type": "searchset",
   "total": 24,
   "link": [
     {
       "relation": "self",
-      "url": "http://fhir.hl7.pt/fhir/Observation/?_count=20000"
+      "url": "http://fhir.hl7.pt/fhir/Observation?_count=20000"
     }
   ],
   "entry": [

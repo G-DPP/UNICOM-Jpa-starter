@@ -19,3 +19,22 @@ services:
     volumes:
       - ./apps:/apps
       - ./application.yaml:/application.yaml
+    depends_on:
+      - hapi-postgres
+
+  hapi-postgres:
+    image: postgres:14.1-alpine
+    ports:
+      - '5432:5432'
+    container_name: hapi-postgres
+    restart: always
+    environment:
+      - POSTGRES_DB=hapi
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    volumes:
+      - hapi-postgres:/var/lib
+
+volumes:
+  hapi-postgres:
+    driver: local

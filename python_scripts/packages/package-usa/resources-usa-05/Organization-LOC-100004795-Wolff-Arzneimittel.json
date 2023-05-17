@@ -1,0 +1,16 @@
+{
+  "resourceType": "Organization",
+  "id": "LOC-100004795-Wolff-Arzneimittel",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "https://spor.ema.europa.eu/v1/locations",
+      "value": "LOC-100004795"
+    }
+  ],
+  "name": "Dr. August Wolff GmbH & Co. KG Arzneimittel"
+}

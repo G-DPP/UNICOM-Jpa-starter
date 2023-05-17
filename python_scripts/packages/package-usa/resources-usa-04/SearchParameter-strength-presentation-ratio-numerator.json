@@ -1,0 +1,15 @@
+{
+  "resourceType": "SearchParameter",
+  "id": "strength-presentation-ratio-numerator",
+  "url": "http://unicom-project.eu/fhir/SearchParameter/strength-presentation-ratio-numerator",
+  "status": "active",
+  "name": "strength-presentation-ratio-numerator",
+  "description": "Possiblity to search for Ingredient.substance.strength.presentation.ofType(Ratio).numerator",
+  "code": "strength-presentation-ratio-numerator",
+  "base": [
+    "Ingredient"
+  ],
+  "type": "quantity",
+  "expression": "Ingredient.substance.strength.presentation.ofType(Ratio).numerator",
+  "processingMode": "normal"
+}

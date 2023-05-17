@@ -1,0 +1,51 @@
+{
+  "resourceType": "AdministrableProductDefinition",
+  "id": "ALGOFREN-SUPP-500MG-SUP-239-GRC-APD",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"
+    ]
+  },
+  "status": "active",
+  "formOf": [
+    {
+      "reference": "MedicinalProductDefinition/ALGOFREN-SUPP-500MG-SUP-239-GRC-MPD"
+    }
+  ],
+  "administrableDoseForm": {
+    "coding": [
+      {
+        "code": "100000073843",
+        "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
+        "display": "Suppository"
+      }
+    ]
+  },
+  "unitOfPresentation": {
+    "coding": [
+      {
+        "code": "200000002149",
+        "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+        "display": "Suppository"
+      }
+    ]
+  },
+  "producedFrom": [
+    {
+      "reference": "ManufacturedItemDefinition/ALGOFREN-SUPP-500MG-SUP-239-GRC-MID"
+    }
+  ],
+  "routeOfAdministration": [
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "100000073628",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000073345",
+            "display": "Rectal use"
+          }
+        ]
+      }
+    }
+  ]
+}

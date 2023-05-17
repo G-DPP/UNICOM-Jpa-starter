@@ -1,0 +1,16 @@
+{
+  "resourceType": "Organization",
+  "id": "LOC-ANGELINI-PHARMA-HELLAS-ABEE",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "https://spor.ema.europa.eu/v1/locations",
+      "value": ""
+    }
+  ],
+  "name": "ANGELINI PHARMA HELLAS ABEE"
+}

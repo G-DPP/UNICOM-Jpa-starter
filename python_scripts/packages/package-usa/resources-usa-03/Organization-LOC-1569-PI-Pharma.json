@@ -1,0 +1,16 @@
+{
+  "resourceType": "Organization",
+  "id": "LOC-1569-PI-Pharma",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "https://spor.ema.europa.eu/v1/locations",
+      "value": "1569"
+    }
+  ],
+  "name": "PI-Pharma"
+}

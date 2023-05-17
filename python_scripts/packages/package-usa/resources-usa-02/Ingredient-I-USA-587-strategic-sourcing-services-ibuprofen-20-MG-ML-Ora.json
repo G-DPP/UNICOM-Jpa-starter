@@ -1,0 +1,61 @@
+{
+  "resourceType": "Ingredient",
+  "id": "I-USA-587-strategic-sourcing-services-ibuprofen-20-MG-ML-Ora",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"
+    ]
+  },
+  "status": "active",
+  "for": [
+    {
+      "reference": "MedicinalProductDefinition/strategic-sourcing-services-ibuprofen-20-MG-ML-Ora-587-USA-MPD"
+    },
+    {
+      "reference": "ManufacturedItemDefinition/strategic-sourcing-services-ibuprofen-20-MG-ML-Ora-587-USA-MID"
+    },
+    {
+      "reference": "AdministrableProductDefinition/strategic-sourcing-services-ibuprofen-20-MG-ML-Ora-587-USA-APD"
+    }
+  ],
+  "role": {
+    "coding": [
+      {
+        "code": "100000072072",
+        "system": "https://spor.ema.europa.eu/v1/lists/100000072050",
+        "display": "Active"
+      }
+    ]
+  },
+  "substance": {
+    "code": {
+      "concept": {
+        "coding": [
+          {
+            "code": "100000090365",
+            "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+            "display": "Ibuprofen"
+          }
+        ]
+      }
+    },
+    "strength": [
+      {
+        "concentrationRatio": {
+          "numerator": {
+            "value": 20,
+            "code": "100000110655",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+            "unit": "milligram(s)"
+          },
+          "denominator": {
+            "value": 1,
+            "code": "100000110662",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+            "unit": "millilitre(s)"
+          }
+        }
+      }
+    ]
+  }
+}

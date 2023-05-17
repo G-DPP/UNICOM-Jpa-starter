@@ -1,0 +1,16 @@
+{
+  "resourceType": "Organization",
+  "id": "LOC-discount-drug-mart-inc",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "https://spor.ema.europa.eu/v1/locations",
+      "value": ""
+    }
+  ],
+  "name": "discount drug mart inc"
+}

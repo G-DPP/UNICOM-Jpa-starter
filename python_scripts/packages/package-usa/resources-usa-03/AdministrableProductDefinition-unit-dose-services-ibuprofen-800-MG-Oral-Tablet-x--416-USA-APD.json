@@ -1,0 +1,51 @@
+{
+  "resourceType": "AdministrableProductDefinition",
+  "id": "unit-dose-services-ibuprofen-800-MG-Oral-Tablet-x--416-USA-APD",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"
+    ]
+  },
+  "status": "active",
+  "formOf": [
+    {
+      "reference": "MedicinalProductDefinition/unit-dose-services-ibuprofen-800-MG-Oral-Tablet-x--416-USA-MPD"
+    }
+  ],
+  "administrableDoseForm": {
+    "coding": [
+      {
+        "code": "100000073664",
+        "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
+        "display": "Tablet"
+      }
+    ]
+  },
+  "unitOfPresentation": {
+    "coding": [
+      {
+        "code": "200000002152",
+        "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+        "display": "Tablet"
+      }
+    ]
+  },
+  "producedFrom": [
+    {
+      "reference": "ManufacturedItemDefinition/unit-dose-services-ibuprofen-800-MG-Oral-Tablet-x--416-USA-MID"
+    }
+  ],
+  "routeOfAdministration": [
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "100000073619",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000073345",
+            "display": "Oral use"
+          }
+        ]
+      }
+    }
+  ]
+}

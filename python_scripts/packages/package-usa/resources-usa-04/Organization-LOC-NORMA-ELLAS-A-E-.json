@@ -1,0 +1,16 @@
+{
+  "resourceType": "Organization",
+  "id": "LOC-NORMA-ELLAS-A-E-",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "https://spor.ema.europa.eu/v1/locations",
+      "value": ""
+    }
+  ],
+  "name": "ΝΟΡΜΑ ΕΛΛΑΣ Α.Ε."
+}

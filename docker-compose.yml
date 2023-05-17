@@ -6,7 +6,6 @@ services:
     image: hapiproject/hapi:latest
     restart: on-failure
     container_name: hapiR5
-#    platform: linux/amd64
     ports:
       - ${server_port:-8080}:8080
     environment:

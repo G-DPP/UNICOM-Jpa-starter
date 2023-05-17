@@ -1,0 +1,16 @@
+{
+  "resourceType": "Organization",
+  "id": "LOC-BROS-E-P-E-",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "https://spor.ema.europa.eu/v1/locations",
+      "value": ""
+    }
+  ],
+  "name": "BROS Ε.Π.Ε."
+}

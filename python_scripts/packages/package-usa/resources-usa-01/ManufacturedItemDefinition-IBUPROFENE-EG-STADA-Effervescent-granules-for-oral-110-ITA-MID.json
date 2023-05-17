@@ -1,0 +1,28 @@
+{
+  "resourceType": "ManufacturedItemDefinition",
+  "id": "IBUPROFENE-EG-STADA-Effervescent-granules-for-oral-110-ITA-MID",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"
+    ]
+  },
+  "status": "active",
+  "manufacturedDoseForm": {
+    "coding": [
+      {
+        "code": "100000174002",
+        "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
+        "display": "Effervescent granules for oral suspension"
+      }
+    ]
+  },
+  "unitOfPresentation": {
+    "coding": [
+      {
+        "code": "200000002143",
+        "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+        "display": "Sachet"
+      }
+    ]
+  }
+}

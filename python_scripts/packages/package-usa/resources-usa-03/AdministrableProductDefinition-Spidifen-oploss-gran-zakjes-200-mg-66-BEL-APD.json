@@ -1,0 +1,51 @@
+{
+  "resourceType": "AdministrableProductDefinition",
+  "id": "Spidifen-oploss-gran-zakjes-200-mg-66-BEL-APD",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"
+    ]
+  },
+  "status": "active",
+  "formOf": [
+    {
+      "reference": "MedicinalProductDefinition/Spidifen-oploss-gran-zakjes-200-mg-66-BEL-MPD"
+    }
+  ],
+  "administrableDoseForm": {
+    "coding": [
+      {
+        "code": "100000073365",
+        "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
+        "display": "Granules for oral solution"
+      }
+    ]
+  },
+  "unitOfPresentation": {
+    "coding": [
+      {
+        "code": "200000002143",
+        "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+        "display": "Sachet"
+      }
+    ]
+  },
+  "producedFrom": [
+    {
+      "reference": "ManufacturedItemDefinition/Spidifen-oploss-gran-zakjes-200-mg-66-BEL-MID"
+    }
+  ],
+  "routeOfAdministration": [
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "100000073619",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000073345",
+            "display": "Oral use"
+          }
+        ]
+      }
+    }
+  ]
+}

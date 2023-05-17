@@ -1,0 +1,61 @@
+{
+  "resourceType": "Ingredient",
+  "id": "I-USA-346-target-corporation-ibuprofen-20-MG-ML-Oral-Suspens",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"
+    ]
+  },
+  "status": "active",
+  "for": [
+    {
+      "reference": "MedicinalProductDefinition/target-corporation-ibuprofen-20-MG-ML-Oral-Suspens-346-USA-MPD"
+    },
+    {
+      "reference": "ManufacturedItemDefinition/target-corporation-ibuprofen-20-MG-ML-Oral-Suspens-346-USA-MID"
+    },
+    {
+      "reference": "AdministrableProductDefinition/target-corporation-ibuprofen-20-MG-ML-Oral-Suspens-346-USA-APD"
+    }
+  ],
+  "role": {
+    "coding": [
+      {
+        "code": "100000072072",
+        "system": "https://spor.ema.europa.eu/v1/lists/100000072050",
+        "display": "Active"
+      }
+    ]
+  },
+  "substance": {
+    "code": {
+      "concept": {
+        "coding": [
+          {
+            "code": "100000090365",
+            "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+            "display": "Ibuprofen"
+          }
+        ]
+      }
+    },
+    "strength": [
+      {
+        "concentrationRatio": {
+          "numerator": {
+            "value": 20,
+            "code": "100000110655",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+            "unit": "milligram(s)"
+          },
+          "denominator": {
+            "value": 1,
+            "code": "100000110662",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+            "unit": "millilitre(s)"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "resourceType": "AdministrableProductDefinition",
+  "id": "BRUFEN-granules-for-oral-suspension-in-sachet-600m-99-ITA-APD",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"
+    ]
+  },
+  "status": "active",
+  "formOf": [
+    {
+      "reference": "MedicinalProductDefinition/BRUFEN-granules-for-oral-suspension-in-sachet-600m-99-ITA-MPD"
+    }
+  ],
+  "administrableDoseForm": {
+    "coding": [
+      {
+        "code": "100000073650",
+        "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
+        "display": "Granules for oral suspension"
+      }
+    ]
+  },
+  "unitOfPresentation": {
+    "coding": [
+      {
+        "code": "200000002143",
+        "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+        "display": "Sachet"
+      }
+    ]
+  },
+  "producedFrom": [
+    {
+      "reference": "ManufacturedItemDefinition/BRUFEN-granules-for-oral-suspension-in-sachet-600m-99-ITA-MID"
+    }
+  ],
+  "routeOfAdministration": [
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "100000073619",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000073345",
+            "display": "Oral use"
+          }
+        ]
+      }
+    }
+  ]
+}

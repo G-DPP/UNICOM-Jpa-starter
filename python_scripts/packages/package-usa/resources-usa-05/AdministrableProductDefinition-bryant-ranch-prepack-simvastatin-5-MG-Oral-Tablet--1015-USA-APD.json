@@ -1,0 +1,51 @@
+{
+  "resourceType": "AdministrableProductDefinition",
+  "id": "bryant-ranch-prepack-simvastatin-5-MG-Oral-Tablet--1015-USA-APD",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"
+    ]
+  },
+  "status": "active",
+  "formOf": [
+    {
+      "reference": "MedicinalProductDefinition/bryant-ranch-prepack-simvastatin-5-MG-Oral-Tablet--1015-USA-MPD"
+    }
+  ],
+  "administrableDoseForm": {
+    "coding": [
+      {
+        "code": "100000073665",
+        "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
+        "display": "Film-coated tablet"
+      }
+    ]
+  },
+  "unitOfPresentation": {
+    "coding": [
+      {
+        "code": "200000002152",
+        "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+        "display": "Tablet"
+      }
+    ]
+  },
+  "producedFrom": [
+    {
+      "reference": "ManufacturedItemDefinition/bryant-ranch-prepack-simvastatin-5-MG-Oral-Tablet--1015-USA-MID"
+    }
+  ],
+  "routeOfAdministration": [
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "100000073619",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000073345",
+            "display": "Oral use"
+          }
+        ]
+      }
+    }
+  ]
+}

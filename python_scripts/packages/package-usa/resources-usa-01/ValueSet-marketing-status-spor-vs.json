@@ -1,0 +1,18 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "SporMarketingStatus",
+  "id": "marketing-status-spor-vs",
+  "title": "EMA SPOR Marketing Status",
+  "description": "Marketing Status",
+  "version": "0.1.0",
+  "url": "http://unicom-project.eu/fhir/ValueSet/marketing-status-spor-vs",
+  "experimental": false,
+  "compose": {
+    "include": [
+      {
+        "system": "https://spor.ema.europa.eu/v1/lists/100000072052"
+      }
+    ]
+  }
+}

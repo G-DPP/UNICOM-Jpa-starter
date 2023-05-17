@@ -1,0 +1,25 @@
+{
+  "resourceType": "SearchParameter",
+  "id": "strength-presentation-ratio",
+  "url": "http://unicom-project.eu/fhir/SearchParameter/strength-presentation-ratio",
+  "status": "active",
+  "name": "strength-presentation-ratio",
+  "description": "Possiblity to search for substance and strength at the same time",
+  "code": "strength-presentation-ratio",
+  "base": [
+    "Ingredient"
+  ],
+  "expression": "Ingredient.substance.strength.presentation.ofType(Ratio)",
+  "component": [
+    {
+      "expression": "numerator",
+      "definition": "http://unicom-project.eu/fhir/SearchParameter/strength-presentation-ratio-numerator"
+    },
+    {
+      "expression": "denominator",
+      "definition": "http://unicom-project.eu/fhir/SearchParameter/strength-presentation-ratio-denominator"
+    }
+  ],
+  "type": "composite",
+  "processingMode": "normal"
+}

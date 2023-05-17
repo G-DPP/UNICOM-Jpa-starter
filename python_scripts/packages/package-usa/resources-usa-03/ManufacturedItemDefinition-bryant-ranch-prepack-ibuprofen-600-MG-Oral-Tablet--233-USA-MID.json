@@ -1,0 +1,28 @@
+{
+  "resourceType": "ManufacturedItemDefinition",
+  "id": "bryant-ranch-prepack-ibuprofen-600-MG-Oral-Tablet--233-USA-MID",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"
+    ]
+  },
+  "status": "active",
+  "manufacturedDoseForm": {
+    "coding": [
+      {
+        "code": "100000073665",
+        "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
+        "display": "Film-coated tablet"
+      }
+    ]
+  },
+  "unitOfPresentation": {
+    "coding": [
+      {
+        "code": "200000002152",
+        "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+        "display": "Tablet"
+      }
+    ]
+  }
+}

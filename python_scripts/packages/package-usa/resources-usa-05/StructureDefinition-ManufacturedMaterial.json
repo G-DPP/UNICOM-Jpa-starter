@@ -1,0 +1,575 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "ManufacturedMaterial",
+  "url": "http://unicom-project.eu/fhir/StructureDefinition/ManufacturedMaterial",
+  "version": "0.1.0",
+  "name": "ManufacturedMaterial",
+  "title": "DRAFT: MyHealth@EU medicinal product",
+  "status": "active",
+  "description": "DRAFT. Crossborder eP/eD/PS medicinal product as represented in CDA.",
+  "fhirVersion": "5.0.0",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "logical",
+  "abstract": false,
+  "type": "http://unicom-project.eu/fhir/StructureDefinition/ManufacturedMaterial",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Base",
+  "derivation": "specialization",
+  "differential": {
+    "element": [
+      {
+        "id": "ManufacturedMaterial",
+        "path": "ManufacturedMaterial",
+        "short": "DRAFT: MyHealth@EU medicinal product",
+        "definition": "DRAFT. Crossborder eP/eD/PS medicinal product as represented in CDA."
+      },
+      {
+        "id": "ManufacturedMaterial.code",
+        "path": "ManufacturedMaterial.code",
+        "short": "MPID or other medicinal product identifier",
+        "definition": "MPID or other medicinal product identifier",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/II"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ManufacturedMaterial.name",
+        "path": "ManufacturedMaterial.name",
+        "short": "Brand name according to the marketing authorisation",
+        "definition": "Brand name according to the marketing authorisation",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ManufacturedMaterial.formcode",
+        "path": "ManufacturedMaterial.formcode",
+        "short": "Dose form. For branded products, authorised dose form is expected. From eHSDIDoseForm",
+        "definition": "Dose form. For branded products, authorised dose form is expected. From eHSDIDoseForm",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ManufacturedMaterial.asContent",
+        "path": "ManufacturedMaterial.asContent",
+        "short": "Package",
+        "definition": "Package",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/Class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ManufacturedMaterial.asContent.quantity",
+        "path": "ManufacturedMaterial.asContent.quantity",
+        "short": "Quantity of product within this package item",
+        "definition": "Quantity of product within this package item",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/PQ"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ManufacturedMaterial.asContent.containerPackagedProduct",
+        "path": "ManufacturedMaterial.asContent.containerPackagedProduct",
+        "short": "Package item description",
+        "definition": "Package item description",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/Class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ManufacturedMaterial.asContent.containerPackagedProduct.code",
+        "path": "ManufacturedMaterial.asContent.containerPackagedProduct.code",
+        "short": "Package identifier (PCID or national) if this is the actual outer box",
+        "definition": "Package identifier (PCID or national) if this is the actual outer box",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/II"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ManufacturedMaterial.asContent.containerPackagedProduct.name",
+        "path": "ManufacturedMaterial.asContent.containerPackagedProduct.name",
+        "short": "Name or description of the package",
+        "definition": "Name or description of the package",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ManufacturedMaterial.asContent.containerPackagedProduct.formcode",
+        "path": "ManufacturedMaterial.asContent.containerPackagedProduct.formcode",
+        "short": "Type of packaging. From eHDSIPackage.",
+        "definition": "Type of packaging. From eHDSIPackage.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ManufacturedMaterial.asContent.containerPackagedProduct.asContent",
+        "path": "ManufacturedMaterial.asContent.containerPackagedProduct.asContent",
+        "short": "Next layer of the package - the direction is inside out",
+        "definition": "Next layer of the package - the direction is inside out",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/Class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ManufacturedMaterial.asContent.containerPackagedProduct.asContent.quantity",
+        "path": "ManufacturedMaterial.asContent.containerPackagedProduct.asContent.quantity",
+        "short": "Quantity of inner package items in this package item",
+        "definition": "Quantity of inner package items in this package item",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/PQ"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ManufacturedMaterial.asContent.containerPackagedProduct.asContent.containerPackagedProduct",
+        "path": "ManufacturedMaterial.asContent.containerPackagedProduct.asContent.containerPackagedProduct",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/Class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ManufacturedMaterial.asContent.containerPackagedProduct.asContent.containerPackagedProduct.code",
+        "path": "ManufacturedMaterial.asContent.containerPackagedProduct.asContent.containerPackagedProduct.code",
+        "short": "Package identifier (PCID or national) if this is the actual outer box",
+        "definition": "Package identifier (PCID or national) if this is the actual outer box",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/II"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ManufacturedMaterial.asContent.containerPackagedProduct.asContent.containerPackagedProduct.name",
+        "path": "ManufacturedMaterial.asContent.containerPackagedProduct.asContent.containerPackagedProduct.name",
+        "short": "Name or description of the package",
+        "definition": "Name or description of the package",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ManufacturedMaterial.asContent.containerPackagedProduct.asContent.containerPackagedProduct.formcode",
+        "path": "ManufacturedMaterial.asContent.containerPackagedProduct.asContent.containerPackagedProduct.formcode",
+        "short": "Type of packaging",
+        "definition": "Type of packaging",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ManufacturedMaterial.asSpecializedKind",
+        "path": "ManufacturedMaterial.asSpecializedKind",
+        "short": "ATC classification",
+        "definition": "ATC classification",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/Class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ManufacturedMaterial.asSpecializedKind.generalizedMaterialKind",
+        "path": "ManufacturedMaterial.asSpecializedKind.generalizedMaterialKind",
+        "short": "ATC classification",
+        "definition": "ATC classification",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/Class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ManufacturedMaterial.asSpecializedKind.generalizedMaterialKind.code",
+        "path": "ManufacturedMaterial.asSpecializedKind.generalizedMaterialKind.code",
+        "short": "ATC code by WHO",
+        "definition": "ATC code by WHO",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ManufacturedMaterial.asSpecializedKind.generalizedMaterialKind.name",
+        "path": "ManufacturedMaterial.asSpecializedKind.generalizedMaterialKind.name",
+        "short": "ATC display name",
+        "definition": "ATC display name",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ManufacturedMaterial.asSpecializedKind2",
+        "path": "ManufacturedMaterial.asSpecializedKind2",
+        "short": "PhPID, different levels are allowed",
+        "definition": "PhPID, different levels are allowed",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/Class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ManufacturedMaterial.asSpecializedKind2.generalizedMaterialKind",
+        "path": "ManufacturedMaterial.asSpecializedKind2.generalizedMaterialKind",
+        "short": "PhPID",
+        "definition": "PhPID",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/Class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ManufacturedMaterial.asSpecializedKind2.generalizedMaterialKind.code",
+        "path": "ManufacturedMaterial.asSpecializedKind2.generalizedMaterialKind.code",
+        "short": "PhPID code",
+        "definition": "PhPID code",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ManufacturedMaterial.asSpecializedKind2.generalizedMaterialKind.name",
+        "path": "ManufacturedMaterial.asSpecializedKind2.generalizedMaterialKind.name",
+        "short": "Display name for PhPID",
+        "definition": "Display name for PhPID",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ManufacturedMaterial.ingredient",
+        "path": "ManufacturedMaterial.ingredient",
+        "short": "Ingredient for the medicinal product",
+        "definition": "Ingredient for the medicinal product",
+        "min": 1,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/Class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ManufacturedMaterial.ingredient.quantity",
+        "path": "ManufacturedMaterial.ingredient.quantity",
+        "short": "Strength",
+        "definition": "Strength",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/RTO"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ManufacturedMaterial.ingredient.quantity.numerator",
+        "path": "ManufacturedMaterial.ingredient.quantity.numerator",
+        "short": "Numerator in strength",
+        "definition": "Numerator in strength",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/PQ"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ManufacturedMaterial.ingredient.quantity.denominator",
+        "path": "ManufacturedMaterial.ingredient.quantity.denominator",
+        "short": "Denominator in strength",
+        "definition": "Denominator in strength",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/PQ"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ManufacturedMaterial.ingredient.ingredientSubstance",
+        "path": "ManufacturedMaterial.ingredient.ingredientSubstance",
+        "short": "Active ingredient",
+        "definition": "Active ingredient",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/Class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ManufacturedMaterial.ingredient.ingredientSubstance.code",
+        "path": "ManufacturedMaterial.ingredient.ingredientSubstance.code",
+        "short": "Active ingredient coded element",
+        "definition": "Active ingredient coded element",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ManufacturedMaterial.ingredient.ingredientSubstance.name",
+        "path": "ManufacturedMaterial.ingredient.ingredientSubstance.name",
+        "short": "Active ingredient as text",
+        "definition": "Active ingredient as text",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ManufacturedMaterial.part",
+        "path": "ManufacturedMaterial.part",
+        "short": "Product part - used for products that contain different manufactured items",
+        "definition": "Product part - used for products that contain different manufactured items",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/Class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ManufacturedMaterial.part.quantity",
+        "path": "ManufacturedMaterial.part.quantity",
+        "short": "Quantity of this manufactured item in the package",
+        "definition": "Quantity of this manufactured item in the package",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/PQ"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ManufacturedMaterial.part.partProduct",
+        "path": "ManufacturedMaterial.part.partProduct",
+        "short": "Description of the manufactured item",
+        "definition": "Description of the manufactured item",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/Class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ManufacturedMaterial.part.partProduct.formCode",
+        "path": "ManufacturedMaterial.part.partProduct.formCode",
+        "short": "Dose form of the manufactured item (not present in wave 6?)",
+        "definition": "Dose form of the manufactured item (not present in wave 6?)",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/CD"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

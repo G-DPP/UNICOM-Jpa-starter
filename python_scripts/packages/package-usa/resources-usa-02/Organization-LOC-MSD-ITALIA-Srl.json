@@ -1,0 +1,16 @@
+{
+  "resourceType": "Organization",
+  "id": "LOC-MSD-ITALIA-Srl",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "https://spor.ema.europa.eu/v1/locations",
+      "value": ""
+    }
+  ],
+  "name": "MSD ITALIA Srl"
+}

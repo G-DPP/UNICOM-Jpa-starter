@@ -1,0 +1,18 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "CountryISO",
+  "id": "country-iso-vs",
+  "title": "Country (ISO 3166-1-2)",
+  "description": "Countries",
+  "version": "0.1.0",
+  "url": "http://unicom-project.eu/fhir/ValueSet/country-iso-vs",
+  "experimental": false,
+  "compose": {
+    "include": [
+      {
+        "system": "https://www.hl7.org/fhir/valueset-country.html"
+      }
+    ]
+  }
+}

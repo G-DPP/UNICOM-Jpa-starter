@@ -1,0 +1,32 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "BL",
+  "url": "http://unicom-project.eu/fhir/StructureDefinition/BL",
+  "version": "0.1.0",
+  "name": "BL",
+  "status": "active",
+  "description": "Boolean - true or false",
+  "fhirVersion": "5.0.0",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "type": "Element",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Element",
+        "path": "Element",
+        "short": "Boolean",
+        "definition": "A binary value for use in boolean logic. A BL value can be either true or false, or, as any other value, MAY be NULL."
+      }
+    ]
+  }
+}

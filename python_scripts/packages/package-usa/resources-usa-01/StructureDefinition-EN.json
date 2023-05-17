@@ -1,0 +1,32 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "EN",
+  "url": "http://unicom-project.eu/fhir/StructureDefinition/EN",
+  "version": "0.1.0",
+  "name": "EN",
+  "status": "active",
+  "description": "EntityName",
+  "fhirVersion": "5.0.0",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "type": "Element",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Element",
+        "path": "Element",
+        "short": "Entity name",
+        "definition": "A name for a person, organization, place or thing. A sequence of name parts, such as given name or family name, prefix, suffix, etc."
+      }
+    ]
+  }
+}

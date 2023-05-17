@@ -1,0 +1,25 @@
+{
+  "resourceType": "SearchParameter",
+  "id": "strength-quantity-and-substance",
+  "url": "http://unicom-project.eu/fhir/SearchParameter/strength-quantity-and-substance",
+  "status": "active",
+  "name": "strength-quantity-and-substance",
+  "description": "Possiblity to search for substance and strength at the same time",
+  "code": "strength-quantity-and-substance",
+  "base": [
+    "Ingredient"
+  ],
+  "expression": "Ingredient.substance",
+  "component": [
+    {
+      "expression": "code.concept",
+      "definition": "http://hl7.org/fhir/SearchParameter/Ingredient-substance-code"
+    },
+    {
+      "expression": "strength.presentation.ofType(Quantity)",
+      "definition": "http://unicom-project.eu/fhir/SearchParameter/strength-presentation-quantity"
+    }
+  ],
+  "type": "composite",
+  "processingMode": "normal"
+}

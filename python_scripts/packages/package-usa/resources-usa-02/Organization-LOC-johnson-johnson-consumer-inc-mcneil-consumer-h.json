@@ -1,0 +1,16 @@
+{
+  "resourceType": "Organization",
+  "id": "LOC-johnson-johnson-consumer-inc-mcneil-consumer-h",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "https://spor.ema.europa.eu/v1/locations",
+      "value": ""
+    }
+  ],
+  "name": "johnson  johnson consumer inc mcneil consumer healthcare division"
+}

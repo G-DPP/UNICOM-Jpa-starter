@@ -1,0 +1,16 @@
+{
+  "resourceType": "Organization",
+  "id": "LOC-quality-care-products-llc",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "https://spor.ema.europa.eu/v1/locations",
+      "value": ""
+    }
+  ],
+  "name": "quality care products llc"
+}

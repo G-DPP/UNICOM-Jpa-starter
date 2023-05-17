@@ -1,0 +1,90 @@
+{
+  "resourceType": "PackagedProductDefinition",
+  "id": "aurohealth-llc-ibuprofen-200-MG-Oral-Tablet-x-1-BO-17-USA-PPD",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "http://ema.europa.eu/example/pcid",
+      "value": "USA-58602071308"
+    }
+  ],
+  "packageFor": [
+    {
+      "reference": "MedicinalProductDefinition/aurohealth-llc-ibuprofen-200-MG-Oral-Tablet-x-1-BO-17-USA-MPD"
+    }
+  ],
+  "containedItemQuantity": [
+    {
+      "value": 50,
+      "code": "200000002152",
+      "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+      "unit": "Tablet"
+    }
+  ],
+  "description": "",
+  "marketingStatus": [
+    {
+      "country": {
+        "coding": [
+          {
+            "code": "100000000557",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
+            "display": "United States of America"
+          }
+        ]
+      },
+      "status": {
+        "coding": [
+          {
+            "code": "100000072083",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000072052",
+            "display": "Marketed"
+          }
+        ]
+      }
+    }
+  ],
+  "packaging": {
+    "type": {
+      "coding": [
+        {
+          "code": "100000073498",
+          "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
+          "display": "Box"
+        }
+      ]
+    },
+    "quantity": 1,
+    "material": [
+      {
+        "coding": [
+          {
+            "code": "200000003529",
+            "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
+            "display": "Cardboard"
+          }
+        ]
+      }
+    ],
+    "packaging": [
+      {
+        "containedItem": [
+          {
+            "item": {
+              "reference": {
+                "reference": "ManufacturedItemDefinition/aurohealth-llc-ibuprofen-200-MG-Oral-Tablet-x-1-BO-17-USA-MID"
+              }
+            },
+            "amount": {
+              "value": 50
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

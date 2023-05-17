@@ -1,0 +1,52 @@
+{
+  "resourceType": "RegulatedAuthorization",
+  "id": "CanifugCremolum-EE-RA",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization"
+    ]
+  },
+  "type": {
+    "coding": [
+      {
+        "code": "220000000061",
+        "system": "https://spor.ema.europa.eu/v1/lists/220000000060",
+        "display": "Marketing Authorisation"
+      }
+    ]
+  },
+  "identifier": [
+    {
+      "value": "366201"
+    }
+  ],
+  "subject": [
+    {
+      "reference": "MedicinalProductDefinition/CanifugCremolum-EE-MPD"
+    }
+  ],
+  "region": [
+    {
+      "coding": [
+        {
+          "code": "100000000388",
+          "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
+          "display": "Republic of Estonia"
+        }
+      ]
+    }
+  ],
+  "status": {
+    "coding": [
+      {
+        "code": "200000017708",
+        "system": "https://spor.ema.europa.eu/v1/lists/100000072049",
+        "display": "Valid - Renewed/Varied"
+      }
+    ]
+  },
+  "statusDate": "2011-10-19",
+  "holder": {
+    "reference": "Organization/LOC-100004795-Wolff-Arzneimittel"
+  }
+}

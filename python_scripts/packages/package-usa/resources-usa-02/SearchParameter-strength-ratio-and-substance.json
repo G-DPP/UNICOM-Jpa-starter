@@ -1,0 +1,25 @@
+{
+  "resourceType": "SearchParameter",
+  "id": "strength-ratio-and-substance",
+  "url": "http://unicom-project.eu/fhir/SearchParameter/strength-ratio-and-substance",
+  "status": "active",
+  "name": "strength-ratio-and-substance",
+  "description": "Possiblity to search for substance and strength at the same time",
+  "code": "strength-ratio-and-substance",
+  "base": [
+    "Ingredient"
+  ],
+  "expression": "Ingredient.substance",
+  "component": [
+    {
+      "expression": "code.concept",
+      "definition": "http://hl7.org/fhir/SearchParameter/Ingredient-substance-code"
+    },
+    {
+      "expression": "strength.presentation.ofType(Ratio).numerator",
+      "definition": "http://unicom-project.eu/fhir/SearchParameter/strength-presentation-ratio-numerator"
+    }
+  ],
+  "type": "composite",
+  "processingMode": "normal"
+}

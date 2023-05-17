@@ -1,0 +1,32 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "RTO",
+  "url": "http://unicom-project.eu/fhir/StructureDefinition/RTO",
+  "version": "0.1.0",
+  "name": "RTO",
+  "status": "active",
+  "description": "Ratio",
+  "fhirVersion": "5.0.0",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "type": "Element",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Element",
+        "path": "Element",
+        "short": "Ratio of quantities",
+        "definition": "A quantity constructed as the quotient of a numerator quantity divided by a denominator quantity."
+      }
+    ]
+  }
+}

@@ -1,0 +1,784 @@
+{
+  "resourceType": "Bundle",
+  "id": "AMLaccord-5mg-Tablet-SE-IS-MedicinalProductDefinition-BBDL",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "MedicinalProductDefinition",
+        "id": "AMLaccord-5mg-Tablet-SE-IS-MedicinalProductDefinition",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://ema.europa.eu/fhir/mpId",
+            "value": "SE-100003704-00026703"
+          }
+        ],
+        "name": [
+          {
+            "part": [
+              {
+                "type": {
+                  "coding": [
+                    {
+                      "code": "220000000002",
+                      "system": "https://spor.ema.europa.eu/v1/lists/220000000000",
+                      "display": "Invented name part"
+                    }
+                  ]
+                },
+                "part": "Amlodipin Accord"
+              },
+              {
+                "type": {
+                  "coding": [
+                    {
+                      "code": "220000000004",
+                      "system": "https://spor.ema.europa.eu/v1/lists/220000000000",
+                      "display": "Strength part"
+                    }
+                  ]
+                },
+                "part": "5 mg"
+              },
+              {
+                "type": {
+                  "coding": [
+                    {
+                      "code": "220000000005",
+                      "system": "https://spor.ema.europa.eu/v1/lists/220000000000",
+                      "display": "Pharmaceutical dose form part"
+                    }
+                  ]
+                },
+                "part": "Tablett"
+              }
+            ],
+            "usage": [
+              {
+                "country": {
+                  "coding": [
+                    {
+                      "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
+                      "code": "100000000535",
+                      "display": "Kingdom of Sweden"
+                    }
+                  ]
+                },
+                "language": {
+                  "coding": [
+                    {
+                      "code": "sv",
+                      "system": "urn:ietf:bcp:47",
+                      "display": "Swedish"
+                    }
+                  ]
+                }
+              }
+            ],
+            "productName": "Amlodipin Accord 5 mg Tablett"
+          }
+        ],
+        "combinedPharmaceuticalDoseForm": {
+          "coding": [
+            {
+              "code": "100000073664",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
+              "display": "Tablet"
+            }
+          ]
+        },
+        "domain": {
+          "coding": [
+            {
+              "code": "100000000012",
+              "system": "https://spor.ema.europa.eu/v1/lists/100000000004",
+              "display": "Human use"
+            }
+          ]
+        },
+        "status": {
+          "coding": [
+            {
+              "code": "200000005004",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000005003",
+              "display": "Current"
+            }
+          ]
+        },
+        "indication": "Hypertoni Kronisk stabil angina pectoris Vasospastisk (Prinzmetals) angina",
+        "legalStatusOfSupply": {
+          "coding": [
+            {
+              "code": "100000072084",
+              "system": "https://spor.ema.europa.eu/v1/lists/100000072051",
+              "display": "Medicinal product subject to medical prescription"
+            }
+          ]
+        },
+        "classification": [
+          {
+            "coding": [
+              {
+                "code": "100000095065",
+                "system": "https://spor.ema.europa.eu/v1/lists/100000093533",
+                "display": "amlodipine"
+              }
+            ]
+          },
+          {
+            "coding": [
+              {
+                "code": "C08CA01",
+                "system": "http://www.whocc.no/atc",
+                "display": "amlodipine"
+              }
+            ]
+          }
+        ]
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/MedicinalProductDefinition/AMLaccord-5mg-Tablet-SE-IS-MedicinalProductDefinition"
+    },
+    {
+      "resource": {
+        "resourceType": "AdministrableProductDefinition",
+        "id": "AMLaccord-5mg-Tablet-SE-IS-AdministrableProductDefinition",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"
+          ]
+        },
+        "status": "active",
+        "formOf": [
+          {
+            "reference": "MedicinalProductDefinition/AMLaccord-5mg-Tablet-SE-IS-MedicinalProductDefinition"
+          }
+        ],
+        "administrableDoseForm": {
+          "coding": [
+            {
+              "code": "100000073664",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
+              "display": "Tablet"
+            }
+          ]
+        },
+        "unitOfPresentation": {
+          "coding": [
+            {
+              "code": "200000002152",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+              "display": "Tablet"
+            }
+          ]
+        },
+        "producedFrom": [
+          {
+            "reference": "ManufacturedItemDefinition/AMLaccord-5mg-Tablet-SE-IS-ManufacturedItemDefinition"
+          }
+        ],
+        "routeOfAdministration": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "code": "100000073619",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000073345",
+                  "display": "Oral use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/AdministrableProductDefinition/AMLaccord-5mg-Tablet-SE-IS-AdministrableProductDefinition"
+    },
+    {
+      "resource": {
+        "resourceType": "RegulatedAuthorization",
+        "id": "AMLaccord-5mg-Tablet-SE-IS-RegulatedAuthorization",
+        "meta": {
+          "lastUpdated": "2022-09-30T11:42:22.792+00:00",
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization"
+          ]
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "220000000061",
+              "system": "https://spor.ema.europa.eu/v1/lists/220000000060",
+              "display": "Marketing Authorisation"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "value": "26703"
+          }
+        ],
+        "subject": [
+          {
+            "reference": "MedicinalProductDefinition/AMLaccord-5mg-Tablet-SE-IS-MedicinalProductDefinition"
+          }
+        ],
+        "region": [
+          {
+            "coding": [
+              {
+                "code": "100000000535",
+                "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
+                "display": "Kingdom of Sweden"
+              }
+            ]
+          }
+        ],
+        "status": {
+          "coding": [
+            {
+              "code": "100000072099",
+              "system": "https://spor.ema.europa.eu/v1/lists/100000072049",
+              "display": "Valid"
+            }
+          ]
+        },
+        "statusDate": "2008-10-10",
+        "holder": {
+          "reference": "Organization/LOC-100007148-Accord"
+        }
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/RegulatedAuthorization/AMLaccord-5mg-Tablet-SE-IS-RegulatedAuthorization"
+    },
+    {
+      "resource": {
+        "resourceType": "Organization",
+        "id": "LOC-100007148-Accord",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://spor.ema.europa.eu/v1/locations",
+            "value": "LOC-100007148"
+          }
+        ],
+        "name": "Accord Healthcare B.V."
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Organization-LOC-100007148-Accord"
+    },
+    {
+      "resource": {
+        "resourceType": "PackagedProductDefinition",
+        "id": "AMLaccord-5mg-Tablet-SE-IS-PackagedProductDefinition01",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://ema.europa.eu/example/pcid"
+          }
+        ],
+        "containedItemQuantity": [
+          {
+            "value": 28,
+            "code": "200000002152",
+            "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+            "unit": "Tablet"
+          }
+        ],
+        "packageFor": [
+          {
+            "reference": "MedicinalProductDefinition/AMLaccord-5mg-Tablet-SE-IS-MedicinalProductDefinition"
+          }
+        ],
+        "description": "Blister, 28 tabletter",
+        "marketingStatus": [
+          {
+            "country": {
+              "coding": [
+                {
+                  "code": "100000000535",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
+                  "display": "Kingdom of Sweden"
+                }
+              ]
+            },
+            "status": {
+              "coding": [
+                {
+                  "code": "100000072083",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000072052",
+                  "display": "Marketed"
+                }
+              ]
+            }
+          }
+        ],
+        "packaging": {
+          "type": {
+            "coding": [
+              {
+                "code": "100000073498",
+                "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
+                "display": "Box"
+              }
+            ]
+          },
+          "quantity": 1,
+          "material": [
+            {
+              "coding": [
+                {
+                  "code": "200000003529",
+                  "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
+                  "display": "Cardboard"
+                }
+              ]
+            }
+          ],
+          "packaging": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "code": "100000073496",
+                    "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
+                    "display": "Blister"
+                  }
+                ]
+              },
+              "quantity": 2,
+              "material": [
+                {
+                  "coding": [
+                    {
+                      "code": "200000003222",
+                      "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
+                      "display": "PolyVinyl Chloride"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "code": "200000003225",
+                      "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
+                      "display": "PolyVinylidene Chloride"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "code": "200000003200",
+                      "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
+                      "display": "Aluminium"
+                    }
+                  ]
+                }
+              ],
+              "containedItem": [
+                {
+                  "item": {
+                    "reference": {
+                      "reference": "ManufacturedItemDefinition/AMLaccord-5mg-Tablet-SE-IS-ManufacturedItemDefinition"
+                    }
+                  },
+                  "amount": {
+                    "value": 14,
+                    "code": "200000002152",
+                    "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+                    "unit": "Tablet"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/PackagedProductDefinition/AMLaccord-5mg-Tablet-SE-IS-PackagedProductDefinition01"
+    },
+    {
+      "resource": {
+        "resourceType": "PackagedProductDefinition",
+        "id": "AMLaccord-5mg-Tablet-SE-IS-PackagedProductDefinition02",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://ema.europa.eu/example/pcid"
+          }
+        ],
+        "containedItemQuantity": [
+          {
+            "value": 98,
+            "code": "200000002152",
+            "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+            "unit": "Tablet"
+          }
+        ],
+        "packageFor": [
+          {
+            "reference": "MedicinalProductDefinition/AMLaccord-5mg-Tablet-SE-IS-MedicinalProductDefinition"
+          }
+        ],
+        "description": "Blister, 98 tabletter",
+        "marketingStatus": [
+          {
+            "country": {
+              "coding": [
+                {
+                  "code": "100000000535",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
+                  "display": "Kingdom of Sweden"
+                }
+              ]
+            },
+            "status": {
+              "coding": [
+                {
+                  "code": "100000072083",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000072052",
+                  "display": "Marketed"
+                }
+              ]
+            }
+          }
+        ],
+        "packaging": {
+          "type": {
+            "coding": [
+              {
+                "code": "100000073498",
+                "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
+                "display": "Box"
+              }
+            ]
+          },
+          "quantity": 1,
+          "material": [
+            {
+              "coding": [
+                {
+                  "code": "200000003529",
+                  "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
+                  "display": "Cardboard"
+                }
+              ]
+            }
+          ],
+          "packaging": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "code": "100000073496",
+                    "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
+                    "display": "Blister"
+                  }
+                ]
+              },
+              "quantity": 7,
+              "material": [
+                {
+                  "coding": [
+                    {
+                      "code": "200000003222",
+                      "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
+                      "display": "PolyVinyl Chloride"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "code": "200000003225",
+                      "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
+                      "display": "PolyVinylidene Chloride"
+                    }
+                  ]
+                },
+                {
+                  "coding": [
+                    {
+                      "code": "200000003200",
+                      "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
+                      "display": "Aluminium"
+                    }
+                  ]
+                }
+              ],
+              "containedItem": [
+                {
+                  "item": {
+                    "reference": {
+                      "reference": "ManufacturedItemDefinition/AMLaccord-5mg-Tablet-SE-IS-ManufacturedItemDefinition"
+                    }
+                  },
+                  "amount": {
+                    "value": 14,
+                    "code": "200000002152",
+                    "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+                    "unit": "Tablet"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/PackagedProductDefinition/AMLaccord-5mg-Tablet-SE-IS-PackagedProductDefinition02"
+    },
+    {
+      "resource": {
+        "resourceType": "PackagedProductDefinition",
+        "id": "AMLaccord-5mg-Tablet-SE-IS-PackagedProductDefinition03",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://ema.europa.eu/example/pcid"
+          }
+        ],
+        "containedItemQuantity": [
+          {
+            "value": 500,
+            "code": "200000002152",
+            "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+            "unit": "Tablet"
+          }
+        ],
+        "packageFor": [
+          {
+            "reference": "MedicinalProductDefinition/AMLaccord-5mg-Tablet-SE-IS-MedicinalProductDefinition"
+          }
+        ],
+        "description": "Burk, 500 tabletter",
+        "marketingStatus": [
+          {
+            "country": {
+              "coding": [
+                {
+                  "code": "100000000535",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
+                  "display": "Kingdom of Sweden"
+                }
+              ]
+            },
+            "status": {
+              "coding": [
+                {
+                  "code": "100000072083",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000072052",
+                  "display": "Marketed"
+                }
+              ]
+            }
+          }
+        ],
+        "packaging": {
+          "type": {
+            "coding": [
+              {
+                "code": "100000073498",
+                "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
+                "display": "Box"
+              }
+            ]
+          },
+          "quantity": 1,
+          "material": [
+            {
+              "coding": [
+                {
+                  "code": "200000003529",
+                  "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
+                  "display": "Cardboard"
+                }
+              ]
+            }
+          ],
+          "packaging": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "code": "100000073497",
+                    "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
+                    "display": "Bottle"
+                  }
+                ]
+              },
+              "quantity": 1,
+              "material": [
+                {
+                  "coding": [
+                    {
+                      "code": "200000003215",
+                      "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
+                      "display": "High Density PolyEthylene"
+                    }
+                  ]
+                }
+              ],
+              "containedItem": [
+                {
+                  "item": {
+                    "reference": {
+                      "reference": "ManufacturedItemDefinition/AMLaccord-5mg-Tablet-SE-IS-ManufacturedItemDefinition"
+                    }
+                  },
+                  "amount": {
+                    "value": 500,
+                    "code": "200000002152",
+                    "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+                    "unit": "Tablet"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/PackagedProductDefinition/AMLaccord-5mg-Tablet-SE-IS-PackagedProductDefinition03"
+    },
+    {
+      "resource": {
+        "resourceType": "ManufacturedItemDefinition",
+        "id": "AMLaccord-5mg-Tablet-SE-IS-ManufacturedItemDefinition",
+        "meta": {
+          "lastUpdated": "2022-09-30T11:42:23.017+00:00",
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"
+          ]
+        },
+        "status": "active",
+        "manufacturedDoseForm": {
+          "coding": [
+            {
+              "code": "100000073664",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
+              "display": "Tablet"
+            }
+          ]
+        },
+        "unitOfPresentation": {
+          "coding": [
+            {
+              "code": "200000002152",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+              "display": "Tablet"
+            }
+          ]
+        }
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/ManufacturedItemDefinition/AMLaccord-5mg-Tablet-SE-IS-ManufacturedItemDefinition"
+    },
+    {
+      "resource": {
+        "resourceType": "Ingredient",
+        "id": "AMLaccord-5mg-Tablet-SE-IS-Ingredient",
+        "meta": {
+          "lastUpdated": "2022-09-30T11:42:23.059+00:00",
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"
+          ]
+        },
+        "status": "active",
+        "for": [
+          {
+            "reference": "MedicinalProductDefinition/AMLaccord-5mg-Tablet-SE-IS-MedicinalProductDefinition"
+          },
+          {
+            "reference": "ManufacturedItemDefinition/AMLaccord-5mg-Tablet-SE-IS-ManufacturedItemDefinition"
+          },
+          {
+            "reference": "AdministrableProductDefinition/AMLaccord-5mg-Tablet-SE-IS-AdministrableProductDefinition"
+          }
+        ],
+        "role": {
+          "coding": [
+            {
+              "code": "100000072072",
+              "system": "https://spor.ema.europa.eu/v1/lists/100000072050",
+              "display": "Active"
+            }
+          ]
+        },
+        "substance": {
+          "code": {
+            "concept": {
+              "coding": [
+                {
+                  "code": "100000090079",
+                  "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+                  "display": "Amlodipine besilate"
+                }
+              ]
+            }
+          },
+          "strength": [
+            {
+              "presentationRatio": {
+                "numerator": {
+                  "value": 6.95,
+                  "code": "100000110655",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+                  "unit": "milligram(s)"
+                },
+                "denominator": {
+                  "value": 1,
+                  "code": "200000002152",
+                  "system": "https://spor.ema.europa.eu/v1/lists/200000000014"
+                }
+              },
+              "referenceStrength": [
+                {
+                  "substance": {
+                    "concept": {
+                      "coding": [
+                        {
+                          "code": "100000085259",
+                          "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+                          "display": "Amlodipine"
+                        }
+                      ]
+                    }
+                  },
+                  "strengthRatio": {
+                    "numerator": {
+                      "value": 5,
+                      "code": "100000110655",
+                      "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+                      "unit": "milligram(s)"
+                    },
+                    "denominator": {
+                      "value": 1,
+                      "code": "200000002152",
+                      "system": "https://spor.ema.europa.eu/v1/lists/200000000014"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Ingredient/AMLaccord-5mg-Tablet-SE-IS-Ingredient"
+    }
+  ]
+}

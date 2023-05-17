@@ -1,0 +1,61 @@
+{
+  "resourceType": "Ingredient",
+  "id": "I-BEL-67-Brufen-siroop-susp-200-mg-5-ml",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"
+    ]
+  },
+  "status": "active",
+  "for": [
+    {
+      "reference": "MedicinalProductDefinition/Brufen-siroop-susp-200-mg-5-ml-67-BEL-MPD"
+    },
+    {
+      "reference": "ManufacturedItemDefinition/Brufen-siroop-susp-200-mg-5-ml-67-BEL-MID"
+    },
+    {
+      "reference": "AdministrableProductDefinition/Brufen-siroop-susp-200-mg-5-ml-67-BEL-APD"
+    }
+  ],
+  "role": {
+    "coding": [
+      {
+        "code": "100000072072",
+        "system": "https://spor.ema.europa.eu/v1/lists/100000072050",
+        "display": "Active"
+      }
+    ]
+  },
+  "substance": {
+    "code": {
+      "concept": {
+        "coding": [
+          {
+            "code": "100000090365",
+            "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+            "display": "Ibuprofen"
+          }
+        ]
+      }
+    },
+    "strength": [
+      {
+        "concentrationRatio": {
+          "numerator": {
+            "value": 200,
+            "code": "100000110655",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+            "unit": "milligram(s)"
+          },
+          "denominator": {
+            "value": 5,
+            "code": "100000110662",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+            "unit": "millilitre(s)"
+          }
+        }
+      }
+    ]
+  }
+}

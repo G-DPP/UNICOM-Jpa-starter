@@ -1,0 +1,51 @@
+{
+  "resourceType": "AdministrableProductDefinition",
+  "id": "Pedea-inf-oploss-i-v-amp-10-mg-2-ml-48-BEL-APD",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"
+    ]
+  },
+  "status": "active",
+  "formOf": [
+    {
+      "reference": "MedicinalProductDefinition/Pedea-inf-oploss-i-v-amp-10-mg-2-ml-48-BEL-MPD"
+    }
+  ],
+  "administrableDoseForm": {
+    "coding": [
+      {
+        "code": "100000073870",
+        "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
+        "display": "Solution for infusion"
+      }
+    ]
+  },
+  "unitOfPresentation": {
+    "coding": [
+      {
+        "code": "200000022814",
+        "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+        "display": "Other"
+      }
+    ]
+  },
+  "producedFrom": [
+    {
+      "reference": "ManufacturedItemDefinition/Pedea-inf-oploss-i-v-amp-10-mg-2-ml-48-BEL-MID"
+    }
+  ],
+  "routeOfAdministration": [
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "100000073611",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000073345",
+            "display": "Intravenous use"
+          }
+        ]
+      }
+    }
+  ]
+}

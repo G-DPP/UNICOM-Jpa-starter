@@ -1,0 +1,51 @@
+{
+  "resourceType": "RegulatedAuthorization",
+  "id": "ROVOXID-CAPS-10MG-CAP-212-GRC-RA",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization"
+    ]
+  },
+  "type": {
+    "coding": [
+      {
+        "code": "220000000061",
+        "system": "https://spor.ema.europa.eu/v1/lists/220000000060",
+        "display": "Marketing Authorisation"
+      }
+    ]
+  },
+  "identifier": [
+    {
+      "value": ""
+    }
+  ],
+  "subject": [
+    {
+      "reference": "MedicinalProductDefinition/ROVOXID-CAPS-10MG-CAP-212-GRC-MPD"
+    }
+  ],
+  "region": [
+    {
+      "coding": [
+        {
+          "code": "100000000406",
+          "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
+          "display": "Hellenic Republic"
+        }
+      ]
+    }
+  ],
+  "status": {
+    "coding": [
+      {
+        "code": "200000017708",
+        "system": "https://spor.ema.europa.eu/v1/lists/100000072049",
+        "display": "Valid - Renewed/Varied"
+      }
+    ]
+  },
+  "holder": {
+    "reference": "Organization/LOC-BIAN-A-E-"
+  }
+}

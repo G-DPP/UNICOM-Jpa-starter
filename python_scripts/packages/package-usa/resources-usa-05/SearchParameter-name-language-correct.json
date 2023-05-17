@@ -1,0 +1,15 @@
+{
+  "resourceType": "SearchParameter",
+  "id": "name-language-correct",
+  "url": "http://unicom-project.eu/fhir/SearchParameter/name-language-correct",
+  "status": "active",
+  "name": "name-language-correct",
+  "description": "Possiblity to search ingredient for MedicinalProductDefinition.name.usage.language",
+  "code": "name-language-correct",
+  "base": [
+    "MedicinalProductDefinition"
+  ],
+  "type": "token",
+  "expression": "MedicinalProductDefinition.name.usage.language",
+  "processingMode": "normal"
+}

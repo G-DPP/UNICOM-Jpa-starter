@@ -1,0 +1,32 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "Class",
+  "url": "http://unicom-project.eu/fhir/StructureDefinition/Class",
+  "version": "0.1.0",
+  "name": "Class",
+  "status": "active",
+  "description": "Class of data elements",
+  "fhirVersion": "5.0.0",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "type": "BackboneElement",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/BackboneElement",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "BackboneElement",
+        "path": "BackboneElement",
+        "short": "group",
+        "definition": "Class of data elements"
+      }
+    ]
+  }
+}

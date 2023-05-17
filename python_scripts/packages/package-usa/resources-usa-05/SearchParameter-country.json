@@ -1,0 +1,15 @@
+{
+  "resourceType": "SearchParameter",
+  "id": "country",
+  "url": "http://unicom-project.eu/fhir/SearchParameter/country",
+  "status": "active",
+  "name": "country",
+  "description": "Search for MedicinalProductDefinition by country",
+  "code": "country",
+  "base": [
+    "MedicinalProductDefinition"
+  ],
+  "type": "token",
+  "expression": "MedicinalProductDefinition.name.usage.country.coding.code",
+  "processingMode": "normal"
+}

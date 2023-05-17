@@ -1,0 +1,28 @@
+{
+  "resourceType": "ManufacturedItemDefinition",
+  "id": "amneal-pharmaceuticals-of-new-york-llc-ibuprofen-4-682-USA-MID",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"
+    ]
+  },
+  "status": "active",
+  "manufacturedDoseForm": {
+    "coding": [
+      {
+        "code": "100000073664",
+        "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
+        "display": "Tablet"
+      }
+    ]
+  },
+  "unitOfPresentation": {
+    "coding": [
+      {
+        "code": "200000002152",
+        "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+        "display": "Tablet"
+      }
+    ]
+  }
+}

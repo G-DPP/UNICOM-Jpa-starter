@@ -1,0 +1,51 @@
+{
+  "resourceType": "RegulatedAuthorization",
+  "id": "topco-associates-llc-ibuprofen-40-MG-ML-Oral-Suspe-834-USA-RA",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization"
+    ]
+  },
+  "type": {
+    "coding": [
+      {
+        "code": "220000000061",
+        "system": "https://spor.ema.europa.eu/v1/lists/220000000060",
+        "display": "Marketing Authorisation"
+      }
+    ]
+  },
+  "identifier": [
+    {
+      "value": ""
+    }
+  ],
+  "subject": [
+    {
+      "reference": "MedicinalProductDefinition/topco-associates-llc-ibuprofen-40-MG-ML-Oral-Suspe-834-USA-MPD"
+    }
+  ],
+  "region": [
+    {
+      "coding": [
+        {
+          "code": "100000000557",
+          "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
+          "display": "United States of America"
+        }
+      ]
+    }
+  ],
+  "status": {
+    "coding": [
+      {
+        "code": "200000017708",
+        "system": "https://spor.ema.europa.eu/v1/lists/100000072049",
+        "display": "Valid - Renewed/Varied"
+      }
+    ]
+  },
+  "holder": {
+    "reference": "Organization/LOC-topco-associates-llc"
+  }
+}

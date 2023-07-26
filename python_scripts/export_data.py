@@ -24,7 +24,8 @@ def flatten_json(nested_json, parent_key='', sep='_'):
 
 
 def main():
-    base_url = "https://jpa.unicom.datawizard.it/fhir/MedicinalProductDefinition"
+    base_url = "https://jpa.unicom.datawizard.it/fhir/ValueSet"
+    # base_url = "https://jpa.unicom.datawizard.it/fhir/MedicinalProductDefinition"
     # base_url = "http://localhost:3080/fhir/MedicinalProductDefinition"
     response = requests.get(base_url)
 

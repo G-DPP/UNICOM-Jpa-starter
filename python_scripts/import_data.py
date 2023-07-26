@@ -16,9 +16,9 @@ print(f"{IG_URL=}")
 package_url = f"{IG_URL}/package.tgz"
 print(f"{package_url=}")
 
-# server_url = "https://jpa.unicom.datawizard.it/fhir/"
-server_url = os.getenv('import_server_url', f'http://localhost:{os.getenv("server_port", "8080")}')
-server_url += "/fhir/"
+server_url = "https://jpa.unicom.datawizard.it/fhir/"
+# server_url = os.getenv('import_server_url', f'http://localhost:{os.getenv("server_port", "8080")}')
+# server_url += "/fhir/"
 print(f"The data will be uploaded to {server_url}")
 
 result_dir = "./output"
@@ -28,18 +28,18 @@ os.mkdir("./output")
 
 resource_list = [
     'codesystem',
-    'valueset',
-    'structuredefinition',  # TODO: 400
-    'bundle',
+    # 'valueset',
+    # 'structuredefinition',  # TODO: 400
+    # 'bundle',
     'medicinalproductdefinition',
-    'organization',
-    'manufactureditemdefinition',
-    'packagedproductdefinition',
-    'regulatedauthorization',
-    'administrableproductdefinition',
-    'ingredient',
-    'implementationguide',
-    'searchparameter'
+    # 'organization',
+    # 'manufactureditemdefinition',
+    # 'packagedproductdefinition',
+    # 'regulatedauthorization',
+    # 'administrableproductdefinition',
+    # 'ingredient',
+    # 'implementationguide',
+    # 'searchparameter'
 ]
 
 
@@ -62,7 +62,7 @@ def main():
     # file.extractall('./')
     results = {}
 
-    package_folder = "./packages"
+    package_folder = "./package_mpd_bel_grc"
     for item in resource_list:
         for file_path in pathlib.Path(package_folder).glob('**/*.json'):
             with open(file_path, "r") as json_file:

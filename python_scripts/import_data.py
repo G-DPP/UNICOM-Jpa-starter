@@ -27,19 +27,19 @@ if os.path.isdir(result_dir):
 os.mkdir("./output")
 
 resource_list = [
-    # 'codesystem',
-    # 'valueset',
-    # 'structuredefinition',  # TODO: 400
-    # 'bundle',
+    'codesystem',
+    'valueset',
+    'structuredefinition',  # TODO: 400
+    'bundle',
     'medicinalproductdefinition',
-    # 'organization',
-    # 'manufactureditemdefinition',
-    # 'packagedproductdefinition',
-    # 'regulatedauthorization',
-    # 'administrableproductdefinition',
-    # 'ingredient',
-    # 'implementationguide',
-    # 'searchparameter'
+    'organization',
+    'manufactureditemdefinition',
+    'packagedproductdefinition',
+    'regulatedauthorization',
+    'administrableproductdefinition',
+    'ingredient',
+    'implementationguide',
+    'searchparameter'
 ]
 
 
@@ -62,7 +62,8 @@ def main():
     # file.extractall('./')
     results = {}
 
-    package_folder = "./package_mpd_us"
+    # package_folder = "../20240322_package-ita-bel-gr"
+    package_folder = "../package_mpd_us"
     for item in resource_list:
         for file_path in pathlib.Path(package_folder).glob('**/*.json'):
             with open(file_path, "r") as json_file:

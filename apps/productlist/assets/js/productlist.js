@@ -12,7 +12,7 @@ $(document).ready(function() {
         var searchParams = [
             `_id:contains=${searchValue}`,
             `name:contains=${searchValue}`,
-            `name.usage.country.coding.display:contains=${searchValue}` //TODO
+            `name.usage.country.coding.display:contains=${searchValue}`
         ];
 
         var promises = searchParams.map(param => fetch(url + '&' + param + '&_count=10000').then(response => response.json()));
@@ -34,7 +34,7 @@ $(document).ready(function() {
 
     function initializeDataTable(totalRecords) {
         if ($.fn.DataTable.isDataTable('#prod-table')) {
-            $('#prod-table').DataTable().clear().destroy(); // Destroy existing DataTable
+            $('#prod-table').DataTable().clear().destroy();
         }
 
         $('#prod-table').DataTable({
@@ -44,9 +44,9 @@ $(document).ready(function() {
             "ajax": function(data, callback, settings) {
                 var searchValue = data.search.value;
 
-                $('#loading').show(); // Show loading indicator
-
                 if (searchValue) {
+                    // $('#loading').show();
+
                     fetchSearchResults(searchValue).then(results => {
                         var data = results.entries.map((entry) => {
                             var current_row = [];
@@ -78,7 +78,7 @@ $(document).ready(function() {
                             data: data
                         });
 
-                        $('#loading').hide(); // Hide loading indicator
+                        // $('#loading').hide();
                     }).catch((error) => {
                         console.error('Error fetching data:', error);
                         callback({
@@ -87,7 +87,7 @@ $(document).ready(function() {
                             recordsFiltered: 0,
                             data: []
                         });
-                        $('#loading').hide(); // Hide loading indicator
+                        // $('#loading').hide();
                     });
                 } else {
                     var ajaxUrl = buildAjaxUrl(data, '');
@@ -127,8 +127,6 @@ $(document).ready(function() {
                                 recordsFiltered: recordsFiltered,
                                 data: data
                             });
-
-                            $('#loading').hide(); // Hide loading indicator
                         })
                         .catch((error) => {
                             console.error('Error fetching data:', error);
@@ -138,7 +136,6 @@ $(document).ready(function() {
                                 recordsFiltered: 0,
                                 data: []
                             });
-                            $('#loading').hide(); // Hide loading indicator
                         });
                 }
             },
@@ -159,15 +156,15 @@ $(document).ready(function() {
         console.log('DataTables error:', message);
     });
 
-    $('#loading').show(); // Show loading indicator at the beginning
+    $('#loading').show();
 
     fetch(url + '&_count=20000').then((response) => response.json()).then((data) => {
         var totalRecords = data.total || 6000;
-        initializeDataTable(totalRecords); // Initialize the DataTable when the page loads
-        $('#loading').hide(); // Hide loading indicator
+        initializeDataTable(totalRecords);
+        $('#loading').hide();
     }).catch((error) => {
         console.error('Error fetching total records:', error);
-        initializeDataTable(6000); // Default value in case of error
-        $('#loading').hide(); // Hide loading indicator
+        initializeDataTable(6000);
+        $('#loading').hide();
     });
 });

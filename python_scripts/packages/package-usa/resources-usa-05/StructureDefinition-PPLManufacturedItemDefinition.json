@@ -1,0 +1,58 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "PPLManufacturedItemDefinition",
+  "url": "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition",
+  "version": "0.1.0",
+  "name": "PPLManufacturedItemDefinition",
+  "title": "PPL Manufactured Item profile",
+  "status": "active",
+  "description": "Manufactured item is the countable element inside the package",
+  "fhirVersion": "5.0.0",
+  "mapping": [
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "idmp",
+      "uri": "https://www.iso.org/obp/ui/#iso:std:iso:11615",
+      "name": "IDMP Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "ManufacturedItemDefinition",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/ManufacturedItemDefinition",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "ManufacturedItemDefinition.manufacturedDoseForm",
+        "path": "ManufacturedItemDefinition.manufacturedDoseForm",
+        "short": "Dose form of the manufactured item (before preparing for administration)",
+        "definition": "EMA IG 4.11.3",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://unicom-project.eu/fhir/ValueSet/pharmaceutical-doseform-vs"
+        }
+      },
+      {
+        "id": "ManufacturedItemDefinition.unitOfPresentation",
+        "path": "ManufacturedItemDefinition.unitOfPresentation",
+        "short": "Unit of presentation of the manufactured item (before preparing for administration)",
+        "definition": "EMA IG 4.11.1",
+        "min": 1,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://unicom-project.eu/fhir/ValueSet/unit-of-presentation-vs"
+        }
+      }
+    ]
+  }
+}

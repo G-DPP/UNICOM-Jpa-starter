@@ -1,0 +1,33 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "draft",
+  "content": "complete",
+  "name": "RecordStatus_EMA_CS",
+  "id": "recordStatus-ema-cs",
+  "title": "Record Status EMA SPOR",
+  "description": "Record Entitlement Status EMA SPOR",
+  "version": "0.1.0",
+  "url": "https://spor.ema.europa.eu/v1/lists/200000005003",
+  "concept": [
+    {
+      "code": "200000005004",
+      "display": "Current"
+    },
+    {
+      "code": "200000005005",
+      "display": "Provisional"
+    },
+    {
+      "code": "200000005006",
+      "display": "Non-current"
+    },
+    {
+      "code": "200000005007",
+      "display": "Nullified"
+    }
+  ],
+  "experimental": false,
+  "compositional": false,
+  "caseSensitive": false,
+  "count": 4
+}

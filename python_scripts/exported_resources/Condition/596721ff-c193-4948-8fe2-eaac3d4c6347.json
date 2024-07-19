@@ -1,0 +1,1205 @@
+{
+  "resourceType": "Bundle",
+  "id": "596721ff-c193-4948-8fe2-eaac3d4c6347",
+  "meta": {
+    "lastUpdated": "2023-05-10T10:24:01.740+00:00"
+  },
+  "type": "searchset",
+  "total": 28,
+  "link": [
+    {
+      "relation": "self",
+      "url": "http://fhir.hl7.pt/fhir/Condition/?_count=20000"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/matilda-cond-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "matilda-cond-1",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:04.484+00:00",
+          "source": "#bT5qcwhLE2cBDFCy"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "34000006",
+              "display": "Crohn's disease"
+            }
+          ],
+          "text": "Crohn's disease"
+        },
+        "subject": {
+          "reference": "Patient/matilda-patient",
+          "display": "Matilda Gravitate"
+        },
+        "onsetDateTime": "2015",
+        "asserter": {
+          "reference": "Practitioner/matilda-pract",
+          "display": "Dr. Ana Lopez"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/bcc79261-142c-48ec-b032-f3f9af49ec55",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "bcc79261-142c-48ec-b032-f3f9af49ec55",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:15.053+00:00",
+          "source": "#Ucb89cvJzrh40V3k"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "9014002",
+              "display": "Psoriasis"
+            }
+          ],
+          "text": "Psoriasis"
+        },
+        "subject": {
+          "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd6",
+          "display": "Maria Gravitate"
+        },
+        "asserter": {
+          "reference": "Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d5",
+          "display": "Dr. Anna Karlsson"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/a4a9d90a-d1b0-4d60-82f0-c52343dc6255",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "a4a9d90a-d1b0-4d60-82f0-c52343dc6255",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:15.142+00:00",
+          "source": "#mVkp3L42mtQHZnWO"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Congestive heart failure (2015)</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "42343007",
+              "display": "Congestive heart failure"
+            }
+          ],
+          "text": "Congestive heart failure"
+        },
+        "subject": {
+          "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd6",
+          "display": "Maria Gravitate"
+        },
+        "onsetDateTime": "2015",
+        "asserter": {
+          "reference": "Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d5",
+          "display": "Dr. Anna Karlsson"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/f06b7cf8-c15c-4288-a0f9-45a1026e5135",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "f06b7cf8-c15c-4288-a0f9-45a1026e5135",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:15.219+00:00",
+          "source": "#tDC7zN2lSPeGFhql"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "38341003",
+              "display": "HT - Hypertension"
+            }
+          ],
+          "text": "Hypertension"
+        },
+        "subject": {
+          "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd6",
+          "display": "Maria Gravitate"
+        },
+        "onsetDateTime": "1993"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/cecilia-cond-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cecilia-cond-1",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:16.063+00:00",
+          "source": "#SBENJwqwRi99R5qX"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "13645005",
+              "display": "Chronic obstructive lung disease"
+            }
+          ],
+          "text": "COPD - Chronic obstructive pulmonary disease"
+        },
+        "subject": {
+          "reference": "Patient/cecilia-patient",
+          "display": "Cecilia Gravitate"
+        },
+        "asserter": {
+          "reference": "Practitioner/cecilia-pract",
+          "display": "Dr. Anna Karlsson"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/cecilia-cond-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cecilia-cond-2",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:16.152+00:00",
+          "source": "#VayMzpTemZcZ2AQN"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "42343007",
+              "display": "Congestive heart failure"
+            }
+          ],
+          "text": "Congestive heart failure"
+        },
+        "subject": {
+          "reference": "Patient/cecilia-patient",
+          "display": "Cecilia Gravitate"
+        },
+        "onsetDateTime": "2015",
+        "asserter": {
+          "reference": "Practitioner/cecilia-pract",
+          "display": "Dr. Anna Karlsson"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/cecilia-cond-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cecilia-cond-3",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:16.223+00:00",
+          "source": "#X3tj1EMeCL81feuT"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "64859006",
+              "display": "Osteoporosis"
+            }
+          ],
+          "text": "Osteoporosis"
+        },
+        "subject": {
+          "reference": "Patient/cecilia-patient",
+          "display": "Cecilia Gravitate"
+        },
+        "onsetDateTime": "1993"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/cecilia-cond-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "cecilia-cond-4",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:16.303+00:00",
+          "source": "#VyfMfVax8yBtyAKd"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "44054006",
+              "display": "Diabetes mellitus type 2"
+            }
+          ],
+          "text": "Diabetes mellitus type 2"
+        },
+        "subject": {
+          "reference": "Patient/cecilia-patient",
+          "display": "Cecilia Gravitate"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/pedro-cond-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "pedro-cond-1",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2023-05-09T18:09:53.294+00:00",
+          "source": "#2JwhXNhmozMgqFMY",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "35489007",
+              "display": "Depressive disorder (disorder)"
+            }
+          ],
+          "text": "Depressive disorder (disorder)"
+        },
+        "subject": {
+          "reference": "Patient/pedro-patient",
+          "display": "Pedro Gravitate"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/pedro-cond-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "pedro-cond-2",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2023-05-09T18:10:11.525+00:00",
+          "source": "#boGIXhfu7OR71Yib",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "86406008",
+              "display": "Human immunodeficiency virus infection"
+            }
+          ],
+          "text": "Human immunodeficiency virus infection"
+        },
+        "subject": {
+          "reference": "Patient/pedro-patient",
+          "display": "Pedro Gravitate"
+        },
+        "onsetDateTime": "2018",
+        "asserter": {
+          "reference": "Practitioner/pedro-pract",
+          "display": "Dr. Xavier Garc\u00eda"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/pedro-cond-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "pedro-cond-3",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2023-05-09T18:10:11.852+00:00",
+          "source": "#udG0uYOknn3HN15K",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "code": "confirmed"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "10743008",
+              "display": "Irritable bowel syndrome"
+            }
+          ],
+          "text": "Irritable bowel syndrome"
+        },
+        "subject": {
+          "reference": "Patient/pedro-patient",
+          "display": "Pedro Gravitate"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/de06df6b-0967-4b01-822b-7cfeea970aa7",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "de06df6b-0967-4b01-822b-7cfeea970aa7",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:18.851+00:00",
+          "source": "#RiuCfiDAzMJxs2Us"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Diabetes mellitus type 1 (2015)</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "46635009",
+              "display": "Diabetes mellitus type 1"
+            }
+          ],
+          "text": "Diabetes type 1"
+        },
+        "subject": {
+          "reference": "Patient/be61951b-44fc-4853-8822-f9d398193c50",
+          "display": "Helen Gravitate"
+        },
+        "onsetDateTime": "2015",
+        "asserter": {
+          "reference": "Practitioner/45cd0bd4-f685-4117-a9f0-5c53fffb7266",
+          "display": "Dr. Anna Karlsson"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/bcc79261-142c-48ec-b032-f3f9af49ec53",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "bcc79261-142c-48ec-b032-f3f9af49ec53",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:19.581+00:00",
+          "source": "#yvaQMHRMryeLMBue"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "9014002",
+              "display": "Psoriasis"
+            }
+          ],
+          "text": "Psoriasis"
+        },
+        "subject": {
+          "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd3",
+          "display": "Maria Gravitate"
+        },
+        "asserter": {
+          "reference": "Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d3",
+          "display": "Dr. Anna Karlsson"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/a4a9d90a-d1b0-4d60-82f0-c52343dc6253",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "a4a9d90a-d1b0-4d60-82f0-c52343dc6253",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:19.634+00:00",
+          "source": "#RNJRFzQhxAR8IbkJ"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Congestive heart failure (2015)</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "42343007",
+              "display": "Congestive heart failure"
+            }
+          ],
+          "text": "Congestive heart failure"
+        },
+        "subject": {
+          "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd3",
+          "display": "Maria Gravitate"
+        },
+        "onsetDateTime": "2015",
+        "asserter": {
+          "reference": "Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d3",
+          "display": "Dr. Anna Karlsson"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/f06b7cf8-c15c-4288-a0f9-45a1026e5133",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "f06b7cf8-c15c-4288-a0f9-45a1026e5133",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:19.690+00:00",
+          "source": "#gz5zdKMxfywUGoVf"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "38341003",
+              "display": "HT - Hypertension"
+            }
+          ],
+          "text": "Hypertension"
+        },
+        "subject": {
+          "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd3",
+          "display": "Maria Gravitate"
+        },
+        "onsetDateTime": "1993"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/bcc79261-142c-48ec-b032-f3f9af49ec58",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "bcc79261-142c-48ec-b032-f3f9af49ec58",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:20.520+00:00",
+          "source": "#E6x0cuK1hCXlJjVQ"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "9014002",
+              "display": "Psoriasis"
+            }
+          ],
+          "text": "Psoriasis"
+        },
+        "subject": {
+          "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd5",
+          "display": "Maria Gravitate"
+        },
+        "asserter": {
+          "reference": "Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d8",
+          "display": "Dr. Anna Karlsson"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/a4a9d90a-d1b0-4d60-82f0-c52343dc6256",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "a4a9d90a-d1b0-4d60-82f0-c52343dc6256",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:20.595+00:00",
+          "source": "#jupovYOgOp5K2r2g"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Congestive heart failure (2015)</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "42343007",
+              "display": "Congestive heart failure"
+            }
+          ],
+          "text": "Congestive heart failure"
+        },
+        "subject": {
+          "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd5",
+          "display": "Maria Gravitate"
+        },
+        "onsetDateTime": "2015",
+        "asserter": {
+          "reference": "Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d8",
+          "display": "Dr. Anna Karlsson"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/f06b7cf8-c15c-4288-a0f9-45a1026e5130",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "f06b7cf8-c15c-4288-a0f9-45a1026e5130",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:20.672+00:00",
+          "source": "#aBVAEzZB4LKkLqm4"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "38341003",
+              "display": "HT - Hypertension"
+            }
+          ],
+          "text": "Hypertension"
+        },
+        "subject": {
+          "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd5",
+          "display": "Maria Gravitate"
+        },
+        "onsetDateTime": "1993"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/bcc79261-142c-48ec-b032-f3f9af49ec51",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "bcc79261-142c-48ec-b032-f3f9af49ec51",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:21.543+00:00",
+          "source": "#A0c5ekuxNDhVX7IM"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "9014002",
+              "display": "Psoriasis"
+            }
+          ],
+          "text": "Psoriasis"
+        },
+        "subject": {
+          "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd1",
+          "display": "Maria Gravitate"
+        },
+        "asserter": {
+          "reference": "Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d1",
+          "display": "Dr. Anna Karlsson"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/a4a9d90a-d1b0-4d60-82f0-c52343dc6251",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "a4a9d90a-d1b0-4d60-82f0-c52343dc6251",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:21.617+00:00",
+          "source": "#79FuAWNuYAFpBkis"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Congestive heart failure (2015)</div>"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "42343007",
+              "display": "Congestive heart failure"
+            }
+          ],
+          "text": "Congestive heart failure"
+        },
+        "subject": {
+          "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd1",
+          "display": "Maria Gravitate"
+        },
+        "onsetDateTime": "2015",
+        "asserter": {
+          "reference": "Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d1",
+          "display": "Dr. Anna Karlsson"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/f06b7cf8-c15c-4288-a0f9-45a1026e5131",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "f06b7cf8-c15c-4288-a0f9-45a1026e5131",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T18:58:21.675+00:00",
+          "source": "#6I8SePnEH6noCZ8K"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "38341003",
+              "display": "HT - Hypertension"
+            }
+          ],
+          "text": "Hypertension"
+        },
+        "subject": {
+          "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd1",
+          "display": "Maria Gravitate"
+        },
+        "onsetDateTime": "1993"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/bcc79261-142c-48ec-b032-f3f9af49ec52",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "bcc79261-142c-48ec-b032-f3f9af49ec52",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-04-04T10:38:32.838+00:00",
+          "source": "#wDWaWITYo0Wbzz37"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "9014002",
+              "display": "Psoriasis"
+            }
+          ],
+          "text": "Psoriasis"
+        },
+        "subject": {
+          "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd2",
+          "display": "IPS 4 Gravitate"
+        },
+        "asserter": {
+          "reference": "Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d2",
+          "display": "Dr. Anna Karlsson"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/a4a9d90a-d1b0-4d60-82f0-c52343dc6252",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "a4a9d90a-d1b0-4d60-82f0-c52343dc6252",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-04-04T10:38:32.890+00:00",
+          "source": "#TsTEfMXad71lZScz"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "42343007",
+              "display": "Congestive heart failure"
+            }
+          ],
+          "text": "Congestive heart failure"
+        },
+        "subject": {
+          "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd2",
+          "display": "IPS 4 Gravitate"
+        },
+        "onsetDateTime": "2015",
+        "asserter": {
+          "reference": "Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d2",
+          "display": "Dr. Anna Karlsson"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/f06b7cf8-c15c-4288-a0f9-45a1026e5132",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "f06b7cf8-c15c-4288-a0f9-45a1026e5132",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-04-04T10:38:32.943+00:00",
+          "source": "#Zq8GhkfOpFWKYDZQ"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "38341003",
+              "display": "HT - Hypertension"
+            }
+          ],
+          "text": "Hypertension"
+        },
+        "subject": {
+          "reference": "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd2",
+          "display": "IPS 4 Gravitate"
+        },
+        "onsetDateTime": "1993"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/alicia-cond-2",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "alicia-cond-2",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2023-05-09T18:10:45.004+00:00",
+          "source": "#x5WStV4IFHuMU2JF",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "86406008",
+              "display": "Human immunodeficiency virus infection"
+            }
+          ],
+          "text": "Human immunodeficiency virus infection"
+        },
+        "subject": {
+          "reference": "Patient/alicia-patient",
+          "display": "alicia Gravitate"
+        },
+        "onsetDateTime": "2018",
+        "asserter": {
+          "reference": "Practitioner/alicia-pract",
+          "display": "Dr. Walter Waltz"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/alicia-cond-3",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "alicia-cond-3",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2023-05-09T18:10:45.343+00:00",
+          "source": "#uEBQdQMiQqYMaTiC",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "31681005",
+              "display": "Trigeminal neuralgia (disorder)"
+            }
+          ],
+          "text": "Trigeminal neuralgia (disorder)"
+        },
+        "subject": {
+          "reference": "Patient/alicia-patient",
+          "display": "alicia Gravitate"
+        },
+        "onsetDateTime": "2018",
+        "asserter": {
+          "reference": "Practitioner/alicia-pract",
+          "display": "Dr. Walter Waltz"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/alicia-cond-4",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "alicia-cond-4",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2023-05-09T18:10:45.663+00:00",
+          "source": "#xHCciBCz0V9SaPpH",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "238131007",
+              "display": "Overweight (finding)"
+            }
+          ],
+          "text": "Overweight (finding)"
+        },
+        "subject": {
+          "reference": "Patient/alicia-patient",
+          "display": "Alicia Gravitate"
+        },
+        "onsetDateTime": "2018",
+        "asserter": {
+          "reference": "Practitioner/alicia-pract",
+          "display": "Dr. Walter Waltz"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/Condition/alicia-cond-1",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "alicia-cond-1",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2023-05-09T18:10:44.682+00:00",
+          "source": "#J8ObU68DkIY93BsD",
+          "profile": [
+            "http://hl7.org/fhir/uv/ips/StructureDefinition/Condition-uv-ips"
+          ]
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active"
+            }
+          ]
+        },
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "35489007",
+              "display": "Depressive disorder (disorder)"
+            }
+          ],
+          "text": "Depressive disorder (disorder)"
+        },
+        "subject": {
+          "reference": "Patient/alicia-patient",
+          "display": "alicia Gravitate"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    }
+  ]
+}

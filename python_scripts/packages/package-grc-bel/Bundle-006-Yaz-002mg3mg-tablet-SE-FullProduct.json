@@ -1,0 +1,850 @@
+{
+  "resourceType": "Bundle",
+  "id": "006-Yaz-002mg3mg-tablet-SE-FullProduct",
+  "type": "batch",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "MedicinalProductDefinition",
+        "id": "Yaz-0023mg-tablet-SE-AJ-MedicinalProductDefinition",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://ema.europa.eu/fhir/mpId",
+            "value": "SE-100004813-00026267"
+          }
+        ],
+        "name": [
+          {
+            "part": [
+              {
+                "type": {
+                  "coding": [
+                    {
+                      "code": "220000000002",
+                      "system": "https://spor.ema.europa.eu/v1/lists/220000000000",
+                      "display": "Invented name part"
+                    }
+                  ]
+                },
+                "part": "Yaz"
+              },
+              {
+                "type": {
+                  "coding": [
+                    {
+                      "code": "220000000004",
+                      "system": "https://spor.ema.europa.eu/v1/lists/220000000000",
+                      "display": "Strength part"
+                    }
+                  ]
+                },
+                "part": "0,02 mg/3 mg"
+              },
+              {
+                "type": {
+                  "coding": [
+                    {
+                      "code": "220000000005",
+                      "system": "https://spor.ema.europa.eu/v1/lists/220000000000",
+                      "display": "Pharmaceutical dose form part"
+                    }
+                  ]
+                },
+                "part": "Filmdragerad tablett"
+              }
+            ],
+            "usage": [
+              {
+                "country": {
+                  "coding": [
+                    {
+                      "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
+                      "code": "100000000535",
+                      "display": "Kingdom of Sweden"
+                    }
+                  ]
+                },
+                "language": {
+                  "coding": [
+                    {
+                      "system": "https://spor.ema.europa.eu/v1/lists/100000072057",
+                      "code": "100000072288",
+                      "display": "Swedish"
+                    }
+                  ]
+                }
+              }
+            ],
+            "productName": "Yaz 0,02 mg/3 mg Filmdragerad tablett"
+          }
+        ],
+        "domain": {
+          "coding": [
+            {
+              "code": "100000000012",
+              "system": "https://spor.ema.europa.eu/v1/lists/100000000004",
+              "display": "Human use"
+            }
+          ]
+        },
+        "status": {
+          "coding": [
+            {
+              "code": "200000005004",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000005003",
+              "display": "Current"
+            }
+          ]
+        },
+        "combinedPharmaceuticalDoseForm": {
+          "coding": [
+            {
+              "code": "100000073665",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
+              "display": "Film-coated tablet"
+            }
+          ]
+        },
+        "indication": "Antikonception Vid beslut att förskriva Yaz ska den enskilda kvinnans riskfaktorer beaktas, framför allt de för  venös tromboembolism (VTE), och risken för VTE med Yaz jämfört med andra kombinerade  hormonella preventivmedel (se avsnitt 4.3 och 4.4).",
+        "legalStatusOfSupply": {
+          "coding": [
+            {
+              "code": "100000072084",
+              "system": "https://spor.ema.europa.eu/v1/lists/100000072051",
+              "display": "Medicinal product subject to medical prescription"
+            }
+          ]
+        },
+        "classification": [
+          {
+            "coding": [
+              {
+                "code": "100000095785",
+                "system": "https://spor.ema.europa.eu/v1/lists/100000093533",
+                "display": "drospirenone and ethinylestradiol"
+              }
+            ]
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "MedicinalProductDefinition/Yaz-0023mg-tablet-SE-AJ-MedicinalProductDefinition"
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/MedicinalProductDefinition/Yaz-0023mg-tablet-SE-AJ-MedicinalProductDefinition"
+    },
+    {
+      "resource": {
+        "resourceType": "Organization",
+        "id": "LOC-100016468-BayerAB",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "https://spor.ema.europa.eu/v1/locations",
+            "value": "LOC-100016468"
+          }
+        ],
+        "name": "Bayer AB"
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Organization/LOC-100016468-BayerAB"
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Organization/LOC-100016468-BayerAB"
+    },
+    {
+      "resource": {
+        "resourceType": "RegulatedAuthorization",
+        "id": "Yaz-0023mg-tablet-SE-AJ-RegulatedAuthorization",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization"
+          ]
+        },
+        "type": {
+          "coding": [
+            {
+              "code": "220000000061",
+              "system": "https://spor.ema.europa.eu/v1/lists/220000000060",
+              "display": "Marketing Authorisation"
+            }
+          ]
+        },
+        "identifier": [
+          {
+            "value": "26267"
+          }
+        ],
+        "subject": [
+          {
+            "reference": "MedicinalProductDefinition/Yaz-0023mg-tablet-SE-AJ-MedicinalProductDefinition"
+          }
+        ],
+        "region": [
+          {
+            "coding": [
+              {
+                "code": "100000000535",
+                "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
+                "display": "Kingdom of Sweden"
+              }
+            ]
+          }
+        ],
+        "status": {
+          "coding": [
+            {
+              "code": "100000072099",
+              "system": "https://spor.ema.europa.eu/v1/lists/100000072049",
+              "display": "Valid"
+            }
+          ]
+        },
+        "statusDate": "2008-07-03",
+        "holder": {
+          "reference": "Organization/LOC-100016468-BayerAB"
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "RegulatedAuthorization/Yaz-0023mg-tablet-SE-AJ-RegulatedAuthorization"
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/RegulatedAuthorization/Yaz-0023mg-tablet-SE-AJ-RegulatedAuthorization"
+    },
+    {
+      "resource": {
+        "resourceType": "AdministrableProductDefinition",
+        "id": "Yaz-0023mg-tablet-SE-AJ-AdministrableProductDefinition01",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"
+          ]
+        },
+        "status": "active",
+        "formOf": [
+          {
+            "reference": "MedicinalProductDefinition/Yaz-0023mg-tablet-SE-AJ-MedicinalProductDefinition"
+          }
+        ],
+        "administrableDoseForm": {
+          "coding": [
+            {
+              "code": "100000073665",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
+              "display": "Film-coated tablet"
+            }
+          ]
+        },
+        "producedFrom": [
+          {
+            "reference": "ManufacturedItemDefinition/Yaz-0023mg-tablet-SE-AJ-ManufacturedItemDefinition01"
+          }
+        ],
+        "routeOfAdministration": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "code": "100000073619",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000073345",
+                  "display": "Oral use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "AdministrableProductDefinition/Yaz-0023mg-tablet-SE-AJ-AdministrableProductDefinition01"
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/AdministrableProductDefinition/Yaz-0023mg-tablet-SE-AJ-AdministrableProductDefinition01"
+    },
+    {
+      "resource": {
+        "resourceType": "AdministrableProductDefinition",
+        "id": "Yaz-0023mg-tablet-SE-AJ-AdministrableProductDefinition02",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"
+          ]
+        },
+        "status": "active",
+        "formOf": [
+          {
+            "reference": "MedicinalProductDefinition/Yaz-0023mg-tablet-SE-AJ-MedicinalProductDefinition"
+          }
+        ],
+        "administrableDoseForm": {
+          "coding": [
+            {
+              "code": "100000073665",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
+              "display": "Film-coated tablet"
+            }
+          ]
+        },
+        "producedFrom": [
+          {
+            "reference": "ManufacturedItemDefinition/Yaz-0023mg-tablet-SE-AJ-ManufacturedItemDefinition02"
+          }
+        ],
+        "routeOfAdministration": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "code": "100000073619",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000073345",
+                  "display": "Oral use"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "request": {
+        "method": "PUT",
+        "url": "AdministrableProductDefinition/Yaz-0023mg-tablet-SE-AJ-AdministrableProductDefinition02"
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/AdministrableProductDefinition/Yaz-0023mg-tablet-SE-AJ-AdministrableProductDefinition02"
+    },
+    {
+      "resource": {
+        "resourceType": "PackagedProductDefinition",
+        "id": "Yaz-0023mg-tablet-SE-AJ-PackagedProductDefinition",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLPackagedProductDefinition"
+          ]
+        },
+        "identifier": [
+          {
+            "system": "http://ema.europa.eu/example/pcid"
+          }
+        ],
+        "packageFor": [
+          {
+            "reference": "MedicinalProductDefinition/Yaz-0023mg-tablet-SE-AJ-MedicinalProductDefinition"
+          }
+        ],
+        "containedItemQuantity": [
+          {
+            "value": 84,
+            "code": "200000002152",
+            "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+            "unit": "tablet"
+          }
+        ],
+        "description": "Blister, 3 x 28 tabletter",
+        "marketingStatus": [
+          {
+            "country": {
+              "coding": [
+                {
+                  "code": "100000000535",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
+                  "display": "Kingdom of Sweden"
+                }
+              ]
+            },
+            "status": {
+              "coding": [
+                {
+                  "code": "100000072083",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000072052",
+                  "display": "Marketed"
+                }
+              ]
+            }
+          }
+        ],
+        "packaging": {
+          "type": {
+            "coding": [
+              {
+                "code": "100000073498",
+                "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
+                "display": "Box"
+              }
+            ]
+          },
+          "quantity": 1,
+          "material": [
+            {
+              "coding": [
+                {
+                  "code": "200000003208",
+                  "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
+                  "display": "Plastic"
+                }
+              ]
+            }
+          ],
+          "packaging": [
+            {
+              "type": {
+                "coding": [
+                  {
+                    "code": "100000073498",
+                    "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
+                    "display": "Box"
+                  }
+                ]
+              },
+              "quantity": 3,
+              "material": [
+                {
+                  "coding": [
+                    {
+                      "code": "200000003529",
+                      "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
+                      "display": "Cardboard"
+                    }
+                  ]
+                }
+              ],
+              "packaging": [
+                {
+                  "type": {
+                    "coding": [
+                      {
+                        "code": "100000073496",
+                        "system": "https://spor.ema.europa.eu/v1/lists/100000073346",
+                        "display": "Blister"
+                      }
+                    ]
+                  },
+                  "quantity": 1,
+                  "material": [
+                    {
+                      "coding": [
+                        {
+                          "code": "200000003200",
+                          "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
+                          "display": "Aluminium"
+                        }
+                      ]
+                    },
+                    {
+                      "coding": [
+                        {
+                          "code": "200000003222",
+                          "system": "https://spor.ema.europa.eu/v1/lists/200000003199",
+                          "display": "PolyVinyl Chloride"
+                        }
+                      ]
+                    }
+                  ],
+                  "containedItem": [
+                    {
+                      "item": {
+                        "reference": {
+                          "reference": "ManufacturedItemDefinition/Yaz-0023mg-tablet-SE-AJ-ManufacturedItemDefinition01"
+                        }
+                      },
+                      "amount": {
+                        "value": 24,
+                        "code": "200000002152",
+                        "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+                        "unit": "tablet"
+                      }
+                    },
+                    {
+                      "item": {
+                        "reference": {
+                          "reference": "ManufacturedItemDefinition/Yaz-0023mg-tablet-SE-AJ-ManufacturedItemDefinition02"
+                        }
+                      },
+                      "amount": {
+                        "value": 4,
+                        "code": "200000002152",
+                        "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+                        "unit": "tablet"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "PackagedProductDefinition/Yaz-0023mg-tablet-SE-AJ-PackagedProductDefinition"
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/PackagedProductDefinition/Yaz-0023mg-tablet-SE-AJ-PackagedProductDefinition"
+    },
+    {
+      "resource": {
+        "resourceType": "ManufacturedItemDefinition",
+        "id": "Yaz-0023mg-tablet-SE-AJ-ManufacturedItemDefinition01",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"
+          ]
+        },
+        "status": "active",
+        "manufacturedDoseForm": {
+          "coding": [
+            {
+              "code": "100000073665",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
+              "display": "Film-coated tablet"
+            }
+          ]
+        },
+        "unitOfPresentation": {
+          "coding": [
+            {
+              "code": "200000002152",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+              "display": "tablet"
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ManufacturedItemDefinition/Yaz-0023mg-tablet-SE-AJ-ManufacturedItemDefinition01"
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/ManufacturedItemDefinition/Yaz-0023mg-tablet-SE-AJ-ManufacturedItemDefinition01"
+    },
+    {
+      "resource": {
+        "resourceType": "ManufacturedItemDefinition",
+        "id": "Yaz-0023mg-tablet-SE-AJ-ManufacturedItemDefinition02",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"
+          ]
+        },
+        "status": "active",
+        "manufacturedDoseForm": {
+          "coding": [
+            {
+              "code": "100000073665",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
+              "display": "Film-coated tablet"
+            }
+          ]
+        },
+        "unitOfPresentation": {
+          "coding": [
+            {
+              "code": "200000002152",
+              "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+              "display": "tablet"
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "ManufacturedItemDefinition/Yaz-0023mg-tablet-SE-AJ-ManufacturedItemDefinition02"
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/ManufacturedItemDefinition/Yaz-0023mg-tablet-SE-AJ-ManufacturedItemDefinition02"
+    },
+    {
+      "resource": {
+        "resourceType": "Ingredient",
+        "id": "Yaz-0023mg-tablet-SE-AJ-Ingredient01",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"
+          ]
+        },
+        "status": "active",
+        "for": [
+          {
+            "reference": "MedicinalProductDefinition/Yaz-0023mg-tablet-SE-AJ-MedicinalProductDefinition"
+          },
+          {
+            "reference": "ManufacturedItemDefinition/Yaz-0023mg-tablet-SE-AJ-ManufacturedItemDefinition01"
+          },
+          {
+            "reference": "AdministrableProductDefinition/Yaz-0023mg-tablet-SE-AJ-AdministrableProductDefinition01"
+          }
+        ],
+        "role": {
+          "coding": [
+            {
+              "code": "100000072072",
+              "system": "https://spor.ema.europa.eu/v1/lists/100000072050",
+              "display": "Active"
+            }
+          ]
+        },
+        "substance": {
+          "code": {
+            "concept": {
+              "coding": [
+                {
+                  "code": "100000091531",
+                  "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+                  "display": "Ethinylestradiol betadex clathrate"
+                }
+              ]
+            }
+          },
+          "strength": [
+            {
+              "presentationRatio": {
+                "numerator": {
+                  "value": 173.17,
+                  "code": "100000110656",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+                  "unit": "microgram(s)"
+                },
+                "denominator": {
+                  "value": 1,
+                  "code": "200000002152",
+                  "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+                  "unit": "tablet"
+                }
+              },
+              "referenceStrength": [
+                {
+                  "substance": {
+                    "concept": {
+                      "coding": [
+                        {
+                          "code": "100000091721",
+                          "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+                          "display": "Ethinylestradiol"
+                        }
+                      ]
+                    }
+                  },
+                  "strengthRatio": {
+                    "numerator": {
+                      "value": 20,
+                      "code": "100000110656",
+                      "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+                      "unit": "microgram(s)"
+                    },
+                    "denominator": {
+                      "value": 1,
+                      "code": "200000002152",
+                      "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+                      "unit": "tablet"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Ingredient/Yaz-0023mg-tablet-SE-AJ-Ingredient01"
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Ingredient/Yaz-0023mg-tablet-SE-AJ-Ingredient01"
+    },
+    {
+      "resource": {
+        "resourceType": "Ingredient",
+        "id": "Yaz-0023mg-tablet-SE-AJ-Ingredient02",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"
+          ]
+        },
+        "status": "active",
+        "for": [
+          {
+            "reference": "MedicinalProductDefinition/Yaz-0023mg-tablet-SE-AJ-MedicinalProductDefinition"
+          },
+          {
+            "reference": "ManufacturedItemDefinition/Yaz-0023mg-tablet-SE-AJ-ManufacturedItemDefinition02"
+          },
+          {
+            "reference": "AdministrableProductDefinition/Yaz-0023mg-tablet-SE-AJ-AdministrableProductDefinition02"
+          }
+        ],
+        "role": {
+          "coding": [
+            {
+              "code": "100000072082",
+              "system": "https://spor.ema.europa.eu/v1/lists/100000072050",
+              "display": "Excipient"
+            }
+          ]
+        },
+        "substance": {
+          "code": {
+            "concept": {
+              "coding": [
+                {
+                  "code": "100000093305",
+                  "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+                  "display": "Lactose monohydrate"
+                }
+              ]
+            }
+          },
+          "strength": [
+            {
+              "presentationRatio": {
+                "numerator": {
+                  "value": 23.2,
+                  "code": "100000110655",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+                  "unit": "milligram(s)"
+                },
+                "denominator": {
+                  "value": 1,
+                  "code": "200000002152",
+                  "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+                  "unit": "tablet"
+                }
+              },
+              "referenceStrength": [
+                {
+                  "substance": {
+                    "concept": {
+                      "coding": [
+                        {
+                          "code": "100000090052",
+                          "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+                          "display": "lactose"
+                        }
+                      ]
+                    }
+                  },
+                  "strengthRatio": {
+                    "numerator": {
+                      "value": 22,
+                      "code": "100000110655",
+                      "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+                      "unit": "milligram(s)"
+                    },
+                    "denominator": {
+                      "value": 1,
+                      "code": "200000002152",
+                      "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+                      "unit": "tablet"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Ingredient/Yaz-0023mg-tablet-SE-AJ-Ingredient02"
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Ingredient/Yaz-0023mg-tablet-SE-AJ-Ingredient02"
+    },
+    {
+      "resource": {
+        "resourceType": "Ingredient",
+        "id": "Yaz-0023mg-tablet-SE-AJ-Ingredient03",
+        "meta": {
+          "profile": [
+            "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"
+          ]
+        },
+        "status": "active",
+        "for": [
+          {
+            "reference": "MedicinalProductDefinition/Yaz-0023mg-tablet-SE-AJ-MedicinalProductDefinition"
+          },
+          {
+            "reference": "ManufacturedItemDefinition/Yaz-0023mg-tablet-SE-AJ-ManufacturedItemDefinition01"
+          },
+          {
+            "reference": "AdministrableProductDefinition/Yaz-0023mg-tablet-SE-AJ-AdministrableProductDefinition01"
+          }
+        ],
+        "role": {
+          "coding": [
+            {
+              "code": "100000072072",
+              "system": "https://spor.ema.europa.eu/v1/lists/100000072050",
+              "display": "Active"
+            }
+          ]
+        },
+        "substance": {
+          "code": {
+            "concept": {
+              "coding": [
+                {
+                  "code": "100000092375",
+                  "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+                  "display": "drospirenone"
+                }
+              ]
+            }
+          },
+          "strength": [
+            {
+              "presentationRatio": {
+                "numerator": {
+                  "value": 3,
+                  "code": "100000110655",
+                  "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+                  "unit": "milligram(s)"
+                },
+                "denominator": {
+                  "value": 1,
+                  "code": "200000002152",
+                  "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+                  "unit": "tablet"
+                }
+              },
+              "referenceStrength": [
+                {
+                  "substance": {
+                    "concept": {
+                      "coding": [
+                        {
+                          "code": "100000092375",
+                          "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+                          "display": "drospirenone"
+                        }
+                      ]
+                    }
+                  },
+                  "strengthRatio": {
+                    "numerator": {
+                      "value": 3,
+                      "code": "100000110655",
+                      "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+                      "unit": "milligram(s)"
+                    },
+                    "denominator": {
+                      "value": 1,
+                      "code": "200000002152",
+                      "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+                      "unit": "tablet"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "request": {
+        "method": "PUT",
+        "url": "Ingredient/Yaz-0023mg-tablet-SE-AJ-Ingredient03"
+      },
+      "fullUrl": "https://hl7-eu.github.io/unicom-ig/branches/mpd-r4b/Ingredient/Yaz-0023mg-tablet-SE-AJ-Ingredient03"
+    }
+  ]
+}

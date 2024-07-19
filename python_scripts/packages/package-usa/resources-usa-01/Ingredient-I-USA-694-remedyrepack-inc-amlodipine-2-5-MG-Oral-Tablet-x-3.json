@@ -1,0 +1,90 @@
+{
+  "resourceType": "Ingredient",
+  "id": "I-USA-694-remedyrepack-inc-amlodipine-2-5-MG-Oral-Tablet-x-3",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"
+    ]
+  },
+  "status": "active",
+  "for": [
+    {
+      "reference": "MedicinalProductDefinition/remedyrepack-inc-amlodipine-2-5-MG-Oral-Tablet-x-3-694-USA-MPD"
+    },
+    {
+      "reference": "ManufacturedItemDefinition/remedyrepack-inc-amlodipine-2-5-MG-Oral-Tablet-x-3-694-USA-MID"
+    },
+    {
+      "reference": "AdministrableProductDefinition/remedyrepack-inc-amlodipine-2-5-MG-Oral-Tablet-x-3-694-USA-APD"
+    }
+  ],
+  "role": {
+    "coding": [
+      {
+        "code": "100000072072",
+        "system": "https://spor.ema.europa.eu/v1/lists/100000072050",
+        "display": "Active"
+      }
+    ]
+  },
+  "substance": {
+    "code": {
+      "concept": {
+        "coding": [
+          {
+            "code": "100000090079",
+            "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+            "display": "Amlodipine besilate"
+          }
+        ]
+      }
+    },
+    "strength": [
+      {
+        "presentationRatio": {
+          "numerator": {
+            "value": 2.5,
+            "code": "100000110655",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+            "unit": "milligram(s)"
+          },
+          "denominator": {
+            "value": 1,
+            "code": "200000022814",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+            "unit": "Other"
+          }
+        },
+        "referenceStrength": [
+          {
+            "substance": {
+              "concept": {
+                "coding": [
+                  {
+                    "code": "100000085259",
+                    "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+                    "display": "amlodpine"
+                  }
+                ]
+              }
+            },
+            "strengthRatio": {
+              "numerator": {
+                "value": 2.5,
+                "code": "100000110655",
+                "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+                "unit": "milligram(s)"
+              },
+              "denominator": {
+                "value": 1,
+                "code": "200000022814",
+                "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+                "unit": "Other"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

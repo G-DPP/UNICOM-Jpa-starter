@@ -1,0 +1,51 @@
+{
+  "resourceType": "RegulatedAuthorization",
+  "id": "SIMVASTATINA-GIT-film-coated-tablet-40mg--174-ITA-RA",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLRegulatedAuthorization"
+    ]
+  },
+  "type": {
+    "coding": [
+      {
+        "code": "220000000061",
+        "system": "https://spor.ema.europa.eu/v1/lists/220000000060",
+        "display": "Marketing Authorisation"
+      }
+    ]
+  },
+  "identifier": [
+    {
+      "value": ""
+    }
+  ],
+  "subject": [
+    {
+      "reference": "MedicinalProductDefinition/SIMVASTATINA-GIT-film-coated-tablet-40mg--174-ITA-MPD"
+    }
+  ],
+  "region": [
+    {
+      "coding": [
+        {
+          "code": "100000000430",
+          "system": "https://spor.ema.europa.eu/v1/lists/100000000002",
+          "display": "Italian Republic"
+        }
+      ]
+    }
+  ],
+  "status": {
+    "coding": [
+      {
+        "code": "200000017708",
+        "system": "https://spor.ema.europa.eu/v1/lists/100000072049",
+        "display": "Valid - Renewed/Varied"
+      }
+    ]
+  },
+  "holder": {
+    "reference": "Organization/LOC-S-F-GROUP-Srl"
+  }
+}

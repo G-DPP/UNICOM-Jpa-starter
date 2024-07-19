@@ -1,0 +1,325 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "TransitionMedicinalProductDefinition",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Specialized.Medication Definition"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "anonymous"
+    }
+  ],
+  "url": "http://unicom-project.eu/fhir/StructureDefinition/TransitionMedicinalProductDefinition",
+  "version": "0.1.0",
+  "name": "TransitionMedicinalProductDefinition",
+  "title": "Processing Profile - Medicinal Product",
+  "status": "active",
+  "description": "Intermediate profile for processing PPL Medicinal Product data",
+  "fhirVersion": "5.0.0-snapshot3",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "idmp",
+      "uri": "https://en.wikipedia.org/wiki/Identification_of_medicinal_products",
+      "name": "IDMP Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "MedicinalProductDefinition",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "MedicinalProductDefinition.identifier",
+        "path": "MedicinalProductDefinition.identifier",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "system"
+            }
+          ],
+          "rules": "open"
+        },
+        "short": "Identifier for the medicinal product: MPID, EMA PMS ID, national ID, or other",
+        "definition": "EMA IG 1.2 & 1.3. Identifier for the medicinal product: MPID, EMA PMS ID, national ID, or other. Not to be used for package or pharmaceutical product identifiers."
+      },
+      {
+        "id": "MedicinalProductDefinition.identifier:mpid",
+        "path": "MedicinalProductDefinition.identifier",
+        "sliceName": "mpid",
+        "short": "MPID",
+        "definition": "EMA IG 1.2. MPID if exists. For UNICOM testing data fake MPIDs are used (Country code + MAH LocID + unique code). ",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "MedicinalProductDefinition.identifier:mpid.system",
+        "path": "MedicinalProductDefinition.identifier.system",
+        "min": 1,
+        "patternUri": "http://ema.europa.eu/fhir/mpId"
+      },
+      {
+        "id": "MedicinalProductDefinition.identifier:pmsid",
+        "path": "MedicinalProductDefinition.identifier",
+        "sliceName": "pmsid",
+        "short": "PMS ID",
+        "definition": "EMA IG 1.1. EMA Product Management System identifier if exists. For UNICOM testing data fake PMS IDs can be used",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "MedicinalProductDefinition.identifier:pmsid.system",
+        "path": "MedicinalProductDefinition.identifier.system",
+        "min": 1,
+        "patternUri": "http://ema.europa.eu/fhir/pmsId"
+      },
+      {
+        "id": "MedicinalProductDefinition.domain",
+        "path": "MedicinalProductDefinition.domain",
+        "definition": "EMA IG 1.3"
+      },
+      {
+        "id": "MedicinalProductDefinition.status",
+        "path": "MedicinalProductDefinition.status",
+        "short": "Status of the product's data. Default 200000005004 'Current'"
+      },
+      {
+        "id": "MedicinalProductDefinition.combinedPharmaceuticalDoseForm",
+        "path": "MedicinalProductDefinition.combinedPharmaceuticalDoseForm",
+        "short": "Authorised dose form for the product, incl combination package dose forms",
+        "definition": "EMA IG 1.5 & 1.6. Authorised dose form for the whole product. As applicable in one of the SPOR RMS list Combined pharmaceutical dose form, Pharmaceutical dose form, Combined term, Combination Package"
+      },
+      {
+        "id": "MedicinalProductDefinition.legalStatusOfSupply",
+        "path": "MedicinalProductDefinition.legalStatusOfSupply",
+        "short": "Legal status of supply on the medicinal product level.",
+        "definition": "EMA IG 1.7. Legal status of supply on the medicinal product level. The same information can be repeated/differentiated on the package level"
+      },
+      {
+        "id": "MedicinalProductDefinition.classification",
+        "path": "MedicinalProductDefinition.classification",
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "http://unicom-project.eu/fhir/ValueSet/atc-spor-vs"
+        }
+      },
+      {
+        "id": "MedicinalProductDefinition.ingredient",
+        "path": "MedicinalProductDefinition.ingredient",
+        "max": "0",
+        "binding": {
+          "strength": "example",
+          "valueSet": "http://unicom-project.eu/fhir/ValueSet/substances-vs"
+        }
+      },
+      {
+        "id": "MedicinalProductDefinition.impurity",
+        "path": "MedicinalProductDefinition.impurity",
+        "max": "0",
+        "binding": {
+          "strength": "example",
+          "valueSet": "http://unicom-project.eu/fhir/ValueSet/substances-vs"
+        }
+      },
+      {
+        "id": "MedicinalProductDefinition.name",
+        "path": "MedicinalProductDefinition.name",
+        "definition": "EMA IG 1.14"
+      },
+      {
+        "id": "MedicinalProductDefinition.name.productName",
+        "path": "MedicinalProductDefinition.name.productName",
+        "definition": "EMA IG 1.14.1"
+      },
+      {
+        "id": "MedicinalProductDefinition.name.part",
+        "path": "MedicinalProductDefinition.name.part",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "type"
+            }
+          ],
+          "rules": "open",
+          "ordered": true,
+          "description": "Slicing on the name part"
+        },
+        "short": "Medicinal product name part",
+        "definition": "EMA IG 1.14.3. Name part. Product names are usually combined of these three parts. More parts can be defined and strength and dose form parts can be omitted."
+      },
+      {
+        "id": "MedicinalProductDefinition.name.part:invented",
+        "path": "MedicinalProductDefinition.name.part",
+        "sliceName": "invented",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "MedicinalProductDefinition.name.part:invented.type",
+        "path": "MedicinalProductDefinition.name.part.type",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "220000000002",
+              "system": "https://spor.ema.europa.eu/v1/lists/220000000000",
+              "display": "Invented name part"
+            }
+          ]
+        }
+      },
+      {
+        "id": "MedicinalProductDefinition.name.part:strength",
+        "path": "MedicinalProductDefinition.name.part",
+        "sliceName": "strength",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "MedicinalProductDefinition.name.part:strength.type",
+        "path": "MedicinalProductDefinition.name.part.type",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "220000000004",
+              "system": "https://spor.ema.europa.eu/v1/lists/220000000000",
+              "display": "Strength part"
+            }
+          ]
+        }
+      },
+      {
+        "id": "MedicinalProductDefinition.name.part:doseForm",
+        "path": "MedicinalProductDefinition.name.part",
+        "sliceName": "doseForm",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "MedicinalProductDefinition.name.part:doseForm.type",
+        "path": "MedicinalProductDefinition.name.part.type",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "220000000005",
+              "system": "https://spor.ema.europa.eu/v1/lists/220000000000",
+              "display": "Pharmaceutical dose form part"
+            }
+          ]
+        }
+      },
+      {
+        "id": "MedicinalProductDefinition.name.usage",
+        "path": "MedicinalProductDefinition.name.usage",
+        "definition": "EMA IG 1.14.2"
+      },
+      {
+        "id": "MedicinalProductDefinition.name.usage.country.coding",
+        "path": "MedicinalProductDefinition.name.usage.country.coding",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "system"
+            }
+          ],
+          "rules": "open"
+        },
+        "short": "EMA or ISO codes for country"
+      },
+      {
+        "id": "MedicinalProductDefinition.name.usage.country.coding:ema",
+        "path": "MedicinalProductDefinition.name.usage.country.coding",
+        "sliceName": "ema",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "MedicinalProductDefinition.name.usage.country.coding:ema.system",
+        "path": "MedicinalProductDefinition.name.usage.country.coding.system",
+        "min": 1,
+        "patternUri": "https://spor.ema.europa.eu/v1/lists/100000000002"
+      },
+      {
+        "id": "MedicinalProductDefinition.name.usage.country.coding:iso",
+        "path": "MedicinalProductDefinition.name.usage.country.coding",
+        "sliceName": "iso",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "MedicinalProductDefinition.name.usage.country.coding:iso.system",
+        "path": "MedicinalProductDefinition.name.usage.country.coding.system",
+        "min": 1,
+        "patternUri": "https://www.hl7.org/fhir/valueset-country.html"
+      },
+      {
+        "id": "MedicinalProductDefinition.name.usage.language.coding",
+        "path": "MedicinalProductDefinition.name.usage.language.coding",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "system"
+            }
+          ],
+          "rules": "open"
+        },
+        "short": "EMA or ISO codes for country"
+      },
+      {
+        "id": "MedicinalProductDefinition.name.usage.language.coding:ema",
+        "path": "MedicinalProductDefinition.name.usage.language.coding",
+        "sliceName": "ema",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "MedicinalProductDefinition.name.usage.language.coding:ema.system",
+        "path": "MedicinalProductDefinition.name.usage.language.coding.system",
+        "min": 1,
+        "patternUri": "https://spor.ema.europa.eu/v1/lists/100000072057"
+      },
+      {
+        "id": "MedicinalProductDefinition.name.usage.language.coding:bcp",
+        "path": "MedicinalProductDefinition.name.usage.language.coding",
+        "sliceName": "bcp",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "MedicinalProductDefinition.name.usage.language.coding:bcp.system",
+        "path": "MedicinalProductDefinition.name.usage.language.coding.system",
+        "min": 1,
+        "patternUri": "http://hl7.org/fhir/ValueSet/all-languages"
+      },
+      {
+        "id": "MedicinalProductDefinition.characteristic",
+        "path": "MedicinalProductDefinition.characteristic",
+        "max": "0"
+      },
+      {
+        "id": "MedicinalProductDefinition.characteristic.type",
+        "path": "MedicinalProductDefinition.characteristic.type",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://unicom-project.eu/fhir/ValueSet/no-vs"
+        }
+      }
+    ]
+  }
+}

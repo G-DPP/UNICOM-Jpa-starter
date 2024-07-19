@@ -1,0 +1,1392 @@
+{
+  "resourceType": "ValueSet",
+  "id": "patient-friendly-term",
+  "url": "http://unicom-project.eu/fhir/ValueSet/patient-friendly-term",
+  "title": "EDQM Patient-friendly Term",
+  "description": "ValueSet Patient-friendly term (dose forms) from EDQM, PFT, see https://standardterms.edqm.eu/#",
+  "name": "PatientFriendlyTerm",
+  "status": "active",
+  "experimental": false,
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "https://standardterms.edqm.eu",
+        "concept": [
+          {
+            "code": "11010",
+            "display": "Oral drops",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Tropfen zum Einnehmen"
+              },
+              {
+                "language": "el",
+                "value": "Πόσιμες σταγόνες"
+              },
+              {
+                "language": "es",
+                "value": "Gotas orales"
+              },
+              {
+                "language": "fr",
+                "value": "Gouttes buvables"
+              },
+              {
+                "language": "it",
+                "value": "Gocce orali"
+              },
+              {
+                "language": "pt",
+                "value": "Gotas orais"
+              }
+            ]
+          },
+          {
+            "code": "11050",
+            "display": "Oral liquid",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Flüssigkeit zum Einnehmen"
+              },
+              {
+                "language": "el",
+                "value": "Πόσιμο υγρό"
+              },
+              {
+                "language": "es",
+                "value": "-"
+              },
+              {
+                "language": "fr",
+                "value": "-"
+              },
+              {
+                "language": "it",
+                "value": "Liquido orale"
+              },
+              {
+                "language": "pt",
+                "value": "Líquido oral"
+              }
+            ]
+          },
+          {
+            "code": "12100",
+            "display": "Capsule",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Kapsel"
+              },
+              {
+                "language": "el",
+                "value": "Καψάκιο"
+              },
+              {
+                "language": "es",
+                "value": "Cápsula"
+              },
+              {
+                "language": "fr",
+                "value": "Capsule ou Gélule selon le cas"
+              },
+              {
+                "language": "it",
+                "value": "Capsula"
+              },
+              {
+                "language": "pt",
+                "value": "Cápsula"
+              }
+            ]
+          },
+          {
+            "code": "12120",
+            "display": "Gastro-resistant capsule",
+            "designation": [
+              {
+                "language": "de",
+                "value": "magensaftresistente Kapsel"
+              },
+              {
+                "language": "el",
+                "value": "Γαστροανθεκτικό καψάκιο"
+              },
+              {
+                "language": "es",
+                "value": "Cápsula gastrorresistente"
+              },
+              {
+                "language": "fr",
+                "value": "Capsule ou Gélule gastrorésistante selon le cas"
+              },
+              {
+                "language": "it",
+                "value": "Capsula gastroresistente"
+              },
+              {
+                "language": "pt",
+                "value": "Cápsula gastrorresistente"
+              }
+            ]
+          },
+          {
+            "code": "12150",
+            "display": "Prolonged-release capsule",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Retardkapsel"
+              },
+              {
+                "language": "el",
+                "value": "Καψάκιο παρατεταμένης αποδέσμευσης"
+              },
+              {
+                "language": "es",
+                "value": "Cápsula de liberación prolongada"
+              },
+              {
+                "language": "fr",
+                "value": "Capsule ou Gélule à libération prolongée selon le cas"
+              },
+              {
+                "language": "it",
+                "value": "Capsula a rilascio prolungato"
+              },
+              {
+                "language": "pt",
+                "value": "Cápsula de libertação prolongada"
+              }
+            ]
+          },
+          {
+            "code": "12200",
+            "display": "Tablet",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Tablette"
+              },
+              {
+                "language": "el",
+                "value": "Δισκίο"
+              },
+              {
+                "language": "es",
+                "value": "Comprimido"
+              },
+              {
+                "language": "fr",
+                "value": "Comprimé"
+              },
+              {
+                "language": "it",
+                "value": "Compressa"
+              },
+              {
+                "language": "pt",
+                "value": "Comprimido"
+              }
+            ]
+          },
+          {
+            "code": "12320",
+            "display": "Intraruminal device",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Intraruminales System"
+              },
+              {
+                "language": "el",
+                "value": "Συσκευή χορήγησης στη μεγάλη κοιλία"
+              },
+              {
+                "language": "es",
+                "value": "Dispositivo intrarruminal"
+              },
+              {
+                "language": "fr",
+                "value": "Dispositif intraruminal"
+              },
+              {
+                "language": "it",
+                "value": "Dispositivo intraruminale"
+              },
+              {
+                "language": "pt",
+                "value": "Bólus"
+              }
+            ]
+          },
+          {
+            "code": "12350",
+            "display": "Medicated premix",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Arzneimittel-Vormischung"
+              },
+              {
+                "language": "el",
+                "value": "Πρόμιγμα για φαρμακούχο τροφή"
+              },
+              {
+                "language": "es",
+                "value": "Premezcla"
+              },
+              {
+                "language": "fr",
+                "value": "-"
+              },
+              {
+                "language": "it",
+                "value": "Premiscela medicamentosa"
+              },
+              {
+                "language": "pt",
+                "value": "Pré-mistura medicamentosa"
+              }
+            ]
+          },
+          {
+            "code": "13050",
+            "display": "Oromucosal liquid",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Flüssigkeit zur Anwendung in der Mundhöhle"
+              },
+              {
+                "language": "el",
+                "value": "Στοματικό υγρό"
+              },
+              {
+                "language": "es",
+                "value": "Líquido bucal"
+              },
+              {
+                "language": "fr",
+                "value": "-"
+              },
+              {
+                "language": "it",
+                "value": "Liquido per mucosa orale"
+              },
+              {
+                "language": "pt",
+                "value": "Líquido bucal"
+              }
+            ]
+          },
+          {
+            "code": "13100",
+            "display": "Oromucosal spray",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Spray zur Anwendung in der Mundhöhle"
+              },
+              {
+                "language": "el",
+                "value": "Στοματικό εκνέφωμα"
+              },
+              {
+                "language": "es",
+                "value": "Pulverización bucal"
+              },
+              {
+                "language": "fr",
+                "value": "Pulvérisation buccale"
+              },
+              {
+                "language": "it",
+                "value": "Spray per mucosa orale"
+              },
+              {
+                "language": "pt",
+                "value": "Pulverização bucal"
+              }
+            ]
+          },
+          {
+            "code": "13150",
+            "display": "Sublingual spray",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Sublingualspray"
+              },
+              {
+                "language": "el",
+                "value": "Υπογλώσσιο εκνέφωμα"
+              },
+              {
+                "language": "es",
+                "value": "Solución para pulverización sublingual"
+              },
+              {
+                "language": "fr",
+                "value": "Solution pour pulvérisation sublinguale"
+              },
+              {
+                "language": "it",
+                "value": "Spray sublinguale"
+              },
+              {
+                "language": "pt",
+                "value": "Preparação para pulverização sublingual"
+              }
+            ]
+          },
+          {
+            "code": "13220",
+            "display": "Lozenge",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Lutschtablette"
+              },
+              {
+                "language": "el",
+                "value": "Τροχίσκος"
+              },
+              {
+                "language": "fr",
+                "value": "Comprimé à sucer"
+              },
+              {
+                "language": "it",
+                "value": "Pastiglia"
+              },
+              {
+                "language": "pt",
+                "value": "Pastilha"
+              }
+            ]
+          },
+          {
+            "code": "14050",
+            "display": "Dental liquid",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Dentalflüssigkeit"
+              },
+              {
+                "language": "el",
+                "value": "Οδοντικό υγρό"
+              },
+              {
+                "language": "es",
+                "value": "Líquido dental"
+              },
+              {
+                "language": "fr",
+                "value": "-"
+              },
+              {
+                "language": "it",
+                "value": "Liquido dentale"
+              },
+              {
+                "language": "pt",
+                "value": "Líquido dental"
+              }
+            ]
+          },
+          {
+            "code": "15090",
+            "display": "Cutaneous spray",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Spray zur Anwendung auf der Haut"
+              },
+              {
+                "language": "el",
+                "value": "Δερματικό εκνέφωμα"
+              },
+              {
+                "language": "es",
+                "value": "Pulverización cutánea"
+              },
+              {
+                "language": "fr",
+                "value": "Pulvérisation cutanée"
+              },
+              {
+                "language": "it",
+                "value": "Spray cutaneo"
+              },
+              {
+                "language": "pt",
+                "value": "Pulverização cutânea"
+              }
+            ]
+          },
+          {
+            "code": "15130",
+            "display": "Cutaneous liquid",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Flüssigkeit zur Anwendung auf der Haut"
+              },
+              {
+                "language": "el",
+                "value": "Δερματικό υγρό"
+              },
+              {
+                "language": "es",
+                "value": "Líquido cutáneo"
+              },
+              {
+                "language": "fr",
+                "value": "Liquide cutané"
+              },
+              {
+                "language": "it",
+                "value": "Liquido cutaneo"
+              },
+              {
+                "language": "pt",
+                "value": "Líquido cutâneo"
+              }
+            ]
+          },
+          {
+            "code": "15290",
+            "display": "Dip",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Tauchbad"
+              },
+              {
+                "language": "el",
+                "value": "Υγρό εμβάπτισης"
+              },
+              {
+                "language": "es",
+                "value": "Baño"
+              },
+              {
+                "language": "fr",
+                "value": "-"
+              },
+              {
+                "language": "it",
+                "value": "Bagno"
+              },
+              {
+                "language": "pt",
+                "value": "Banho medicamentoso"
+              }
+            ]
+          },
+          {
+            "code": "15320",
+            "display": "Dip concentrate",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Konzentrat zur Herstellung eines Tauchbades"
+              },
+              {
+                "language": "el",
+                "value": "Πυκνό διάλυμα για παρασκευή μέσων εμβάπτισης"
+              },
+              {
+                "language": "es",
+                "value": "Concentrado para baño"
+              },
+              {
+                "language": "fr",
+                "value": "-"
+              },
+              {
+                "language": "it",
+                "value": "Concentrato per bagno"
+              },
+              {
+                "language": "pt",
+                "value": "Concentrado para banho medicamentoso"
+              }
+            ]
+          },
+          {
+            "code": "15370",
+            "display": "Pour-on",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Flüssigkeit zum Übergiessen"
+              },
+              {
+                "language": "el",
+                "value": "Επίχυμα"
+              },
+              {
+                "language": "es",
+                "value": "Pour-on"
+              },
+              {
+                "language": "fr",
+                "value": "-"
+              },
+              {
+                "language": "it",
+                "value": "Pour-on"
+              },
+              {
+                "language": "pt",
+                "value": "Unção contínua"
+              }
+            ]
+          },
+          {
+            "code": "15400",
+            "display": "Spot-on",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Flüssigkeit zum Auftropfen"
+              },
+              {
+                "language": "el",
+                "value": "Επίχυμα"
+              },
+              {
+                "language": "es",
+                "value": "Spot-on"
+              },
+              {
+                "language": "fr",
+                "value": "-"
+              },
+              {
+                "language": "it",
+                "value": "Spot-on"
+              },
+              {
+                "language": "pt",
+                "value": "Unção punctiforme"
+              }
+            ]
+          },
+          {
+            "code": "15430",
+            "display": "Teat dip",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Zitzentauchmittel"
+              },
+              {
+                "language": "el",
+                "value": "Υγρό εμβάπτισης θηλής"
+              },
+              {
+                "language": "es",
+                "value": "Baño para pezones"
+              },
+              {
+                "language": "fr",
+                "value": "Trempage mammaire"
+              },
+              {
+                "language": "it",
+                "value": "Immersione della mammella"
+              },
+              {
+                "language": "pt",
+                "value": "Banho medicamentoso do úbere"
+              }
+            ]
+          },
+          {
+            "code": "15460",
+            "display": "Teat spray",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Zitzenspray"
+              },
+              {
+                "language": "el",
+                "value": "Υγρό ψεκασμού θηλής"
+              },
+              {
+                "language": "es",
+                "value": "Pulverización para pezones"
+              },
+              {
+                "language": "fr",
+                "value": "Pulvérisation mammaire"
+              },
+              {
+                "language": "it",
+                "value": "Spray mammario"
+              },
+              {
+                "language": "pt",
+                "value": "Líquido para pulverização do úbere"
+              }
+            ]
+          },
+          {
+            "code": "16040",
+            "display": "Eye drops",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Augentropfen"
+              },
+              {
+                "language": "el",
+                "value": "Οφθαλμικές σταγόνες"
+              },
+              {
+                "language": "es",
+                "value": "Colirio"
+              },
+              {
+                "language": "fr",
+                "value": "Collyre"
+              },
+              {
+                "language": "it",
+                "value": "Collirio"
+              },
+              {
+                "language": "pt",
+                "value": "Colírio"
+              }
+            ]
+          },
+          {
+            "code": "17040",
+            "display": "Ear drops",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Ohrentropfen"
+              },
+              {
+                "language": "el",
+                "value": "Ωτικές σταγόνες"
+              },
+              {
+                "language": "es",
+                "value": "Gotas óticas"
+              },
+              {
+                "language": "fr",
+                "value": "Gouttes auriculaires"
+              },
+              {
+                "language": "it",
+                "value": "Gocce auricolari"
+              },
+              {
+                "language": "pt",
+                "value": "Gotas auriculares"
+              }
+            ]
+          },
+          {
+            "code": "17090",
+            "display": "Ear spray",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Ohrenspray"
+              },
+              {
+                "language": "el",
+                "value": "Ωτικό εκνέφωμα"
+              },
+              {
+                "language": "es",
+                "value": "Pulverización ótica"
+              },
+              {
+                "language": "fr",
+                "value": "Pulvérisation auriculaire"
+              },
+              {
+                "language": "it",
+                "value": "Spray auricolare"
+              },
+              {
+                "language": "pt",
+                "value": "Pulverização auricular"
+              }
+            ]
+          },
+          {
+            "code": "17120",
+            "display": "Ear wash",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Ohrenspülung"
+              },
+              {
+                "language": "el",
+                "value": "Ωτικό πλύμα"
+              },
+              {
+                "language": "es",
+                "value": "Lavado ótico"
+              },
+              {
+                "language": "fr",
+                "value": "Lavage auriculaire"
+              },
+              {
+                "language": "it",
+                "value": "Lavaggio auricolare"
+              },
+              {
+                "language": "pt",
+                "value": "Lavagem auricular"
+              }
+            ]
+          },
+          {
+            "code": "18040",
+            "display": "Nasal drops",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Nasentropfen"
+              },
+              {
+                "language": "el",
+                "value": "Ρινικές σταγόνες"
+              },
+              {
+                "language": "es",
+                "value": "Gotas nasales"
+              },
+              {
+                "language": "fr",
+                "value": "Gouttes nasales"
+              },
+              {
+                "language": "it",
+                "value": "Gocce nasali"
+              },
+              {
+                "language": "pt",
+                "value": "Gotas nasais"
+              }
+            ]
+          },
+          {
+            "code": "18080",
+            "display": "Nasal spray",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Nasenspray"
+              },
+              {
+                "language": "el",
+                "value": "Ρινικό εκνέφωμα"
+              },
+              {
+                "language": "es",
+                "value": "Pulverización nasal"
+              },
+              {
+                "language": "fr",
+                "value": "Pulvérisation nasale"
+              },
+              {
+                "language": "it",
+                "value": "Spray nasale"
+              },
+              {
+                "language": "pt",
+                "value": "Pulverização nasal"
+              }
+            ]
+          },
+          {
+            "code": "19050",
+            "display": "Vaginal liquid",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Flüssigkeit zur vaginalen Anwendung"
+              },
+              {
+                "language": "el",
+                "value": "Κολπικό υγρό"
+              },
+              {
+                "language": "es",
+                "value": "Líquido vaginal"
+              },
+              {
+                "language": "fr",
+                "value": "-"
+              },
+              {
+                "language": "it",
+                "value": "Lavanda vaginale"
+              },
+              {
+                "language": "pt",
+                "value": "Líquido vaginal"
+              }
+            ]
+          },
+          {
+            "code": "19100",
+            "display": "Vaginal capsule",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Vaginalkapsel"
+              },
+              {
+                "language": "el",
+                "value": "Κολπικό καψάκιο"
+              },
+              {
+                "language": "es",
+                "value": "Cápsula vaginal"
+              },
+              {
+                "language": "fr",
+                "value": "Capsule ou Gélule vaginale selon le cas"
+              },
+              {
+                "language": "it",
+                "value": "Capsula vaginale"
+              },
+              {
+                "language": "pt",
+                "value": "Cápsula vaginal"
+              }
+            ]
+          },
+          {
+            "code": "20050",
+            "display": "Enema",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Klistier"
+              },
+              {
+                "language": "el",
+                "value": "Υποκλυσμός"
+              },
+              {
+                "language": "es",
+                "value": "Enema"
+              },
+              {
+                "language": "fr",
+                "value": "-"
+              },
+              {
+                "language": "it",
+                "value": "Clistere"
+              },
+              {
+                "language": "pt",
+                "value": "Enema"
+              }
+            ]
+          },
+          {
+            "code": "21010",
+            "display": "Nebuliser liquid",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Flüssigkeit für einen Vernebler"
+              },
+              {
+                "language": "el",
+                "value": "Υγρό για εισπνοή με εκνεφωτή"
+              },
+              {
+                "language": "es",
+                "value": "Líquido para nebulizador"
+              },
+              {
+                "language": "fr",
+                "value": "-"
+              },
+              {
+                "language": "it",
+                "value": "Liquido da nebulizzare"
+              },
+              {
+                "language": "pt",
+                "value": "Líquido para nebulização"
+              }
+            ]
+          },
+          {
+            "code": "21060",
+            "display": "Pressurised inhalation",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Druckgasinhalation"
+              },
+              {
+                "language": "el",
+                "value": "Υγρό για εισπνοή υπό πίεση"
+              },
+              {
+                "language": "es",
+                "value": "Inhalación en envase a presión"
+              },
+              {
+                "language": "fr",
+                "value": "-"
+              },
+              {
+                "language": "it",
+                "value": "Liquido pressurizzato per inalazione"
+              },
+              {
+                "language": "pt",
+                "value": "Líquido pressurizado para inalação"
+              }
+            ]
+          },
+          {
+            "code": "21100",
+            "display": "Inhalation powder",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Pulver zur Inhalation"
+              },
+              {
+                "language": "el",
+                "value": "Κόνις για εισπνοή"
+              },
+              {
+                "language": "es",
+                "value": "Polvo para inhalación"
+              },
+              {
+                "language": "fr",
+                "value": "-"
+              },
+              {
+                "language": "it",
+                "value": "Polvere per inalazione"
+              },
+              {
+                "language": "pt",
+                "value": "Pó para inalação"
+              }
+            ]
+          },
+          {
+            "code": "21140",
+            "display": "Inhalation vapour",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Dampf zur Inhalation"
+              },
+              {
+                "language": "el",
+                "value": "Εισπνεόμενοι ατμοί"
+              },
+              {
+                "language": "es",
+                "value": "Vapor para inhalación"
+              },
+              {
+                "language": "fr",
+                "value": "-"
+              },
+              {
+                "language": "it",
+                "value": "Suffumigi"
+              },
+              {
+                "language": "pt",
+                "value": "Vapor para inalação"
+              }
+            ]
+          },
+          {
+            "code": "22010",
+            "display": "Injection",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Injektion"
+              },
+              {
+                "language": "el",
+                "value": "Ενέσιμο"
+              },
+              {
+                "language": "es",
+                "value": "Inyectable"
+              },
+              {
+                "language": "fr",
+                "value": "-"
+              },
+              {
+                "language": "it",
+                "value": "Iniettabile"
+              },
+              {
+                "language": "pt",
+                "value": "Injetável"
+              }
+            ]
+          },
+          {
+            "code": "22030",
+            "display": "Powder for concentrate",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Pulver zur Herstellung eines Konzentrats"
+              },
+              {
+                "language": "el",
+                "value": "Κόνις για πυκνό σκεύασμα"
+              },
+              {
+                "language": "es",
+                "value": "Polvo para concentrado"
+              },
+              {
+                "language": "fr",
+                "value": "-"
+              },
+              {
+                "language": "it",
+                "value": "Polvere per concentrato"
+              },
+              {
+                "language": "pt",
+                "value": "Pó para concentrado"
+              }
+            ]
+          },
+          {
+            "code": "22050",
+            "display": "Powder for injection",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Pulver zur Herstellung einer Injektionszubereitung"
+              },
+              {
+                "language": "el",
+                "value": "Κόνις για ενέσιμο"
+              },
+              {
+                "language": "es",
+                "value": "Polvo para inyectable"
+              },
+              {
+                "language": "fr",
+                "value": "-"
+              },
+              {
+                "language": "it",
+                "value": "Polvere per preparazione iniettabile"
+              },
+              {
+                "language": "pt",
+                "value": "Pó para uso injetável"
+              }
+            ]
+          },
+          {
+            "code": "22060",
+            "display": "Powder for prolonged-release injection",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Pulver zur Herstellung einer Depot-Injektion"
+              },
+              {
+                "language": "el",
+                "value": "Κόνις για παρατεταμένης αποδέσμευσης ενέσιμο"
+              },
+              {
+                "language": "es",
+                "value": "Polvo para inyectable de liberación prolongada"
+              },
+              {
+                "language": "fr",
+                "value": "-"
+              },
+              {
+                "language": "it",
+                "value": "Polvere per preparazione iniettabile a rilascio prolungato"
+              },
+              {
+                "language": "pt",
+                "value": "Pó para suspensão injetável de libertação prolongada"
+              }
+            ]
+          },
+          {
+            "code": "22090",
+            "display": "Sterile concentrate",
+            "designation": [
+              {
+                "language": "de",
+                "value": "steriles Konzentrat"
+              },
+              {
+                "language": "el",
+                "value": "Στείρο πυκνό διάλυμα"
+              },
+              {
+                "language": "es",
+                "value": "Concentrado estéril"
+              },
+              {
+                "language": "fr",
+                "value": "-"
+              },
+              {
+                "language": "it",
+                "value": "Concentrato sterile"
+              },
+              {
+                "language": "pt",
+                "value": "Concentrado estéril"
+              }
+            ]
+          },
+          {
+            "code": "22100",
+            "display": "Infusion",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Infusion"
+              },
+              {
+                "language": "el",
+                "value": "Εγχυση"
+              },
+              {
+                "language": "es",
+                "value": "Perfusión"
+              },
+              {
+                "language": "fr",
+                "value": "-"
+              },
+              {
+                "language": "it",
+                "value": "Infusione"
+              },
+              {
+                "language": "pt",
+                "value": "Perfusão"
+              }
+            ]
+          },
+          {
+            "code": "22120",
+            "display": "Powder for infusion",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Pulver zur Herstellung einer Infusionslösung"
+              },
+              {
+                "language": "el",
+                "value": "Κόνις για διάλυμα προς έγχυση"
+              },
+              {
+                "language": "es",
+                "value": "Polvo para perfusión"
+              },
+              {
+                "language": "fr",
+                "value": "-"
+              },
+              {
+                "language": "it",
+                "value": "Polvere per infusione"
+              },
+              {
+                "language": "pt",
+                "value": "Pó para perfusão"
+              }
+            ]
+          },
+          {
+            "code": "26010",
+            "display": "Endotracheopulmonary instillation",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Lösung zur endotracheopulmonalen Instillation"
+              },
+              {
+                "language": "el",
+                "value": "Ενδοτραχειοπνευμονική ενστάλλαξη"
+              },
+              {
+                "language": "es",
+                "value": "Instilación endotraqueopulmonar"
+              },
+              {
+                "language": "fr",
+                "value": "-"
+              },
+              {
+                "language": "it",
+                "value": "Instillazione endotracheobronchiale"
+              },
+              {
+                "language": "pt",
+                "value": "Instilação endotraqueobrônquica"
+              }
+            ]
+          },
+          {
+            "code": "29020",
+            "display": "Intrauterine liquid",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Flüssigkeit zur intrauterinen Anwendung"
+              },
+              {
+                "language": "el",
+                "value": "Ενδομητριαίο υγρό"
+              },
+              {
+                "language": "es",
+                "value": "Líquido intrauterino"
+              },
+              {
+                "language": "fr",
+                "value": "-"
+              },
+              {
+                "language": "it",
+                "value": "Liquido per uso intrauterino"
+              },
+              {
+                "language": "pt",
+                "value": "Líquido intrauterino"
+              }
+            ]
+          },
+          {
+            "code": "31030",
+            "display": "Blood fraction modifier",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Zubereitung zur Modifikation einer Blutfraktion"
+              },
+              {
+                "language": "el",
+                "value": "Τροποποιητής κλάσματος αίματος"
+              },
+              {
+                "language": "es",
+                "value": "Modificador de fracción sanguínea"
+              },
+              {
+                "language": "fr",
+                "value": "-"
+              },
+              {
+                "language": "it",
+                "value": "Modificatore di componenti ematici"
+              },
+              {
+                "language": "pt",
+                "value": "Modificador da fração sanguínea"
+              }
+            ]
+          },
+          {
+            "code": "31080",
+            "display": "Gastroenteral liquid",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Flüssigkeit zur gastrointestinalen Anwendung"
+              },
+              {
+                "language": "el",
+                "value": "Γαστρεντερικό υγρό"
+              },
+              {
+                "language": "es",
+                "value": "Líquido gastroentérico"
+              },
+              {
+                "language": "fr",
+                "value": "-"
+              },
+              {
+                "language": "it",
+                "value": "Liquido gastroenterico"
+              },
+              {
+                "language": "pt",
+                "value": "Líquido gastroentérico"
+              }
+            ]
+          },
+          {
+            "code": "31090",
+            "display": "Chewing gum"
+          },
+          {
+            "code": "31100",
+            "display": "Injection/infusion",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Injektion/Infusion"
+              },
+              {
+                "language": "fr",
+                "value": "Injection/perfusion"
+              },
+              {
+                "language": "it",
+                "value": "Iniezione/infusione"
+              },
+              {
+                "language": "pt",
+                "value": "Injetável ou perfusão"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

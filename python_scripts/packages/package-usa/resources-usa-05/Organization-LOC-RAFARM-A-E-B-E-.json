@@ -1,0 +1,16 @@
+{
+  "resourceType": "Organization",
+  "id": "LOC-RAFARM-A-E-B-E-",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "https://spor.ema.europa.eu/v1/locations",
+      "value": ""
+    }
+  ],
+  "name": "RAFARM A.E.B.E."
+}

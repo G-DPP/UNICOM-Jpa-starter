@@ -1,0 +1,90 @@
+{
+  "resourceType": "Ingredient",
+  "id": "I-BEL-82-Nurofen-zachte-caps-Fastcaps-400-mg",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"
+    ]
+  },
+  "status": "active",
+  "for": [
+    {
+      "reference": "MedicinalProductDefinition/Nurofen-zachte-caps-Fastcaps-400-mg-82-BEL-MPD"
+    },
+    {
+      "reference": "ManufacturedItemDefinition/Nurofen-zachte-caps-Fastcaps-400-mg-82-BEL-MID"
+    },
+    {
+      "reference": "AdministrableProductDefinition/Nurofen-zachte-caps-Fastcaps-400-mg-82-BEL-APD"
+    }
+  ],
+  "role": {
+    "coding": [
+      {
+        "code": "100000072072",
+        "system": "https://spor.ema.europa.eu/v1/lists/100000072050",
+        "display": "Active"
+      }
+    ]
+  },
+  "substance": {
+    "code": {
+      "concept": {
+        "coding": [
+          {
+            "code": "100000090365",
+            "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+            "display": "Ibuprofen"
+          }
+        ]
+      }
+    },
+    "strength": [
+      {
+        "presentationRatio": {
+          "numerator": {
+            "value": 400,
+            "code": "100000110655",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+            "unit": "milligram(s)"
+          },
+          "denominator": {
+            "value": 1,
+            "code": "200000002113",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+            "unit": "Capsule"
+          }
+        },
+        "referenceStrength": [
+          {
+            "substance": {
+              "concept": {
+                "coding": [
+                  {
+                    "code": "100000090365",
+                    "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+                    "display": "ibuprofen "
+                  }
+                ]
+              }
+            },
+            "strengthRatio": {
+              "numerator": {
+                "value": 400,
+                "code": "100000110655",
+                "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+                "unit": "milligram(s)"
+              },
+              "denominator": {
+                "value": 1,
+                "code": "200000002113",
+                "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+                "unit": "Capsule"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "resourceType": "AdministrableProductDefinition",
+  "id": "xgen-pharmaceuticals-djb-inc-2-ML-ibuprofen-10-MG--298-USA-APD",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition"
+    ]
+  },
+  "status": "active",
+  "formOf": [
+    {
+      "reference": "MedicinalProductDefinition/xgen-pharmaceuticals-djb-inc-2-ML-ibuprofen-10-MG--298-USA-MPD"
+    }
+  ],
+  "administrableDoseForm": {
+    "coding": [
+      {
+        "code": "100000073863",
+        "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
+        "display": "Solution for injection"
+      }
+    ]
+  },
+  "unitOfPresentation": {
+    "coding": [
+      {
+        "code": "200000002158",
+        "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+        "display": "Vial"
+      }
+    ]
+  },
+  "producedFrom": [
+    {
+      "reference": "ManufacturedItemDefinition/xgen-pharmaceuticals-djb-inc-2-ML-ibuprofen-10-MG--298-USA-MID"
+    }
+  ],
+  "routeOfAdministration": [
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "100000073600",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000073345",
+            "display": "Intramuscular use"
+          }
+        ]
+      }
+    }
+  ]
+}

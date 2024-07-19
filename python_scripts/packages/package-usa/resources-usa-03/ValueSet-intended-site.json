@@ -1,0 +1,112 @@
+{
+  "resourceType": "ValueSet",
+  "id": "intended-site",
+  "url": "http://unicom-project.eu/fhir/ValueSet/intended-site",
+  "title": "EDQM Intended Site",
+  "description": "ValueSet Intended site from EDQM, ISI, see https://standardterms.edqm.eu/#",
+  "name": "IntendedSite",
+  "status": "active",
+  "experimental": false,
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "https://standardterms.edqm.eu",
+        "concept": [
+          {
+            "code": "0021",
+            "display": "Auricular"
+          },
+          {
+            "code": "0022",
+            "display": "Cutaneous/Transdermal"
+          },
+          {
+            "code": "0023",
+            "display": "Dental"
+          },
+          {
+            "code": "0024",
+            "display": "Environmental"
+          },
+          {
+            "code": "0025",
+            "display": "Extracorporeal"
+          },
+          {
+            "code": "0026",
+            "display": "Intramammary"
+          },
+          {
+            "code": "0027",
+            "display": "Intrauterine"
+          },
+          {
+            "code": "0028",
+            "display": "Intravesical/Urethral"
+          },
+          {
+            "code": "0029",
+            "display": "Nasal"
+          },
+          {
+            "code": "0030",
+            "display": "Ocular"
+          },
+          {
+            "code": "0031",
+            "display": "Oral"
+          },
+          {
+            "code": "0032",
+            "display": "Oromucosal"
+          },
+          {
+            "code": "0033",
+            "display": "Parenteral"
+          },
+          {
+            "code": "0034",
+            "display": "Pulmonary"
+          },
+          {
+            "code": "0035",
+            "display": "Rectal"
+          },
+          {
+            "code": "0036",
+            "display": "Vaginal"
+          },
+          {
+            "code": "0037",
+            "display": "Unknown/Miscellaneous"
+          },
+          {
+            "code": "0105",
+            "display": "Endocervical"
+          },
+          {
+            "code": "0106",
+            "display": "Gastric"
+          },
+          {
+            "code": "0107",
+            "display": "Gastroenteral"
+          },
+          {
+            "code": "0108",
+            "display": "Intestinal"
+          },
+          {
+            "code": "0109",
+            "display": "Intraperitoneal"
+          },
+          {
+            "code": "0110",
+            "display": "Oculonasal"
+          }
+        ]
+      }
+    ]
+  }
+}

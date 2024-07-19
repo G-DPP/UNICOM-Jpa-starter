@@ -1,0 +1,90 @@
+{
+  "resourceType": "Ingredient",
+  "id": "I-USA-240-johnson-johnson-consumer-inc-mcneil-consumer-healt",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"
+    ]
+  },
+  "status": "active",
+  "for": [
+    {
+      "reference": "MedicinalProductDefinition/johnson-johnson-consumer-inc-mcneil-consumer-healt-240-USA-MPD"
+    },
+    {
+      "reference": "ManufacturedItemDefinition/johnson-johnson-consumer-inc-mcneil-consumer-healt-240-USA-MID"
+    },
+    {
+      "reference": "AdministrableProductDefinition/johnson-johnson-consumer-inc-mcneil-consumer-healt-240-USA-APD"
+    }
+  ],
+  "role": {
+    "coding": [
+      {
+        "code": "100000072072",
+        "system": "https://spor.ema.europa.eu/v1/lists/100000072050",
+        "display": "Active"
+      }
+    ]
+  },
+  "substance": {
+    "code": {
+      "concept": {
+        "coding": [
+          {
+            "code": "100000090365",
+            "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+            "display": "Ibuprofen"
+          }
+        ]
+      }
+    },
+    "strength": [
+      {
+        "presentationRatio": {
+          "numerator": {
+            "value": 200,
+            "code": "100000110655",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+            "unit": "milligram(s)"
+          },
+          "denominator": {
+            "value": 1,
+            "code": "200000022814",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+            "unit": "Other"
+          }
+        },
+        "referenceStrength": [
+          {
+            "substance": {
+              "concept": {
+                "coding": [
+                  {
+                    "code": "100000090365",
+                    "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+                    "display": "ibuprofen"
+                  }
+                ]
+              }
+            },
+            "strengthRatio": {
+              "numerator": {
+                "value": 200,
+                "code": "100000110655",
+                "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+                "unit": "milligram(s)"
+              },
+              "denominator": {
+                "value": 1,
+                "code": "200000022814",
+                "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+                "unit": "Other"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

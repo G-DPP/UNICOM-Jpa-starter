@@ -1,0 +1,16 @@
+{
+  "resourceType": "Organization",
+  "id": "LOC-PROTON-PHARMA-ANONUME-PhARMAKEUTIKE-ETAIREIA",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "https://spor.ema.europa.eu/v1/locations",
+      "value": ""
+    }
+  ],
+  "name": "PROTON PHARMA ΑΝΩΝΥΜΗ ΦΑΡΜΑΚΕΥΤΙΚΗ ΕΤΑΙΡΕΙΑ"
+}

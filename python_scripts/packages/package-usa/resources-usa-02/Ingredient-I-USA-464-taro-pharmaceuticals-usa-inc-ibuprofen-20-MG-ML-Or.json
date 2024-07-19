@@ -1,0 +1,61 @@
+{
+  "resourceType": "Ingredient",
+  "id": "I-USA-464-taro-pharmaceuticals-usa-inc-ibuprofen-20-MG-ML-Or",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"
+    ]
+  },
+  "status": "active",
+  "for": [
+    {
+      "reference": "MedicinalProductDefinition/taro-pharmaceuticals-usa-inc-ibuprofen-20-MG-ML-Or-464-USA-MPD"
+    },
+    {
+      "reference": "ManufacturedItemDefinition/taro-pharmaceuticals-usa-inc-ibuprofen-20-MG-ML-Or-464-USA-MID"
+    },
+    {
+      "reference": "AdministrableProductDefinition/taro-pharmaceuticals-usa-inc-ibuprofen-20-MG-ML-Or-464-USA-APD"
+    }
+  ],
+  "role": {
+    "coding": [
+      {
+        "code": "100000072072",
+        "system": "https://spor.ema.europa.eu/v1/lists/100000072050",
+        "display": "Active"
+      }
+    ]
+  },
+  "substance": {
+    "code": {
+      "concept": {
+        "coding": [
+          {
+            "code": "100000090365",
+            "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+            "display": "Ibuprofen"
+          }
+        ]
+      }
+    },
+    "strength": [
+      {
+        "concentrationRatio": {
+          "numerator": {
+            "value": 20,
+            "code": "100000110655",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+            "unit": "milligram(s)"
+          },
+          "denominator": {
+            "value": 1,
+            "code": "100000110662",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+            "unit": "millilitre(s)"
+          }
+        }
+      }
+    ]
+  }
+}

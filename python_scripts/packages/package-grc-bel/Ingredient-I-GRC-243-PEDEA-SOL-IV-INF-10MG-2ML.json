@@ -1,0 +1,61 @@
+{
+  "resourceType": "Ingredient",
+  "id": "I-GRC-243-PEDEA-SOL-IV-INF-10MG-2ML",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"
+    ]
+  },
+  "status": "active",
+  "for": [
+    {
+      "reference": "MedicinalProductDefinition/PEDEA-SOL-IV-INF-10MG-2ML-243-GRC-MPD"
+    },
+    {
+      "reference": "ManufacturedItemDefinition/PEDEA-SOL-IV-INF-10MG-2ML-243-GRC-MID"
+    },
+    {
+      "reference": "AdministrableProductDefinition/PEDEA-SOL-IV-INF-10MG-2ML-243-GRC-APD"
+    }
+  ],
+  "role": {
+    "coding": [
+      {
+        "code": "100000072072",
+        "system": "https://spor.ema.europa.eu/v1/lists/100000072050",
+        "display": "Active"
+      }
+    ]
+  },
+  "substance": {
+    "code": {
+      "concept": {
+        "coding": [
+          {
+            "code": "100000085009",
+            "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+            "display": "Ibuprofen sodium"
+          }
+        ]
+      }
+    },
+    "strength": [
+      {
+        "concentrationRatio": {
+          "numerator": {
+            "value": 10,
+            "code": "100000110655",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+            "unit": "milligram(s)"
+          },
+          "denominator": {
+            "value": 2,
+            "code": "100000110662",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+            "unit": "millilitre(s)"
+          }
+        }
+      }
+    ]
+  }
+}

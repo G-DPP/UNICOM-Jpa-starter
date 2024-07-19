@@ -1,0 +1,28 @@
+{
+  "resourceType": "ManufacturedItemDefinition",
+  "id": "BALARM-tablet-10mg--25-ITA-MID",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"
+    ]
+  },
+  "status": "active",
+  "manufacturedDoseForm": {
+    "coding": [
+      {
+        "code": "100000073664",
+        "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
+        "display": "Tablet"
+      }
+    ]
+  },
+  "unitOfPresentation": {
+    "coding": [
+      {
+        "code": "200000002152",
+        "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+        "display": "Tablet"
+      }
+    ]
+  }
+}

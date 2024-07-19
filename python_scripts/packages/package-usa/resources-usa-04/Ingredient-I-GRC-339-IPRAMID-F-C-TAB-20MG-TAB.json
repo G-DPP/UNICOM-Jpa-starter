@@ -1,0 +1,90 @@
+{
+  "resourceType": "Ingredient",
+  "id": "I-GRC-339-IPRAMID-F-C-TAB-20MG-TAB",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"
+    ]
+  },
+  "status": "active",
+  "for": [
+    {
+      "reference": "MedicinalProductDefinition/IPRAMID-F-C-TAB-20MG-TAB-339-GRC-MPD"
+    },
+    {
+      "reference": "ManufacturedItemDefinition/IPRAMID-F-C-TAB-20MG-TAB-339-GRC-MID"
+    },
+    {
+      "reference": "AdministrableProductDefinition/IPRAMID-F-C-TAB-20MG-TAB-339-GRC-APD"
+    }
+  ],
+  "role": {
+    "coding": [
+      {
+        "code": "100000072072",
+        "system": "https://spor.ema.europa.eu/v1/lists/100000072050",
+        "display": "Active"
+      }
+    ]
+  },
+  "substance": {
+    "code": {
+      "concept": {
+        "coding": [
+          {
+            "code": "100000091786",
+            "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+            "display": "Simvastatin"
+          }
+        ]
+      }
+    },
+    "strength": [
+      {
+        "presentationRatio": {
+          "numerator": {
+            "value": 20,
+            "code": "100000110655",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+            "unit": "milligram(s)"
+          },
+          "denominator": {
+            "value": 1,
+            "code": "200000002152",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+            "unit": "Tablet"
+          }
+        },
+        "referenceStrength": [
+          {
+            "substance": {
+              "concept": {
+                "coding": [
+                  {
+                    "code": "100000091786",
+                    "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+                    "display": "simvastatine"
+                  }
+                ]
+              }
+            },
+            "strengthRatio": {
+              "numerator": {
+                "value": 20,
+                "code": "100000110655",
+                "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+                "unit": "milligram(s)"
+              },
+              "denominator": {
+                "value": 1,
+                "code": "200000002152",
+                "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+                "unit": "Tablet"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

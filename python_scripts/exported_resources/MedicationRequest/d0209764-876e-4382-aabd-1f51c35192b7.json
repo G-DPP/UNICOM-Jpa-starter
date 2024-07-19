@@ -1,0 +1,276 @@
+{
+  "resourceType": "Bundle",
+  "id": "d0209764-876e-4382-aabd-1f51c35192b7",
+  "meta": {
+    "lastUpdated": "2023-05-10T10:24:03.357+00:00"
+  },
+  "type": "searchset",
+  "total": 4,
+  "link": [
+    {
+      "relation": "self",
+      "url": "http://fhir.hl7.pt/fhir/MedicationRequest/?_count=20000"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationRequest/c872135e-f219-4f32-8fd6-7099009abf42",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "c872135e-f219-4f32-8fd6-7099009abf42",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-03-11T19:01:05.511+00:00",
+          "source": "#XbhnItzcu713aZfY"
+        },
+        "status": "active",
+        "intent": "order",
+        "medicationReference": {
+          "reference": "Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e3",
+          "display": "Monuril"
+        },
+        "subject": {
+          "reference": "Patient/be61951b-44fc-4853-8822-f9d398193c50"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationRequest/MedicationRequestFSHIlidio",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "MedicationRequestFSHIlidio",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-04-13T08:30:00.848+00:00",
+          "source": "#Y0sb8mmR53NvJfIo"
+        },
+        "contained": [
+          {
+            "resourceType": "Medication",
+            "id": "med013",
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> Oxycodone-containing product in oral dose form </div></div>"
+            },
+            "code": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "430127000",
+                  "display": "Oxycodone-containing product in oral dose form"
+                }
+              ]
+            }
+          },
+          {
+            "resourceType": "Practitioner",
+            "id": "ut001",
+            "identifier": [
+              {
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                      "code": "MD",
+                      "display": "Medical License number"
+                    }
+                  ]
+                },
+                "system": "https://www.ordemdosmedicos.pt",
+                "value": "12345"
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "use": "official",
+            "system": "http://www.bmc.nl/portal/prescriptions",
+            "value": "123456789"
+          },
+          {
+            "use": "secondary",
+            "system": "https://infarmed.pt/chnm",
+            "value": "123456789"
+          }
+        ],
+        "status": "active",
+        "intent": "order",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-admin-location",
+                "code": "inpatient"
+              }
+            ]
+          }
+        ],
+        "medicationReference": {
+          "reference": "#med013"
+        },
+        "subject": {
+          "reference": "Patient/ilidiofsh"
+        },
+        "authoredOn": "2023-03-13",
+        "requester": {
+          "reference": "#ut001"
+        },
+        "dosageInstruction": [
+          {
+            "text": "Uso regular"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationRequest/MedicationRequestExemploAlvar",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "MedicationRequestExemploAlvar",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-04-13T08:43:56.920+00:00",
+          "source": "#D2hfwZzIxOGQSN0e"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "system": "https://joneapp.chsj.min-saude.pt",
+            "value": "1234567"
+          }
+        ],
+        "status": "active",
+        "intent": "order",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-admin-location",
+                "code": "inpatient",
+                "display": "Inpatient"
+              }
+            ]
+          }
+        ],
+        "medicationReference": {
+          "reference": "Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e3"
+        },
+        "subject": {
+          "reference": "Patient/PatientExemploAlvar"
+        },
+        "authoredOn": "2023-03-30",
+        "requester": {
+          "reference": "Practitioner/matilda-pract"
+        },
+        "dosageInstruction": [
+          {
+            "text": "Two tablets at once"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7.pt/fhir/MedicationRequest/MedicationRequestMiguel",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "MedicationRequestMiguel",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2023-04-13T08:59:42.631+00:00",
+          "source": "#8CpcAhtPmbwGG2id"
+        },
+        "contained": [
+          {
+            "resourceType": "Medication",
+            "id": "med001",
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\"> Oxycodone-containing product in oral dose form </div></div>"
+            },
+            "code": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "430127000",
+                  "display": "Oxycodone-containing product in oral dose form"
+                }
+              ]
+            }
+          },
+          {
+            "resourceType": "Practitioner",
+            "id": "ut001",
+            "identifier": [
+              {
+                "type": {
+                  "coding": [
+                    {
+                      "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                      "code": "MD",
+                      "display": "Medical License number"
+                    }
+                  ]
+                },
+                "system": "https://www.ordemdosmedicos.pt",
+                "value": "99999"
+              }
+            ]
+          }
+        ],
+        "identifier": [
+          {
+            "use": "secondary",
+            "system": "http://joneapp.chsj.min-saude.pt/prescriptions",
+            "value": "123456789"
+          },
+          {
+            "use": "official",
+            "system": "https://infarmed.pt/chnm",
+            "value": "987654321"
+          }
+        ],
+        "status": "active",
+        "intent": "order",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/medicationrequest-admin-location",
+                "code": "inpatient"
+              }
+            ]
+          }
+        ],
+        "medicationReference": {
+          "reference": "#med001"
+        },
+        "subject": {
+          "reference": "Patient/PatientExemploMiguel"
+        },
+        "authoredOn": "2023-03-13",
+        "requester": {
+          "reference": "#ut001"
+        },
+        "dosageInstruction": [
+          {
+            "text": "Em SOS",
+            "asNeededBoolean": true
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "NoBinding",
+  "id": "no-vs",
+  "title": "Dummy value set",
+  "description": "Dummy value set for suppressing QA errors caused by FHIR R4B broken value set bindings",
+  "version": "0.1.0",
+  "url": "http://unicom-project.eu/fhir/ValueSet/no-vs",
+  "experimental": false,
+  "compose": {
+    "include": [
+      {
+        "system": "https://spor.ema.europa.eu/v1/lists/100000000004"
+      }
+    ]
+  }
+}

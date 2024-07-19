@@ -1,0 +1,28 @@
+{
+  "resourceType": "ManufacturedItemDefinition",
+  "id": "ARFEN-Solution-for-injection-400mg--117-ITA-MID",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"
+    ]
+  },
+  "status": "active",
+  "manufacturedDoseForm": {
+    "coding": [
+      {
+        "code": "100000073863",
+        "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
+        "display": "Solution for injection"
+      }
+    ]
+  },
+  "unitOfPresentation": {
+    "coding": [
+      {
+        "code": "200000002158",
+        "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+        "display": "Vial"
+      }
+    ]
+  }
+}

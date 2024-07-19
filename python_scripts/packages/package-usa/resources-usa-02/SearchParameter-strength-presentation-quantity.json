@@ -1,0 +1,15 @@
+{
+  "resourceType": "SearchParameter",
+  "id": "strength-presentation-quantity",
+  "url": "http://unicom-project.eu/fhir/SearchParameter/strength-presentation-quantity",
+  "status": "active",
+  "name": "strength-presentation-quantity",
+  "description": "Possiblity to search for Ingredient.substance.strength.presentation.ofType(Quantity)",
+  "code": "strength-presentation-quantity",
+  "base": [
+    "Ingredient"
+  ],
+  "type": "quantity",
+  "expression": "Ingredient.substance.strength.presentation.ofType(Quantity)",
+  "processingMode": "normal"
+}

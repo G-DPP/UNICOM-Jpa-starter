@@ -1,0 +1,61 @@
+{
+  "resourceType": "Ingredient",
+  "id": "I-USA-582-salerno-pharmaceuticals-co-simvastatin-8-MG-ML-Ora",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLIngredient"
+    ]
+  },
+  "status": "active",
+  "for": [
+    {
+      "reference": "MedicinalProductDefinition/salerno-pharmaceuticals-co-simvastatin-8-MG-ML-Ora-582-USA-MPD"
+    },
+    {
+      "reference": "ManufacturedItemDefinition/salerno-pharmaceuticals-co-simvastatin-8-MG-ML-Ora-582-USA-MID"
+    },
+    {
+      "reference": "AdministrableProductDefinition/salerno-pharmaceuticals-co-simvastatin-8-MG-ML-Ora-582-USA-APD"
+    }
+  ],
+  "role": {
+    "coding": [
+      {
+        "code": "100000072072",
+        "system": "https://spor.ema.europa.eu/v1/lists/100000072050",
+        "display": "Active"
+      }
+    ]
+  },
+  "substance": {
+    "code": {
+      "concept": {
+        "coding": [
+          {
+            "code": "100000091786",
+            "system": "https://spor.ema.europa.eu/v2/SubstanceDefinition",
+            "display": "Simvastatin"
+          }
+        ]
+      }
+    },
+    "strength": [
+      {
+        "concentrationRatio": {
+          "numerator": {
+            "value": 8,
+            "code": "100000110655",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+            "unit": "milligram(s)"
+          },
+          "denominator": {
+            "value": 1,
+            "code": "100000110662",
+            "system": "https://spor.ema.europa.eu/v1/lists/100000110633",
+            "unit": "millilitre(s)"
+          }
+        }
+      }
+    ]
+  }
+}

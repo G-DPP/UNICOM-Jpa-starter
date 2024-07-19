@@ -1,0 +1,402 @@
+{
+  "resourceType": "ValueSet",
+  "id": "closure",
+  "url": "http://unicom-project.eu/fhir/ValueSet/closure",
+  "title": "EDQM Closure",
+  "description": "ValueSet Closure (for package description) from EDQM, CLO, see https://standardterms.edqm.eu/#",
+  "name": "Closure",
+  "status": "active",
+  "experimental": false,
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "https://standardterms.edqm.eu",
+        "concept": [
+          {
+            "code": "13070000",
+            "display": "Valve",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Ventil"
+              },
+              {
+                "language": "el",
+                "value": "Βαλβίδα"
+              },
+              {
+                "language": "es",
+                "value": "Válvula"
+              },
+              {
+                "language": "fr",
+                "value": "Valve"
+              },
+              {
+                "language": "it",
+                "value": "Valvola"
+              },
+              {
+                "language": "pt",
+                "value": "Válvula"
+              }
+            ]
+          },
+          {
+            "code": "13132000",
+            "display": "Lid",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Verschlusskappe"
+              },
+              {
+                "language": "es",
+                "value": "Tapa a presión"
+              },
+              {
+                "language": "it",
+                "value": "Coperchio di protezione"
+              },
+              {
+                "language": "pt",
+                "value": "Tampa de pressão"
+              }
+            ]
+          },
+          {
+            "code": "30011000",
+            "display": "Brush applicator",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Verschluss mit Pinsel"
+              },
+              {
+                "language": "el",
+                "value": "Ψυκτροφόρο πώμα"
+              },
+              {
+                "language": "es",
+                "value": "Pincel aplicador"
+              },
+              {
+                "language": "fr",
+                "value": "Embout avec pinceau"
+              },
+              {
+                "language": "it",
+                "value": "Tappo con applicatore a pennello"
+              },
+              {
+                "language": "pt",
+                "value": "Fecho com pincel"
+              }
+            ]
+          },
+          {
+            "code": "30013000",
+            "display": "Cap",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Schutzkappe"
+              },
+              {
+                "language": "el",
+                "value": "Πώμα"
+              },
+              {
+                "language": "es",
+                "value": "Cápsula de cierre"
+              },
+              {
+                "language": "fr",
+                "value": "Opercule"
+              },
+              {
+                "language": "it",
+                "value": "Capsula di chiusura"
+              },
+              {
+                "language": "pt",
+                "value": "Cápsula de fecho"
+              }
+            ]
+          },
+          {
+            "code": "30015000",
+            "display": "Child-resistant closure",
+            "designation": [
+              {
+                "language": "de",
+                "value": "kindergesicherter Verschluss"
+              },
+              {
+                "language": "el",
+                "value": "Πώμα ασφαλείας για παιδιά"
+              },
+              {
+                "language": "es",
+                "value": "Cierre de seguridad a prueba de niños"
+              },
+              {
+                "language": "fr",
+                "value": "Fermeture de sécurité enfant"
+              },
+              {
+                "language": "it",
+                "value": "Chiusura a prova di bambino"
+              },
+              {
+                "language": "pt",
+                "value": "Fecho resistente à abertura por crianças"
+              }
+            ]
+          },
+          {
+            "code": "30035000",
+            "display": "Metering pump",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Dosierpumpe"
+              },
+              {
+                "language": "el",
+                "value": "Δοσιμετρική αντλία"
+              },
+              {
+                "language": "es",
+                "value": "Bomba dosificadora"
+              },
+              {
+                "language": "fr",
+                "value": "Pompe doseuse"
+              },
+              {
+                "language": "it",
+                "value": "Pompa dosatrice"
+              },
+              {
+                "language": "pt",
+                "value": "Fecho com bomba doseadora"
+              }
+            ]
+          },
+          {
+            "code": "30036000",
+            "display": "Metering valve",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Dosierventil"
+              },
+              {
+                "language": "el",
+                "value": "Δοσιμετρική βαλβίδα"
+              },
+              {
+                "language": "es",
+                "value": "Válvula dosificadora"
+              },
+              {
+                "language": "fr",
+                "value": "Valve doseuse"
+              },
+              {
+                "language": "it",
+                "value": "Valvola dosatrice"
+              },
+              {
+                "language": "pt",
+                "value": "Fecho com válvula doseadora"
+              }
+            ]
+          },
+          {
+            "code": "30043000",
+            "display": "Needle applicator",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Verschluss mit Nadel"
+              },
+              {
+                "language": "el",
+                "value": "Σύστημα εφαρμογής με βελόνα"
+              },
+              {
+                "language": "es",
+                "value": "Cierre con aguja incorporada"
+              },
+              {
+                "language": "fr",
+                "value": "Embout avec aiguille"
+              },
+              {
+                "language": "it",
+                "value": "Applicatore con ago"
+              },
+              {
+                "language": "pt",
+                "value": "Fecho com agulha"
+              }
+            ]
+          },
+          {
+            "code": "30047000",
+            "display": "Pipette applicator",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Verschluss mit Pipette"
+              },
+              {
+                "language": "el",
+                "value": "Ογκομετρικό πώμα"
+              },
+              {
+                "language": "es",
+                "value": "Pipeta aplicadora"
+              },
+              {
+                "language": "fr",
+                "value": "Embout pipette"
+              },
+              {
+                "language": "it",
+                "value": "Chiusura con pipetta"
+              },
+              {
+                "language": "pt",
+                "value": "Fecho com pipeta"
+              }
+            ]
+          },
+          {
+            "code": "30056000",
+            "display": "Screw cap",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Schraubdeckel"
+              },
+              {
+                "language": "el",
+                "value": "Βιδωτό πώμα"
+              },
+              {
+                "language": "es",
+                "value": "Cierre de rosca"
+              },
+              {
+                "language": "fr",
+                "value": "Bouchon à vis"
+              },
+              {
+                "language": "it",
+                "value": "Tappo a vite"
+              },
+              {
+                "language": "pt",
+                "value": "Fecho com rosca"
+              }
+            ]
+          },
+          {
+            "code": "30061000",
+            "display": "Spray pump",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Sprühpumpe"
+              },
+              {
+                "language": "el",
+                "value": "Αντλία ψεκασμού"
+              },
+              {
+                "language": "es",
+                "value": "Bomba pulverizadora"
+              },
+              {
+                "language": "fr",
+                "value": "Pompe pour pulvérisation"
+              },
+              {
+                "language": "it",
+                "value": "Pompa spray"
+              },
+              {
+                "language": "pt",
+                "value": "Fecho com bomba nebulizadora"
+              }
+            ]
+          },
+          {
+            "code": "30062000",
+            "display": "Spray valve",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Sprühventil"
+              },
+              {
+                "language": "el",
+                "value": "Βαλβίδα ψεκασμού"
+              },
+              {
+                "language": "es",
+                "value": "Válvula pulverizadora"
+              },
+              {
+                "language": "fr",
+                "value": "Valve"
+              },
+              {
+                "language": "it",
+                "value": "Valvola spray"
+              },
+              {
+                "language": "pt",
+                "value": "Fecho com válvula nebulizadora"
+              }
+            ]
+          },
+          {
+            "code": "30064000",
+            "display": "Stopper",
+            "designation": [
+              {
+                "language": "de",
+                "value": "Stopfen"
+              },
+              {
+                "language": "el",
+                "value": "Πώμα εισχώρησης"
+              },
+              {
+                "language": "es",
+                "value": "Tapón"
+              },
+              {
+                "language": "fr",
+                "value": "Bouchon"
+              },
+              {
+                "language": "it",
+                "value": "Tappo"
+              },
+              {
+                "language": "pt",
+                "value": "Rolha"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

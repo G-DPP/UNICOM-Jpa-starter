@@ -1,0 +1,16 @@
+{
+  "resourceType": "Organization",
+  "id": "LOC-PENSA-PHARMA-SpA",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "https://spor.ema.europa.eu/v1/locations",
+      "value": ""
+    }
+  ],
+  "name": "PENSA PHARMA SpA"
+}

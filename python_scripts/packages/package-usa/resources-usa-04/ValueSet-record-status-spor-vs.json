@@ -1,0 +1,18 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "SporRecordStatus",
+  "id": "record-status-spor-vs",
+  "title": "EMA SPOR Record Status",
+  "description": "Value set for record status.",
+  "version": "0.1.0",
+  "url": "http://unicom-project.eu/fhir/ValueSet/record-status-spor-vs",
+  "experimental": false,
+  "compose": {
+    "include": [
+      {
+        "system": "https://spor.ema.europa.eu/v1/lists/200000005003"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "resourceType": "Organization",
+  "id": "LOC-1420-EG",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "https://spor.ema.europa.eu/v1/locations",
+      "value": "1420"
+    }
+  ],
+  "name": "EG"
+}

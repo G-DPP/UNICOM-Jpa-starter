@@ -1,0 +1,16 @@
+{
+  "resourceType": "Organization",
+  "id": "LOC-pld-acquisitions-llc-dba-avi-1-2ma-pharma-sol",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "https://spor.ema.europa.eu/v1/locations",
+      "value": ""
+    }
+  ],
+  "name": "pld acquisitions llc dba avï¿½ma pharma solutions"
+}

@@ -1,0 +1,16 @@
+{
+  "resourceType": "Organization",
+  "id": "LOC-1434-Reckitt-Benckiser",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLOrganization"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "https://spor.ema.europa.eu/v1/locations",
+      "value": "1434"
+    }
+  ],
+  "name": "Reckitt Benckiser"
+}

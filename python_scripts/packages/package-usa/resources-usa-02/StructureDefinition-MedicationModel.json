@@ -1,0 +1,465 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "MedicationModel",
+  "url": "http://unicom-project.eu/fhir/StructureDefinition/MedicationModel",
+  "version": "0.1.0",
+  "name": "MedicationModel",
+  "title": "Medication for clinical workflows",
+  "status": "active",
+  "description": "DRAFT. eP/eD/PS product",
+  "fhirVersion": "5.0.0",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "logical",
+  "abstract": false,
+  "type": "http://unicom-project.eu/fhir/StructureDefinition/MedicationModel",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Base",
+  "derivation": "specialization",
+  "differential": {
+    "element": [
+      {
+        "id": "MedicationModel",
+        "path": "MedicationModel",
+        "short": "Medication for clinical workflows",
+        "definition": "DRAFT. eP/eD/PS product"
+      },
+      {
+        "id": "MedicationModel.medicinalProductIdentifier",
+        "path": "MedicationModel.medicinalProductIdentifier",
+        "short": "MPID or national identifier",
+        "definition": "MPID or national identifier",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/II"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationModel.packagedProductIdentifier",
+        "path": "MedicationModel.packagedProductIdentifier",
+        "short": "PCID or national",
+        "definition": "PCID or national",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/II"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationModel.pharmaceuticalProductIdentifier",
+        "path": "MedicationModel.pharmaceuticalProductIdentifier",
+        "short": "PhPID",
+        "definition": "PhPID",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/II"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationModel.atc",
+        "path": "MedicationModel.atc",
+        "short": "ATC code",
+        "definition": "ATC code",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationModel.classification",
+        "path": "MedicationModel.classification",
+        "short": "Classification",
+        "definition": "Classification",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationModel.packSize",
+        "path": "MedicationModel.packSize",
+        "short": "Overall amount of product (100ml; 20 tablets; 1 creme & 6 pessaries)",
+        "definition": "Overall amount of product (100ml; 20 tablets; 1 creme & 6 pessaries)",
+        "min": 1,
+        "max": "*",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/PQ"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationModel.name",
+        "path": "MedicationModel.name",
+        "short": "Name of the product (full name, invented name, other)",
+        "definition": "Name of the product (full name, invented name, other)",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationModel.doseForm",
+        "path": "MedicationModel.doseForm",
+        "short": "The intended or existing dose form for the product",
+        "definition": "The intended or existing dose form for the product",
+        "min": 1,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/Class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationModel.doseForm.formCode",
+        "path": "MedicationModel.doseForm.formCode",
+        "short": "The actual dose form",
+        "definition": "The actual dose form",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationModel.doseForm.type",
+        "path": "MedicationModel.doseForm.type",
+        "short": "The type of dose form",
+        "definition": "The type of dose form",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationModel.manufacturedItem",
+        "path": "MedicationModel.manufacturedItem",
+        "short": "Manufactured item if the prescription contains more than one type of items",
+        "definition": "Manufactured item if the prescription contains more than one type of items",
+        "min": 1,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/Class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationModel.manufacturedItem.manufacturedDoseForm",
+        "path": "MedicationModel.manufacturedItem.manufacturedDoseForm",
+        "short": "Manufactured item dose form",
+        "definition": "Manufactured item dose form",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationModel.manufacturedItem.ingredient",
+        "path": "MedicationModel.manufacturedItem.ingredient",
+        "short": "Ingredients",
+        "definition": "Ingredients",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/Class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationModel.manufacturedItem.ingredient.role",
+        "path": "MedicationModel.manufacturedItem.ingredient.role",
+        "short": "Role (might not be needed if only active ingredients are expected)",
+        "definition": "Role (might not be needed if only active ingredients are expected)",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationModel.manufacturedItem.ingredient.substance",
+        "path": "MedicationModel.manufacturedItem.ingredient.substance",
+        "short": "Substance",
+        "definition": "Substance",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationModel.manufacturedItem.ingredient.strengthInfo",
+        "path": "MedicationModel.manufacturedItem.ingredient.strengthInfo",
+        "short": "Concentration or presentation strength",
+        "definition": "Concentration or presentation strength",
+        "min": 1,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/Class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationModel.manufacturedItem.ingredient.strengthInfo.strength",
+        "path": "MedicationModel.manufacturedItem.ingredient.strengthInfo.strength",
+        "short": "Concentration or presentation strength of the precise active ingredient",
+        "definition": "Concentration or presentation strength of the precise active ingredient",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/RTO"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationModel.manufacturedItem.ingredient.strengthInfo.strengthType",
+        "path": "MedicationModel.manufacturedItem.ingredient.strengthInfo.strengthType",
+        "short": "Type of strength that is expressed",
+        "definition": "Type of strength that is expressed",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationModel.manufacturedItem.ingredient.strengthInfo.strengthSubstance",
+        "path": "MedicationModel.manufacturedItem.ingredient.strengthInfo.strengthSubstance",
+        "short": "Substance that the strength refers to, if different from the main substance",
+        "definition": "Substance that the strength refers to, if different from the main substance",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationModel.manufacturedItem.unitOfPresentation",
+        "path": "MedicationModel.manufacturedItem.unitOfPresentation",
+        "short": "Unit of presentation for the manufactured item",
+        "definition": "Unit of presentation for the manufactured item",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationModel.manufacturedItem.containedQuantity",
+        "path": "MedicationModel.manufacturedItem.containedQuantity",
+        "short": "Manufactured item quantity for liquids (3ml/vial)",
+        "definition": "Manufactured item quantity for liquids (3ml/vial)",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/PQ"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationModel.manufacturedItem.manufacturedItemQuantity",
+        "path": "MedicationModel.manufacturedItem.manufacturedItemQuantity",
+        "short": "Number of such manufactured items in this product (5 vials)",
+        "definition": "Number of such manufactured items in this product (5 vials)",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/PQ"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationModel.device",
+        "path": "MedicationModel.device",
+        "short": "Administrative device included in the product",
+        "definition": "Administrative device included in the product",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/Class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationModel.device.deviceQuantity",
+        "path": "MedicationModel.device.deviceQuantity",
+        "short": "Number of such devices",
+        "definition": "Number of such devices",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/PQ"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationModel.device.device",
+        "path": "MedicationModel.device.device",
+        "short": "Device coded",
+        "definition": "Device coded",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationModel.marketingAuthorisationHolder",
+        "path": "MedicationModel.marketingAuthorisationHolder",
+        "short": "MAH name - do we need more?",
+        "definition": "MAH name - do we need more?",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationModel.routeOfAdministration",
+        "path": "MedicationModel.routeOfAdministration",
+        "short": "Route of Administration - if we need it on product level",
+        "definition": "Route of Administration - if we need it on product level",
+        "min": 1,
+        "max": "*",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/CD"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

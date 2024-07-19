@@ -1,0 +1,449 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "CrossBorderProduct",
+  "url": "http://unicom-project.eu/fhir/StructureDefinition/CrossBorderProduct",
+  "version": "0.1.0",
+  "name": "CrossBorderProduct",
+  "title": "DRAFT: Medicinal Product in crossborder eP/eD",
+  "status": "active",
+  "description": "DRAFT. Crossborder eP/eD/PS medicinal product as a implementation-agnostic logical model",
+  "fhirVersion": "5.0.0",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "logical",
+  "abstract": false,
+  "type": "http://unicom-project.eu/fhir/StructureDefinition/CrossBorderProduct",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Base",
+  "derivation": "specialization",
+  "differential": {
+    "element": [
+      {
+        "id": "CrossBorderProduct",
+        "path": "CrossBorderProduct",
+        "short": "DRAFT: Medicinal Product in crossborder eP/eD",
+        "definition": "DRAFT. Crossborder eP/eD/PS medicinal product as a implementation-agnostic logical model"
+      },
+      {
+        "id": "CrossBorderProduct.medicinalProductIdentifier",
+        "path": "CrossBorderProduct.medicinalProductIdentifier",
+        "short": "MPID or national identifier",
+        "definition": "MPID or national identifier",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/II"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CrossBorderProduct.packagedProductIdentifier",
+        "path": "CrossBorderProduct.packagedProductIdentifier",
+        "short": "PCID or national",
+        "definition": "PCID or national",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/II"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CrossBorderProduct.pharmaceuticalProductIdentifier",
+        "path": "CrossBorderProduct.pharmaceuticalProductIdentifier",
+        "short": "PhPID",
+        "definition": "PhPID",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/II"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CrossBorderProduct.atc",
+        "path": "CrossBorderProduct.atc",
+        "short": "ATC code",
+        "definition": "ATC code",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CrossBorderProduct.packSize",
+        "path": "CrossBorderProduct.packSize",
+        "short": "Overall amount of product (100ml; 20 tablets; 1 creme & 6 pessaries)",
+        "definition": "Overall amount of product (100ml; 20 tablets; 1 creme & 6 pessaries)",
+        "min": 1,
+        "max": "*",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/PQ"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CrossBorderProduct.fullName",
+        "path": "CrossBorderProduct.fullName",
+        "short": "Name of the product",
+        "definition": "Name of the product",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CrossBorderProduct.doseForm",
+        "path": "CrossBorderProduct.doseForm",
+        "short": "Authorised dose form for eD; authorised or pharmaceutical for eP",
+        "definition": "Authorised dose form for eD; authorised or pharmaceutical for eP",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CrossBorderProduct.constitution",
+        "path": "CrossBorderProduct.constitution",
+        "short": "Content of the product - defines ingredients, manufactured items, or device",
+        "definition": "Content of the product - defines ingredients, manufactured items, or device",
+        "min": 1,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/Class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CrossBorderProduct.constitution.ingredient",
+        "path": "CrossBorderProduct.constitution.ingredient",
+        "short": "Ingredients, by default only active ingredients",
+        "definition": "Ingredients, by default only active ingredients",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/Class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CrossBorderProduct.constitution.ingredient.role",
+        "path": "CrossBorderProduct.constitution.ingredient.role",
+        "short": "(might not be needed if only active ingredients are expected)",
+        "definition": "(might not be needed if only active ingredients are expected)",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CrossBorderProduct.constitution.ingredient.substance",
+        "path": "CrossBorderProduct.constitution.ingredient.substance",
+        "short": "Substance",
+        "definition": "Substance",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CrossBorderProduct.constitution.ingredient.strengthInfo",
+        "path": "CrossBorderProduct.constitution.ingredient.strengthInfo",
+        "short": "Concentration or presentation strength",
+        "definition": "Concentration or presentation strength",
+        "min": 1,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/Class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CrossBorderProduct.constitution.ingredient.strengthInfo.strength",
+        "path": "CrossBorderProduct.constitution.ingredient.strengthInfo.strength",
+        "short": "Concentration or presentation strength of the precise active ingredient",
+        "definition": "Concentration or presentation strength of the precise active ingredient",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/RTO"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CrossBorderProduct.constitution.ingredient.strengthInfo.referenceStrength",
+        "path": "CrossBorderProduct.constitution.ingredient.strengthInfo.referenceStrength",
+        "short": "Reference strength; according to the substance+strength type above",
+        "definition": "Reference strength; according to the substance+strength type above",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/Class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CrossBorderProduct.constitution.ingredient.strengthInfo.referenceStrength.referenceSubstance",
+        "path": "CrossBorderProduct.constitution.ingredient.strengthInfo.referenceStrength.referenceSubstance",
+        "short": "Substance for reference strength",
+        "definition": "Substance for reference strength",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CrossBorderProduct.constitution.ingredient.strengthInfo.referenceStrength.strength",
+        "path": "CrossBorderProduct.constitution.ingredient.strengthInfo.referenceStrength.strength",
+        "short": "Reference strength",
+        "definition": "Reference strength",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/RTO"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CrossBorderProduct.constitution.manufacturedItem",
+        "path": "CrossBorderProduct.constitution.manufacturedItem",
+        "short": "Manufactured item if the prescription contains more than one type of items",
+        "definition": "Manufactured item if the prescription contains more than one type of items",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/Class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CrossBorderProduct.constitution.manufacturedItem.doseForm",
+        "path": "CrossBorderProduct.constitution.manufacturedItem.doseForm",
+        "short": "Manufactured item dose form",
+        "definition": "Manufactured item dose form",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CrossBorderProduct.constitution.manufacturedItem.unitOfPresentation",
+        "path": "CrossBorderProduct.constitution.manufacturedItem.unitOfPresentation",
+        "short": "Unit of presentation for the manufactured item",
+        "definition": "Unit of presentation for the manufactured item",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CrossBorderProduct.constitution.manufacturedItem.containedQuantity",
+        "path": "CrossBorderProduct.constitution.manufacturedItem.containedQuantity",
+        "short": "Manufactured item quantity for liquids (3ml/vial)",
+        "definition": "Manufactured item quantity for liquids (3ml/vial)",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/PQ"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CrossBorderProduct.constitution.manufacturedItem.manufacturedItemQuantity",
+        "path": "CrossBorderProduct.constitution.manufacturedItem.manufacturedItemQuantity",
+        "short": "Number of such manufactured items in this product (5 vials)",
+        "definition": "Number of such manufactured items in this product (5 vials)",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/PQ"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CrossBorderProduct.constitution.device",
+        "path": "CrossBorderProduct.constitution.device",
+        "short": "Administrative device included in the product",
+        "definition": "Administrative device included in the product",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/Class"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CrossBorderProduct.constitution.device.deviceQuantity",
+        "path": "CrossBorderProduct.constitution.device.deviceQuantity",
+        "short": "Number of such devices",
+        "definition": "Number of such devices",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/PQ"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CrossBorderProduct.constitution.device.device",
+        "path": "CrossBorderProduct.constitution.device.device",
+        "short": "Device coded",
+        "definition": "Device coded",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/CD"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CrossBorderProduct.marketingAuthorisationHolder",
+        "path": "CrossBorderProduct.marketingAuthorisationHolder",
+        "short": "MAH name - do we need more?",
+        "definition": "MAH name - do we need more?",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/ST"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CrossBorderProduct.routeOfAdministration",
+        "path": "CrossBorderProduct.routeOfAdministration",
+        "short": "Route of Administration - if we need it on product level",
+        "definition": "Route of Administration - if we need it on product level",
+        "min": 1,
+        "max": "*",
+        "type": [
+          {
+            "code": "Element",
+            "profile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/CD"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

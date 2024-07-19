@@ -1,0 +1,28 @@
+{
+  "resourceType": "ManufacturedItemDefinition",
+  "id": "Cefuroxime-MIP-1500mg-EE-MID",
+  "meta": {
+    "profile": [
+      "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"
+    ]
+  },
+  "status": "active",
+  "manufacturedDoseForm": {
+    "coding": [
+      {
+        "code": "100000116186",
+        "system": "https://spor.ema.europa.eu/v1/lists/200000000004",
+        "display": "Powder for solution for injection/infusion"
+      }
+    ]
+  },
+  "unitOfPresentation": {
+    "coding": [
+      {
+        "code": "200000002158",
+        "system": "https://spor.ema.europa.eu/v1/lists/200000000014",
+        "display": "Vial"
+      }
+    ]
+  }
+}

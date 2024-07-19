@@ -1,0 +1,131 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "PPLAdministrableProductDefinition",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Specialized.Medication Definition"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "anonymous"
+    }
+  ],
+  "url": "http://unicom-project.eu/fhir/StructureDefinition/PPLAdministrableProductDefinition",
+  "version": "0.1.0",
+  "name": "PPLAdministrableProductDefinition",
+  "title": "PPL Administrable Product profile",
+  "status": "active",
+  "description": "Administrable product profile defines the ISO IDMP Pharmaceutical Product concept",
+  "fhirVersion": "5.0.0-snapshot3",
+  "mapping": [
+    {
+      "identity": "idmp",
+      "uri": "https://en.wikipedia.org/wiki/Identification_of_medicinal_products",
+      "name": "IDMP Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "AdministrableProductDefinition",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/AdministrableProductDefinition",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "AdministrableProductDefinition.identifier",
+        "path": "AdministrableProductDefinition.identifier",
+        "short": "PhPID or other relevant identifier"
+      },
+      {
+        "id": "AdministrableProductDefinition.formOf",
+        "path": "AdministrableProductDefinition.formOf",
+        "short": "Reference to the Medicinal Product",
+        "min": 1,
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/PPLMedicinalProductDefinition"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "AdministrableProductDefinition.administrableDoseForm",
+        "path": "AdministrableProductDefinition.administrableDoseForm",
+        "short": "Dose form of the administrable product (after preparing for administration)",
+        "definition": "EMA IG 6.2",
+        "min": 1,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://unicom-project.eu/fhir/ValueSet/pharmaceutical-doseform-vs"
+        }
+      },
+      {
+        "id": "AdministrableProductDefinition.unitOfPresentation",
+        "path": "AdministrableProductDefinition.unitOfPresentation",
+        "short": "Unit of presentation of the administrable product (after preparing for administration). Not applicable for certain products/packaging.",
+        "definition": "EMA IG 6.3",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://unicom-project.eu/fhir/ValueSet/unit-of-presentation-vs"
+        }
+      },
+      {
+        "id": "AdministrableProductDefinition.producedFrom",
+        "path": "AdministrableProductDefinition.producedFrom",
+        "short": "References to manufactured items that are used in the preparation of this administrable product",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://unicom-project.eu/fhir/StructureDefinition/PPLManufacturedItemDefinition"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "AdministrableProductDefinition.ingredient",
+        "path": "AdministrableProductDefinition.ingredient",
+        "max": "0",
+        "binding": {
+          "strength": "example",
+          "valueSet": "http://unicom-project.eu/fhir/ValueSet/substances-vs"
+        }
+      },
+      {
+        "id": "AdministrableProductDefinition.property",
+        "path": "AdministrableProductDefinition.property",
+        "max": "0"
+      },
+      {
+        "id": "AdministrableProductDefinition.property.type",
+        "path": "AdministrableProductDefinition.property.type",
+        "binding": {
+          "strength": "example",
+          "valueSet": "http://unicom-project.eu/fhir/ValueSet/no-vs"
+        }
+      },
+      {
+        "id": "AdministrableProductDefinition.routeOfAdministration.code",
+        "path": "AdministrableProductDefinition.routeOfAdministration.code",
+        "definition": "EMA IG 6.6",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://unicom-project.eu/fhir/ValueSet/routes-and-methods-of-administration-vs"
+        }
+      }
+    ]
+  }
+}

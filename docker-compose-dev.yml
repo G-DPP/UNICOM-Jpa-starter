@@ -14,7 +14,7 @@ services:
       #      - spring.config.location=${ig_url}/application.yaml
       - spring.config.location=file:///application.yaml
       - hapi.fhir.fhir_version=${fhir_version}
-      - hapi.fhir.staticlocation=file:/apps
+      - hapi.fhir.staticlocation=file:apps
 #      - hapi.fhir.allow_multiple_delete=true
 #      - hapi.fhir.server_address=localhost:${server_port}
 #      - hapi.fhir.reuse_cached_search_results_millis=10000
@@ -45,10 +45,10 @@ services:
 #      - hapi.fhir.cors.allowed_origin='*'
 #      - hapi.fhir.ig_runtime_upload_enabled=true
 #      - hapi.fhir.custom_content_path=/custom
-      - hapi.fhir.app_content_path=/apps
+      - hapi.fhir.app_content_path=apps
     volumes:
       - ./apps:/apps
-      - ./application-dev.yaml:/application.yaml
+      - ./application-postgres-local.yaml:/application.yaml
     depends_on:
       - hapi-postgres
 
